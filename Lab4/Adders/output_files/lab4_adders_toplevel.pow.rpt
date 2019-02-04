@@ -1,5 +1,5 @@
 Power Analyzer report for lab4_adders_toplevel
-Sun Feb 03 18:54:32 2019
+Sun Feb 03 20:58:18 2019
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -63,17 +63,17 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------------------+
 ; Power Analyzer Summary                                                                    ;
 +----------------------------------------+--------------------------------------------------+
-; Power Analyzer Status                  ; Successful - Sun Feb 03 18:54:32 2019            ;
+; Power Analyzer Status                  ; Successful - Sun Feb 03 20:58:18 2019            ;
 ; Quartus Prime Version                  ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition      ;
 ; Revision Name                          ; lab4_adders_toplevel                             ;
 ; Top-level Entity Name                  ; lab4_adders_toplevel                             ;
 ; Family                                 ; Cyclone IV E                                     ;
 ; Device                                 ; EP4CE115F29C7                                    ;
 ; Power Models                           ; Final                                            ;
-; Total Thermal Power Dissipation        ; 140.91 mW                                        ;
+; Total Thermal Power Dissipation        ; 139.11 mW                                        ;
 ; Core Dynamic Thermal Power Dissipation ; 0.00 mW                                          ;
 ; Core Static Thermal Power Dissipation  ; 98.50 mW                                         ;
-; I/O Thermal Power Dissipation          ; 42.41 mW                                         ;
+; I/O Thermal Power Dissipation          ; 40.61 mW                                         ;
 ; Power Estimation Confidence            ; Low: user provided insufficient toggle rate data ;
 +----------------------------------------+--------------------------------------------------+
 
@@ -168,7 +168,7 @@ refer to the applicable agreement for further details.
 +------------+-----------------------------------+-----------------------------+--------------------------------+-------------------------------+-----------------------------------------------------------+
 ; Block Type ; Total Thermal Power by Block Type ; Block Thermal Dynamic Power ; Block Thermal Static Power (1) ; Routing Thermal Dynamic Power ; Block Average Toggle Rate (millions of transitions / sec) ;
 +------------+-----------------------------------+-----------------------------+--------------------------------+-------------------------------+-----------------------------------------------------------+
-; I/O        ; 12.41 mW                          ; 0.00 mW                     ; 12.41 mW                       ; 0.00 mW                       ;    0.000                                                  ;
+; I/O        ; 10.61 mW                          ; 0.00 mW                     ; 10.61 mW                       ; 0.00 mW                       ;    0.000                                                  ;
 +------------+-----------------------------------+-----------------------------+--------------------------------+-------------------------------+-----------------------------------------------------------+
 (1) The "Block Thermal Static Power" for all block types except Pins and the Voltage Regulator, if one exists, is part of the "Core Static Thermal Power Dissipation" value found on the PowerPlay Power Analyzer-->Summary report panel. The "Core Static Thermal Power Dissipation" also contains the thermal static power dissipated by the routing.
 
@@ -178,7 +178,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+--------------------------------------------------------------------+
 ; Compilation Hierarchy Node          ; Total Thermal Power by Hierarchy (1) ; Block Thermal Dynamic Power (1) ; Block Thermal Static Power (1)(2) ; Routing Thermal Dynamic Power (1) ; Full Hierarchy Name                                                ;
 +-------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+--------------------------------------------------------------------+
-; |lab4_adders_toplevel               ; 12.41 mW (12.41 mW)                  ; 0.00 mW (0.00 mW)               ; 12.41 mW (12.41 mW)               ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel                                              ;
+; |lab4_adders_toplevel               ; 10.61 mW (10.61 mW)                  ; 0.00 mW (0.00 mW)               ; 10.61 mW (10.61 mW)               ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel                                              ;
 ;     |HexDriver:Ahex0_inst           ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|HexDriver:Ahex0_inst                         ;
 ;     |HexDriver:Ahex1_inst           ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|HexDriver:Ahex1_inst                         ;
 ;     |HexDriver:Ahex2_inst           ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|HexDriver:Ahex2_inst                         ;
@@ -216,7 +216,7 @@ refer to the applicable agreement for further details.
 +----------------+-------------------------+---------------------------+--------------------------+----------------------------------+
 ; Voltage Supply ; Total Current Drawn (1) ; Dynamic Current Drawn (1) ; Static Current Drawn (1) ; Minimum Power Supply Current (2) ;
 +----------------+-------------------------+---------------------------+--------------------------+----------------------------------+
-; VCCINT         ; 16.11 mA                ; 0.00 mA                   ; 16.11 mA                 ; 16.11 mA                         ;
+; VCCINT         ; 14.55 mA                ; 0.00 mA                   ; 14.55 mA                 ; 14.55 mA                         ;
 ; VCCIO          ; 12.38 mA                ; 0.00 mA                   ; 12.38 mA                 ; 12.38 mA                         ;
 ; VCCA           ; 35.01 mA                ; 0.00 mA                   ; 35.01 mA                 ; 35.01 mA                         ;
 ; VCCD           ; 2.71 mA                 ; 0.00 mA                   ; 2.71 mA                  ; 2.71 mA                          ;
@@ -233,10 +233,10 @@ refer to the applicable agreement for further details.
 ; 1        ; 2.5V          ; 1.52 mA             ; 0.00 mA               ; 1.52 mA              ;
 ; 2        ; 2.5V          ; 1.50 mA             ; 0.00 mA               ; 1.50 mA              ;
 ; 3        ; 2.5V          ; 1.50 mA             ; 0.00 mA               ; 1.50 mA              ;
-; 4        ; 2.5V          ; 1.50 mA             ; 0.00 mA               ; 1.50 mA              ;
-; 5        ; 2.5V          ; 1.50 mA             ; 0.00 mA               ; 1.50 mA              ;
-; 6        ; 2.5V          ; 1.66 mA             ; 0.00 mA               ; 1.66 mA              ;
-; 7        ; 2.5V          ; 1.70 mA             ; 0.00 mA               ; 1.70 mA              ;
+; 4        ; 2.5V          ; 1.63 mA             ; 0.00 mA               ; 1.63 mA              ;
+; 5        ; 2.5V          ; 1.62 mA             ; 0.00 mA               ; 1.62 mA              ;
+; 6        ; 2.5V          ; 1.53 mA             ; 0.00 mA               ; 1.53 mA              ;
+; 7        ; 2.5V          ; 1.58 mA             ; 0.00 mA               ; 1.58 mA              ;
 ; 8        ; 2.5V          ; 1.50 mA             ; 0.00 mA               ; 1.50 mA              ;
 +----------+---------------+---------------------+-----------------------+----------------------+
 
@@ -266,16 +266,16 @@ refer to the applicable agreement for further details.
 ;     -- Number of signals with Static Probability from Node, entity or clock assignment ; 0 (0.0%)    ; 0 (0.0%)   ; 0 (0.0%)     ; 0 (0.0%)      ;
 ;                                                                                        ;             ;            ;              ;               ;
 ; Vectorless estimation                                                                  ;             ;            ;              ;               ;
-;     -- Number of signals with Toggle Rate from Vectorless estimation                   ; 391 (94.4%) ; 75 (76.5%) ; 105 (100.0%) ; 211 (100.0%)  ;
-;     -- Number of signals with Zero toggle rate, from Vectorless estimation             ; 391 (94.4%) ; 75 (76.5%) ; 105 (100.0%) ; 211 (100.0%)  ;
-;     -- Number of signals with Static Probability from Vectorless estimation            ; 391 (94.4%) ; 75 (76.5%) ; 105 (100.0%) ; 211 (100.0%)  ;
+;     -- Number of signals with Toggle Rate from Vectorless estimation                   ; 395 (94.5%) ; 75 (76.5%) ; 105 (100.0%) ; 215 (100.0%)  ;
+;     -- Number of signals with Zero toggle rate, from Vectorless estimation             ; 395 (94.5%) ; 75 (76.5%) ; 105 (100.0%) ; 215 (100.0%)  ;
+;     -- Number of signals with Static Probability from Vectorless estimation            ; 395 (94.5%) ; 75 (76.5%) ; 105 (100.0%) ; 215 (100.0%)  ;
 ;                                                                                        ;             ;            ;              ;               ;
 ; Default assignment                                                                     ;             ;            ;              ;               ;
 ;     -- Number of signals with Toggle Rate from Default assignment                      ; 0 (0.0%)    ; 0 (0.0%)   ; 0 (0.0%)     ; 0 (0.0%)      ;
-;     -- Number of signals with Static Probability from Default assignment               ; 23 (5.6%)   ; 23 (23.5%) ; 0 (0.0%)     ; 0 (0.0%)      ;
+;     -- Number of signals with Static Probability from Default assignment               ; 23 (5.5%)   ; 23 (23.5%) ; 0 (0.0%)     ; 0 (0.0%)      ;
 ;                                                                                        ;             ;            ;              ;               ;
 ; Assumed 0                                                                              ;             ;            ;              ;               ;
-;     -- Number of signals with Toggle Rate assumed 0                                    ; 23 (5.6%)   ; 23 (23.5%) ; 0 (0.0%)     ; 0 (0.0%)      ;
+;     -- Number of signals with Toggle Rate assumed 0                                    ; 23 (5.5%)   ; 23 (23.5%) ; 0 (0.0%)     ; 0 (0.0%)      ;
 +----------------------------------------------------------------------------------------+-------------+------------+--------------+---------------+
 
 
@@ -293,7 +293,7 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Power Analyzer
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Sun Feb 03 18:54:26 2019
+    Info: Processing started: Sun Feb 03 20:58:13 2019
 Info: Command: quartus_pow --read_settings_files=off --write_settings_files=off lab4_adders_toplevel -c lab4_adders_toplevel
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (21077): Low junction temperature is 0 degrees C
@@ -309,10 +309,10 @@ Info (218000): Using Advanced I/O Power to simulate I/O buffers with the specifi
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (215049): Average toggle rate for this design is 0.000 millions of transitions / sec
-Info (215031): Total thermal power estimate for the design is 140.91 mW
+Info (215031): Total thermal power estimate for the design is 139.11 mW
 Info: Quartus Prime Power Analyzer was successful. 0 errors, 5 warnings
     Info: Peak virtual memory: 5072 megabytes
-    Info: Processing ended: Sun Feb 03 18:54:32 2019
+    Info: Processing ended: Sun Feb 03 20:58:19 2019
     Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:06
 

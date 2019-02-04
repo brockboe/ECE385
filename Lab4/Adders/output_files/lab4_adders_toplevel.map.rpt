@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab4_adders_toplevel
-Sun Feb 03 18:53:55 2019
+Sun Feb 03 20:57:43 2019
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -59,7 +59,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Feb 03 18:53:55 2019       ;
+; Analysis & Synthesis Status        ; Successful - Sun Feb 03 20:57:43 2019       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab4_adders_toplevel                        ;
 ; Top-level Entity Name              ; lab4_adders_toplevel                        ;
@@ -179,16 +179,16 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                         ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                     ; Library ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------+---------+
-; ripple_adder.sv                  ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/Lab4/Adders/ripple_adder.sv         ;         ;
-; lab4_adders_toplevel.sv          ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/Lab4/Adders/lab4_adders_toplevel.sv ;         ;
-; HexDriver.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/Lab4/Adders/HexDriver.sv            ;         ;
-; fullAdder.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/Lab4/Adders/fullAdder.sv            ;         ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                       ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                   ; Library ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------+---------+
+; ripple_adder.sv                  ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/Adders/ripple_adder.sv         ;         ;
+; lab4_adders_toplevel.sv          ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/Adders/lab4_adders_toplevel.sv ;         ;
+; HexDriver.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/Adders/HexDriver.sv            ;         ;
+; fullAdder.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/Adders/fullAdder.sv            ;         ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -481,33 +481,33 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Sun Feb 03 18:53:45 2019
+    Info: Processing started: Sun Feb 03 20:57:34 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab4_adders_toplevel -c lab4_adders_toplevel
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
 Info (12021): Found 2 design units, including 2 entities, in source file ripple_adder.sv
-    Info (12023): Found entity 1: CRA_4bit File: C:/Users/Brock/School/ECE385/Lab4/Adders/ripple_adder.sv Line: 1
-    Info (12023): Found entity 2: ripple_adder File: C:/Users/Brock/School/ECE385/Lab4/Adders/ripple_adder.sv Line: 20
-Warning (10090): Verilog HDL syntax warning at lab4_adders_toplevel.sv(14): extra block comment delimiter characters /* within block comment File: C:/Users/Brock/School/ECE385/Lab4/Adders/lab4_adders_toplevel.sv Line: 14
+    Info (12023): Found entity 1: CRA_4bit File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/Adders/ripple_adder.sv Line: 1
+    Info (12023): Found entity 2: ripple_adder File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/Adders/ripple_adder.sv Line: 20
+Warning (10090): Verilog HDL syntax warning at lab4_adders_toplevel.sv(14): extra block comment delimiter characters /* within block comment File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/Adders/lab4_adders_toplevel.sv Line: 14
 Info (12021): Found 1 design units, including 1 entities, in source file lab4_adders_toplevel.sv
-    Info (12023): Found entity 1: lab4_adders_toplevel File: C:/Users/Brock/School/ECE385/Lab4/Adders/lab4_adders_toplevel.sv Line: 17
+    Info (12023): Found entity 1: lab4_adders_toplevel File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/Adders/lab4_adders_toplevel.sv Line: 17
 Info (12021): Found 1 design units, including 1 entities, in source file hexdriver.sv
-    Info (12023): Found entity 1: HexDriver File: C:/Users/Brock/School/ECE385/Lab4/Adders/HexDriver.sv Line: 1
+    Info (12023): Found entity 1: HexDriver File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/Adders/HexDriver.sv Line: 1
 Info (12021): Found 3 design units, including 3 entities, in source file carry_select_adder.sv
-    Info (12023): Found entity 1: M2t1Mux4bit File: C:/Users/Brock/School/ECE385/Lab4/Adders/carry_select_adder.sv Line: 1
-    Info (12023): Found entity 2: CSA_4bit File: C:/Users/Brock/School/ECE385/Lab4/Adders/carry_select_adder.sv Line: 16
-    Info (12023): Found entity 3: carry_select_adder File: C:/Users/Brock/School/ECE385/Lab4/Adders/carry_select_adder.sv Line: 37
+    Info (12023): Found entity 1: M2t1Mux4bit File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/Adders/carry_select_adder.sv Line: 1
+    Info (12023): Found entity 2: CSA_4bit File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/Adders/carry_select_adder.sv Line: 16
+    Info (12023): Found entity 3: carry_select_adder File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/Adders/carry_select_adder.sv Line: 37
 Info (12021): Found 2 design units, including 2 entities, in source file carry_lookahead_adder.sv
-    Info (12023): Found entity 1: carry_lookahead_adder_4bit File: C:/Users/Brock/School/ECE385/Lab4/Adders/carry_lookahead_adder.sv Line: 1
-    Info (12023): Found entity 2: carry_lookahead_adder File: C:/Users/Brock/School/ECE385/Lab4/Adders/carry_lookahead_adder.sv Line: 31
+    Info (12023): Found entity 1: carry_lookahead_adder_4bit File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/Adders/carry_lookahead_adder.sv Line: 1
+    Info (12023): Found entity 2: carry_lookahead_adder File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/Adders/carry_lookahead_adder.sv Line: 31
 Info (12021): Found 1 design units, including 1 entities, in source file fulladder.sv
-    Info (12023): Found entity 1: fullAdder File: C:/Users/Brock/School/ECE385/Lab4/Adders/fullAdder.sv Line: 1
+    Info (12023): Found entity 1: fullAdder File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/Adders/fullAdder.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file testbench.sv
-    Info (12023): Found entity 1: testbench File: C:/Users/Brock/School/ECE385/Lab4/Adders/testbench.sv Line: 1
+    Info (12023): Found entity 1: testbench File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/Adders/testbench.sv Line: 1
 Info (12127): Elaborating entity "lab4_adders_toplevel" for the top level hierarchy
-Info (12128): Elaborating entity "ripple_adder" for hierarchy "ripple_adder:ripple_adder_inst" File: C:/Users/Brock/School/ECE385/Lab4/Adders/lab4_adders_toplevel.sv Line: 114
-Info (12128): Elaborating entity "fullAdder" for hierarchy "ripple_adder:ripple_adder_inst|fullAdder:A1" File: C:/Users/Brock/School/ECE385/Lab4/Adders/ripple_adder.sv Line: 30
-Info (12128): Elaborating entity "HexDriver" for hierarchy "HexDriver:Ahex0_inst" File: C:/Users/Brock/School/ECE385/Lab4/Adders/lab4_adders_toplevel.sv Line: 137
+Info (12128): Elaborating entity "ripple_adder" for hierarchy "ripple_adder:ripple_adder_inst" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/Adders/lab4_adders_toplevel.sv Line: 114
+Info (12128): Elaborating entity "fullAdder" for hierarchy "ripple_adder:ripple_adder_inst|fullAdder:A1" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/Adders/ripple_adder.sv Line: 30
+Info (12128): Elaborating entity "HexDriver" for hierarchy "HexDriver:Ahex0_inst" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/Adders/lab4_adders_toplevel.sv Line: 137
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -516,9 +516,9 @@ Info (21057): Implemented 239 device resources after synthesis - the final resou
     Info (21059): Implemented 73 output pins
     Info (21061): Implemented 146 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4862 megabytes
-    Info: Processing ended: Sun Feb 03 18:53:55 2019
-    Info: Elapsed time: 00:00:10
+    Info: Peak virtual memory: 4863 megabytes
+    Info: Processing ended: Sun Feb 03 20:57:43 2019
+    Info: Elapsed time: 00:00:09
     Info: Total CPU time (on all processors): 00:00:23
 
 
