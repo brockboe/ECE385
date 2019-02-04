@@ -1,0 +1,290 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Brock/School/ECE385/Lab4/Adders/simulation/modelsim
+vcarry_lookahead_adder
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1549240556
+!i10b 1
+!s100 G:iCZ^Km2@hmFlVhI8Teg1
+ID83=5^URW^L75ZCD?h0P?3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 carry_lookahead_adder_sv_unit
+S1
+R0
+Z5 w1549178705
+Z6 8C:/Users/Brock/School/ECE385/Lab4/Adders/carry_lookahead_adder.sv
+Z7 FC:/Users/Brock/School/ECE385/Lab4/Adders/carry_lookahead_adder.sv
+L0 31
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1549240556.000000
+Z10 !s107 C:/Users/Brock/School/ECE385/Lab4/Adders/carry_lookahead_adder.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/Lab4/Adders|C:/Users/Brock/School/ECE385/Lab4/Adders/carry_lookahead_adder.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work +incdir+C:/Users/Brock/School/ECE385/Lab4/Adders
+Z14 tCvgOpt 0
+vcarry_lookahead_adder_4bit
+R1
+R2
+!i10b 1
+!s100 ZWA08>95b?DfF9z?b]R1X3
+IaH>F7z`bR]B`8kcQgUhed1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vcarry_select_adder
+R1
+R2
+!i10b 1
+!s100 3TMEl@21AaAQj>l3ReDH]2
+IEQP[?OJUTZ_Z>XHESEb9m0
+R3
+Z15 !s105 carry_select_adder_sv_unit
+S1
+R0
+Z16 w1549182864
+Z17 8C:/Users/Brock/School/ECE385/Lab4/Adders/carry_select_adder.sv
+Z18 FC:/Users/Brock/School/ECE385/Lab4/Adders/carry_select_adder.sv
+L0 37
+R8
+r1
+!s85 0
+31
+R9
+Z19 !s107 C:/Users/Brock/School/ECE385/Lab4/Adders/carry_select_adder.sv|
+Z20 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/Lab4/Adders|C:/Users/Brock/School/ECE385/Lab4/Adders/carry_select_adder.sv|
+!i113 1
+R12
+R13
+R14
+vCRA_4bit
+R1
+R2
+!i10b 1
+!s100 7lA;5GS=jF5z[T8BP5LS`0
+IMN=JP=Y24ie:5?7NHZ8`@2
+R3
+Z21 !s105 ripple_adder_sv_unit
+S1
+R0
+Z22 w1549182014
+Z23 8C:/Users/Brock/School/ECE385/Lab4/Adders/ripple_adder.sv
+Z24 FC:/Users/Brock/School/ECE385/Lab4/Adders/ripple_adder.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+Z25 !s107 C:/Users/Brock/School/ECE385/Lab4/Adders/ripple_adder.sv|
+Z26 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/Lab4/Adders|C:/Users/Brock/School/ECE385/Lab4/Adders/ripple_adder.sv|
+!i113 1
+R12
+R13
+R14
+n@c@r@a_4bit
+vCSA_4bit
+R1
+R2
+!i10b 1
+!s100 V1?;_GXzCHHT]4jjTd?TX2
+IMPDzkIPV3D?7ceo;mVWW12
+R3
+R15
+S1
+R0
+R16
+R17
+R18
+L0 16
+R8
+r1
+!s85 0
+31
+R9
+R19
+R20
+!i113 1
+R12
+R13
+R14
+n@c@s@a_4bit
+vfullAdder
+R1
+R2
+!i10b 1
+!s100 i1@R@UVGXojWB]I7bm;NA3
+I0C4`nml0f2N9[:MfNNM^d2
+R3
+!s105 fullAdder_sv_unit
+S1
+R0
+w1549172677
+8C:/Users/Brock/School/ECE385/Lab4/Adders/fullAdder.sv
+FC:/Users/Brock/School/ECE385/Lab4/Adders/fullAdder.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Brock/School/ECE385/Lab4/Adders/fullAdder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/Lab4/Adders|C:/Users/Brock/School/ECE385/Lab4/Adders/fullAdder.sv|
+!i113 1
+R12
+R13
+R14
+nfull@adder
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 =R2i165HPJgkY;aA[TRmG3
+IWYTGM@;;AX3ZZ?UH8YQ_Y3
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+w1549097633
+8C:/Users/Brock/School/ECE385/Lab4/Adders/HexDriver.sv
+FC:/Users/Brock/School/ECE385/Lab4/Adders/HexDriver.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Brock/School/ECE385/Lab4/Adders/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/Lab4/Adders|C:/Users/Brock/School/ECE385/Lab4/Adders/HexDriver.sv|
+!i113 1
+R12
+R13
+R14
+n@hex@driver
+vlab4_adders_toplevel
+R1
+R2
+!i10b 1
+!s100 [l@P<8ol1QERCIg9KkP[E2
+Ib>GO6cjONa94_PO1OMgM[0
+R3
+!s105 lab4_adders_toplevel_sv_unit
+S1
+R0
+w1549238659
+8C:/Users/Brock/School/ECE385/Lab4/Adders/lab4_adders_toplevel.sv
+FC:/Users/Brock/School/ECE385/Lab4/Adders/lab4_adders_toplevel.sv
+L0 17
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Brock/School/ECE385/Lab4/Adders/lab4_adders_toplevel.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/Lab4/Adders|C:/Users/Brock/School/ECE385/Lab4/Adders/lab4_adders_toplevel.sv|
+!i113 1
+R12
+R13
+R14
+vM2t1Mux4bit
+R1
+R2
+!i10b 1
+!s100 f`]_jT;AWZi@k4<ZSm2HE3
+IB[;:f_3;k>K2CA28=2NLY3
+R3
+R15
+S1
+R0
+R16
+R17
+R18
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R19
+R20
+!i113 1
+R12
+R13
+R14
+n@m2t1@mux4bit
+vripple_adder
+R1
+R2
+!i10b 1
+!s100 HGQPM[JiX:FYJ>2c6>dB;2
+ITCYzznQU[?ZJFG>]f5:c73
+R3
+R21
+S1
+R0
+R22
+R23
+R24
+L0 20
+R8
+r1
+!s85 0
+31
+R9
+R25
+R26
+!i113 1
+R12
+R13
+R14
+vtestbench
+R1
+R2
+!i10b 1
+!s100 b[ZN^;SkSJjJ<0XFb2:RW0
+IlO6XPSYYZVHC44jjm_2TC3
+R3
+!s105 testbench_sv_unit
+S1
+R0
+w1549239677
+8C:/Users/Brock/School/ECE385/Lab4/Adders/testbench.sv
+FC:/Users/Brock/School/ECE385/Lab4/Adders/testbench.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Brock/School/ECE385/Lab4/Adders/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/Lab4/Adders|C:/Users/Brock/School/ECE385/Lab4/Adders/testbench.sv|
+!i113 1
+R12
+R13
+R14
