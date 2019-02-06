@@ -1,5 +1,5 @@
 Power Analyzer report for lab4_adders_toplevel
-Sun Feb 03 20:58:18 2019
+Wed Feb 06 12:17:55 2019
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -63,7 +63,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------------------+
 ; Power Analyzer Summary                                                                    ;
 +----------------------------------------+--------------------------------------------------+
-; Power Analyzer Status                  ; Successful - Sun Feb 03 20:58:18 2019            ;
+; Power Analyzer Status                  ; Successful - Wed Feb 06 12:17:55 2019            ;
 ; Quartus Prime Version                  ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition      ;
 ; Revision Name                          ; lab4_adders_toplevel                             ;
 ; Top-level Entity Name                  ; lab4_adders_toplevel                             ;
@@ -117,18 +117,18 @@ refer to the applicable agreement for further details.
 ; SW[14] ; No valid clock domain found ;
 ; SW[13] ; No valid clock domain found ;
 ; SW[12] ; No valid clock domain found ;
-; SW[11] ; No valid clock domain found ;
 ; SW[10] ; No valid clock domain found ;
+; SW[11] ; No valid clock domain found ;
 ; SW[9]  ; No valid clock domain found ;
 ; SW[8]  ; No valid clock domain found ;
-; SW[7]  ; No valid clock domain found ;
 ; SW[6]  ; No valid clock domain found ;
+; SW[7]  ; No valid clock domain found ;
 ; SW[5]  ; No valid clock domain found ;
 ; SW[4]  ; No valid clock domain found ;
-; SW[3]  ; No valid clock domain found ;
-; SW[2]  ; No valid clock domain found ;
 ; SW[0]  ; No valid clock domain found ;
 ; SW[1]  ; No valid clock domain found ;
+; SW[2]  ; No valid clock domain found ;
+; SW[3]  ; No valid clock domain found ;
 +--------+-----------------------------+
 
 
@@ -173,39 +173,43 @@ refer to the applicable agreement for further details.
 (1) The "Block Thermal Static Power" for all block types except Pins and the Voltage Regulator, if one exists, is part of the "Core Static Thermal Power Dissipation" value found on the PowerPlay Power Analyzer-->Summary report panel. The "Core Static Thermal Power Dissipation" also contains the thermal static power dissipated by the routing.
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Thermal Power Dissipation by Hierarchy                                                                                                                                                                                                                    ;
-+-------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+--------------------------------------------------------------------+
-; Compilation Hierarchy Node          ; Total Thermal Power by Hierarchy (1) ; Block Thermal Dynamic Power (1) ; Block Thermal Static Power (1)(2) ; Routing Thermal Dynamic Power (1) ; Full Hierarchy Name                                                ;
-+-------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+--------------------------------------------------------------------+
-; |lab4_adders_toplevel               ; 10.61 mW (10.61 mW)                  ; 0.00 mW (0.00 mW)               ; 10.61 mW (10.61 mW)               ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel                                              ;
-;     |HexDriver:Ahex0_inst           ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|HexDriver:Ahex0_inst                         ;
-;     |HexDriver:Ahex1_inst           ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|HexDriver:Ahex1_inst                         ;
-;     |HexDriver:Ahex2_inst           ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|HexDriver:Ahex2_inst                         ;
-;     |HexDriver:Ahex3_inst           ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|HexDriver:Ahex3_inst                         ;
-;     |HexDriver:Bhex0_inst           ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|HexDriver:Bhex0_inst                         ;
-;     |HexDriver:Bhex1_inst           ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|HexDriver:Bhex1_inst                         ;
-;     |HexDriver:Bhex2_inst           ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|HexDriver:Bhex2_inst                         ;
-;     |HexDriver:Bhex3_inst           ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|HexDriver:Bhex3_inst                         ;
-;     |hard_block:auto_generated_inst ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|hard_block:auto_generated_inst               ;
-;     |ripple_adder:ripple_adder_inst ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst               ;
-;         |fullAdder:A1               ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|fullAdder:A1  ;
-;         |fullAdder:A2               ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|fullAdder:A2  ;
-;         |fullAdder:A3               ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|fullAdder:A3  ;
-;         |fullAdder:A4               ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|fullAdder:A4  ;
-;         |fullAdder:A5               ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|fullAdder:A5  ;
-;         |fullAdder:A6               ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|fullAdder:A6  ;
-;         |fullAdder:A7               ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|fullAdder:A7  ;
-;         |fullAdder:A8               ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|fullAdder:A8  ;
-;         |fullAdder:A9               ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|fullAdder:A9  ;
-;         |fullAdder:A10              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|fullAdder:A10 ;
-;         |fullAdder:A11              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|fullAdder:A11 ;
-;         |fullAdder:A12              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|fullAdder:A12 ;
-;         |fullAdder:A13              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|fullAdder:A13 ;
-;         |fullAdder:A14              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|fullAdder:A14 ;
-;         |fullAdder:A15              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|fullAdder:A15 ;
-;         |fullAdder:A16              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|fullAdder:A16 ;
-+-------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+--------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Thermal Power Dissipation by Hierarchy                                                                                                                                                                                                                                                                                        ;
++-------------------------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+----------------------------------------------------------------------------------------------------------------------+
+; Compilation Hierarchy Node                            ; Total Thermal Power by Hierarchy (1) ; Block Thermal Dynamic Power (1) ; Block Thermal Static Power (1)(2) ; Routing Thermal Dynamic Power (1) ; Full Hierarchy Name                                                                                                  ;
++-------------------------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+----------------------------------------------------------------------------------------------------------------------+
+; |lab4_adders_toplevel                                 ; 10.61 mW (10.61 mW)                  ; 0.00 mW (0.00 mW)               ; 10.61 mW (10.61 mW)               ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel                                                                                                ;
+;     |HexDriver:Ahex0_inst                             ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|HexDriver:Ahex0_inst                                                                           ;
+;     |HexDriver:Ahex1_inst                             ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|HexDriver:Ahex1_inst                                                                           ;
+;     |HexDriver:Ahex2_inst                             ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|HexDriver:Ahex2_inst                                                                           ;
+;     |HexDriver:Ahex3_inst                             ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|HexDriver:Ahex3_inst                                                                           ;
+;     |HexDriver:Bhex0_inst                             ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|HexDriver:Bhex0_inst                                                                           ;
+;     |HexDriver:Bhex1_inst                             ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|HexDriver:Bhex1_inst                                                                           ;
+;     |HexDriver:Bhex2_inst                             ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|HexDriver:Bhex2_inst                                                                           ;
+;     |HexDriver:Bhex3_inst                             ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|HexDriver:Bhex3_inst                                                                           ;
+;     |hard_block:auto_generated_inst                   ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|hard_block:auto_generated_inst                                                                 ;
+;     |carry_lookahead_adder:carry_lookahead_adder_inst ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst                                               ;
+;         |carry_lookahead_adder_4bit:CLA1              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA1               ;
+;             |fullAdder:FA0                            ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA1|fullAdder:FA0 ;
+;             |fullAdder:FA1                            ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA1|fullAdder:FA1 ;
+;             |fullAdder:FA2                            ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA1|fullAdder:FA2 ;
+;             |fullAdder:FA3                            ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA1|fullAdder:FA3 ;
+;         |carry_lookahead_adder_4bit:CLA2              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA2               ;
+;             |fullAdder:FA0                            ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA2|fullAdder:FA0 ;
+;             |fullAdder:FA1                            ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA2|fullAdder:FA1 ;
+;             |fullAdder:FA2                            ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA2|fullAdder:FA2 ;
+;             |fullAdder:FA3                            ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA2|fullAdder:FA3 ;
+;         |carry_lookahead_adder_4bit:CLA3              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA3               ;
+;             |fullAdder:FA0                            ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA3|fullAdder:FA0 ;
+;             |fullAdder:FA1                            ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA3|fullAdder:FA1 ;
+;             |fullAdder:FA2                            ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA3|fullAdder:FA2 ;
+;             |fullAdder:FA3                            ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA3|fullAdder:FA3 ;
+;         |carry_lookahead_adder_4bit:CLA4              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA4               ;
+;             |fullAdder:FA0                            ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA4|fullAdder:FA0 ;
+;             |fullAdder:FA1                            ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA4|fullAdder:FA1 ;
+;             |fullAdder:FA2                            ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA4|fullAdder:FA2 ;
+;             |fullAdder:FA3                            ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA4|fullAdder:FA3 ;
++-------------------------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+----------------------------------------------------------------------------------------------------------------------+
 (1) Value in parentheses is the power consumed at that level of hierarchy. Value not in parentheses is the power consumed at that level of hierarchy plus the power consumed by all levels of hierarchy below it.
 
 (2) The "Block Thermal Static Power" for all levels of hierarchy except the top-level hierarchy is part of the "Core Static Thermal Power Dissipation" value found on the PowerPlay Power Analyzer-->Summary report panel. The "Core Static Thermal Power Dissipation" also contains the thermal static power dissipated by the routing.
@@ -266,16 +270,16 @@ refer to the applicable agreement for further details.
 ;     -- Number of signals with Static Probability from Node, entity or clock assignment ; 0 (0.0%)    ; 0 (0.0%)   ; 0 (0.0%)     ; 0 (0.0%)      ;
 ;                                                                                        ;             ;            ;              ;               ;
 ; Vectorless estimation                                                                  ;             ;            ;              ;               ;
-;     -- Number of signals with Toggle Rate from Vectorless estimation                   ; 395 (94.5%) ; 75 (76.5%) ; 105 (100.0%) ; 215 (100.0%)  ;
-;     -- Number of signals with Zero toggle rate, from Vectorless estimation             ; 395 (94.5%) ; 75 (76.5%) ; 105 (100.0%) ; 215 (100.0%)  ;
-;     -- Number of signals with Static Probability from Vectorless estimation            ; 395 (94.5%) ; 75 (76.5%) ; 105 (100.0%) ; 215 (100.0%)  ;
+;     -- Number of signals with Toggle Rate from Vectorless estimation                   ; 405 (94.6%) ; 75 (76.5%) ; 105 (100.0%) ; 225 (100.0%)  ;
+;     -- Number of signals with Zero toggle rate, from Vectorless estimation             ; 405 (94.6%) ; 75 (76.5%) ; 105 (100.0%) ; 225 (100.0%)  ;
+;     -- Number of signals with Static Probability from Vectorless estimation            ; 405 (94.6%) ; 75 (76.5%) ; 105 (100.0%) ; 225 (100.0%)  ;
 ;                                                                                        ;             ;            ;              ;               ;
 ; Default assignment                                                                     ;             ;            ;              ;               ;
 ;     -- Number of signals with Toggle Rate from Default assignment                      ; 0 (0.0%)    ; 0 (0.0%)   ; 0 (0.0%)     ; 0 (0.0%)      ;
-;     -- Number of signals with Static Probability from Default assignment               ; 23 (5.5%)   ; 23 (23.5%) ; 0 (0.0%)     ; 0 (0.0%)      ;
+;     -- Number of signals with Static Probability from Default assignment               ; 23 (5.4%)   ; 23 (23.5%) ; 0 (0.0%)     ; 0 (0.0%)      ;
 ;                                                                                        ;             ;            ;              ;               ;
 ; Assumed 0                                                                              ;             ;            ;              ;               ;
-;     -- Number of signals with Toggle Rate assumed 0                                    ; 23 (5.5%)   ; 23 (23.5%) ; 0 (0.0%)     ; 0 (0.0%)      ;
+;     -- Number of signals with Toggle Rate assumed 0                                    ; 23 (5.4%)   ; 23 (23.5%) ; 0 (0.0%)     ; 0 (0.0%)      ;
 +----------------------------------------------------------------------------------------+-------------+------------+--------------+---------------+
 
 
@@ -293,7 +297,7 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Power Analyzer
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Sun Feb 03 20:58:13 2019
+    Info: Processing started: Wed Feb 06 12:17:49 2019
 Info: Command: quartus_pow --read_settings_files=off --write_settings_files=off lab4_adders_toplevel -c lab4_adders_toplevel
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (21077): Low junction temperature is 0 degrees C
@@ -311,8 +315,8 @@ Info (334004): Delay annotation completed successfully
 Info (215049): Average toggle rate for this design is 0.000 millions of transitions / sec
 Info (215031): Total thermal power estimate for the design is 139.11 mW
 Info: Quartus Prime Power Analyzer was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 5072 megabytes
-    Info: Processing ended: Sun Feb 03 20:58:19 2019
+    Info: Peak virtual memory: 5071 megabytes
+    Info: Processing ended: Wed Feb 06 12:17:55 2019
     Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:06
 
