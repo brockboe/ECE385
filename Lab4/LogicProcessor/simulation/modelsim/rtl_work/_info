@@ -7,53 +7,53 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/Brock/School/ECE385/Lab4/LogicProcessor/simulation/modelsim
+Z0 dC:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/simulation/modelsim
 vcompute
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1549243011
+Z2 !s110 1549508215
 !i10b 1
 !s100 i=]6932U1_OWO<5E?3HbR1
-I8hR0d6A?SXTCin=eE6chP0
+IL<?iJGaOeAiN5mE@HKUH<1
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 !s105 compute_sv_unit
 S1
 R0
 Z4 w1549097857
-8C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/compute.sv
-FC:/Users/Brock/School/ECE385/Lab4/LogicProcessor/compute.sv
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/compute.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/compute.sv
 L0 1
 Z5 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z6 !s108 1549243011.000000
-!s107 C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/compute.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/Lab4/LogicProcessor|C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/compute.sv|
+Z6 !s108 1549508215.000000
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/compute.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/compute.sv|
 !i113 1
 Z7 o-sv -work work
-Z8 !s92 -sv -work work +incdir+C:/Users/Brock/School/ECE385/Lab4/LogicProcessor
+Z8 !s92 -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor
 Z9 tCvgOpt 0
 vcontrol
 R1
 R2
 !i10b 1
 !s100 geL0c@KK^jK2Z=aGPcRhO3
-IBa;3=LzNAm2bDbBYhO4Xa2
+IaFMcIT5@^Ef<f;WXD^Y383
 R3
 !s105 Control_sv_unit
 S1
 R0
 w1549165302
-8C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Control.sv
-FC:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Control.sv
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Control.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Control.sv
 L0 3
 R5
 r1
 !s85 0
 31
 R6
-!s107 C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Control.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/Lab4/LogicProcessor|C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Control.sv|
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Control.sv|
 !i113 1
 R7
 R8
@@ -63,22 +63,22 @@ R1
 R2
 !i10b 1
 !s100 ^DddjRd7Wla]U<SlP;mT@0
-I<nYP<n@LGm0^5ZBE;5Al<3
+I0m3GUQk1mWO]zRVP1Wz4>3
 R3
 !s105 HexDriver_sv_unit
 S1
 R0
 R4
-8C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/HexDriver.sv
-FC:/Users/Brock/School/ECE385/Lab4/LogicProcessor/HexDriver.sv
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/HexDriver.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/HexDriver.sv
 L0 1
 R5
 r1
 !s85 0
 31
 R6
-!s107 C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/HexDriver.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/Lab4/LogicProcessor|C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/HexDriver.sv|
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/HexDriver.sv|
 !i113 1
 R7
 R8
@@ -89,22 +89,22 @@ R1
 R2
 !i10b 1
 !s100 =B5O^^UTh`2boJl:`1URW1
-I^efAd=1MJ4I^V;3Rzndm60
+ILa[mW;UTY@?CjzDL?6lFf2
 R3
 !s105 Processor_sv_unit
 S1
 R0
 w1549166379
-8C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Processor.sv
-FC:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Processor.sv
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Processor.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Processor.sv
 L0 8
 R5
 r1
 !s85 0
 31
 R6
-!s107 C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Processor.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/Lab4/LogicProcessor|C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Processor.sv|
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Processor.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Processor.sv|
 !i113 1
 R7
 R8
@@ -115,22 +115,22 @@ R1
 R2
 !i10b 1
 !s100 g728BkI_Hej5?[[NfZJXH2
-I2lRj8IH2[:kVgoWKnnjY43
+IU7Fj:eP`U24jOe^BgMz[f2
 R3
 !s105 Reg_4_sv_unit
 S1
 R0
 w1549166022
-8C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Reg_4.sv
-FC:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Reg_4.sv
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Reg_4.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Reg_4.sv
 L0 1
 R5
 r1
 !s85 0
 31
 R6
-!s107 C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Reg_4.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/Lab4/LogicProcessor|C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Reg_4.sv|
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Reg_4.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Reg_4.sv|
 !i113 1
 R7
 R8
@@ -140,22 +140,22 @@ R1
 R2
 !i10b 1
 !s100 c?`W04Obk>`oYn_UgA>oj0
-IXm@eAS]?azMXXW[<[C9^21
+I8zfIMb3U[F6T651H<jBkA1
 R3
 !s105 Register_unit_sv_unit
 S1
 R0
 w1549147506
-8C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Register_unit.sv
-FC:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Register_unit.sv
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Register_unit.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Register_unit.sv
 L0 1
 R5
 r1
 !s85 0
 31
 R6
-!s107 C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Register_unit.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/Lab4/LogicProcessor|C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Register_unit.sv|
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Register_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Register_unit.sv|
 !i113 1
 R7
 R8
@@ -165,97 +165,97 @@ R1
 R2
 !i10b 1
 !s100 lIdD9@`9>^lYia[Dkg2aV0
-I[>_:eL>co>X4e43ViLg4o2
+IY??]k2N6eS<9>077[5DYO0
 R3
 !s105 Router_sv_unit
 S1
 R0
 R4
-8C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Router.sv
-FC:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Router.sv
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Router.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Router.sv
 L0 1
 R5
 r1
 !s85 0
 31
 R6
-!s107 C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Router.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/Lab4/LogicProcessor|C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Router.sv|
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Router.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Router.sv|
 !i113 1
 R7
 R8
 R9
 vsync
 R1
-Z10 !s110 1549243010
+R2
 !i10b 1
 !s100 2W5Vz0:F6ckE2`eJOTK5l1
-I7U5:?d<z231?Y_N?cdFA;2
+Ij4W1Z0akRCNJm`^LBf[[91
 R3
-Z11 !s105 Synchronizers_sv_unit
+Z10 !s105 Synchronizers_sv_unit
 S1
 R0
 R4
-Z12 8C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Synchronizers.sv
-Z13 FC:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Synchronizers.sv
+Z11 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Synchronizers.sv
+Z12 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Synchronizers.sv
 L0 4
 R5
 r1
 !s85 0
 31
-Z14 !s108 1549243010.000000
-Z15 !s107 C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Synchronizers.sv|
-Z16 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/Lab4/LogicProcessor|C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/Synchronizers.sv|
+R6
+Z13 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Synchronizers.sv|
+Z14 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Synchronizers.sv|
 !i113 1
 R7
 R8
 R9
 vsync_r0
 R1
-R10
+R2
 !i10b 1
 !s100 IGd9f_F;JNjVBLQ@DAnD10
-IjOI;9l[?APM7dG7f3]Boo2
+InB]A2beY3FMV79aBKTbQZ2
 R3
-R11
+R10
 S1
 R0
 R4
+R11
 R12
-R13
 L0 18
 R5
 r1
 !s85 0
 31
+R6
+R13
 R14
-R15
-R16
 !i113 1
 R7
 R8
 R9
 vsync_r1
 R1
-R10
+R2
 !i10b 1
 !s100 1CXiH1DYDbAUS69Ee2j060
-I8CJYj;gFkFCg;RNkX:gM^1
+IeVj4OJTbRPVKB98;SoUG`3
 R3
-R11
+R10
 S1
 R0
 R4
+R11
 R12
-R13
 L0 39
 R5
 r1
 !s85 0
 31
+R6
+R13
 R14
-R15
-R16
 !i113 1
 R7
 R8
@@ -265,22 +265,22 @@ R1
 R2
 !i10b 1
 !s100 T0BJh0iLc]T:2jkSK6_`l0
-IIA`zQnT?9[84gM0_m;_J<2
+Io1LYocAj0cT7YibN0P^1f0
 R3
 !s105 testbench_8_sv_unit
 S1
 R0
 w1549146337
-8C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/testbench_8.sv
-FC:/Users/Brock/School/ECE385/Lab4/LogicProcessor/testbench_8.sv
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/testbench_8.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/testbench_8.sv
 L0 1
 R5
 r1
 !s85 0
 31
 R6
-!s107 C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/testbench_8.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/Lab4/LogicProcessor|C:/Users/Brock/School/ECE385/Lab4/LogicProcessor/testbench_8.sv|
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/testbench_8.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/testbench_8.sv|
 !i113 1
 R7
 R8

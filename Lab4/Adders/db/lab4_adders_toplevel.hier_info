@@ -309,7 +309,7 @@ Bhex3[5] <= Bhex3[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 Bhex3[6] <= Bhex3[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst
 A[0] => A[0].IN1
 A[1] => A[1].IN1
 A[2] => A[2].IN1
@@ -342,26 +342,26 @@ B[12] => B[12].IN1
 B[13] => B[13].IN1
 B[14] => B[14].IN1
 B[15] => B[15].IN1
-Sum[0] <= carry_lookahead_adder_4bit:CLA1.Sum
-Sum[1] <= carry_lookahead_adder_4bit:CLA1.Sum
-Sum[2] <= carry_lookahead_adder_4bit:CLA1.Sum
-Sum[3] <= carry_lookahead_adder_4bit:CLA1.Sum
-Sum[4] <= carry_lookahead_adder_4bit:CLA2.Sum
-Sum[5] <= carry_lookahead_adder_4bit:CLA2.Sum
-Sum[6] <= carry_lookahead_adder_4bit:CLA2.Sum
-Sum[7] <= carry_lookahead_adder_4bit:CLA2.Sum
-Sum[8] <= carry_lookahead_adder_4bit:CLA3.Sum
-Sum[9] <= carry_lookahead_adder_4bit:CLA3.Sum
-Sum[10] <= carry_lookahead_adder_4bit:CLA3.Sum
-Sum[11] <= carry_lookahead_adder_4bit:CLA3.Sum
-Sum[12] <= carry_lookahead_adder_4bit:CLA4.Sum
-Sum[13] <= carry_lookahead_adder_4bit:CLA4.Sum
-Sum[14] <= carry_lookahead_adder_4bit:CLA4.Sum
-Sum[15] <= carry_lookahead_adder_4bit:CLA4.Sum
-CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+Sum[0] <= CRA_4bit:initialAdder.S
+Sum[1] <= CRA_4bit:initialAdder.S
+Sum[2] <= CRA_4bit:initialAdder.S
+Sum[3] <= CRA_4bit:initialAdder.S
+Sum[4] <= CSA_4bit:CSA1.S
+Sum[5] <= CSA_4bit:CSA1.S
+Sum[6] <= CSA_4bit:CSA1.S
+Sum[7] <= CSA_4bit:CSA1.S
+Sum[8] <= CSA_4bit:CSA2.S
+Sum[9] <= CSA_4bit:CSA2.S
+Sum[10] <= CSA_4bit:CSA2.S
+Sum[11] <= CSA_4bit:CSA2.S
+Sum[12] <= CSA_4bit:CSA3.S
+Sum[13] <= CSA_4bit:CSA3.S
+Sum[14] <= CSA_4bit:CSA3.S
+Sum[15] <= CSA_4bit:CSA3.S
+CO <= CSA_4bit:CSA3.Cout
 
 
-|lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA1
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CRA_4bit:initialAdder
 A[0] => A[0].IN1
 A[1] => A[1].IN1
 A[2] => A[2].IN1
@@ -370,17 +370,15 @@ B[0] => B[0].IN1
 B[1] => B[1].IN1
 B[2] => B[2].IN1
 B[3] => B[3].IN1
-Cin => C[0].IN1
-Sum[0] <= fullAdder:FA0.S
-Sum[1] <= fullAdder:FA1.S
-Sum[2] <= fullAdder:FA2.S
-Sum[3] <= fullAdder:FA3.S
-Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-PG <= PG.DB_MAX_OUTPUT_PORT_TYPE
-GG <= GG.DB_MAX_OUTPUT_PORT_TYPE
+Cin => Cin.IN1
+S[0] <= fullAdder:A1.S
+S[1] <= fullAdder:A2.S
+S[2] <= fullAdder:A3.S
+S[3] <= fullAdder:A4.S
+Cout <= fullAdder:A4.Cout
 
 
-|lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA1|fullAdder:FA0
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CRA_4bit:initialAdder|fullAdder:A1
 A => S.IN0
 A => Cout.IN0
 A => G.IN0
@@ -396,7 +394,7 @@ G <= G.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA1|fullAdder:FA1
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CRA_4bit:initialAdder|fullAdder:A2
 A => S.IN0
 A => Cout.IN0
 A => G.IN0
@@ -412,7 +410,7 @@ G <= G.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA1|fullAdder:FA2
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CRA_4bit:initialAdder|fullAdder:A3
 A => S.IN0
 A => Cout.IN0
 A => G.IN0
@@ -428,7 +426,7 @@ G <= G.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA1|fullAdder:FA3
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CRA_4bit:initialAdder|fullAdder:A4
 A => S.IN0
 A => Cout.IN0
 A => G.IN0
@@ -444,7 +442,24 @@ G <= G.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA2
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA1
+A[0] => A[0].IN2
+A[1] => A[1].IN2
+A[2] => A[2].IN2
+A[3] => A[3].IN2
+B[0] => B[0].IN2
+B[1] => B[1].IN2
+B[2] => B[2].IN2
+B[3] => B[3].IN2
+Cin => Cin.IN1
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+S[0] <= M2t1Mux4bit:outMux.port3
+S[1] <= M2t1Mux4bit:outMux.port3
+S[2] <= M2t1Mux4bit:outMux.port3
+S[3] <= M2t1Mux4bit:outMux.port3
+
+
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA1|CRA_4bit:CarryHigh
 A[0] => A[0].IN1
 A[1] => A[1].IN1
 A[2] => A[2].IN1
@@ -453,17 +468,15 @@ B[0] => B[0].IN1
 B[1] => B[1].IN1
 B[2] => B[2].IN1
 B[3] => B[3].IN1
-Cin => C[0].IN1
-Sum[0] <= fullAdder:FA0.S
-Sum[1] <= fullAdder:FA1.S
-Sum[2] <= fullAdder:FA2.S
-Sum[3] <= fullAdder:FA3.S
-Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-PG <= PG.DB_MAX_OUTPUT_PORT_TYPE
-GG <= GG.DB_MAX_OUTPUT_PORT_TYPE
+Cin => Cin.IN1
+S[0] <= fullAdder:A1.S
+S[1] <= fullAdder:A2.S
+S[2] <= fullAdder:A3.S
+S[3] <= fullAdder:A4.S
+Cout <= fullAdder:A4.Cout
 
 
-|lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA2|fullAdder:FA0
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA1|CRA_4bit:CarryHigh|fullAdder:A1
 A => S.IN0
 A => Cout.IN0
 A => G.IN0
@@ -479,7 +492,7 @@ G <= G.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA2|fullAdder:FA1
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA1|CRA_4bit:CarryHigh|fullAdder:A2
 A => S.IN0
 A => Cout.IN0
 A => G.IN0
@@ -495,7 +508,7 @@ G <= G.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA2|fullAdder:FA2
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA1|CRA_4bit:CarryHigh|fullAdder:A3
 A => S.IN0
 A => Cout.IN0
 A => G.IN0
@@ -511,7 +524,7 @@ G <= G.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA2|fullAdder:FA3
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA1|CRA_4bit:CarryHigh|fullAdder:A4
 A => S.IN0
 A => Cout.IN0
 A => G.IN0
@@ -527,7 +540,7 @@ G <= G.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA3
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA1|CRA_4bit:CarryLow
 A[0] => A[0].IN1
 A[1] => A[1].IN1
 A[2] => A[2].IN1
@@ -536,17 +549,15 @@ B[0] => B[0].IN1
 B[1] => B[1].IN1
 B[2] => B[2].IN1
 B[3] => B[3].IN1
-Cin => C[0].IN1
-Sum[0] <= fullAdder:FA0.S
-Sum[1] <= fullAdder:FA1.S
-Sum[2] <= fullAdder:FA2.S
-Sum[3] <= fullAdder:FA3.S
-Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-PG <= PG.DB_MAX_OUTPUT_PORT_TYPE
-GG <= GG.DB_MAX_OUTPUT_PORT_TYPE
+Cin => Cin.IN1
+S[0] <= fullAdder:A1.S
+S[1] <= fullAdder:A2.S
+S[2] <= fullAdder:A3.S
+S[3] <= fullAdder:A4.S
+Cout <= fullAdder:A4.Cout
 
 
-|lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA3|fullAdder:FA0
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA1|CRA_4bit:CarryLow|fullAdder:A1
 A => S.IN0
 A => Cout.IN0
 A => G.IN0
@@ -562,7 +573,7 @@ G <= G.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA3|fullAdder:FA1
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA1|CRA_4bit:CarryLow|fullAdder:A2
 A => S.IN0
 A => Cout.IN0
 A => G.IN0
@@ -578,7 +589,7 @@ G <= G.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA3|fullAdder:FA2
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA1|CRA_4bit:CarryLow|fullAdder:A3
 A => S.IN0
 A => Cout.IN0
 A => G.IN0
@@ -594,7 +605,7 @@ G <= G.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA3|fullAdder:FA3
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA1|CRA_4bit:CarryLow|fullAdder:A4
 A => S.IN0
 A => Cout.IN0
 A => G.IN0
@@ -610,7 +621,43 @@ G <= G.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA4
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA1|M2t1Mux4bit:outMux
+A[0] => Out.DATAB
+A[1] => Out.DATAB
+A[2] => Out.DATAB
+A[3] => Out.DATAB
+B[0] => Out.DATAA
+B[1] => Out.DATAA
+B[2] => Out.DATAA
+B[3] => Out.DATAA
+Select => Out.OUTPUTSELECT
+Select => Out.OUTPUTSELECT
+Select => Out.OUTPUTSELECT
+Select => Out.OUTPUTSELECT
+Out[0] <= Out.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= Out.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= Out.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= Out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA2
+A[0] => A[0].IN2
+A[1] => A[1].IN2
+A[2] => A[2].IN2
+A[3] => A[3].IN2
+B[0] => B[0].IN2
+B[1] => B[1].IN2
+B[2] => B[2].IN2
+B[3] => B[3].IN2
+Cin => Cin.IN1
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+S[0] <= M2t1Mux4bit:outMux.port3
+S[1] <= M2t1Mux4bit:outMux.port3
+S[2] <= M2t1Mux4bit:outMux.port3
+S[3] <= M2t1Mux4bit:outMux.port3
+
+
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA2|CRA_4bit:CarryHigh
 A[0] => A[0].IN1
 A[1] => A[1].IN1
 A[2] => A[2].IN1
@@ -619,17 +666,15 @@ B[0] => B[0].IN1
 B[1] => B[1].IN1
 B[2] => B[2].IN1
 B[3] => B[3].IN1
-Cin => C[0].IN1
-Sum[0] <= fullAdder:FA0.S
-Sum[1] <= fullAdder:FA1.S
-Sum[2] <= fullAdder:FA2.S
-Sum[3] <= fullAdder:FA3.S
-Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-PG <= PG.DB_MAX_OUTPUT_PORT_TYPE
-GG <= GG.DB_MAX_OUTPUT_PORT_TYPE
+Cin => Cin.IN1
+S[0] <= fullAdder:A1.S
+S[1] <= fullAdder:A2.S
+S[2] <= fullAdder:A3.S
+S[3] <= fullAdder:A4.S
+Cout <= fullAdder:A4.Cout
 
 
-|lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA4|fullAdder:FA0
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA2|CRA_4bit:CarryHigh|fullAdder:A1
 A => S.IN0
 A => Cout.IN0
 A => G.IN0
@@ -645,7 +690,7 @@ G <= G.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA4|fullAdder:FA1
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA2|CRA_4bit:CarryHigh|fullAdder:A2
 A => S.IN0
 A => Cout.IN0
 A => G.IN0
@@ -661,7 +706,7 @@ G <= G.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA4|fullAdder:FA2
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA2|CRA_4bit:CarryHigh|fullAdder:A3
 A => S.IN0
 A => Cout.IN0
 A => G.IN0
@@ -677,7 +722,7 @@ G <= G.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab4_adders_toplevel|carry_lookahead_adder:carry_lookahead_adder_inst|carry_lookahead_adder_4bit:CLA4|fullAdder:FA3
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA2|CRA_4bit:CarryHigh|fullAdder:A4
 A => S.IN0
 A => Cout.IN0
 A => G.IN0
@@ -691,6 +736,304 @@ S <= S.DB_MAX_OUTPUT_PORT_TYPE
 P <= S.DB_MAX_OUTPUT_PORT_TYPE
 G <= G.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA2|CRA_4bit:CarryLow
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= fullAdder:A1.S
+S[1] <= fullAdder:A2.S
+S[2] <= fullAdder:A3.S
+S[3] <= fullAdder:A4.S
+Cout <= fullAdder:A4.Cout
+
+
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA2|CRA_4bit:CarryLow|fullAdder:A1
+A => S.IN0
+A => Cout.IN0
+A => G.IN0
+B => S.IN1
+B => Cout.IN0
+B => G.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+P <= S.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA2|CRA_4bit:CarryLow|fullAdder:A2
+A => S.IN0
+A => Cout.IN0
+A => G.IN0
+B => S.IN1
+B => Cout.IN0
+B => G.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+P <= S.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA2|CRA_4bit:CarryLow|fullAdder:A3
+A => S.IN0
+A => Cout.IN0
+A => G.IN0
+B => S.IN1
+B => Cout.IN0
+B => G.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+P <= S.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA2|CRA_4bit:CarryLow|fullAdder:A4
+A => S.IN0
+A => Cout.IN0
+A => G.IN0
+B => S.IN1
+B => Cout.IN0
+B => G.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+P <= S.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA2|M2t1Mux4bit:outMux
+A[0] => Out.DATAB
+A[1] => Out.DATAB
+A[2] => Out.DATAB
+A[3] => Out.DATAB
+B[0] => Out.DATAA
+B[1] => Out.DATAA
+B[2] => Out.DATAA
+B[3] => Out.DATAA
+Select => Out.OUTPUTSELECT
+Select => Out.OUTPUTSELECT
+Select => Out.OUTPUTSELECT
+Select => Out.OUTPUTSELECT
+Out[0] <= Out.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= Out.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= Out.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= Out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA3
+A[0] => A[0].IN2
+A[1] => A[1].IN2
+A[2] => A[2].IN2
+A[3] => A[3].IN2
+B[0] => B[0].IN2
+B[1] => B[1].IN2
+B[2] => B[2].IN2
+B[3] => B[3].IN2
+Cin => Cin.IN1
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+S[0] <= M2t1Mux4bit:outMux.port3
+S[1] <= M2t1Mux4bit:outMux.port3
+S[2] <= M2t1Mux4bit:outMux.port3
+S[3] <= M2t1Mux4bit:outMux.port3
+
+
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA3|CRA_4bit:CarryHigh
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= fullAdder:A1.S
+S[1] <= fullAdder:A2.S
+S[2] <= fullAdder:A3.S
+S[3] <= fullAdder:A4.S
+Cout <= fullAdder:A4.Cout
+
+
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA3|CRA_4bit:CarryHigh|fullAdder:A1
+A => S.IN0
+A => Cout.IN0
+A => G.IN0
+B => S.IN1
+B => Cout.IN0
+B => G.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+P <= S.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA3|CRA_4bit:CarryHigh|fullAdder:A2
+A => S.IN0
+A => Cout.IN0
+A => G.IN0
+B => S.IN1
+B => Cout.IN0
+B => G.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+P <= S.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA3|CRA_4bit:CarryHigh|fullAdder:A3
+A => S.IN0
+A => Cout.IN0
+A => G.IN0
+B => S.IN1
+B => Cout.IN0
+B => G.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+P <= S.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA3|CRA_4bit:CarryHigh|fullAdder:A4
+A => S.IN0
+A => Cout.IN0
+A => G.IN0
+B => S.IN1
+B => Cout.IN0
+B => G.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+P <= S.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA3|CRA_4bit:CarryLow
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+S[0] <= fullAdder:A1.S
+S[1] <= fullAdder:A2.S
+S[2] <= fullAdder:A3.S
+S[3] <= fullAdder:A4.S
+Cout <= fullAdder:A4.Cout
+
+
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA3|CRA_4bit:CarryLow|fullAdder:A1
+A => S.IN0
+A => Cout.IN0
+A => G.IN0
+B => S.IN1
+B => Cout.IN0
+B => G.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+P <= S.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA3|CRA_4bit:CarryLow|fullAdder:A2
+A => S.IN0
+A => Cout.IN0
+A => G.IN0
+B => S.IN1
+B => Cout.IN0
+B => G.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+P <= S.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA3|CRA_4bit:CarryLow|fullAdder:A3
+A => S.IN0
+A => Cout.IN0
+A => G.IN0
+B => S.IN1
+B => Cout.IN0
+B => G.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+P <= S.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA3|CRA_4bit:CarryLow|fullAdder:A4
+A => S.IN0
+A => Cout.IN0
+A => G.IN0
+B => S.IN1
+B => Cout.IN0
+B => G.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+P <= S.DB_MAX_OUTPUT_PORT_TYPE
+G <= G.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4_adders_toplevel|carry_select_adder:carry_select_adder_inst|CSA_4bit:CSA3|M2t1Mux4bit:outMux
+A[0] => Out.DATAB
+A[1] => Out.DATAB
+A[2] => Out.DATAB
+A[3] => Out.DATAB
+B[0] => Out.DATAA
+B[1] => Out.DATAA
+B[2] => Out.DATAA
+B[3] => Out.DATAA
+Select => Out.OUTPUTSELECT
+Select => Out.OUTPUTSELECT
+Select => Out.OUTPUTSELECT
+Select => Out.OUTPUTSELECT
+Out[0] <= Out.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= Out.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= Out.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= Out.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |lab4_adders_toplevel|HexDriver:Ahex0_inst

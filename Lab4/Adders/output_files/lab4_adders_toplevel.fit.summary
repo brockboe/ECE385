@@ -1,13 +1,13 @@
-Fitter Status : Successful - Wed Feb 06 12:17:44 2019
+Fitter Status : Successful - Wed Feb 06 21:33:11 2019
 Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 Revision Name : lab4_adders_toplevel
 Top-level Entity Name : lab4_adders_toplevel
 Family : Cyclone IV E
 Device : EP4CE115F29C7
 Timing Models : Final
-Total logic elements : 131 / 114,480 ( < 1 % )
-    Total combinational functions : 129 / 114,480 ( < 1 % )
-    Dedicated logic registers : 105 / 114,480 ( < 1 % )
+Total logic elements : 127 / 114,480 ( < 1 % )
+    Total combinational functions : 123 / 114,480 ( < 1 % )
+    Dedicated logic registers : 32 / 114,480 ( < 1 % )
 Total registers : 105
 Total pins : 93 / 529 ( 18 % )
 Total virtual pins : 0

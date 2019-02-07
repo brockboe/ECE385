@@ -77,7 +77,6 @@ set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "1000 ns" -section_id tes
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME testbench_8 -section_id testbench8
 set_global_assignment -name EDA_TEST_BENCH_FILE testbench.sv -section_id testbench4
 set_global_assignment -name EDA_TEST_BENCH_FILE testbench_8.sv -section_id testbench8
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_location_assignment PIN_G18 -to AhexL[0]
 set_location_assignment PIN_F22 -to AhexL[1]
 set_location_assignment PIN_E17 -to AhexL[2]
@@ -85,3 +84,6 @@ set_location_assignment PIN_L26 -to AhexL[3]
 set_location_assignment PIN_L25 -to AhexL[4]
 set_location_assignment PIN_J22 -to AhexL[5]
 set_location_assignment PIN_H22 -to AhexL[6]
+set_global_assignment -name FLOW_ENABLE_POWER_ANALYZER ON
+set_global_assignment -name POWER_DEFAULT_INPUT_IO_TOGGLE_RATE "12.5 %"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
