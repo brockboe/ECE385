@@ -137,3 +137,5 @@
 # ** Warning: (vsim-8315) C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Control.sv(25): No condition is true in the unique/priority if/case statement.
 #    Time: 10 ns  Iteration: 2  Instance: /testbench_8/processor0/control_unit
 # Success!
+# End time: 09:51:41 on Feb 07,2019, Elapsed time: 12:54:45
+# Errors: 0, Warnings: 5
