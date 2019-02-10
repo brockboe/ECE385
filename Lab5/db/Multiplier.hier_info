@@ -1,0 +1,969 @@
+|Multiplier
+clk => clk.IN3
+run => run.IN1
+clearA_loadB => clearA_loadB.IN1
+reset => reset.IN1
+S[0] => S[0].IN1
+S[1] => S[1].IN1
+S[2] => S[2].IN1
+S[3] => S[3].IN1
+S[4] => S[4].IN1
+S[5] => S[5].IN1
+S[6] => S[6].IN1
+S[7] => S[7].IN1
+x <= ArithmaticUnit:AU.x
+Aval[0] <= ArithmaticUnit:AU.Aout
+Aval[1] <= ArithmaticUnit:AU.Aout
+Aval[2] <= ArithmaticUnit:AU.Aout
+Aval[3] <= ArithmaticUnit:AU.Aout
+Aval[4] <= ArithmaticUnit:AU.Aout
+Aval[5] <= ArithmaticUnit:AU.Aout
+Aval[6] <= ArithmaticUnit:AU.Aout
+Aval[7] <= ArithmaticUnit:AU.Aout
+Bval[0] <= ArithmaticUnit:AU.Bout
+Bval[1] <= ArithmaticUnit:AU.Bout
+Bval[2] <= ArithmaticUnit:AU.Bout
+Bval[3] <= ArithmaticUnit:AU.Bout
+Bval[4] <= ArithmaticUnit:AU.Bout
+Bval[5] <= ArithmaticUnit:AU.Bout
+Bval[6] <= ArithmaticUnit:AU.Bout
+Bval[7] <= ArithmaticUnit:AU.Bout
+AhexU[0] <= <GND>
+AhexU[1] <= <GND>
+AhexU[2] <= <GND>
+AhexU[3] <= <GND>
+AhexU[4] <= <GND>
+AhexU[5] <= <GND>
+AhexU[6] <= <GND>
+AhexL[0] <= <GND>
+AhexL[1] <= <GND>
+AhexL[2] <= <GND>
+AhexL[3] <= <GND>
+AhexL[4] <= <GND>
+AhexL[5] <= <GND>
+AhexL[6] <= <GND>
+BhexU[0] <= <GND>
+BhexU[1] <= <GND>
+BhexU[2] <= <GND>
+BhexU[3] <= <GND>
+BhexU[4] <= <GND>
+BhexU[5] <= <GND>
+BhexU[6] <= <GND>
+BhexL[0] <= <GND>
+BhexL[1] <= <GND>
+BhexL[2] <= <GND>
+BhexL[3] <= <GND>
+BhexL[4] <= <GND>
+BhexL[5] <= <GND>
+BhexL[6] <= <GND>
+
+
+|Multiplier|ArithmaticUnit:AU
+S[0] => S[0].IN2
+S[1] => S[1].IN2
+S[2] => S[2].IN2
+S[3] => S[3].IN2
+S[4] => S[4].IN2
+S[5] => S[5].IN2
+S[6] => S[6].IN2
+S[7] => S[7].IN2
+shift => Aloaden.OUTPUTSELECT
+shift => ALoadData.OUTPUTSELECT
+shift => ALoadData.OUTPUTSELECT
+shift => ALoadData.OUTPUTSELECT
+shift => ALoadData.OUTPUTSELECT
+shift => ALoadData.OUTPUTSELECT
+shift => ALoadData.OUTPUTSELECT
+shift => ALoadData.OUTPUTSELECT
+shift => ALoadData.OUTPUTSELECT
+shift => x.OUTPUTSELECT
+shift => Ashiften.DATAA
+shift => Bshiften.DATAA
+add => Aloaden.OUTPUTSELECT
+add => ALoadData.OUTPUTSELECT
+add => ALoadData.OUTPUTSELECT
+add => ALoadData.OUTPUTSELECT
+add => ALoadData.OUTPUTSELECT
+add => ALoadData.OUTPUTSELECT
+add => ALoadData.OUTPUTSELECT
+add => ALoadData.OUTPUTSELECT
+add => ALoadData.OUTPUTSELECT
+add => x.OUTPUTSELECT
+sub => ALoadData.OUTPUTSELECT
+sub => ALoadData.OUTPUTSELECT
+sub => ALoadData.OUTPUTSELECT
+sub => ALoadData.OUTPUTSELECT
+sub => ALoadData.OUTPUTSELECT
+sub => ALoadData.OUTPUTSELECT
+sub => ALoadData.OUTPUTSELECT
+sub => ALoadData.OUTPUTSELECT
+sub => x.OUTPUTSELECT
+sub => Aloaden.DATAA
+clearA_LoadB => Bshiften.OUTPUTSELECT
+clearA_LoadB => BLoadData.OUTPUTSELECT
+clearA_LoadB => BLoadData.OUTPUTSELECT
+clearA_LoadB => BLoadData.OUTPUTSELECT
+clearA_LoadB => BLoadData.OUTPUTSELECT
+clearA_LoadB => BLoadData.OUTPUTSELECT
+clearA_LoadB => BLoadData.OUTPUTSELECT
+clearA_LoadB => BLoadData.OUTPUTSELECT
+clearA_LoadB => BLoadData.OUTPUTSELECT
+clearA_LoadB => x.OUTPUTSELECT
+clearA_LoadB => Ashiften.OUTPUTSELECT
+clearA_LoadB => Aloaden.OUTPUTSELECT
+clearA_LoadB => ALoadData.OUTPUTSELECT
+clearA_LoadB => ALoadData.OUTPUTSELECT
+clearA_LoadB => ALoadData.OUTPUTSELECT
+clearA_LoadB => ALoadData.OUTPUTSELECT
+clearA_LoadB => ALoadData.OUTPUTSELECT
+clearA_LoadB => ALoadData.OUTPUTSELECT
+clearA_LoadB => ALoadData.OUTPUTSELECT
+clearA_LoadB => ALoadData.OUTPUTSELECT
+clearA_LoadB => Areset.DATAA
+clearA_LoadB => Bloaden.DATAA
+clk => clk.IN2
+reset => Areset.OUTPUTSELECT
+reset => Aloaden.OUTPUTSELECT
+reset => Bloaden.OUTPUTSELECT
+reset => Ashiften.OUTPUTSELECT
+reset => Bshiften.OUTPUTSELECT
+reset => BLoadData.OUTPUTSELECT
+reset => BLoadData.OUTPUTSELECT
+reset => BLoadData.OUTPUTSELECT
+reset => BLoadData.OUTPUTSELECT
+reset => BLoadData.OUTPUTSELECT
+reset => BLoadData.OUTPUTSELECT
+reset => BLoadData.OUTPUTSELECT
+reset => BLoadData.OUTPUTSELECT
+reset => x.OUTPUTSELECT
+reset => ALoadData.OUTPUTSELECT
+reset => ALoadData.OUTPUTSELECT
+reset => ALoadData.OUTPUTSELECT
+reset => ALoadData.OUTPUTSELECT
+reset => ALoadData.OUTPUTSELECT
+reset => ALoadData.OUTPUTSELECT
+reset => ALoadData.OUTPUTSELECT
+reset => ALoadData.OUTPUTSELECT
+reset => Breset.DATAIN
+Aout[0] <= Aout[0].DB_MAX_OUTPUT_PORT_TYPE
+Aout[1] <= Aout[1].DB_MAX_OUTPUT_PORT_TYPE
+Aout[2] <= Aout[2].DB_MAX_OUTPUT_PORT_TYPE
+Aout[3] <= Aout[3].DB_MAX_OUTPUT_PORT_TYPE
+Aout[4] <= Aout[4].DB_MAX_OUTPUT_PORT_TYPE
+Aout[5] <= Aout[5].DB_MAX_OUTPUT_PORT_TYPE
+Aout[6] <= Aout[6].DB_MAX_OUTPUT_PORT_TYPE
+Aout[7] <= Aout[7].DB_MAX_OUTPUT_PORT_TYPE
+Bout[0] <= ShiftRegister:B.data_out
+Bout[1] <= ShiftRegister:B.data_out
+Bout[2] <= ShiftRegister:B.data_out
+Bout[3] <= ShiftRegister:B.data_out
+Bout[4] <= ShiftRegister:B.data_out
+Bout[5] <= ShiftRegister:B.data_out
+Bout[6] <= ShiftRegister:B.data_out
+Bout[7] <= ShiftRegister:B.data_out
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+m <= ShiftRegister:B.shiftout
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarryAdder8bit:Adder
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+S[0] <= FullAdder:FA1.S
+S[1] <= FullAdder:FA2.S
+S[2] <= FullAdder:FA3.S
+S[3] <= FullAdder:FA4.S
+S[4] <= FullAdder:FA5.S
+S[5] <= FullAdder:FA6.S
+S[6] <= FullAdder:FA7.S
+S[7] <= FullAdder:FA8.S
+CO <= FullAdder:FA8.CO
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarryAdder8bit:Adder|FullAdder:FA1
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarryAdder8bit:Adder|FullAdder:FA2
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarryAdder8bit:Adder|FullAdder:FA3
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarryAdder8bit:Adder|FullAdder:FA4
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarryAdder8bit:Adder|FullAdder:FA5
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarryAdder8bit:Adder|FullAdder:FA6
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarryAdder8bit:Adder|FullAdder:FA7
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarryAdder8bit:Adder|FullAdder:FA8
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => _.IN1
+B[1] => _.IN1
+B[2] => _.IN1
+B[3] => _.IN1
+B[4] => _.IN1
+B[5] => _.IN1
+B[6] => _.IN1
+B[7] => _.IN1
+S[0] <= RippleCarryAdder8bit:subtractor.S
+S[1] <= RippleCarryAdder8bit:subtractor.S
+S[2] <= RippleCarryAdder8bit:subtractor.S
+S[3] <= RippleCarryAdder8bit:subtractor.S
+S[4] <= RippleCarryAdder8bit:subtractor.S
+S[5] <= RippleCarryAdder8bit:subtractor.S
+S[6] <= RippleCarryAdder8bit:subtractor.S
+S[7] <= RippleCarryAdder8bit:subtractor.S
+CO <= RippleCarryAdder8bit:subtractor.CO
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:inverter
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+S[0] <= FullAdder:FA1.S
+S[1] <= FullAdder:FA2.S
+S[2] <= FullAdder:FA3.S
+S[3] <= FullAdder:FA4.S
+S[4] <= FullAdder:FA5.S
+S[5] <= FullAdder:FA6.S
+S[6] <= FullAdder:FA7.S
+S[7] <= FullAdder:FA8.S
+CO <= FullAdder:FA8.CO
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:inverter|FullAdder:FA1
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:inverter|FullAdder:FA2
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:inverter|FullAdder:FA3
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:inverter|FullAdder:FA4
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:inverter|FullAdder:FA5
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:inverter|FullAdder:FA6
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:inverter|FullAdder:FA7
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:inverter|FullAdder:FA8
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:subtractor
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+S[0] <= FullAdder:FA1.S
+S[1] <= FullAdder:FA2.S
+S[2] <= FullAdder:FA3.S
+S[3] <= FullAdder:FA4.S
+S[4] <= FullAdder:FA5.S
+S[5] <= FullAdder:FA6.S
+S[6] <= FullAdder:FA7.S
+S[7] <= FullAdder:FA8.S
+CO <= FullAdder:FA8.CO
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:subtractor|FullAdder:FA1
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:subtractor|FullAdder:FA2
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:subtractor|FullAdder:FA3
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:subtractor|FullAdder:FA4
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:subtractor|FullAdder:FA5
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:subtractor|FullAdder:FA6
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:subtractor|FullAdder:FA7
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:subtractor|FullAdder:FA8
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|ShiftRegister:A
+clk => data_out[0]~reg0.CLK
+clk => data_out[1]~reg0.CLK
+clk => data_out[2]~reg0.CLK
+clk => data_out[3]~reg0.CLK
+clk => data_out[4]~reg0.CLK
+clk => data_out[5]~reg0.CLK
+clk => data_out[6]~reg0.CLK
+clk => data_out[7]~reg0.CLK
+data_in[0] => data_out.DATAB
+data_in[1] => data_out.DATAB
+data_in[2] => data_out.DATAB
+data_in[3] => data_out.DATAB
+data_in[4] => data_out.DATAB
+data_in[5] => data_out.DATAB
+data_in[6] => data_out.DATAB
+data_in[7] => data_out.DATAB
+reset => data_out.OUTPUTSELECT
+reset => data_out.OUTPUTSELECT
+reset => data_out.OUTPUTSELECT
+reset => data_out.OUTPUTSELECT
+reset => data_out.OUTPUTSELECT
+reset => data_out.OUTPUTSELECT
+reset => data_out.OUTPUTSELECT
+reset => data_out.OUTPUTSELECT
+shift_en => data_out.OUTPUTSELECT
+shift_en => data_out.OUTPUTSELECT
+shift_en => data_out.OUTPUTSELECT
+shift_en => data_out.OUTPUTSELECT
+shift_en => data_out.OUTPUTSELECT
+shift_en => data_out.OUTPUTSELECT
+shift_en => data_out.OUTPUTSELECT
+shift_en => data_out.OUTPUTSELECT
+load => data_out.OUTPUTSELECT
+load => data_out.OUTPUTSELECT
+load => data_out.OUTPUTSELECT
+load => data_out.OUTPUTSELECT
+load => data_out.OUTPUTSELECT
+load => data_out.OUTPUTSELECT
+load => data_out.OUTPUTSELECT
+load => data_out.OUTPUTSELECT
+shift_in => data_out.DATAB
+data_out[0] <= data_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= data_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= data_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[4] <= data_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[5] <= data_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[6] <= data_out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[7] <= data_out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+shiftout <= data_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|ArithmaticUnit:AU|ShiftRegister:B
+clk => data_out[0]~reg0.CLK
+clk => data_out[1]~reg0.CLK
+clk => data_out[2]~reg0.CLK
+clk => data_out[3]~reg0.CLK
+clk => data_out[4]~reg0.CLK
+clk => data_out[5]~reg0.CLK
+clk => data_out[6]~reg0.CLK
+clk => data_out[7]~reg0.CLK
+data_in[0] => data_out.DATAB
+data_in[1] => data_out.DATAB
+data_in[2] => data_out.DATAB
+data_in[3] => data_out.DATAB
+data_in[4] => data_out.DATAB
+data_in[5] => data_out.DATAB
+data_in[6] => data_out.DATAB
+data_in[7] => data_out.DATAB
+reset => data_out.OUTPUTSELECT
+reset => data_out.OUTPUTSELECT
+reset => data_out.OUTPUTSELECT
+reset => data_out.OUTPUTSELECT
+reset => data_out.OUTPUTSELECT
+reset => data_out.OUTPUTSELECT
+reset => data_out.OUTPUTSELECT
+reset => data_out.OUTPUTSELECT
+shift_en => data_out.OUTPUTSELECT
+shift_en => data_out.OUTPUTSELECT
+shift_en => data_out.OUTPUTSELECT
+shift_en => data_out.OUTPUTSELECT
+shift_en => data_out.OUTPUTSELECT
+shift_en => data_out.OUTPUTSELECT
+shift_en => data_out.OUTPUTSELECT
+shift_en => data_out.OUTPUTSELECT
+load => data_out.OUTPUTSELECT
+load => data_out.OUTPUTSELECT
+load => data_out.OUTPUTSELECT
+load => data_out.OUTPUTSELECT
+load => data_out.OUTPUTSELECT
+load => data_out.OUTPUTSELECT
+load => data_out.OUTPUTSELECT
+load => data_out.OUTPUTSELECT
+shift_in => data_out.DATAB
+data_out[0] <= data_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= data_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= data_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[4] <= data_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[5] <= data_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[6] <= data_out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[7] <= data_out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+shiftout <= data_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|controlUnit:CU
+reset => next_state.OUTPUTSELECT
+reset => next_state.OUTPUTSELECT
+reset => next_state.OUTPUTSELECT
+reset => next_state.OUTPUTSELECT
+reset => next_state.OUTPUTSELECT
+reset => next_state.OUTPUTSELECT
+reset => next_state.OUTPUTSELECT
+reset => current_state.OUTPUTSELECT
+reset => current_state.OUTPUTSELECT
+reset => current_state.OUTPUTSELECT
+reset => current_state.OUTPUTSELECT
+reset => current_state.OUTPUTSELECT
+reset => current_state.OUTPUTSELECT
+reset => current_state.OUTPUTSELECT
+reset => current_state.OUTPUTSELECT
+reset => next_state.OUTPUTSELECT
+reset => next_state.RESETST.DATAIN
+reset => clr_ld~reg0.ENA
+reset => shift~reg0.ENA
+reset => add~reg0.ENA
+reset => sub~reg0.ENA
+reset => reset_au~reg0.ENA
+reset => reset_counter~reg0.ENA
+reset => increment_counter~reg0.ENA
+clk => reset_au~reg0.CLK
+clk => increment_counter~reg0.CLK
+clk => reset_counter~reg0.CLK
+clk => sub~reg0.CLK
+clk => add~reg0.CLK
+clk => shift~reg0.CLK
+clk => clr_ld~reg0.CLK
+clk => current_state~9.DATAIN
+clk => next_state~3.DATAIN
+run => next_state.DATAA
+run => next_state.DATAA
+ClearA_LoadB => next_state.OUTPUTSELECT
+ClearA_LoadB => next_state.OUTPUTSELECT
+ClearA_LoadB => next_state.DATAB
+counter[0] => LessThan0.IN16
+counter[0] => Equal0.IN2
+counter[0] => Equal1.IN7
+counter[1] => LessThan0.IN15
+counter[1] => Equal0.IN1
+counter[1] => Equal1.IN1
+counter[2] => LessThan0.IN14
+counter[2] => Equal0.IN0
+counter[2] => Equal1.IN0
+counter[3] => LessThan0.IN13
+counter[3] => Equal0.IN7
+counter[3] => Equal1.IN6
+counter[4] => LessThan0.IN12
+counter[4] => Equal0.IN6
+counter[4] => Equal1.IN5
+counter[5] => LessThan0.IN11
+counter[5] => Equal0.IN5
+counter[5] => Equal1.IN4
+counter[6] => LessThan0.IN10
+counter[6] => Equal0.IN4
+counter[6] => Equal1.IN3
+counter[7] => LessThan0.IN9
+counter[7] => Equal0.IN3
+counter[7] => Equal1.IN2
+m => always0.IN1
+clr_ld <= clr_ld~reg0.DB_MAX_OUTPUT_PORT_TYPE
+shift <= shift~reg0.DB_MAX_OUTPUT_PORT_TYPE
+add <= add~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sub <= sub~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reset_au <= reset_au~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reset_counter <= reset_counter~reg0.DB_MAX_OUTPUT_PORT_TYPE
+increment_counter <= increment_counter~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|counter8:Counter
+reset => count.OUTPUTSELECT
+reset => count.OUTPUTSELECT
+reset => count.OUTPUTSELECT
+reset => count.OUTPUTSELECT
+reset => count.OUTPUTSELECT
+reset => count.OUTPUTSELECT
+reset => count.OUTPUTSELECT
+reset => count.OUTPUTSELECT
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[3]~reg0.CLK
+clk => count[4]~reg0.CLK
+clk => count[5]~reg0.CLK
+clk => count[6]~reg0.CLK
+clk => count[7]~reg0.CLK
+count_enable => count.OUTPUTSELECT
+count_enable => count.OUTPUTSELECT
+count_enable => count.OUTPUTSELECT
+count_enable => count.OUTPUTSELECT
+count_enable => count.OUTPUTSELECT
+count_enable => count.OUTPUTSELECT
+count_enable => count.OUTPUTSELECT
+count_enable => count.OUTPUTSELECT
+count[0] <= count[0].DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1].DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2].DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3].DB_MAX_OUTPUT_PORT_TYPE
+count[4] <= count[4].DB_MAX_OUTPUT_PORT_TYPE
+count[5] <= count[5].DB_MAX_OUTPUT_PORT_TYPE
+count[6] <= count[6].DB_MAX_OUTPUT_PORT_TYPE
+count[7] <= count[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|counter8:Counter|RippleCarryAdder8bit:stepper
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+S[0] <= FullAdder:FA1.S
+S[1] <= FullAdder:FA2.S
+S[2] <= FullAdder:FA3.S
+S[3] <= FullAdder:FA4.S
+S[4] <= FullAdder:FA5.S
+S[5] <= FullAdder:FA6.S
+S[6] <= FullAdder:FA7.S
+S[7] <= FullAdder:FA8.S
+CO <= FullAdder:FA8.CO
+
+
+|Multiplier|counter8:Counter|RippleCarryAdder8bit:stepper|FullAdder:FA1
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|counter8:Counter|RippleCarryAdder8bit:stepper|FullAdder:FA2
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|counter8:Counter|RippleCarryAdder8bit:stepper|FullAdder:FA3
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|counter8:Counter|RippleCarryAdder8bit:stepper|FullAdder:FA4
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|counter8:Counter|RippleCarryAdder8bit:stepper|FullAdder:FA5
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|counter8:Counter|RippleCarryAdder8bit:stepper|FullAdder:FA6
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|counter8:Counter|RippleCarryAdder8bit:stepper|FullAdder:FA7
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multiplier|counter8:Counter|RippleCarryAdder8bit:stepper|FullAdder:FA8
+A => S.IN0
+A => CO.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+B => CO.IN0
+C => S.IN1
+C => CO.IN1
+C => CO.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,115 @@
+module ArithmaticUnit
+(
+	input logic [7:0] S,
+	input logic shift,
+	input logic add,
+	input logic sub,
+	input logic clearA_loadB,
+	input logic clk,
+	
+	output logic [7:0] Aout,
+	output logic [7:0] Bout,
+	output logic x,
+	output logic m
+);
+
+	logic Aloaden, Bloaden;
+	logic Ashiften, Bshiften;
+	logic Areset, Breset;
+
+	logic [7:0] ALoadData;
+	logic [7:0] BLoadData;
+	logic AshiftDataIn, BshiftDataIn;
+	logic AshiftDataOut, BshiftDataOut;
+	
+	logic [7:0] AminusS;
+	logic [7:0] AplusS;
+	
+	ShiftRegister A
+	(
+		.clk(clk),
+		.data_in(ALoadData),
+		.reset(Areset),
+		.shift_en(Ashiften),
+		.load(Aloaden),
+		.shift_in(AshiftDataIn),
+		.data_out(Aout),
+		.shiftout(AshiftDataOut)
+	);
+	
+	ShiftRegister B
+	(
+		.clk(clk),
+		.data_in(BLoadData),
+		.reset(Breset),
+		.shift_en(Bshiften),
+		.load(Bloaden),
+		.shift_in(BshiftDataIn),
+		.data_out(Bout),
+		.shiftout(BshiftDataOut)	
+	);
+							
+	
+
+	always_ff @ (posedge clk)
+	begin
+		
+		if (clearA_loadB) begin
+			Areset <= 1'b1;
+			
+			Breset <= 1'b0;
+			Bshiften <= 1'b0;
+			Bloaden <= 1'b1;
+			BLoadData <= S;
+		end
+		
+		else if (shift) begin
+			Areset <= 1'b0;
+			Breset <= 1'b0;
+			
+			Ashiften <= 1'b1;
+			Bshiften <= 1'b1;
+			
+			Aloaden <= 1'b0;
+			Bloaden <= 1'b0;
+			
+			AshiftDataIn <= x;
+			BshiftDataIn <= AshiftDataOut;		
+		end
+		
+		else if (add) begin
+			Areset <= 1'b0;
+			Breset <= 1'b0;
+			Ashiften <= 1'b0;
+			Bshiften <= 1'b0;
+
+			Aloaden <= 1'b1;
+			Bloaden <= 1'b0;
+			
+			ALoadData = AplusS;
+		end
+		
+		else if (sub) begin
+			Areset <= 1'b0;
+			Breset <= 1'b0;
+			Ashiften <= 1'b0;
+			Bshiften <= 1'b0;
+
+			Aloaden <= 1'b1;
+			Bloaden <= 1'b0;
+			
+			ALoadData = AminusS;
+		end
+		
+		else begin
+			Areset <= 1'b0;
+			Breset <= 1'b0;
+			Ashiften <= 1'b0;
+			Bshiften <= 1'b0;
+			Aloaden <= 1'b0;
+			Bloaden <= 1'b0;
+		end
+		
+	end
+
+endmodule 

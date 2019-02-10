@@ -1,0 +1,8 @@
+module counter8
+(
+	input logic reset,
+	input logic clk,
+	input logic count_enable,
+	
+	output logic [7:0] count
+)
