@@ -8,17 +8,14 @@ module counter8
 );
 
 	logic [7:0] next_count;
+	
+	always_ff @ (posedge reset or posedge count_enable) begin
 
-	always_ff @ (posedge clk) begin
-	
-		if (reset) begin
+		if(reset)
 			count <= 8'h00;
-		end
-		
-		else if (count_enable) begin
+		else if(count_enable)
 			count <= next_count;
-		end
-	
+
 	end
 	
 	RippleCarryAdder8bit stepper

@@ -1,22 +1,24 @@
 
 State Machine - |Multiplier|controlUnit:CU|current_state
-Name current_state.INCCST current_state.SHIFTST current_state.ADDST current_state.CCOMPAREST current_state.RSTCOUNTST current_state.RESETST current_state.CALBST current_state.NOPST 
-current_state.NOPST 0 0 0 0 0 0 0 0 
-current_state.CALBST 0 0 0 0 0 0 1 1 
-current_state.RESETST 0 0 0 0 0 1 0 1 
-current_state.RSTCOUNTST 0 0 0 0 1 0 0 1 
-current_state.CCOMPAREST 0 0 0 1 0 0 0 1 
-current_state.ADDST 0 0 1 0 0 0 0 1 
-current_state.SHIFTST 0 1 0 0 0 0 0 1 
-current_state.INCCST 1 0 0 0 0 0 0 1 
+Name current_state.INCCST current_state.SHIFTST current_state.ADDST current_state.CCOMPAREST current_state.RSTCOUNTST current_state.RESETST current_state.CALBST current_state.NOPST current_state.WAITRUNST 
+current_state.NOPST 0 0 0 0 0 0 0 0 0 
+current_state.CALBST 0 0 0 0 0 0 1 1 0 
+current_state.RESETST 0 0 0 0 0 1 0 1 0 
+current_state.RSTCOUNTST 0 0 0 0 1 0 0 1 0 
+current_state.CCOMPAREST 0 0 0 1 0 0 0 1 0 
+current_state.ADDST 0 0 1 0 0 0 0 1 0 
+current_state.SHIFTST 0 1 0 0 0 0 0 1 0 
+current_state.INCCST 1 0 0 0 0 0 0 1 0 
+current_state.WAITRUNST 0 0 0 0 0 0 0 1 1 
 
 State Machine - |Multiplier|controlUnit:CU|next_state
-Name next_state.INCCST next_state.SHIFTST next_state.ADDST next_state.CCOMPAREST next_state.RSTCOUNTST next_state.RESETST next_state.CALBST next_state.NOPST 
-next_state.NOPST 0 0 0 0 0 0 0 0 
-next_state.CALBST 0 0 0 0 0 0 1 1 
-next_state.RESETST 0 0 0 0 0 1 0 1 
-next_state.RSTCOUNTST 0 0 0 0 1 0 0 1 
-next_state.CCOMPAREST 0 0 0 1 0 0 0 1 
-next_state.ADDST 0 0 1 0 0 0 0 1 
-next_state.SHIFTST 0 1 0 0 0 0 0 1 
-next_state.INCCST 1 0 0 0 0 0 0 1 
+Name next_state.INCCST next_state.SHIFTST next_state.ADDST next_state.CCOMPAREST next_state.RSTCOUNTST next_state.RESETST next_state.CALBST next_state.NOPST next_state.WAITRUNST 
+next_state.NOPST 0 0 0 0 0 0 0 0 0 
+next_state.CALBST 0 0 0 0 0 0 1 1 0 
+next_state.RESETST 0 0 0 0 0 1 0 1 0 
+next_state.RSTCOUNTST 0 0 0 0 1 0 0 1 0 
+next_state.CCOMPAREST 0 0 0 1 0 0 0 1 0 
+next_state.ADDST 0 0 1 0 0 0 0 1 0 
+next_state.SHIFTST 0 1 0 0 0 0 0 1 0 
+next_state.INCCST 1 0 0 0 0 0 0 1 0 
+next_state.WAITRUNST 0 0 0 0 0 0 0 1 1 

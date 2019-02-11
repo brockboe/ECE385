@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Multiplier
-Sun Feb 10 18:19:30 2019
+Mon Feb 11 00:59:14 2019
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -53,15 +53,15 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Feb 10 18:19:30 2019       ;
+; Analysis & Synthesis Status        ; Successful - Mon Feb 11 00:59:14 2019       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; Multiplier                                  ;
 ; Top-level Entity Name              ; Multiplier                                  ;
 ; Family                             ; Cyclone IV E                                ;
 ; Total logic elements               ; 135                                         ;
 ;     Total combinational functions  ; 122                                         ;
-;     Dedicated logic registers      ; 63                                          ;
-; Total registers                    ; 63                                          ;
+;     Dedicated logic registers      ; 64                                          ;
+; Total registers                    ; 64                                          ;
 ; Total pins                         ; 57                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
@@ -198,15 +198,15 @@ refer to the applicable agreement for further details.
 ; Total combinational functions               ; 122       ;
 ; Logic element usage by number of LUT inputs ;           ;
 ;     -- 4 input functions                    ; 90        ;
-;     -- 3 input functions                    ; 20        ;
-;     -- <=2 input functions                  ; 12        ;
+;     -- 3 input functions                    ; 16        ;
+;     -- <=2 input functions                  ; 16        ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
 ;     -- normal mode                          ; 122       ;
 ;     -- arithmetic mode                      ; 0         ;
 ;                                             ;           ;
-; Total registers                             ; 63        ;
-;     -- Dedicated logic registers            ; 63        ;
+; Total registers                             ; 64        ;
+;     -- Dedicated logic registers            ; 64        ;
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
 ; I/O pins                                    ; 57        ;
@@ -214,9 +214,9 @@ refer to the applicable agreement for further details.
 ; Embedded Multiplier 9-bit elements          ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 63        ;
-; Total fan-out                               ; 723       ;
-; Average fan-out                             ; 2.42      ;
+; Maximum fan-out                             ; 56        ;
+; Total fan-out                               ; 721       ;
+; Average fan-out                             ; 2.40      ;
 +---------------------------------------------+-----------+
 
 
@@ -225,7 +225,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------+---------------------------+--------------+
 ; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                              ; Entity Name               ; Library Name ;
 +----------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------+---------------------------+--------------+
-; |Multiplier                                  ; 122 (0)             ; 63 (0)                    ; 0           ; 0            ; 0       ; 0         ; 57   ; 0            ; |Multiplier                                                                                                      ; Multiplier                ; work         ;
+; |Multiplier                                  ; 122 (0)             ; 64 (0)                    ; 0           ; 0            ; 0       ; 0         ; 57   ; 0            ; |Multiplier                                                                                                      ; Multiplier                ; work         ;
 ;    |ArithmaticUnit:AU|                       ; 65 (25)             ; 39 (23)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU                                                                                    ; ArithmaticUnit            ; work         ;
 ;       |RippleCarryAdder8bit:Adder|           ; 9 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarryAdder8bit:Adder                                                         ; RippleCarryAdder8bit      ; work         ;
 ;          |FullAdder:FA2|                     ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarryAdder8bit:Adder|FullAdder:FA2                                           ; FullAdder                 ; work         ;
@@ -254,47 +254,48 @@ refer to the applicable agreement for further details.
 ;    |HexDriver:AUd|                           ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|HexDriver:AUd                                                                                        ; HexDriver                 ; work         ;
 ;    |HexDriver:BLd|                           ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|HexDriver:BLd                                                                                        ; HexDriver                 ; work         ;
 ;    |HexDriver:BUd|                           ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|HexDriver:BUd                                                                                        ; HexDriver                 ; work         ;
-;    |controlUnit:CU|                          ; 18 (18)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|controlUnit:CU                                                                                       ; controlUnit               ; work         ;
-;    |counter8:Counter|                        ; 11 (9)              ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|counter8:Counter                                                                                     ; counter8                  ; work         ;
-;       |RippleCarryAdder8bit:stepper|         ; 2 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|counter8:Counter|RippleCarryAdder8bit:stepper                                                        ; RippleCarryAdder8bit      ; work         ;
-;          |FullAdder:FA4|                     ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|counter8:Counter|RippleCarryAdder8bit:stepper|FullAdder:FA4                                          ; FullAdder                 ; work         ;
+;    |controlUnit:CU|                          ; 19 (19)             ; 17 (17)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|controlUnit:CU                                                                                       ; controlUnit               ; work         ;
+;    |counter8:Counter|                        ; 10 (9)              ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|counter8:Counter                                                                                     ; counter8                  ; work         ;
+;       |RippleCarryAdder8bit:stepper|         ; 1 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|counter8:Counter|RippleCarryAdder8bit:stepper                                                        ; RippleCarryAdder8bit      ; work         ;
 ;          |FullAdder:FA6|                     ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|counter8:Counter|RippleCarryAdder8bit:stepper|FullAdder:FA6                                          ; FullAdder                 ; work         ;
 +----------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------+---------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
 Encoding Type:  One-Hot
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; State Machine - |Multiplier|controlUnit:CU|current_state                                                                                                                                                                 ;
-+--------------------------+----------------------+-----------------------+---------------------+--------------------------+--------------------------+-----------------------+----------------------+---------------------+
-; Name                     ; current_state.INCCST ; current_state.SHIFTST ; current_state.ADDST ; current_state.CCOMPAREST ; current_state.RSTCOUNTST ; current_state.RESETST ; current_state.CALBST ; current_state.NOPST ;
-+--------------------------+----------------------+-----------------------+---------------------+--------------------------+--------------------------+-----------------------+----------------------+---------------------+
-; current_state.NOPST      ; 0                    ; 0                     ; 0                   ; 0                        ; 0                        ; 0                     ; 0                    ; 0                   ;
-; current_state.CALBST     ; 0                    ; 0                     ; 0                   ; 0                        ; 0                        ; 0                     ; 1                    ; 1                   ;
-; current_state.RESETST    ; 0                    ; 0                     ; 0                   ; 0                        ; 0                        ; 1                     ; 0                    ; 1                   ;
-; current_state.RSTCOUNTST ; 0                    ; 0                     ; 0                   ; 0                        ; 1                        ; 0                     ; 0                    ; 1                   ;
-; current_state.CCOMPAREST ; 0                    ; 0                     ; 0                   ; 1                        ; 0                        ; 0                     ; 0                    ; 1                   ;
-; current_state.ADDST      ; 0                    ; 0                     ; 1                   ; 0                        ; 0                        ; 0                     ; 0                    ; 1                   ;
-; current_state.SHIFTST    ; 0                    ; 1                     ; 0                   ; 0                        ; 0                        ; 0                     ; 0                    ; 1                   ;
-; current_state.INCCST     ; 1                    ; 0                     ; 0                   ; 0                        ; 0                        ; 0                     ; 0                    ; 1                   ;
-+--------------------------+----------------------+-----------------------+---------------------+--------------------------+--------------------------+-----------------------+----------------------+---------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |Multiplier|controlUnit:CU|current_state                                                                                                                                                                                           ;
++--------------------------+----------------------+-----------------------+---------------------+--------------------------+--------------------------+-----------------------+----------------------+---------------------+-------------------------+
+; Name                     ; current_state.INCCST ; current_state.SHIFTST ; current_state.ADDST ; current_state.CCOMPAREST ; current_state.RSTCOUNTST ; current_state.RESETST ; current_state.CALBST ; current_state.NOPST ; current_state.WAITRUNST ;
++--------------------------+----------------------+-----------------------+---------------------+--------------------------+--------------------------+-----------------------+----------------------+---------------------+-------------------------+
+; current_state.NOPST      ; 0                    ; 0                     ; 0                   ; 0                        ; 0                        ; 0                     ; 0                    ; 0                   ; 0                       ;
+; current_state.CALBST     ; 0                    ; 0                     ; 0                   ; 0                        ; 0                        ; 0                     ; 1                    ; 1                   ; 0                       ;
+; current_state.RESETST    ; 0                    ; 0                     ; 0                   ; 0                        ; 0                        ; 1                     ; 0                    ; 1                   ; 0                       ;
+; current_state.RSTCOUNTST ; 0                    ; 0                     ; 0                   ; 0                        ; 1                        ; 0                     ; 0                    ; 1                   ; 0                       ;
+; current_state.CCOMPAREST ; 0                    ; 0                     ; 0                   ; 1                        ; 0                        ; 0                     ; 0                    ; 1                   ; 0                       ;
+; current_state.ADDST      ; 0                    ; 0                     ; 1                   ; 0                        ; 0                        ; 0                     ; 0                    ; 1                   ; 0                       ;
+; current_state.SHIFTST    ; 0                    ; 1                     ; 0                   ; 0                        ; 0                        ; 0                     ; 0                    ; 1                   ; 0                       ;
+; current_state.INCCST     ; 1                    ; 0                     ; 0                   ; 0                        ; 0                        ; 0                     ; 0                    ; 1                   ; 0                       ;
+; current_state.WAITRUNST  ; 0                    ; 0                     ; 0                   ; 0                        ; 0                        ; 0                     ; 0                    ; 1                   ; 1                       ;
++--------------------------+----------------------+-----------------------+---------------------+--------------------------+--------------------------+-----------------------+----------------------+---------------------+-------------------------+
 
 
 Encoding Type:  One-Hot
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; State Machine - |Multiplier|controlUnit:CU|next_state                                                                                                                                         ;
-+-----------------------+-------------------+--------------------+------------------+-----------------------+-----------------------+--------------------+-------------------+------------------+
-; Name                  ; next_state.INCCST ; next_state.SHIFTST ; next_state.ADDST ; next_state.CCOMPAREST ; next_state.RSTCOUNTST ; next_state.RESETST ; next_state.CALBST ; next_state.NOPST ;
-+-----------------------+-------------------+--------------------+------------------+-----------------------+-----------------------+--------------------+-------------------+------------------+
-; next_state.NOPST      ; 0                 ; 0                  ; 0                ; 0                     ; 0                     ; 0                  ; 0                 ; 0                ;
-; next_state.CALBST     ; 0                 ; 0                  ; 0                ; 0                     ; 0                     ; 0                  ; 1                 ; 1                ;
-; next_state.RESETST    ; 0                 ; 0                  ; 0                ; 0                     ; 0                     ; 1                  ; 0                 ; 1                ;
-; next_state.RSTCOUNTST ; 0                 ; 0                  ; 0                ; 0                     ; 1                     ; 0                  ; 0                 ; 1                ;
-; next_state.CCOMPAREST ; 0                 ; 0                  ; 0                ; 1                     ; 0                     ; 0                  ; 0                 ; 1                ;
-; next_state.ADDST      ; 0                 ; 0                  ; 1                ; 0                     ; 0                     ; 0                  ; 0                 ; 1                ;
-; next_state.SHIFTST    ; 0                 ; 1                  ; 0                ; 0                     ; 0                     ; 0                  ; 0                 ; 1                ;
-; next_state.INCCST     ; 1                 ; 0                  ; 0                ; 0                     ; 0                     ; 0                  ; 0                 ; 1                ;
-+-----------------------+-------------------+--------------------+------------------+-----------------------+-----------------------+--------------------+-------------------+------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |Multiplier|controlUnit:CU|next_state                                                                                                                                                                ;
++-----------------------+-------------------+--------------------+------------------+-----------------------+-----------------------+--------------------+-------------------+------------------+----------------------+
+; Name                  ; next_state.INCCST ; next_state.SHIFTST ; next_state.ADDST ; next_state.CCOMPAREST ; next_state.RSTCOUNTST ; next_state.RESETST ; next_state.CALBST ; next_state.NOPST ; next_state.WAITRUNST ;
++-----------------------+-------------------+--------------------+------------------+-----------------------+-----------------------+--------------------+-------------------+------------------+----------------------+
+; next_state.NOPST      ; 0                 ; 0                  ; 0                ; 0                     ; 0                     ; 0                  ; 0                 ; 0                ; 0                    ;
+; next_state.CALBST     ; 0                 ; 0                  ; 0                ; 0                     ; 0                     ; 0                  ; 1                 ; 1                ; 0                    ;
+; next_state.RESETST    ; 0                 ; 0                  ; 0                ; 0                     ; 0                     ; 1                  ; 0                 ; 1                ; 0                    ;
+; next_state.RSTCOUNTST ; 0                 ; 0                  ; 0                ; 0                     ; 1                     ; 0                  ; 0                 ; 1                ; 0                    ;
+; next_state.CCOMPAREST ; 0                 ; 0                  ; 0                ; 1                     ; 0                     ; 0                  ; 0                 ; 1                ; 0                    ;
+; next_state.ADDST      ; 0                 ; 0                  ; 1                ; 0                     ; 0                     ; 0                  ; 0                 ; 1                ; 0                    ;
+; next_state.SHIFTST    ; 0                 ; 1                  ; 0                ; 0                     ; 0                     ; 0                  ; 0                 ; 1                ; 0                    ;
+; next_state.INCCST     ; 1                 ; 0                  ; 0                ; 0                     ; 0                     ; 0                  ; 0                 ; 1                ; 0                    ;
+; next_state.WAITRUNST  ; 0                 ; 0                  ; 0                ; 0                     ; 0                     ; 0                  ; 0                 ; 1                ; 1                    ;
++-----------------------+-------------------+--------------------+------------------+-----------------------+-----------------------+--------------------+-------------------+------------------+----------------------+
 
 
 +--------------------------------------------------------------+
@@ -302,22 +303,21 @@ Encoding Type:  One-Hot
 +-----------------------------------------+--------------------+
 ; Register name                           ; Reason for Removal ;
 +-----------------------------------------+--------------------+
-; controlUnit:CU|current_state~10         ; Lost fanout        ;
 ; controlUnit:CU|current_state~11         ; Lost fanout        ;
 ; controlUnit:CU|current_state~12         ; Lost fanout        ;
 ; controlUnit:CU|current_state~13         ; Lost fanout        ;
-; controlUnit:CU|current_state~14         ; Lost fanout        ;
 ; controlUnit:CU|current_state~15         ; Lost fanout        ;
 ; controlUnit:CU|current_state~16         ; Lost fanout        ;
 ; controlUnit:CU|current_state~17         ; Lost fanout        ;
-; controlUnit:CU|next_state~4             ; Lost fanout        ;
-; controlUnit:CU|next_state~5             ; Lost fanout        ;
-; controlUnit:CU|next_state~6             ; Lost fanout        ;
+; controlUnit:CU|current_state~18         ; Lost fanout        ;
 ; controlUnit:CU|next_state~7             ; Lost fanout        ;
 ; controlUnit:CU|next_state~8             ; Lost fanout        ;
 ; controlUnit:CU|next_state~9             ; Lost fanout        ;
-; controlUnit:CU|next_state~10            ; Lost fanout        ;
 ; controlUnit:CU|next_state~11            ; Lost fanout        ;
+; controlUnit:CU|next_state~12            ; Lost fanout        ;
+; controlUnit:CU|next_state~13            ; Lost fanout        ;
+; controlUnit:CU|next_state~14            ; Lost fanout        ;
+; controlUnit:CU|current_state.WAITRUNST  ; Lost fanout        ;
 ; controlUnit:CU|current_state.NOPST      ; Lost fanout        ;
 ; controlUnit:CU|current_state.CALBST     ; Lost fanout        ;
 ; controlUnit:CU|current_state.RESETST    ; Lost fanout        ;
@@ -326,7 +326,7 @@ Encoding Type:  One-Hot
 ; controlUnit:CU|current_state.ADDST      ; Lost fanout        ;
 ; controlUnit:CU|current_state.SHIFTST    ; Lost fanout        ;
 ; controlUnit:CU|current_state.INCCST     ; Lost fanout        ;
-; Total Number of Removed Registers = 24  ;                    ;
+; Total Number of Removed Registers = 23  ;                    ;
 +-----------------------------------------+--------------------+
 
 
@@ -335,10 +335,10 @@ Encoding Type:  One-Hot
 +---------------------------------+--------------------+-------------------------------------------------------------------------------+
 ; Register name                   ; Reason for Removal ; Registers Removed due to This Register                                        ;
 +---------------------------------+--------------------+-------------------------------------------------------------------------------+
-; controlUnit:CU|current_state~10 ; Lost Fanouts       ; controlUnit:CU|current_state.CALBST, controlUnit:CU|current_state.RSTCOUNTST, ;
+; controlUnit:CU|current_state~11 ; Lost Fanouts       ; controlUnit:CU|current_state.CALBST, controlUnit:CU|current_state.RSTCOUNTST, ;
 ;                                 ;                    ; controlUnit:CU|current_state.ADDST, controlUnit:CU|current_state.INCCST       ;
-; controlUnit:CU|current_state~11 ; Lost Fanouts       ; controlUnit:CU|current_state.RESETST, controlUnit:CU|current_state.SHIFTST    ;
-; controlUnit:CU|current_state~12 ; Lost Fanouts       ; controlUnit:CU|current_state.CCOMPAREST                                       ;
+; controlUnit:CU|current_state~12 ; Lost Fanouts       ; controlUnit:CU|current_state.RESETST, controlUnit:CU|current_state.SHIFTST    ;
+; controlUnit:CU|current_state~13 ; Lost Fanouts       ; controlUnit:CU|current_state.CCOMPAREST                                       ;
 +---------------------------------+--------------------+-------------------------------------------------------------------------------+
 
 
@@ -347,12 +347,12 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 63    ;
-; Number of registers using Synchronous Clear  ; 5     ;
+; Total registers                              ; 64    ;
+; Number of registers using Synchronous Clear  ; 6     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Clear ; 8     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 47    ;
+; Number of registers using Clock Enable       ; 39    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -362,11 +362,10 @@ Encoding Type:  One-Hot
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------+
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |Multiplier|counter8:Counter|count[0]                     ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |Multiplier|controlUnit:CU|add                            ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |Multiplier|ArithmaticUnit:AU|ShiftRegister:A|data_out[4] ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |Multiplier|ArithmaticUnit:AU|ShiftRegister:B|data_out[3] ;
-; 5:1                ; 7 bits    ; 21 LEs        ; 14 LEs               ; 7 LEs                  ; Yes        ; |Multiplier|ArithmaticUnit:AU|ALoadData[2]                ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |Multiplier|ArithmaticUnit:AU|ShiftRegister:A|data_out[5] ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |Multiplier|ArithmaticUnit:AU|ShiftRegister:B|data_out[7] ;
+; 5:1                ; 7 bits    ; 21 LEs        ; 14 LEs               ; 7 LEs                  ; Yes        ; |Multiplier|ArithmaticUnit:AU|ALoadData[6]                ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------+
 
 
@@ -425,19 +424,20 @@ Encoding Type:  One-Hot
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 57                          ;
-; cycloneiii_ff         ; 63                          ;
-;     ENA               ; 47                          ;
-;     SCLR              ; 5                           ;
+; cycloneiii_ff         ; 64                          ;
+;     CLR               ; 8                           ;
+;     ENA               ; 39                          ;
+;     SCLR              ; 6                           ;
 ;     plain             ; 11                          ;
 ; cycloneiii_lcell_comb ; 126                         ;
 ;     normal            ; 126                         ;
-;         1 data inputs ; 5                           ;
-;         2 data inputs ; 11                          ;
-;         3 data inputs ; 20                          ;
+;         1 data inputs ; 6                           ;
+;         2 data inputs ; 14                          ;
+;         3 data inputs ; 16                          ;
 ;         4 data inputs ; 90                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 10.00                       ;
-; Average LUT depth     ; 3.14                        ;
+; Average LUT depth     ; 2.99                        ;
 +-----------------------+-----------------------------+
 
 
@@ -456,7 +456,7 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Sun Feb 10 18:19:20 2019
+    Info: Processing started: Mon Feb 11 00:59:05 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Multiplier -c Multiplier
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
@@ -490,7 +490,7 @@ Info (12128): Elaborating entity "ShiftRegister" for hierarchy "ArithmaticUnit:A
 Info (12128): Elaborating entity "controlUnit" for hierarchy "controlUnit:CU" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 65
 Info (12128): Elaborating entity "counter8" for hierarchy "counter8:Counter" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 74
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 24 registers lost all their fanouts during netlist optimizations.
+Info (17049): 23 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/output_files/Multiplier.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -499,9 +499,9 @@ Info (21057): Implemented 193 device resources after synthesis - the final resou
     Info (21059): Implemented 45 output pins
     Info (21061): Implemented 136 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4864 megabytes
-    Info: Processing ended: Sun Feb 10 18:19:30 2019
-    Info: Elapsed time: 00:00:10
+    Info: Peak virtual memory: 4861 megabytes
+    Info: Processing ended: Mon Feb 11 00:59:14 2019
+    Info: Elapsed time: 00:00:09
     Info: Total CPU time (on all processors): 00:00:23
 
 

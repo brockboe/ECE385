@@ -10,15 +10,15 @@ cModel Technology
 Z0 dC:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/simulation/modelsim
 vArithmaticUnit
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1549842957
+Z2 !s110 1549867886
 !i10b 1
-!s100 A>Nj;2WSMQ<K[UWID;m]f1
-IbN=TamRYAZ@ZP>NSHYB]V2
+!s100 gZ^jX>c=0D5[Hn?mc[UOB1
+I32GkeVZ9?OQD4O:S0:Si`1
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 !s105 ArithmaticUnit_sv_unit
 S1
 R0
-w1549842036
+w1549844320
 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ArithmaticUnit.sv
 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ArithmaticUnit.sv
 L0 1
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1549842957.000000
+Z5 !s108 1549867886.000000
 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ArithmaticUnit.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ArithmaticUnit.sv|
 !i113 1
@@ -36,18 +36,18 @@ Z8 tCvgOpt 0
 n@arithmatic@unit
 vcontrolUnit
 R1
-DXx4 work 19 controlUnit_sv_unit 0 22 b;M<=Y0;JhAN`z5ogNVJE3
+DXx4 work 19 controlUnit_sv_unit 0 22 h0T;Zj?nchgZ?Ghia;AiY0
 R3
 r1
 !s85 0
 31
 !i10b 1
-!s100 e?FAZ9QYI0143dnkcZ4DV1
-ID=HK;mmFHCh0ame1[eRG_0
+!s100 eI:G1^WkUB[4OOoMe_>6Y2
+IlBM[hNA]0>H]bE>ZmzH4N1
 !s105 controlUnit_sv_unit
 S1
 R0
-Z9 w1549842755
+Z9 w1549866898
 Z10 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/controlUnit.sv
 Z11 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/controlUnit.sv
 L0 14
@@ -62,13 +62,13 @@ R8
 ncontrol@unit
 XcontrolUnit_sv_unit
 R1
-Vb;M<=Y0;JhAN`z5ogNVJE3
+Vh0T;Zj?nchgZ?Ghia;AiY0
 r1
 !s85 0
 31
 !i10b 1
-!s100 L`PU[01YMf^[_h9ELJlNF2
-Ib;M<=Y0;JhAN`z5ogNVJE3
+!s100 cZ=mfHgF<PZzz6zicDT:]0
+Ih0T;Zj?nchgZ?Ghia;AiY0
 !i103 1
 S1
 R0
@@ -89,13 +89,13 @@ vcounter8
 R1
 R2
 !i10b 1
-!s100 _fi4gY7O5M5`BN12RVYZQ3
-I;aTaZ99fg?PG4_gj?h^0n0
+!s100 BZOX4ncUL=5m_O;l?XK`d2
+I^HfJcVMe9GoV[O7d=n?h13
 R3
 !s105 counter_sv_unit
 S1
 R0
-w1549689294
+w1549865983
 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/counter.sv
 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/counter.sv
 L0 1
@@ -166,13 +166,13 @@ vMultiplier
 R1
 R2
 !i10b 1
-!s100 Q3zzPl6aPVcA7b[PnU16C0
-I14=;`:m;EAgafWzh=0RnN3
+!s100 :6Ph_2P9_W^7n?Hm[UmVY1
+ICW@O_^8ij:lXXkVTz?YNU3
 R3
 !s105 _8BitMultiplier2dtoplevel_sv_unit
 S1
 R0
-w1549840775
+w1549843557
 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv
 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv
 L0 1
@@ -270,13 +270,13 @@ vtestbench
 R1
 R2
 !i10b 1
-!s100 BPW4blWnRoZ8hk333jHGQ1
-IbW?lC8;C]mLFjz4c2L;G=0
+!s100 THG2kYj3ioVcOJWXQo;cR1
+I6CnLN9^48J?iZiB62`G^L2
 R3
 !s105 testbench_sv_unit
 S1
 R0
-w1549842950
+w1549867876
 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/testbench.sv
 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/testbench.sv
 L0 1

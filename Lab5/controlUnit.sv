@@ -7,7 +7,7 @@
 `define SHIFTST		8'h06
 `define INCCST			8'h07
 
-typedef enum logic[7:0] {NOPST, CALBST, RESETST, RSTCOUNTST, CCOMPAREST, ADDST, SHIFTST, INCCST} state;
+typedef enum logic[7:0] {NOPST, CALBST, RESETST, RSTCOUNTST, CCOMPAREST, ADDST, SHIFTST, INCCST, WAITRUNST} state;
 state current_state;
 state next_state;
 
@@ -129,13 +129,8 @@ module controlUnit
 						increment_counter = 1'b0;
 						clearA = 1'b0;						
 
-						if(counter >= 8'h07) begin
-							if(~run)
-								next_state = NOPST;
-							else
-								next_state = CCOMPAREST;
-							
-							end
+						if(counter >= 8'h08 )
+							next_state = WAITRUNST;
 						else
 							next_state = ADDST;
 						end
@@ -207,6 +202,26 @@ module controlUnit
 					
 						next_state = CCOMPAREST;
 					
+					end
+					
+				WAITRUNST:
+					
+					begin
+
+						clr_ld = 1'b0;
+						shift = 1'b0;
+						add = 1'b0;
+						sub = 1'b0;
+						reset_counter = 1'b0;
+						increment_counter = 1'b0;
+						reset_au = 1'b0;
+						clearA = 1'b0;
+	
+						if(~run)
+							next_state = NOPST;
+						else
+							next_state = WAITRUNST;
+	
 					end
 			
 			endcase
