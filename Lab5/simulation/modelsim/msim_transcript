@@ -12,17 +12,17 @@
 # 
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ShiftRegister.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:21:31 on Feb 09,2019
+# Start time: 17:55:57 on Feb 10,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ShiftRegister.sv 
 # -- Compiling module ShiftRegister
 # 
 # Top level modules:
 # 	ShiftRegister
-# End time: 02:21:31 on Feb 09,2019, Elapsed time: 0:00:00
+# End time: 17:55:57 on Feb 10,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/RippleCarryAdder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:21:31 on Feb 09,2019
+# Start time: 17:55:57 on Feb 10,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/RippleCarryAdder.sv 
 # -- Compiling module FullAdder
 # -- Compiling module RippleCarryAdder8bit
@@ -30,83 +30,93 @@
 # 
 # Top level modules:
 # 	RippleCarrySubtractor8bit
-# End time: 02:21:31 on Feb 09,2019, Elapsed time: 0:00:00
+# End time: 17:55:57 on Feb 10,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ArithmaticUnit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:21:31 on Feb 09,2019
+# Start time: 17:55:57 on Feb 10,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ArithmaticUnit.sv 
 # -- Compiling module ArithmaticUnit
 # 
 # Top level modules:
 # 	ArithmaticUnit
-# End time: 02:21:31 on Feb 09,2019, Elapsed time: 0:00:00
+# End time: 17:55:57 on Feb 10,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:21:31 on Feb 09,2019
+# Start time: 17:55:57 on Feb 10,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv 
 # -- Compiling module Multiplier
 # 
 # Top level modules:
 # 	Multiplier
-# End time: 02:21:31 on Feb 09,2019, Elapsed time: 0:00:00
+# End time: 17:55:57 on Feb 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:55:57 on Feb 10,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 17:55:57 on Feb 10,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/counter.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:21:31 on Feb 09,2019
+# Start time: 17:55:57 on Feb 10,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/counter.sv 
 # -- Compiling module counter8
 # 
 # Top level modules:
 # 	counter8
-# End time: 02:21:32 on Feb 09,2019, Elapsed time: 0:00:01
+# End time: 17:55:57 on Feb 10,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/controlUnit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:21:32 on Feb 09,2019
+# Start time: 17:55:57 on Feb 10,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/controlUnit.sv 
 # -- Compiling package controlUnit_sv_unit
 # -- Compiling module controlUnit
 # 
 # Top level modules:
 # 	controlUnit
-# End time: 02:21:32 on Feb 09,2019, Elapsed time: 0:00:00
+# End time: 17:55:57 on Feb 10,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/testbench.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:21:32 on Feb 09,2019
+# Start time: 17:55:57 on Feb 10,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/testbench.sv 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 02:21:32 on Feb 09,2019, Elapsed time: 0:00:00
+# End time: 17:55:57 on Feb 10,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ArithmaticUnit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:21:32 on Feb 09,2019
+# Start time: 17:55:57 on Feb 10,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ArithmaticUnit.sv 
 # -- Compiling module ArithmaticUnit
 # 
 # Top level modules:
 # 	ArithmaticUnit
-# End time: 02:21:32 on Feb 09,2019, Elapsed time: 0:00:00
+# End time: 17:55:57 on Feb 10,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ShiftRegister.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:21:32 on Feb 09,2019
+# Start time: 17:55:57 on Feb 10,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ShiftRegister.sv 
 # -- Compiling module ShiftRegister
 # 
 # Top level modules:
 # 	ShiftRegister
-# End time: 02:21:32 on Feb 09,2019, Elapsed time: 0:00:00
+# End time: 17:55:57 on Feb 10,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/RippleCarryAdder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:21:32 on Feb 09,2019
+# Start time: 17:55:57 on Feb 10,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/RippleCarryAdder.sv 
 # -- Compiling module FullAdder
 # -- Compiling module RippleCarryAdder8bit
@@ -114,25 +124,26 @@
 # 
 # Top level modules:
 # 	RippleCarrySubtractor8bit
-# End time: 02:21:32 on Feb 09,2019, Elapsed time: 0:00:00
+# End time: 17:55:57 on Feb 10,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 02:21:32 on Feb 09,2019
+# Start time: 17:55:57 on Feb 10,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv 
 # -- Compiling module Multiplier
 # 
 # Top level modules:
 # 	Multiplier
-# End time: 02:21:32 on Feb 09,2019, Elapsed time: 0:00:00
+# End time: 17:55:57 on Feb 10,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testbench
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
-# Start time: 02:21:32 on Feb 09,2019
+# Start time: 17:55:57 on Feb 10,2019
 # Loading sv_std.std
 # Loading work.testbench
 # Loading work.Multiplier
+# Loading work.HexDriver
 # Loading work.ArithmaticUnit
 # Loading work.RippleCarryAdder8bit
 # Loading work.FullAdder
@@ -148,5 +159,5 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run 1000 ns
-# End time: 02:21:44 on Feb 09,2019, Elapsed time: 0:00:12
+# End time: 17:57:01 on Feb 10,2019, Elapsed time: 0:01:04
 # Errors: 0, Warnings: 0

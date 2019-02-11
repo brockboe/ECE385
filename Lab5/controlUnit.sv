@@ -23,6 +23,7 @@ module controlUnit
 	output logic sub,
 	output logic reset_au,
 	output logic reset_counter,
+	output logic clearA,
 	output logic increment_counter
 );
 
@@ -60,6 +61,7 @@ module controlUnit
 						reset_counter = 1'b0;
 						increment_counter = 1'b0;
 						reset_au = 1'b0;
+						clearA = 1'b0;
 					
 					end
 				
@@ -73,6 +75,7 @@ module controlUnit
 						reset_counter = 1'b0;
 						increment_counter = 1'b0;
 						reset_au = 1'b0;
+						clearA = 1'b0;
 	
 						next_state = NOPST;
 						
@@ -89,6 +92,7 @@ module controlUnit
 						reset_counter = 1'b1;
 						increment_counter = 1'b0;
 						reset_au = 1'b1;
+						clearA = 1'b0;
 						
 						next_state = NOPST;
 
@@ -105,6 +109,9 @@ module controlUnit
 						sub = 1'b0;
 						reset_counter = 1'b1;
 						increment_counter = 1'b0;
+						clearA = 1'b1;
+						
+						
 	
 						next_state = CCOMPAREST;
 						
@@ -120,9 +127,15 @@ module controlUnit
 						sub = 1'b0;
 						reset_counter = 1'b0;
 						increment_counter = 1'b0;
+						clearA = 1'b0;						
 
-						if(counter >= 8'h07)
-							next_state = NOPST;
+						if(counter >= 8'h07) begin
+							if(~run)
+								next_state = NOPST;
+							else
+								next_state = CCOMPAREST;
+							
+							end
 						else
 							next_state = ADDST;
 						end
@@ -131,7 +144,9 @@ module controlUnit
 				
 					begin 
 					
-						if(m == 0 | counter == 8'h07) begin
+						clearA = 1'b0;					
+					
+						if(m == 0) begin
 							clr_ld = 1'b0;
 							shift = 1'b0;
 							add = 1'b0;
@@ -140,7 +155,7 @@ module controlUnit
 							increment_counter = 1'b0;						
 						end
 					
-						else if(counter == 8'h06) begin
+						else if(counter == 8'h07) begin
 							clr_ld = 1'b0;
 							shift = 1'b0;
 							add = 1'b0;
@@ -172,6 +187,7 @@ module controlUnit
 						sub = 1'b0;
 						reset_counter = 1'b0;
 						increment_counter = 1'b0;
+						clearA = 1'b0;						
 						
 						next_state = INCCST;
 						
@@ -187,6 +203,7 @@ module controlUnit
 						sub = 1'b0;
 						reset_counter = 1'b0;
 						increment_counter = 1'b1;
+						clearA = 1'b0;					
 					
 						next_state = CCOMPAREST;
 					

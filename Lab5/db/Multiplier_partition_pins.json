@@ -72,6 +72,126 @@
 					"strict" : false
 				},
 				{
+					"name" : "AhexU[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AhexU[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AhexU[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AhexU[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AhexU[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AhexU[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AhexU[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AhexL[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AhexL[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AhexL[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AhexL[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AhexL[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AhexL[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AhexL[6]",
+					"strict" : false
+				},
+				{
+					"name" : "BhexU[0]",
+					"strict" : false
+				},
+				{
+					"name" : "BhexU[1]",
+					"strict" : false
+				},
+				{
+					"name" : "BhexU[2]",
+					"strict" : false
+				},
+				{
+					"name" : "BhexU[3]",
+					"strict" : false
+				},
+				{
+					"name" : "BhexU[4]",
+					"strict" : false
+				},
+				{
+					"name" : "BhexU[5]",
+					"strict" : false
+				},
+				{
+					"name" : "BhexU[6]",
+					"strict" : false
+				},
+				{
+					"name" : "BhexL[0]",
+					"strict" : false
+				},
+				{
+					"name" : "BhexL[1]",
+					"strict" : false
+				},
+				{
+					"name" : "BhexL[2]",
+					"strict" : false
+				},
+				{
+					"name" : "BhexL[3]",
+					"strict" : false
+				},
+				{
+					"name" : "BhexL[4]",
+					"strict" : false
+				},
+				{
+					"name" : "BhexL[5]",
+					"strict" : false
+				},
+				{
+					"name" : "BhexL[6]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "S[7]",
+					"strict" : false
+				},
+				{
 					"name" : "S[6]",
 					"strict" : false
 				},
@@ -100,23 +220,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "S[7]",
-					"strict" : false
-				},
-				{
-					"name" : "clk",
-					"strict" : false
-				},
-				{
 					"name" : "reset",
 					"strict" : false
 				},
 				{
-					"name" : "clearA_loadB",
+					"name" : "run",
 					"strict" : false
 				},
 				{
-					"name" : "run",
+					"name" : "clearA_loadB",
 					"strict" : false
 				}
 			]

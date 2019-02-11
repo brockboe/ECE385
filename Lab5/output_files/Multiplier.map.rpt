@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Multiplier
-Sat Feb 09 02:28:08 2019
+Sun Feb 10 18:19:30 2019
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -53,15 +53,15 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Feb 09 02:28:08 2019       ;
+; Analysis & Synthesis Status        ; Successful - Sun Feb 10 18:19:30 2019       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; Multiplier                                  ;
 ; Top-level Entity Name              ; Multiplier                                  ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 111                                         ;
-;     Total combinational functions  ; 98                                          ;
-;     Dedicated logic registers      ; 62                                          ;
-; Total registers                    ; 62                                          ;
+; Total logic elements               ; 135                                         ;
+;     Total combinational functions  ; 122                                         ;
+;     Dedicated logic registers      ; 63                                          ;
+; Total registers                    ; 63                                          ;
 ; Total pins                         ; 57                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
@@ -182,6 +182,7 @@ refer to the applicable agreement for further details.
 ; RippleCarryAdder.sv              ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/RippleCarryAdder.sv        ;         ;
 ; ArithmaticUnit.sv                ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ArithmaticUnit.sv          ;         ;
 ; 8BitMultiplier-toplevel.sv       ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv ;         ;
+; HexDriver.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/HexDriver.sv               ;         ;
 ; counter.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/counter.sv                 ;         ;
 ; controlUnit.sv                   ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/controlUnit.sv             ;         ;
 +----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+---------+
@@ -192,20 +193,20 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 111       ;
+; Estimated Total logic elements              ; 135       ;
 ;                                             ;           ;
-; Total combinational functions               ; 98        ;
+; Total combinational functions               ; 122       ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 60        ;
-;     -- 3 input functions                    ; 21        ;
-;     -- <=2 input functions                  ; 17        ;
+;     -- 4 input functions                    ; 90        ;
+;     -- 3 input functions                    ; 20        ;
+;     -- <=2 input functions                  ; 12        ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 98        ;
+;     -- normal mode                          ; 122       ;
 ;     -- arithmetic mode                      ; 0         ;
 ;                                             ;           ;
-; Total registers                             ; 62        ;
-;     -- Dedicated logic registers            ; 62        ;
+; Total registers                             ; 63        ;
+;     -- Dedicated logic registers            ; 63        ;
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
 ; I/O pins                                    ; 57        ;
@@ -213,9 +214,9 @@ refer to the applicable agreement for further details.
 ; Embedded Multiplier 9-bit elements          ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 62        ;
-; Total fan-out                               ; 581       ;
-; Average fan-out                             ; 2.12      ;
+; Maximum fan-out                             ; 63        ;
+; Total fan-out                               ; 723       ;
+; Average fan-out                             ; 2.42      ;
 +---------------------------------------------+-----------+
 
 
@@ -224,35 +225,39 @@ refer to the applicable agreement for further details.
 +----------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------+---------------------------+--------------+
 ; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                              ; Entity Name               ; Library Name ;
 +----------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------+---------------------------+--------------+
-; |Multiplier                                  ; 98 (0)              ; 62 (0)                    ; 0           ; 0            ; 0       ; 0         ; 57   ; 0            ; |Multiplier                                                                                                      ; Multiplier                ; work         ;
-;    |ArithmaticUnit:AU|                       ; 68 (29)             ; 39 (23)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU                                                                                    ; ArithmaticUnit            ; work         ;
-;       |RippleCarryAdder8bit:Adder|           ; 8 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarryAdder8bit:Adder                                                         ; RippleCarryAdder8bit      ; work         ;
+; |Multiplier                                  ; 122 (0)             ; 63 (0)                    ; 0           ; 0            ; 0       ; 0         ; 57   ; 0            ; |Multiplier                                                                                                      ; Multiplier                ; work         ;
+;    |ArithmaticUnit:AU|                       ; 65 (25)             ; 39 (23)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU                                                                                    ; ArithmaticUnit            ; work         ;
+;       |RippleCarryAdder8bit:Adder|           ; 9 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarryAdder8bit:Adder                                                         ; RippleCarryAdder8bit      ; work         ;
 ;          |FullAdder:FA2|                     ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarryAdder8bit:Adder|FullAdder:FA2                                           ; FullAdder                 ; work         ;
 ;          |FullAdder:FA3|                     ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarryAdder8bit:Adder|FullAdder:FA3                                           ; FullAdder                 ; work         ;
 ;          |FullAdder:FA5|                     ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarryAdder8bit:Adder|FullAdder:FA5                                           ; FullAdder                 ; work         ;
-;          |FullAdder:FA6|                     ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarryAdder8bit:Adder|FullAdder:FA6                                           ; FullAdder                 ; work         ;
+;          |FullAdder:FA6|                     ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarryAdder8bit:Adder|FullAdder:FA6                                           ; FullAdder                 ; work         ;
 ;          |FullAdder:FA8|                     ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarryAdder8bit:Adder|FullAdder:FA8                                           ; FullAdder                 ; work         ;
 ;       |RippleCarrySubtractor8bit:Subtractor| ; 13 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor                                               ; RippleCarrySubtractor8bit ; work         ;
-;          |RippleCarryAdder8bit:inverter|     ; 6 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:inverter                 ; RippleCarryAdder8bit      ; work         ;
+;          |RippleCarryAdder8bit:inverter|     ; 5 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:inverter                 ; RippleCarryAdder8bit      ; work         ;
 ;             |FullAdder:FA2|                  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:inverter|FullAdder:FA2   ; FullAdder                 ; work         ;
 ;             |FullAdder:FA3|                  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:inverter|FullAdder:FA3   ; FullAdder                 ; work         ;
 ;             |FullAdder:FA4|                  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:inverter|FullAdder:FA4   ; FullAdder                 ; work         ;
 ;             |FullAdder:FA5|                  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:inverter|FullAdder:FA5   ; FullAdder                 ; work         ;
 ;             |FullAdder:FA6|                  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:inverter|FullAdder:FA6   ; FullAdder                 ; work         ;
-;             |FullAdder:FA7|                  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:inverter|FullAdder:FA7   ; FullAdder                 ; work         ;
-;          |RippleCarryAdder8bit:subtractor|   ; 7 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:subtractor               ; RippleCarryAdder8bit      ; work         ;
-;             |FullAdder:FA2|                  ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:subtractor|FullAdder:FA2 ; FullAdder                 ; work         ;
+;          |RippleCarryAdder8bit:subtractor|   ; 8 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:subtractor               ; RippleCarryAdder8bit      ; work         ;
+;             |FullAdder:FA2|                  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:subtractor|FullAdder:FA2 ; FullAdder                 ; work         ;
 ;             |FullAdder:FA3|                  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:subtractor|FullAdder:FA3 ; FullAdder                 ; work         ;
 ;             |FullAdder:FA4|                  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:subtractor|FullAdder:FA4 ; FullAdder                 ; work         ;
 ;             |FullAdder:FA5|                  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:subtractor|FullAdder:FA5 ; FullAdder                 ; work         ;
-;             |FullAdder:FA6|                  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:subtractor|FullAdder:FA6 ; FullAdder                 ; work         ;
+;             |FullAdder:FA6|                  ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:subtractor|FullAdder:FA6 ; FullAdder                 ; work         ;
 ;             |FullAdder:FA7|                  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:subtractor|FullAdder:FA7 ; FullAdder                 ; work         ;
+;             |FullAdder:FA8|                  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor|RippleCarryAdder8bit:subtractor|FullAdder:FA8 ; FullAdder                 ; work         ;
 ;       |ShiftRegister:A|                      ; 9 (9)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|ShiftRegister:A                                                                    ; ShiftRegister             ; work         ;
 ;       |ShiftRegister:B|                      ; 9 (9)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|ArithmaticUnit:AU|ShiftRegister:B                                                                    ; ShiftRegister             ; work         ;
-;    |controlUnit:CU|                          ; 18 (18)             ; 15 (15)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|controlUnit:CU                                                                                       ; controlUnit               ; work         ;
-;    |counter8:Counter|                        ; 12 (9)              ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|counter8:Counter                                                                                     ; counter8                  ; work         ;
-;       |RippleCarryAdder8bit:stepper|         ; 3 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|counter8:Counter|RippleCarryAdder8bit:stepper                                                        ; RippleCarryAdder8bit      ; work         ;
-;          |FullAdder:FA4|                     ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|counter8:Counter|RippleCarryAdder8bit:stepper|FullAdder:FA4                                          ; FullAdder                 ; work         ;
+;    |HexDriver:ALd|                           ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|HexDriver:ALd                                                                                        ; HexDriver                 ; work         ;
+;    |HexDriver:AUd|                           ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|HexDriver:AUd                                                                                        ; HexDriver                 ; work         ;
+;    |HexDriver:BLd|                           ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|HexDriver:BLd                                                                                        ; HexDriver                 ; work         ;
+;    |HexDriver:BUd|                           ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|HexDriver:BUd                                                                                        ; HexDriver                 ; work         ;
+;    |controlUnit:CU|                          ; 18 (18)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|controlUnit:CU                                                                                       ; controlUnit               ; work         ;
+;    |counter8:Counter|                        ; 11 (9)              ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|counter8:Counter                                                                                     ; counter8                  ; work         ;
+;       |RippleCarryAdder8bit:stepper|         ; 2 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|counter8:Counter|RippleCarryAdder8bit:stepper                                                        ; RippleCarryAdder8bit      ; work         ;
+;          |FullAdder:FA4|                     ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|counter8:Counter|RippleCarryAdder8bit:stepper|FullAdder:FA4                                          ; FullAdder                 ; work         ;
 ;          |FullAdder:FA6|                     ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Multiplier|counter8:Counter|RippleCarryAdder8bit:stepper|FullAdder:FA6                                          ; FullAdder                 ; work         ;
 +----------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------+---------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -342,12 +347,12 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 62    ;
-; Number of registers using Synchronous Clear  ; 0     ;
+; Total registers                              ; 63    ;
+; Number of registers using Synchronous Clear  ; 5     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 46    ;
+; Number of registers using Clock Enable       ; 47    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -357,11 +362,11 @@ Encoding Type:  One-Hot
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------+
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |Multiplier|ArithmaticUnit:AU|ALoadData[7]                ;
 ; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |Multiplier|counter8:Counter|count[0]                     ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |Multiplier|controlUnit:CU|add                            ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |Multiplier|ArithmaticUnit:AU|ShiftRegister:A|data_out[2] ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |Multiplier|ArithmaticUnit:AU|ShiftRegister:B|data_out[6] ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |Multiplier|ArithmaticUnit:AU|ShiftRegister:A|data_out[4] ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |Multiplier|ArithmaticUnit:AU|ShiftRegister:B|data_out[3] ;
+; 5:1                ; 7 bits    ; 21 LEs        ; 14 LEs               ; 7 LEs                  ; Yes        ; |Multiplier|ArithmaticUnit:AU|ALoadData[2]                ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------+
 
 
@@ -420,18 +425,19 @@ Encoding Type:  One-Hot
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 57                          ;
-; cycloneiii_ff         ; 62                          ;
-;     ENA               ; 46                          ;
-;     plain             ; 16                          ;
-; cycloneiii_lcell_comb ; 99                          ;
-;     normal            ; 99                          ;
-;         0 data inputs ; 1                           ;
-;         2 data inputs ; 17                          ;
-;         3 data inputs ; 21                          ;
-;         4 data inputs ; 60                          ;
+; cycloneiii_ff         ; 63                          ;
+;     ENA               ; 47                          ;
+;     SCLR              ; 5                           ;
+;     plain             ; 11                          ;
+; cycloneiii_lcell_comb ; 126                         ;
+;     normal            ; 126                         ;
+;         1 data inputs ; 5                           ;
+;         2 data inputs ; 11                          ;
+;         3 data inputs ; 20                          ;
+;         4 data inputs ; 90                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 8.00                        ;
-; Average LUT depth     ; 3.08                        ;
+; Max LUT depth         ; 10.00                       ;
+; Average LUT depth     ; 3.14                        ;
 +-----------------------+-----------------------------+
 
 
@@ -450,7 +456,7 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Sat Feb 09 02:27:58 2019
+    Info: Processing started: Sun Feb 10 18:19:20 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Multiplier -c Multiplier
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
@@ -475,58 +481,26 @@ Info (12021): Found 1 design units, including 1 entities, in source file counter
 Info (12021): Found 1 design units, including 1 entities, in source file controlunit.sv
     Info (12023): Found entity 1: controlUnit File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/controlUnit.sv Line: 14
 Info (12127): Elaborating entity "Multiplier" for the top level hierarchy
-Warning (10034): Output port "AhexU" at 8BitMultiplier-toplevel.sv(12) has no driver File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 12
-Warning (10034): Output port "AhexL" at 8BitMultiplier-toplevel.sv(13) has no driver File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 13
-Warning (10034): Output port "BhexU" at 8BitMultiplier-toplevel.sv(14) has no driver File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 14
-Warning (10034): Output port "BhexL" at 8BitMultiplier-toplevel.sv(16) has no driver File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 16
-Info (12128): Elaborating entity "ArithmaticUnit" for hierarchy "ArithmaticUnit:AU" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 39
-Info (12128): Elaborating entity "RippleCarryAdder8bit" for hierarchy "ArithmaticUnit:AU|RippleCarryAdder8bit:Adder" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ArithmaticUnit.sv Line: 36
+Info (12128): Elaborating entity "HexDriver" for hierarchy "HexDriver:AUd" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 25
+Info (12128): Elaborating entity "ArithmaticUnit" for hierarchy "ArithmaticUnit:AU" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 46
+Info (12128): Elaborating entity "RippleCarryAdder8bit" for hierarchy "ArithmaticUnit:AU|RippleCarryAdder8bit:Adder" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ArithmaticUnit.sv Line: 37
 Info (12128): Elaborating entity "FullAdder" for hierarchy "ArithmaticUnit:AU|RippleCarryAdder8bit:Adder|FullAdder:FA1" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/RippleCarryAdder.sv Line: 30
-Info (12128): Elaborating entity "RippleCarrySubtractor8bit" for hierarchy "ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ArithmaticUnit.sv Line: 44
-Info (12128): Elaborating entity "ShiftRegister" for hierarchy "ArithmaticUnit:AU|ShiftRegister:A" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ArithmaticUnit.sv Line: 56
-Info (12128): Elaborating entity "controlUnit" for hierarchy "controlUnit:CU" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 57
-Info (12128): Elaborating entity "counter8" for hierarchy "counter8:Counter" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 66
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "AhexU[0]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 12
-    Warning (13410): Pin "AhexU[1]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 12
-    Warning (13410): Pin "AhexU[2]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 12
-    Warning (13410): Pin "AhexU[3]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 12
-    Warning (13410): Pin "AhexU[4]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 12
-    Warning (13410): Pin "AhexU[5]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 12
-    Warning (13410): Pin "AhexU[6]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 12
-    Warning (13410): Pin "AhexL[0]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 13
-    Warning (13410): Pin "AhexL[1]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 13
-    Warning (13410): Pin "AhexL[2]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 13
-    Warning (13410): Pin "AhexL[3]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 13
-    Warning (13410): Pin "AhexL[4]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 13
-    Warning (13410): Pin "AhexL[5]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 13
-    Warning (13410): Pin "AhexL[6]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 13
-    Warning (13410): Pin "BhexU[0]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 14
-    Warning (13410): Pin "BhexU[1]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 14
-    Warning (13410): Pin "BhexU[2]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 14
-    Warning (13410): Pin "BhexU[3]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 14
-    Warning (13410): Pin "BhexU[4]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 14
-    Warning (13410): Pin "BhexU[5]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 14
-    Warning (13410): Pin "BhexU[6]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 14
-    Warning (13410): Pin "BhexL[0]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 16
-    Warning (13410): Pin "BhexL[1]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 16
-    Warning (13410): Pin "BhexL[2]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 16
-    Warning (13410): Pin "BhexL[3]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 16
-    Warning (13410): Pin "BhexL[4]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 16
-    Warning (13410): Pin "BhexL[5]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 16
-    Warning (13410): Pin "BhexL[6]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 16
+Info (12128): Elaborating entity "RippleCarrySubtractor8bit" for hierarchy "ArithmaticUnit:AU|RippleCarrySubtractor8bit:Subtractor" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ArithmaticUnit.sv Line: 45
+Info (12128): Elaborating entity "ShiftRegister" for hierarchy "ArithmaticUnit:AU|ShiftRegister:A" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ArithmaticUnit.sv Line: 57
+Info (12128): Elaborating entity "controlUnit" for hierarchy "controlUnit:CU" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 65
+Info (12128): Elaborating entity "counter8" for hierarchy "counter8:Counter" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv Line: 74
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 24 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/output_files/Multiplier.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 170 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 193 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 12 input pins
     Info (21059): Implemented 45 output pins
-    Info (21061): Implemented 113 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 34 warnings
-    Info: Peak virtual memory: 4860 megabytes
-    Info: Processing ended: Sat Feb 09 02:28:08 2019
+    Info (21061): Implemented 136 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4864 megabytes
+    Info: Processing ended: Sun Feb 10 18:19:30 2019
     Info: Elapsed time: 00:00:10
     Info: Total CPU time (on all processors): 00:00:23
 

@@ -9,6 +9,7 @@ vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5 {C:/
 vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/RippleCarryAdder.sv}
 vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ArithmaticUnit.sv}
 vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv}
+vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/HexDriver.sv}
 vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/counter.sv}
 vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/controlUnit.sv}
 

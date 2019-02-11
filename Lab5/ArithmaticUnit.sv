@@ -5,6 +5,7 @@ module ArithmaticUnit
 	input logic add,
 	input logic sub,
 	input logic clearA_LoadB,
+	input logic clearA,
 	input logic clk,
 	input logic reset,
 	
@@ -77,6 +78,22 @@ module ArithmaticUnit
 			Bloaden <= 1'b0;
 			Ashiften <= 1'b0;
 			Bshiften <= 1'b0;
+			
+			x <= 1'b0;
+		end
+		
+		else if (clearA) begin
+			Areset <= 1'b0;
+			Breset <= 1'b0;
+			Aloaden <= 1'b1;
+			Bloaden <= 1'b0;
+			Ashiften <= 1'b0;
+			Bshiften <= 1'b0;
+			
+			ALoadData <= 8'h00;
+			
+			x <= 1'b0;
+
 		end
 		
 		else if (clearA_LoadB) begin

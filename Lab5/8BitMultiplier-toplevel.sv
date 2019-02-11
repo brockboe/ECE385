@@ -20,12 +20,13 @@ module Multiplier
 	logic increment_counter;
 	
 	logic m;
-	logic shift, add, sub, reset_au, clr_ld;
+	logic shift, add, sub, reset_au, clr_ld, clearA;
+	
+	HexDriver AUd(.In0(Aval[7:4]), .Out0(AhexU));
+	HexDriver ALd(.In0(Aval[3:0]), .Out0(AhexL));
+	HexDriver BUd(.In0(Bval[7:4]), .Out0(BhexU));
+	HexDriver BLd(.In0(Bval[3:0]), .Out0(BhexL));
 
-	assign AhexU = Aval[7:4];
-	assign AhexL = Aval[3:0];
-	assign BhexU = Bval[7:4];
-	assign BhexL = Bval[3:0];
 	
 	ArithmaticUnit AU
 	(
@@ -36,6 +37,7 @@ module Multiplier
 		.clearA_LoadB(clr_ld),
 		.clk(clk),
 		.reset(reset_au),
+		.clearA(clearA),
 		
 		.Aout(Aval),
 		.Bout(Bval),
@@ -45,10 +47,10 @@ module Multiplier
 
 	controlUnit CU
 	(
-		.reset(reset),
+		.reset(~reset),
 		.clk(clk),
-		.run(run),
-		.ClearA_LoadB(clearA_loadB),
+		.run(~run),
+		.ClearA_LoadB(~clearA_loadB),
 		.counter(count),
 		.m(m),
 		
@@ -58,7 +60,8 @@ module Multiplier
 		.sub(sub),
 		.reset_au(reset_au),
 		.reset_counter(reset_counter),
-		.increment_counter(increment_counter)
+		.increment_counter(increment_counter),
+		.clearA(clearA)
 	);
 
 	counter8 Counter

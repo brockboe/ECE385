@@ -10,7 +10,7 @@ cModel Technology
 Z0 dC:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/simulation/modelsim
 vArithmaticUnit
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1549700492
+Z2 !s110 1549842957
 !i10b 1
 !s100 A>Nj;2WSMQ<K[UWID;m]f1
 IbN=TamRYAZ@ZP>NSHYB]V2
@@ -18,7 +18,7 @@ Z3 VDg1SIo80bB@j0V0VzS_@n1
 !s105 ArithmaticUnit_sv_unit
 S1
 R0
-w1549699574
+w1549842036
 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ArithmaticUnit.sv
 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ArithmaticUnit.sv
 L0 1
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1549700492.000000
+Z5 !s108 1549842957.000000
 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ArithmaticUnit.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ArithmaticUnit.sv|
 !i113 1
@@ -36,18 +36,18 @@ Z8 tCvgOpt 0
 n@arithmatic@unit
 vcontrolUnit
 R1
-DXx4 work 19 controlUnit_sv_unit 0 22 8JbeAFFebX3YGH35iTXng0
+DXx4 work 19 controlUnit_sv_unit 0 22 b;M<=Y0;JhAN`z5ogNVJE3
 R3
 r1
 !s85 0
 31
 !i10b 1
-!s100 ?IOT_1Vc3H[1^87ll]mZJ0
-IzcooW[5lO998T:0NRZ<JA3
+!s100 e?FAZ9QYI0143dnkcZ4DV1
+ID=HK;mmFHCh0ame1[eRG_0
 !s105 controlUnit_sv_unit
 S1
 R0
-Z9 w1549700432
+Z9 w1549842755
 Z10 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/controlUnit.sv
 Z11 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/controlUnit.sv
 L0 14
@@ -62,13 +62,13 @@ R8
 ncontrol@unit
 XcontrolUnit_sv_unit
 R1
-V8JbeAFFebX3YGH35iTXng0
+Vb;M<=Y0;JhAN`z5ogNVJE3
 r1
 !s85 0
 31
 !i10b 1
-!s100 [4PldKfObDCSo`<VcKzd>3
-I8JbeAFFebX3YGH35iTXng0
+!s100 L`PU[01YMf^[_h9ELJlNF2
+Ib;M<=Y0;JhAN`z5ogNVJE3
 !i103 1
 S1
 R0
@@ -103,7 +103,7 @@ R4
 r1
 !s85 0
 31
-!s108 1549700491.000000
+R5
 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/counter.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/counter.sv|
 !i113 1
@@ -136,17 +136,43 @@ R6
 R7
 R8
 n@full@adder
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 =R2i165HPJgkY;aA[TRmG3
+IM7M8XE2`IdR7?RdEZ`^J63
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+w1549687003
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/HexDriver.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/HexDriver.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/HexDriver.sv|
+!i113 1
+R6
+R7
+R8
+n@hex@driver
 vMultiplier
 R1
 R2
 !i10b 1
-!s100 ibi`R[nZz6EP0H:c:OiEN2
-IkLg1ezKJk3bR]0eYFT2XS3
+!s100 Q3zzPl6aPVcA7b[PnU16C0
+I14=;`:m;EAgafWzh=0RnN3
 R3
 !s105 _8BitMultiplier2dtoplevel_sv_unit
 S1
 R0
-w1549694735
+w1549840775
 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv
 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/8BitMultiplier-toplevel.sv
 L0 1
@@ -244,13 +270,13 @@ vtestbench
 R1
 R2
 !i10b 1
-!s100 9N>FVOO8Al<J;10>:dold3
-ITHSbJUD`]Z7;D=iGDlgL]1
+!s100 BPW4blWnRoZ8hk333jHGQ1
+IbW?lC8;C]mLFjz4c2L;G=0
 R3
 !s105 testbench_sv_unit
 S1
 R0
-w1549700485
+w1549842950
 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/testbench.sv
 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/testbench.sv
 L0 1

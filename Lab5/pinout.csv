@@ -1,0 +1,78 @@
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+
+# Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+# File: C:\Users\Brock\School\ECE385\GitLab\ece385\Lab5\pinout.csv
+# Generated on: Sun Feb 10 16:56:52 2019
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+AhexL[0],Output,PIN_AA25,5,B5_N1,PIN_AD14,,,,,,
+AhexL[1],Output,PIN_AA26,5,B5_N1,PIN_AD19,,,,,,
+AhexL[2],Output,PIN_Y25,5,B5_N1,PIN_AH11,,,,,,
+AhexL[3],Output,PIN_W26,5,B5_N1,PIN_AF9,,,,,,
+AhexL[4],Output,PIN_Y26,5,B5_N1,PIN_AD5,,,,,,
+AhexL[5],Output,PIN_W27,5,B5_N1,PIN_G7,,,,,,
+AhexL[6],Output,PIN_W28,5,B5_N1,PIN_G8,,,,,,
+AhexU[0],Output,PIN_V21,5,B5_N1,PIN_C12,,,,,,
+AhexU[1],Output,PIN_U21,5,B5_N0,PIN_U6,,,,,,
+AhexU[2],Output,PIN_AB20,4,B4_N0,PIN_M24,,,,,,
+AhexU[3],Output,PIN_AA21,4,B4_N0,PIN_AH18,,,,,,
+AhexU[4],Output,PIN_AD24,4,B4_N0,PIN_W1,,,,,,
+AhexU[5],Output,PIN_AF23,4,B4_N0,PIN_AF11,,,,,,
+AhexU[6],Output,PIN_Y19,4,B4_N0,PIN_E4,,,,,,
+Aval[0],Output,,,,PIN_E25,,,,,,
+Aval[1],Output,,,,PIN_C17,,,,,,
+Aval[2],Output,,,,PIN_D17,,,,,,
+Aval[3],Output,,,,PIN_B22,,,,,,
+Aval[4],Output,,,,PIN_D18,,,,,,
+Aval[5],Output,,,,PIN_B21,,,,,,
+Aval[6],Output,,,,PIN_A22,,,,,,
+Aval[7],Output,,,,PIN_C19,,,,,,
+BhexL[0],Output,PIN_G18,7,B7_N2,PIN_AC28,,,,,,
+BhexL[1],Output,PIN_F22,7,B7_N0,PIN_K8,,,,,,
+BhexL[2],Output,PIN_E17,7,B7_N2,PIN_AH12,,,,,,
+BhexL[3],Output,PIN_L26,6,B6_N1,PIN_H25,,,,,,
+BhexL[4],Output,PIN_L25,6,B6_N1,PIN_D4,,,,,,
+BhexL[5],Output,PIN_J22,6,B6_N0,PIN_C27,,,,,,
+BhexL[6],Output,PIN_H22,6,B6_N0,PIN_R2,,,,,,
+BhexU[0],Output,PIN_M24,6,B6_N2,PIN_F15,,,,,,
+BhexU[1],Output,PIN_Y22,5,B5_N0,PIN_AB16,,,,,,
+BhexU[2],Output,PIN_W21,5,B5_N1,PIN_A6,,,,,,
+BhexU[3],Output,PIN_W22,5,B5_N0,PIN_B26,,,,,,
+BhexU[4],Output,PIN_W25,5,B5_N1,PIN_AF26,,,,,,
+BhexU[5],Output,PIN_U23,5,B5_N1,PIN_F11,,,,,,
+BhexU[6],Output,PIN_U24,5,B5_N0,PIN_AA3,,,,,,
+Bval[0],Output,,,,PIN_C20,,,,,,
+Bval[1],Output,,,,PIN_A18,,,,,,
+Bval[2],Output,,,,PIN_B18,,,,,,
+Bval[3],Output,,,,PIN_G17,,,,,,
+Bval[4],Output,,,,PIN_D20,,,,,,
+Bval[5],Output,,,,PIN_C22,,,,,,
+Bval[6],Output,,,,PIN_F19,,,,,,
+Bval[7],Output,,,,PIN_D21,,,,,,
+S[0],Input,PIN_AB28,5,B5_N1,PIN_A21,,,,,,
+S[1],Input,PIN_AC28,5,B5_N2,PIN_F18,,,,,,
+S[2],Input,PIN_AC27,5,B5_N2,PIN_C18,,,,,,
+S[3],Input,PIN_AD27,5,B5_N2,PIN_D19,,,,,,
+S[4],Input,PIN_AB27,5,B5_N1,PIN_C21,,,,,,
+S[5],Input,PIN_AC26,5,B5_N2,PIN_J27,,,,,,
+S[6],Input,PIN_AD26,5,B5_N2,PIN_J28,,,,,,
+S[7],Input,PIN_AB26,5,B5_N1,PIN_E19,,,,,,
+clearA_loadB,Input,PIN_N21,6,B6_N2,PIN_B19,,,,,,
+clk,Input,PIN_Y2,2,B2_N0,PIN_J1,,,,,,
+reset,Input,PIN_M23,6,B6_N2,PIN_E24,,,,,,
+run,Input,PIN_R24,5,B5_N0,PIN_A19,,,,,,
+x,Output,PIN_F17,7,B7_N2,PIN_E18,,,,,,

@@ -53,28 +53,28 @@ end
 
 initial begin
 
-reset = 1'b1;
-run = 1'b0;
-ClearA_LoadB = 1'b0;
-S = 8'd0;
+reset = 1'b0;
+run = 1'b1;
+ClearA_LoadB = 1'b1;
+S = 8'd00;
 
 #2
-reset = 1'b0;
+reset = 1'b1;
 
 #4
-S = -8'd17;
+S = 8'd243;
+#2
+ClearA_LoadB = 1'b0;
 #2
 ClearA_LoadB = 1'b1;
-#2
-ClearA_LoadB = 1'b0;
 
 #4
-S = -8'd3;
+S = 8'd03;
 
 #2
-run = 1'b1;
-#2
 run = 1'b0;
+#2
+run = 1'b1;
 
 
 end
