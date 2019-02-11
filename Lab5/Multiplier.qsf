@@ -64,7 +64,7 @@ set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -sectio
 set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH testbench -section_id eda_simulation
 set_global_assignment -name EDA_TEST_BENCH_NAME testbench -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id testbench
-set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "100 us" -section_id testbench
+set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "1000 ns" -section_id testbench
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME testbench -section_id testbench
 set_global_assignment -name SYSTEMVERILOG_FILE HexDriver.sv
 set_global_assignment -name SYSTEMVERILOG_FILE mux8.sv

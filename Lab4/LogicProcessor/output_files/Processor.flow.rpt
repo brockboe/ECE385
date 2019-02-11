@@ -1,5 +1,5 @@
 Flow report for Processor
-Wed Feb 06 21:09:43 2019
+Mon Feb 11 15:35:52 2019
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Wed Feb 06 21:09:43 2019       ;
+; Flow Status                        ; Successful - Mon Feb 11 15:35:52 2019       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; Processor                                   ;
 ; Top-level Entity Name              ; Processor                                   ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/06/2019 21:08:54 ;
+; Start date & time ; 02/11/2019 15:34:42 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Processor           ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 13870907933117.154950893415404         ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 93383152321513.154992088108368         ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; testbench4     ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; testbench8     ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testbench8                             ; --            ; --          ; eda_simulation ;
@@ -110,13 +110,13 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 4861 MB             ; 00:00:23                           ;
-; Fitter               ; 00:00:24     ; 1.0                     ; 6734 MB             ; 00:00:47                           ;
-; Assembler            ; 00:00:03     ; 1.0                     ; 4702 MB             ; 00:00:03                           ;
-; Power Analyzer       ; 00:00:06     ; 1.0                     ; 5068 MB             ; 00:00:06                           ;
-; Timing Analyzer      ; 00:00:02     ; 1.1                     ; 5013 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4673 MB             ; 00:00:01                           ;
-; Total                ; 00:00:45     ; --                      ; --                  ; 00:01:22                           ;
+; Analysis & Synthesis ; 00:00:16     ; 1.0                     ; 4757 MB             ; 00:00:34                           ;
+; Fitter               ; 00:00:27     ; 1.0                     ; 5471 MB             ; 00:00:32                           ;
+; Assembler            ; 00:00:05     ; 1.0                     ; 4700 MB             ; 00:00:05                           ;
+; Power Analyzer       ; 00:00:09     ; 1.0                     ; 4877 MB             ; 00:00:08                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.0                     ; 4838 MB             ; 00:00:03                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4670 MB             ; 00:00:02                           ;
+; Total                ; 00:01:03     ; --                      ; --                  ; 00:01:24                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -125,12 +125,12 @@ refer to the applicable agreement for further details.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; hacktower        ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; hacktower        ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; hacktower        ; Windows 10 ; 10.0       ; x86_64         ;
-; Power Analyzer       ; hacktower        ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; hacktower        ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; hacktower        ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; HackPad          ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; HackPad          ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; HackPad          ; Windows 10 ; 10.0       ; x86_64         ;
+; Power Analyzer       ; HackPad          ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; HackPad          ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; HackPad          ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 

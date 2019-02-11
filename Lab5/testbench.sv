@@ -62,14 +62,14 @@ S = 8'd00;
 reset = 1'b1;
 
 #4
-S = 8'd243;
+S = 8'd127;
 #2
 ClearA_LoadB = 1'b0;
 #2
 ClearA_LoadB = 1'b1;
 
 #4
-S = 8'd03;
+S = 8'd127;
 
 #2
 run = 1'b0;

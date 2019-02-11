@@ -1,5 +1,5 @@
 Flow report for Multiplier
-Mon Feb 11 00:59:48 2019
+Mon Feb 11 17:21:32 2019
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Mon Feb 11 00:59:48 2019       ;
+; Flow Status                        ; Successful - Mon Feb 11 17:21:32 2019       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; Multiplier                                  ;
 ; Top-level Entity Name              ; Multiplier                                  ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/11/2019 00:59:05 ;
+; Start date & time ; 02/11/2019 17:20:31 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Multiplier          ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 13870907933117.154986834507292         ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 93383152321513.154992723015040         ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; testbench      ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testbench                              ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                      ; --            ; --          ; eda_simulation ;
@@ -88,7 +88,7 @@ refer to the applicable agreement for further details.
 ; EDA_TEST_BENCH_FILE                  ; 8BitMultiplier-toplevel.sv             ; --            ; --          ; testbench      ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; testbench                              ; --            ; --          ; testbench      ;
 ; EDA_TEST_BENCH_NAME                  ; testbench                              ; --            ; --          ; eda_simulation ;
-; EDA_TEST_BENCH_RUN_SIM_FOR           ; 100 us                                 ; --            ; --          ; testbench      ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1000 ns                                ; --            ; --          ; testbench      ;
 ; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --             ;
@@ -107,12 +107,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 4861 MB             ; 00:00:23                           ;
-; Fitter               ; 00:00:23     ; 1.0                     ; 6742 MB             ; 00:00:46                           ;
-; Assembler            ; 00:00:03     ; 1.0                     ; 4700 MB             ; 00:00:03                           ;
-; Timing Analyzer      ; 00:00:03     ; 1.1                     ; 5011 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4671 MB             ; 00:00:01                           ;
-; Total                ; 00:00:39     ; --                      ; --                  ; 00:01:15                           ;
+; Analysis & Synthesis ; 00:00:19     ; 1.0                     ; 4767 MB             ; 00:00:36                           ;
+; Fitter               ; 00:00:26     ; 1.0                     ; 5470 MB             ; 00:00:33                           ;
+; Assembler            ; 00:00:06     ; 1.0                     ; 4699 MB             ; 00:00:05                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.0                     ; 4840 MB             ; 00:00:03                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4674 MB             ; 00:00:02                           ;
+; Total                ; 00:00:57     ; --                      ; --                  ; 00:01:19                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -121,11 +121,11 @@ refer to the applicable agreement for further details.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; hacktower        ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; hacktower        ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; hacktower        ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; hacktower        ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; hacktower        ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; HackPad          ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; HackPad          ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; HackPad          ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; HackPad          ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; HackPad          ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 

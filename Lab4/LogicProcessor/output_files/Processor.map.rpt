@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Processor
-Wed Feb 06 21:09:04 2019
+Mon Feb 11 15:34:58 2019
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -46,7 +46,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Feb 06 21:09:04 2019       ;
+; Analysis & Synthesis Status        ; Successful - Mon Feb 11 15:34:58 2019       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; Processor                                   ;
 ; Top-level Entity Name              ; Processor                                   ;
@@ -154,32 +154,32 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 16          ;
-; Maximum allowed            ; 16          ;
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 16          ;
+; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-16        ;   0.0%      ;
+;     Processor 2            ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                        ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                    ; Library ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------+---------+
-; Synchronizers.sv                 ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Synchronizers.sv ;         ;
-; Router.sv                        ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Router.sv        ;         ;
-; Register_unit.sv                 ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Register_unit.sv ;         ;
-; Reg_4.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Reg_4.sv         ;         ;
-; Processor.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Processor.sv     ;         ;
-; HexDriver.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/HexDriver.sv     ;         ;
-; Control.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Control.sv       ;         ;
-; compute.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/compute.sv       ;         ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                 ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                             ; Library ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------+---------+
+; Synchronizers.sv                 ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/Synchronizers.sv ;         ;
+; Router.sv                        ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/Router.sv        ;         ;
+; Register_unit.sv                 ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/Register_unit.sv ;         ;
+; Reg_4.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/Reg_4.sv         ;         ;
+; Processor.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/Processor.sv     ;         ;
+; HexDriver.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/HexDriver.sv     ;         ;
+; Control.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/Control.sv       ;         ;
+; compute.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/compute.sv       ;         ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -334,7 +334,7 @@ Encoding Type:  One-Hot
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -344,44 +344,44 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Wed Feb 06 21:08:54 2019
+    Info: Processing started: Mon Feb 11 15:34:41 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off LogicProcessor -c Processor
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file testbench_8.sv
-    Info (12023): Found entity 1: testbench_8 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/testbench_8.sv Line: 1
+    Info (12023): Found entity 1: testbench_8 File: C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/testbench_8.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file testbench.sv
-    Info (12023): Found entity 1: testbench File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/testbench.sv Line: 1
+    Info (12023): Found entity 1: testbench File: C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/testbench.sv Line: 1
 Info (12021): Found 3 design units, including 3 entities, in source file synchronizers.sv
-    Info (12023): Found entity 1: sync File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Synchronizers.sv Line: 4
-    Info (12023): Found entity 2: sync_r0 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Synchronizers.sv Line: 18
-    Info (12023): Found entity 3: sync_r1 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Synchronizers.sv Line: 39
+    Info (12023): Found entity 1: sync File: C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/Synchronizers.sv Line: 4
+    Info (12023): Found entity 2: sync_r0 File: C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/Synchronizers.sv Line: 18
+    Info (12023): Found entity 3: sync_r1 File: C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/Synchronizers.sv Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file router.sv
-    Info (12023): Found entity 1: router File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Router.sv Line: 1
+    Info (12023): Found entity 1: router File: C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/Router.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file register_unit.sv
-    Info (12023): Found entity 1: register_unit File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Register_unit.sv Line: 1
+    Info (12023): Found entity 1: register_unit File: C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/Register_unit.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file reg_4.sv
-    Info (12023): Found entity 1: reg_4 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Reg_4.sv Line: 1
+    Info (12023): Found entity 1: reg_4 File: C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/Reg_4.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file processor.sv
-    Info (12023): Found entity 1: Processor File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Processor.sv Line: 8
+    Info (12023): Found entity 1: Processor File: C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/Processor.sv Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file hexdriver.sv
-    Info (12023): Found entity 1: HexDriver File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/HexDriver.sv Line: 1
+    Info (12023): Found entity 1: HexDriver File: C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/HexDriver.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file control.sv
-    Info (12023): Found entity 1: control File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Control.sv Line: 3
+    Info (12023): Found entity 1: control File: C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/Control.sv Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file compute.sv
-    Info (12023): Found entity 1: compute File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/compute.sv Line: 1
+    Info (12023): Found entity 1: compute File: C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/compute.sv Line: 1
 Info (12127): Elaborating entity "Processor" for the top level hierarchy
-Info (12128): Elaborating entity "register_unit" for hierarchy "register_unit:reg_unit" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Processor.sv Line: 51
-Info (12128): Elaborating entity "reg_4" for hierarchy "register_unit:reg_unit|reg_4:reg_A" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Register_unit.sv Line: 10
-Info (12128): Elaborating entity "compute" for hierarchy "compute:compute_unit" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Processor.sv Line: 58
-Info (12128): Elaborating entity "router" for hierarchy "router:router" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Processor.sv Line: 65
-Info (12128): Elaborating entity "control" for hierarchy "control:control_unit" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Processor.sv Line: 74
-Info (10264): Verilog HDL Case Statement information at Control.sv(45): all case item expressions in this case statement are onehot File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Control.sv Line: 45
-Info (12128): Elaborating entity "HexDriver" for hierarchy "HexDriver:HexAL" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Processor.sv Line: 77
-Info (12128): Elaborating entity "sync" for hierarchy "sync:button_sync[0]" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/Processor.sv Line: 94
+Info (12128): Elaborating entity "register_unit" for hierarchy "register_unit:reg_unit" File: C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/Processor.sv Line: 51
+Info (12128): Elaborating entity "reg_4" for hierarchy "register_unit:reg_unit|reg_4:reg_A" File: C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/Register_unit.sv Line: 10
+Info (12128): Elaborating entity "compute" for hierarchy "compute:compute_unit" File: C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/Processor.sv Line: 58
+Info (12128): Elaborating entity "router" for hierarchy "router:router" File: C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/Processor.sv Line: 65
+Info (12128): Elaborating entity "control" for hierarchy "control:control_unit" File: C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/Processor.sv Line: 74
+Info (10264): Verilog HDL Case Statement information at Control.sv(45): all case item expressions in this case statement are onehot File: C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/Control.sv Line: 45
+Info (12128): Elaborating entity "HexDriver" for hierarchy "HexDriver:HexAL" File: C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/Processor.sv Line: 77
+Info (12128): Elaborating entity "sync" for hierarchy "sync:button_sync[0]" File: C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/Processor.sv Line: 94
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 4 registers lost all their fanouts during netlist optimizations.
-Info (144001): Generated suppressed messages file C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/output_files/Processor.map.smsg
+Info (144001): Generated suppressed messages file C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/output_files/Processor.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Info (21057): Implemented 151 device resources after synthesis - the final resource count might be different
@@ -389,15 +389,15 @@ Info (21057): Implemented 151 device resources after synthesis - the final resou
     Info (21059): Implemented 48 output pins
     Info (21061): Implemented 85 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4861 megabytes
-    Info: Processing ended: Wed Feb 06 21:09:04 2019
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:23
+    Info: Peak virtual memory: 4766 megabytes
+    Info: Processing ended: Mon Feb 11 15:34:58 2019
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:34
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/Brock/School/ECE385/GitLab/ece385/Lab4/LogicProcessor/output_files/Processor.map.smsg.
+The suppressed messages can be found in C:/Users/Brock/school/ECE385/ece385/Lab4/LogicProcessor/output_files/Processor.map.smsg.
 
 

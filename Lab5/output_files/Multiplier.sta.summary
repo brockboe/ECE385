@@ -3,12 +3,12 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'clk'
-Slack : -3.575
-TNS   : -75.880
+Slack : -2.413
+TNS   : -73.393
 
 Type  : Slow 1200mV 85C Model Setup 'controlUnit:CU|increment_counter'
-Slack : -0.963
-TNS   : -4.245
+Slack : -0.945
+TNS   : -4.068
 
 Type  : Slow 1200mV 85C Model Hold 'clk'
 Slack : 0.403
@@ -19,8 +19,8 @@ Slack : 0.403
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Recovery 'controlUnit:CU|increment_counter'
-Slack : -0.495
-TNS   : -3.960
+Slack : -0.496
+TNS   : -3.968
 
 Type  : Slow 1200mV 85C Model Removal 'controlUnit:CU|increment_counter'
 Slack : 0.873
@@ -35,12 +35,12 @@ Slack : -1.285
 TNS   : -10.280
 
 Type  : Slow 1200mV 0C Model Setup 'clk'
-Slack : -3.182
-TNS   : -64.430
+Slack : -2.178
+TNS   : -62.084
 
 Type  : Slow 1200mV 0C Model Setup 'controlUnit:CU|increment_counter'
-Slack : -0.767
-TNS   : -3.094
+Slack : -0.752
+TNS   : -2.954
 
 Type  : Slow 1200mV 0C Model Hold 'clk'
 Slack : 0.355
@@ -51,11 +51,11 @@ Slack : 0.355
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Recovery 'controlUnit:CU|increment_counter'
-Slack : -0.376
-TNS   : -3.008
+Slack : -0.379
+TNS   : -3.032
 
 Type  : Slow 1200mV 0C Model Removal 'controlUnit:CU|increment_counter'
-Slack : 0.813
+Slack : 0.816
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
@@ -67,18 +67,18 @@ Slack : -1.285
 TNS   : -10.280
 
 Type  : Fast 1200mV 0C Model Setup 'clk'
-Slack : -1.221
-TNS   : -14.634
+Slack : -0.724
+TNS   : -12.308
 
 Type  : Fast 1200mV 0C Model Setup 'controlUnit:CU|increment_counter'
-Slack : 0.040
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'controlUnit:CU|increment_counter'
-Slack : 0.181
+Slack : 0.048
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'controlUnit:CU|increment_counter'
 Slack : 0.182
 TNS   : 0.000
 
@@ -87,12 +87,12 @@ Slack : 0.217
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Removal 'controlUnit:CU|increment_counter'
-Slack : 0.435
+Slack : 0.437
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
 Slack : -3.000
-TNS   : -62.437
+TNS   : -62.466
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'controlUnit:CU|increment_counter'
 Slack : -1.000

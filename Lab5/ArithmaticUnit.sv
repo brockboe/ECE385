@@ -130,7 +130,7 @@ module ArithmaticUnit
 			Bloaden <= 1'b0;
 			
 			ALoadData = AplusS;
-			x = AplusS[7];
+			x = S[7];
 		end
 		
 		else if (sub) begin
@@ -143,7 +143,7 @@ module ArithmaticUnit
 			Bloaden <= 1'b0;
 
 			ALoadData = AminusS;
-			x = AminusS[7];
+			x = ~S[7];
 		end
 		
 		else begin

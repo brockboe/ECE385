@@ -1,2 +1,2 @@
-Warning (10268): Verilog HDL information at ArithmaticUnit.sv(71): always construct contains both blocking and non-blocking assignments File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/ArithmaticUnit.sv Line: 71
-Info (10281): Verilog HDL Declaration information at testbench.sv(16): object "m" differs only in case from object "M" in the same scope File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab5/testbench.sv Line: 16
+Warning (10268): Verilog HDL information at ArithmaticUnit.sv(71): always construct contains both blocking and non-blocking assignments File: C:/Users/Brock/school/ECE385/ece385/Lab5/ArithmaticUnit.sv Line: 71
+Info (10281): Verilog HDL Declaration information at testbench.sv(16): object "m" differs only in case from object "M" in the same scope File: C:/Users/Brock/school/ECE385/ece385/Lab5/testbench.sv Line: 16
