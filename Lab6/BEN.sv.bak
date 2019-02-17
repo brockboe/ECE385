@@ -1,0 +1,12 @@
+module BEN_block
+(
+	input logic [15:0] bus,
+	input logic LDCC,
+	input logic IR_slice_119,
+	input logic LDBEN,
+	
+	output logic BEN
+);
+
+
+endmodule 

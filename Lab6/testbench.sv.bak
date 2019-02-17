@@ -1,0 +1,58 @@
+module testbench();
+
+timeunit 10ns;
+timeprecision 1ns;
+
+logic [15:0] S;
+logic Clk, Reset, Run, Continue;
+logic [11:0] LED;
+
+logic [19:0] ADDR;
+
+
+always begin
+	#1 Clk = ~Clk;
+end
+
+initial begin	
+	Clk = 1'b0;
+end
+
+lab6_toplevel LC3
+(
+	.S(S),
+	.Clk,
+	.Reset,
+	.Run,
+	.Continue,
+	
+	.LED,
+	.HEX0(),
+	.Hex1(),
+	.Hex2(),
+	.Hex3(),
+	.Hex4(),
+	.Hex5(),
+	.Hex6(),
+	.Hex7(),
+	
+	.CE(),
+	.UB(),
+	.LB(),
+	.OE(),
+	.WE(),
+	
+	.ADDR,
+	
+	.Data()
+);
+
+always begin
+
+	reset = 0;
+	run = 1;
+	Continue = 1;
+	
+	
+	
+end 

@@ -61,21 +61,76 @@ S = 8'd00;
 #2
 reset = 1'b1;
 
+//test one - positive x positive
+
 #4
-S = 8'd127;
+S = 8'd07;
 #2
 ClearA_LoadB = 1'b0;
 #2
 ClearA_LoadB = 1'b1;
 
 #4
-S = 8'd127;
+S = -8'd59;
 
 #2
 run = 1'b0;
 #2
 run = 1'b1;
 
+//test two - negative x negative
+
+#100
+S = -8'd128;
+
+#2
+ClearA_LoadB = 1'b0;
+#2
+ClearA_LoadB = 1'b1;
+
+#4
+S = -8'd128;
+
+#2
+run = 1'b0;
+#2
+run = 1'b1;
+
+//test three - positive x negative
+
+#100
+S = -8'd100;
+
+#2
+ClearA_LoadB = 1'b0;
+#2
+ClearA_LoadB = 1'b1;
+
+#4
+S = 8'd03;
+
+#2
+run = 1'b0;
+#2
+run = 1'b1;
+
+//test four - negative x positive
+
+#100
+S = 8'd53;
+
+#2
+ClearA_LoadB = 1'b0;
+#2
+ClearA_LoadB = 1'b1;
+
+#4
+S = -8'd03;
+
+#2
+run = 1'b0;
+#2
+run = 1'b1;
 
 end
 
