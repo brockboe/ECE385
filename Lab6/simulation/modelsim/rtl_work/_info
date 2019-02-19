@@ -10,7 +10,7 @@ cModel Technology
 Z0 dC:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/simulation/modelsim
 valu
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1550423645
+Z2 !s110 1550531420
 !i10b 1
 !s100 LdPI;^g97aW:en7nFRj;E3
 I:L9IAU`FLSPA?VG`hHjAW0
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1550423645.000000
+Z5 !s108 1550531420.000000
 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/ALU.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/ALU.sv|
 !i113 1
@@ -61,40 +61,40 @@ R8
 n@b@e@n_block
 vbus_mux
 R1
-Z9 !s110 1550423644
+R2
 !i10b 1
 !s100 zC^hn;HVno2>OHZi?LLh91
 In`<g_PIoE2ZXkJjjd5]oi3
 R3
-Z10 !s105 mux_sv_unit
+Z9 !s105 mux_sv_unit
 S1
 R0
-Z11 w1550417513
-Z12 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/mux.sv
-Z13 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/mux.sv
+Z10 w1550417513
+Z11 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/mux.sv
+Z12 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/mux.sv
 L0 66
 R4
 r1
 !s85 0
 31
-Z14 !s108 1550423644.000000
-Z15 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/mux.sv|
-Z16 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/mux.sv|
+R5
+Z13 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/mux.sv|
+Z14 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/mux.sv|
 !i113 1
 R6
 R7
 R8
 vdatapath
 R1
-R9
+R2
 !i10b 1
-!s100 YPjK7IUUi?mfI[nU6ND2[1
-IfzP1JHIBJiASC60_ZFWGO1
+!s100 Be9GFX8^^=KOO6J_LZYg32
+IBG<LoCb79oUW;DZ>PHhTe3
 R3
 !s105 datapath_sv_unit
 S1
 R0
-w1550423470
+w1550531412
 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv
 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv
 L0 1
@@ -102,7 +102,7 @@ R4
 r1
 !s85 0
 31
-R14
+R5
 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv|
 !i113 1
@@ -137,7 +137,7 @@ R8
 n@hex@driver
 vISDU
 R1
-R9
+R2
 !i10b 1
 !s100 S6BIONZc=PM]zS?o]C=2b2
 IoZbOC1[BS@FeaJ]eWe]@o0
@@ -145,15 +145,15 @@ R3
 !s105 ISDU_sv_unit
 S1
 R0
-Z17 w1549816976
+Z15 w1549816976
 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/ISDU.sv
 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/ISDU.sv
-Z18 L0 19
+Z16 L0 19
 R4
 r1
 !s85 0
 31
-R14
+R5
 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/ISDU.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/ISDU.sv|
 !i113 1
@@ -163,7 +163,7 @@ R8
 n@i@s@d@u
 vlab6_toplevel
 R1
-R2
+Z17 !s110 1550531421
 !i10b 1
 !s100 k;XFYEj__@<f`n61h0?<B3
 IfQX>W=WAVKaj3T7hG7;l=1
@@ -171,7 +171,7 @@ R3
 !s105 lab6_toplevel_sv_unit
 S1
 R0
-R17
+R15
 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv
 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv
 L0 10
@@ -179,7 +179,7 @@ R4
 r1
 !s85 0
 31
-R5
+Z18 !s108 1550531421.000000
 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv|
 !i113 1
@@ -188,7 +188,7 @@ R7
 R8
 vMem2IO
 R1
-R9
+R2
 !i10b 1
 !s100 d<=A`]_5?F8Tz<i9:]04<3
 I]PHPRYe]RcPjLNifR?6LQ3
@@ -196,7 +196,7 @@ R3
 !s105 Mem2IO_sv_unit
 S1
 R0
-R17
+R15
 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/Mem2IO.sv
 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/Mem2IO.sv
 Z19 L0 16
@@ -204,7 +204,7 @@ R4
 r1
 !s85 0
 31
-R14
+R5
 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/Mem2IO.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/Mem2IO.sv|
 !i113 1
@@ -225,12 +225,12 @@ I7CkXU5FM4=Wg>M^PXaU<W0
 !i103 1
 S1
 R0
-R17
+R15
 Z21 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/memory_contents.sv
 Z22 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/memory_contents.sv
 L0 14
 R4
-R5
+R18
 Z23 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/memory_contents.sv|
 Z24 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/memory_contents.sv|
 !i113 1
@@ -251,12 +251,12 @@ INZ9R9K_jLzWkz3<V5]=BF1
 !s105 memory_contents_sv_unit
 S1
 R0
-R17
+R15
 R21
 R22
 R19
 R4
-R5
+R18
 R23
 R24
 !i113 1
@@ -265,82 +265,82 @@ R7
 R8
 vmux_16bit_2input
 R1
-R9
+R2
 !i10b 1
 !s100 RbR0VCNQ]0bXk@P>QKm`81
 Ij0]YT_L@TYf7S=LNc??CH2
 R3
-R10
+R9
 S1
 R0
+R10
 R11
 R12
-R13
 L0 1
 R4
 r1
 !s85 0
 31
+R5
+R13
 R14
-R15
-R16
 !i113 1
 R6
 R7
 R8
 vmux_16bit_4input
 R1
-R9
+R2
 !i10b 1
 !s100 j;Vf3_S2Qaodk4GAKomY70
 IDTQRm<9XSAa=YK`mGg_Wj2
 R3
-R10
+R9
 S1
 R0
+R10
 R11
 R12
-R13
 Z25 L0 22
 R4
 r1
 !s85 0
 31
+R5
+R13
 R14
-R15
-R16
 !i113 1
 R6
 R7
 R8
 vmux_3bit_2input
 R1
-R9
+R2
 !i10b 1
 !s100 aRGWHAbNBESC>J[kCgH`?3
 IYe3J1Nl2OlO@F9KF6TWW71
 R3
-R10
+R9
 S1
 R0
+R10
 R11
 R12
-R13
 L0 46
 R4
 r1
 !s85 0
 31
+R5
+R13
 R14
-R15
-R16
 !i113 1
 R6
 R7
 R8
 vreg16
 R1
-R9
+R2
 !i10b 1
 !s100 TzZWiM1=1OHO73ZfG>>3Z0
 I_k^BmDAE54zz;4?QPb;?F3
@@ -356,7 +356,7 @@ R4
 r1
 !s85 0
 31
-R14
+R5
 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/register.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/register.sv|
 !i113 1
@@ -367,13 +367,13 @@ vregister_unit
 R1
 R2
 !i10b 1
-!s100 eSN^TGG:oJ@[0gSVGL7F_3
-IKi=izVnDkXo[aOeZN:o>B0
+!s100 G:SLN=R7Db=RBLEijzj:z3
+I`6[khDZ2kz^ULP@7FF0`E2
 R3
 !s105 register_unit_sv_unit
 S1
 R0
-w1550423279
+w1550449508
 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/register_unit.sv
 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/register_unit.sv
 L0 1
@@ -381,7 +381,7 @@ R4
 r1
 !s85 0
 31
-R14
+R5
 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/register_unit.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/register_unit.sv|
 !i113 1
@@ -494,7 +494,7 @@ R8
 n@s@e@x@t8
 vslc3
 R1
-R2
+R17
 !i10b 1
 !s100 Dfk1]0S8UaQnodeTZ?8gU2
 I13eE<f[GL22fe=6Bn2LNO3
@@ -505,7 +505,7 @@ R0
 w1550423365
 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/slc3.sv
 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/slc3.sv
-R18
+R16
 R4
 r1
 !s85 0
@@ -519,14 +519,14 @@ R7
 R8
 XSLC3_2
 R1
-R9
+R2
 !i10b 1
 !s100 Cz8_^@QRefP31?j=Zf>lj0
 I>AB:14[a5;daLdSdjW@k02
 V>AB:14[a5;daLdSdjW@k02
 S1
 R0
-R17
+R15
 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/SLC3_2.sv
 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/SLC3_2.sv
 L0 24
@@ -534,7 +534,7 @@ R4
 r1
 !s85 0
 31
-R14
+R5
 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/SLC3_2.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/SLC3_2.sv|
 !i113 1
@@ -544,7 +544,7 @@ R8
 n@s@l@c3_2
 vtest_memory
 R1
-R9
+R2
 !i10b 1
 !s100 AZAU7PQT4]][EEHo>57W43
 I2kJU9S_EY3kQMKD9KRB]30
@@ -552,7 +552,7 @@ R3
 !s105 test_memory_sv_unit
 S1
 R0
-R17
+R15
 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/test_memory.sv
 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/test_memory.sv
 R25
@@ -560,7 +560,7 @@ R4
 r1
 !s85 0
 31
-R14
+R5
 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/test_memory.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/test_memory.sv|
 !i113 1
@@ -569,15 +569,15 @@ R7
 R8
 vtestbench
 R1
-R2
+R17
 !i10b 1
-!s100 1m0MV114JoFI8jhLl>5;A3
-I^Ienh8Xd@Modklh^mKe2?0
+!s100 Sn:Q>6kl8gbG[EUE>jZR[2
+IB5PR54lYacUIKkBoYj3[n3
 R3
 !s105 testbench_sv_unit
 S1
 R0
-w1550423621
+w1550531189
 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/testbench.sv
 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/testbench.sv
 L0 1
@@ -585,7 +585,7 @@ R4
 r1
 !s85 0
 31
-R5
+R18
 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/testbench.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/testbench.sv|
 !i113 1
@@ -594,7 +594,7 @@ R7
 R8
 vtristate
 R1
-R9
+R2
 !i10b 1
 !s100 Akazoo=71mOgoH<gVR_UC0
 IR:b_HoH@m<S<=Q]Z^0^[m3
@@ -602,7 +602,7 @@ R3
 !s105 tristate_sv_unit
 S1
 R0
-R17
+R15
 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/tristate.sv
 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/tristate.sv
 R19
@@ -610,7 +610,7 @@ R4
 r1
 !s85 0
 31
-R14
+R5
 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/tristate.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/tristate.sv|
 !i113 1

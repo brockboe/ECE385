@@ -81,7 +81,7 @@ module datapath
 		.load(LD_IR),
 		.reset(reset),
 		
-		.dout(IROUT)
+		.dout(IR_OUT)
 	);
 	
 	mux_16bit_4input PCMUXinstance

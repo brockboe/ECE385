@@ -34,10 +34,12 @@ module register_unit
 	);
 	
 	always_ff @ (posedge clk) begin
-	
+
 		SR2_out 					<= Reg[SR1MUXOUT][15:0];
 		SR1_out 					<= Reg[SR2][15:0];
-		Reg[DRMUXOUT][15:0] 	<= bus;
+
+		if(LDREG)
+			Reg[DRMUXOUT][15:0] 	<= bus;
 	
 	end
 	

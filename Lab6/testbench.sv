@@ -16,6 +16,9 @@ logic [19:0] ADDR;
 logic [15:0] R0;
 logic [15:0] R1;
 
+logic [6:0] HEX0;
+logic [6:0] HEX1;
+
 
 always begin
 	#1 Clk = ~Clk;
@@ -34,8 +37,8 @@ lab6_toplevel LC3
 	.Continue,
 	
 	.LED,
-	.HEX0(),
-	.HEX1(),
+	.HEX0,
+	.HEX1,
 	.HEX2(),
 	.HEX3(),
 	.HEX4(),
@@ -119,6 +122,40 @@ always begin
 	#2
 	Continue = 1;	
 	
+	#10
+	Continue = 0;
+	#2
+	Continue = 1;
+
+	#10
+	Continue = 0;
+	#2
+	Continue = 1;
+
+	#10
+	Continue = 0;
+	#2
+	Continue = 1;
+
+	#10
+	Continue = 0;
+	#2
+	Continue = 1;
+
+	#10
+	Continue = 0;
+	#2
+	Continue = 1;
+
+	#10
+	Continue = 0;
+	#2
+	Continue = 1;
+
+	#10
+	Continue = 0;
+	#2
+	Continue = 1;	
 end
 
 endmodule  
