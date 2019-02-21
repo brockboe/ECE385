@@ -1,5 +1,5 @@
 Timing Analyzer report for lab6_toplevel
-Mon Feb 18 17:33:15 2019
+Tue Feb 19 17:27:22 2019
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -95,14 +95,15 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 16          ;
 ; Maximum allowed            ; 16          ;
 ;                            ;             ;
-; Average used               ; 1.16        ;
+; Average used               ; 1.11        ;
 ; Maximum used               ; 16          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   2.5%      ;
-;     Processor 3            ;   1.9%      ;
-;     Processors 4-16        ;   0.9%      ;
+;     Processor 2            ;   2.2%      ;
+;     Processor 3            ;   1.4%      ;
+;     Processor 4            ;   0.6%      ;
+;     Processors 5-16        ;   0.6%      ;
 +----------------------------+-------------+
 
 
@@ -111,7 +112,7 @@ refer to the applicable agreement for further details.
 +---------------+--------+--------------------------+
 ; SDC File Path ; Status ; Read at                  ;
 +---------------+--------+--------------------------+
-; clock.sdc     ; OK     ; Mon Feb 18 17:33:14 2019 ;
+; clock.sdc     ; OK     ; Tue Feb 19 17:27:21 2019 ;
 +---------------+--------+--------------------------+
 
 
@@ -1525,7 +1526,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Mon Feb 18 17:33:13 2019
+    Info: Processing started: Tue Feb 19 17:27:20 2019
 Info: Command: quartus_sta LC3 -c lab6_toplevel
 Info: qsta_default_script.tcl version: #2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -1590,8 +1591,8 @@ Info (332146): Worst-case minimum pulse width slack is 5.000
 Info (332101): Design is fully constrained for setup requirements
 Info (332101): Design is fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 5024 megabytes
-    Info: Processing ended: Mon Feb 18 17:33:15 2019
+    Info: Peak virtual memory: 5023 megabytes
+    Info: Processing ended: Tue Feb 19 17:27:22 2019
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 
