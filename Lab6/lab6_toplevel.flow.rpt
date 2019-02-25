@@ -1,5 +1,5 @@
 Flow report for lab6_toplevel
-Tue Feb 19 17:27:24 2019
+Sun Feb 24 18:27:42 2019
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,17 +40,17 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Feb 19 17:27:24 2019       ;
+; Flow Status                        ; Successful - Sun Feb 24 18:27:42 2019       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab6_toplevel                               ;
 ; Top-level Entity Name              ; lab6_toplevel                               ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F29C8                               ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 126 / 114,480 ( < 1 % )                     ;
-;     Total combinational functions  ; 110 / 114,480 ( < 1 % )                     ;
-;     Dedicated logic registers      ; 87 / 114,480 ( < 1 % )                      ;
-; Total registers                    ; 103                                         ;
+; Total logic elements               ; 600 / 114,480 ( < 1 % )                     ;
+;     Total combinational functions  ; 508 / 114,480 ( < 1 % )                     ;
+;     Dedicated logic registers      ; 282 / 114,480 ( < 1 % )                     ;
+; Total registers                    ; 282                                         ;
 ; Total pins                         ; 129 / 529 ( 24 % )                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0 / 3,981,312 ( 0 % )                       ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/19/2019 17:26:50 ;
+; Start date & time ; 02/24/2019 18:26:47 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; lab6_toplevel       ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 13870907933117.155061881004304         ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 13870907933117.155105440703832         ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; testbench      ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testbench                              ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                      ; --            ; --          ; eda_simulation ;
@@ -101,7 +101,7 @@ refer to the applicable agreement for further details.
 ; EDA_TEST_BENCH_FILE                  ; adders.sv                              ; --            ; --          ; testbench      ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; testbench                              ; --            ; --          ; testbench      ;
 ; EDA_TEST_BENCH_NAME                  ; testbench                              ; --            ; --          ; eda_simulation ;
-; EDA_TEST_BENCH_RUN_SIM_FOR           ; 10 us                                  ; --            ; --          ; testbench      ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 100 us                                 ; --            ; --          ; testbench      ;
 ; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --             ;
@@ -119,12 +119,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:10     ; 1.0                     ; 4864 MB             ; 00:00:23                           ;
-; Fitter               ; 00:00:13     ; 1.0                     ; 6734 MB             ; 00:00:31                           ;
-; Assembler            ; 00:00:03     ; 1.0                     ; 4704 MB             ; 00:00:03                           ;
-; Timing Analyzer      ; 00:00:02     ; 1.1                     ; 5023 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4675 MB             ; 00:00:01                           ;
-; Total                ; 00:00:29     ; --                      ; --                  ; 00:01:00                           ;
+; Analysis & Synthesis ; 00:00:29     ; 1.0                     ; 4867 MB             ; 00:00:22                           ;
+; Fitter               ; 00:00:14     ; 1.1                     ; 6767 MB             ; 00:00:41                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 4707 MB             ; 00:00:03                           ;
+; Timing Analyzer      ; 00:00:02     ; 1.2                     ; 5022 MB             ; 00:00:03                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4682 MB             ; 00:00:02                           ;
+; Total                ; 00:00:50     ; --                      ; --                  ; 00:01:11                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

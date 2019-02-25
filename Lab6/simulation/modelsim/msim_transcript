@@ -12,47 +12,47 @@
 # 
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/test_memory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:44 on Feb 19,2019
+# Start time: 00:55:59 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/test_memory.sv 
 # -- Compiling module test_memory
 # 
 # Top level modules:
 # 	test_memory
-# End time: 17:32:44 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:55:59 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/SLC3_2.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:44 on Feb 19,2019
+# Start time: 00:55:59 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/SLC3_2.sv 
 # -- Compiling package SLC3_2
 # 
 # Top level modules:
 # 	--none--
-# End time: 17:32:44 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:55:59 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/register_unit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:44 on Feb 19,2019
+# Start time: 00:55:59 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/register_unit.sv 
 # -- Compiling module register_unit
 # 
 # Top level modules:
 # 	register_unit
-# End time: 17:32:44 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:55:59 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/register.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:44 on Feb 19,2019
+# Start time: 00:55:59 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/register.sv 
 # -- Compiling module reg16
 # 
 # Top level modules:
 # 	reg16
-# End time: 17:32:44 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:55:59 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/mux.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:44 on Feb 19,2019
+# Start time: 00:55:59 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/mux.sv 
 # -- Compiling module mux_16bit_2input
 # -- Compiling module mux_16bit_4input
@@ -64,41 +64,41 @@
 # 	mux_16bit_4input
 # 	mux_3bit_2input
 # 	bus_mux
-# End time: 17:32:44 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:55:59 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/Mem2IO.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:44 on Feb 19,2019
+# Start time: 00:55:59 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/Mem2IO.sv 
 # -- Compiling module Mem2IO
 # 
 # Top level modules:
 # 	Mem2IO
-# End time: 17:32:44 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:55:59 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/ISDU.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:44 on Feb 19,2019
+# Start time: 00:55:59 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/ISDU.sv 
 # -- Compiling module ISDU
 # 
 # Top level modules:
 # 	ISDU
-# End time: 17:32:44 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:55:59 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/HexDriver.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:44 on Feb 19,2019
+# Start time: 00:55:59 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/HexDriver.sv 
 # -- Compiling module HexDriver
 # 
 # Top level modules:
 # 	HexDriver
-# End time: 17:32:44 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:55:59 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/EXT.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:44 on Feb 19,2019
+# Start time: 00:55:59 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/EXT.sv 
 # -- Compiling module SEXT10
 # -- Compiling module SEXT8
@@ -112,61 +112,71 @@
 # 	SEXT5
 # 	SEXT4
 # 	ZEXT16
-# End time: 17:32:44 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:55:59 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:44 on Feb 19,2019
+# Start time: 00:55:59 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv 
 # -- Compiling module datapath
 # 
 # Top level modules:
 # 	datapath
-# End time: 17:32:44 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:55:59 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/BEN.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:44 on Feb 19,2019
+# Start time: 00:55:59 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/BEN.sv 
 # -- Compiling module BEN_block
 # 
 # Top level modules:
 # 	BEN_block
-# End time: 17:32:44 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:55:59 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/ALU.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:44 on Feb 19,2019
+# Start time: 00:55:59 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/ALU.sv 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 17:32:44 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:55:59 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/tristate.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:44 on Feb 19,2019
+# Start time: 00:55:59 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/tristate.sv 
 # -- Compiling module tristate
 # 
 # Top level modules:
 # 	tristate
-# End time: 17:32:45 on Feb 19,2019, Elapsed time: 0:00:01
+# End time: 00:56:00 on Feb 24,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/LED.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:56:00 on Feb 24,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/LED.sv 
+# -- Compiling module LED_Handler
+# 
+# Top level modules:
+# 	LED_Handler
+# End time: 00:56:00 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/slc3.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:45 on Feb 19,2019
+# Start time: 00:56:00 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/slc3.sv 
 # -- Compiling module slc3
 # 
 # Top level modules:
 # 	slc3
-# End time: 17:32:45 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:56:00 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/memory_contents.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:45 on Feb 19,2019
+# Start time: 00:56:00 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/memory_contents.sv 
 # -- Compiling package memory_contents_sv_unit
 # -- Importing package SLC3_2
@@ -174,52 +184,52 @@
 # 
 # Top level modules:
 # 	memory_parser
-# End time: 17:32:45 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:56:00 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:45 on Feb 19,2019
+# Start time: 00:56:00 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv 
 # -- Compiling module lab6_toplevel
 # 
 # Top level modules:
 # 	lab6_toplevel
-# End time: 17:32:45 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:56:00 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/testbench.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:45 on Feb 19,2019
+# Start time: 00:56:00 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/testbench.sv 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 17:32:45 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:56:00 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/test_memory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:45 on Feb 19,2019
+# Start time: 00:56:00 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/test_memory.sv 
 # -- Compiling module test_memory
 # 
 # Top level modules:
 # 	test_memory
-# End time: 17:32:45 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:56:00 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/ALU.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:45 on Feb 19,2019
+# Start time: 00:56:00 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/ALU.sv 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 17:32:45 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:56:00 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/mux.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:45 on Feb 19,2019
+# Start time: 00:56:00 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/mux.sv 
 # -- Compiling module mux_16bit_2input
 # -- Compiling module mux_16bit_4input
@@ -231,11 +241,11 @@
 # 	mux_16bit_4input
 # 	mux_3bit_2input
 # 	bus_mux
-# End time: 17:32:45 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:56:00 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/memory_contents.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:45 on Feb 19,2019
+# Start time: 00:56:00 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/memory_contents.sv 
 # -- Compiling package memory_contents_sv_unit
 # -- Importing package SLC3_2
@@ -243,111 +253,111 @@
 # 
 # Top level modules:
 # 	memory_parser
-# End time: 17:32:45 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:56:00 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/ISDU.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:45 on Feb 19,2019
+# Start time: 00:56:00 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/ISDU.sv 
 # -- Compiling module ISDU
 # 
 # Top level modules:
 # 	ISDU
-# End time: 17:32:45 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:56:00 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/slc3.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:45 on Feb 19,2019
+# Start time: 00:56:00 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/slc3.sv 
 # -- Compiling module slc3
 # 
 # Top level modules:
 # 	slc3
-# End time: 17:32:45 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:56:00 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/register_unit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:45 on Feb 19,2019
+# Start time: 00:56:00 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/register_unit.sv 
 # -- Compiling module register_unit
 # 
 # Top level modules:
 # 	register_unit
-# End time: 17:32:45 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:56:00 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/SLC3_2.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:45 on Feb 19,2019
+# Start time: 00:56:00 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/SLC3_2.sv 
 # -- Compiling package SLC3_2
 # 
 # Top level modules:
 # 	--none--
-# End time: 17:32:46 on Feb 19,2019, Elapsed time: 0:00:01
+# End time: 00:56:01 on Feb 24,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/BEN.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:46 on Feb 19,2019
+# Start time: 00:56:01 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/BEN.sv 
 # -- Compiling module BEN_block
 # 
 # Top level modules:
 # 	BEN_block
-# End time: 17:32:46 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:56:01 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/tristate.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:46 on Feb 19,2019
+# Start time: 00:56:01 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/tristate.sv 
 # -- Compiling module tristate
 # 
 # Top level modules:
 # 	tristate
-# End time: 17:32:46 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:56:01 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/HexDriver.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:46 on Feb 19,2019
+# Start time: 00:56:01 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/HexDriver.sv 
 # -- Compiling module HexDriver
 # 
 # Top level modules:
 # 	HexDriver
-# End time: 17:32:46 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:56:01 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:46 on Feb 19,2019
+# Start time: 00:56:01 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv 
 # -- Compiling module lab6_toplevel
 # 
 # Top level modules:
 # 	lab6_toplevel
-# End time: 17:32:46 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:56:01 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:46 on Feb 19,2019
+# Start time: 00:56:01 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv 
 # -- Compiling module datapath
 # 
 # Top level modules:
 # 	datapath
-# End time: 17:32:46 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:56:01 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/Mem2IO.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:46 on Feb 19,2019
+# Start time: 00:56:01 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/Mem2IO.sv 
 # -- Compiling module Mem2IO
 # 
 # Top level modules:
 # 	Mem2IO
-# End time: 17:32:46 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:56:01 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/EXT.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:46 on Feb 19,2019
+# Start time: 00:56:01 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/EXT.sv 
 # -- Compiling module SEXT10
 # -- Compiling module SEXT8
@@ -361,21 +371,21 @@
 # 	SEXT5
 # 	SEXT4
 # 	ZEXT16
-# End time: 17:32:46 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:56:01 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/register.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:46 on Feb 19,2019
+# Start time: 00:56:01 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/register.sv 
 # -- Compiling module reg16
 # 
 # Top level modules:
 # 	reg16
-# End time: 17:32:46 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:56:01 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/adders.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:46 on Feb 19,2019
+# Start time: 00:56:01 on Feb 24,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/adders.sv 
 # -- Compiling module FullAdder
 # -- Compiling module RippleCarryAdder8bit
@@ -383,12 +393,12 @@
 # 
 # Top level modules:
 # 	RippleCarrySubtractor8bit
-# End time: 17:32:46 on Feb 19,2019, Elapsed time: 0:00:00
+# End time: 00:56:01 on Feb 24,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testbench
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
-# Start time: 17:32:46 on Feb 19,2019
+# Start time: 00:56:01 on Feb 24,2019
 # Loading sv_std.std
 # Loading work.testbench
 # Loading work.lab6_toplevel
@@ -407,6 +417,7 @@
 # Loading work.alu
 # Loading work.BEN_block
 # Loading work.bus_mux
+# Loading work.LED_Handler
 # Loading work.Mem2IO
 # Loading work.tristate
 # Loading work.ISDU
@@ -420,6 +431,6 @@
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
-# run 10 us
-# End time: 22:00:15 on Feb 19,2019, Elapsed time: 4:27:29
+# run 100 us
+# End time: 01:52:34 on Feb 24,2019, Elapsed time: 0:56:33
 # Errors: 0, Warnings: 0

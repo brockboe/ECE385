@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab6_toplevel
-Tue Feb 19 17:27:00 2019
+Sun Feb 24 18:27:16 2019
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -15,23 +15,19 @@ Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
   7. Analysis & Synthesis Resource Utilization by Entity
   8. State Machine - |lab6_toplevel|slc3:my_slc|ISDU:state_controller|State
   9. Registers Removed During Synthesis
- 10. Removed Registers Triggering Further Register Optimizations
- 11. General Register Statistics
- 12. Multiplexer Restructuring Statistics (Restructuring Performed)
- 13. Parameter Settings for User Entity Instance: slc3:my_slc|tristate:tr0
- 14. Parameter Settings for User Entity Instance: test_memory:my_test_memory
- 15. Parameter Settings for User Entity Instance: test_memory:my_test_memory|memory_parser:parser
- 16. Port Connectivity Checks: "slc3:my_slc|ISDU:state_controller"
- 17. Port Connectivity Checks: "slc3:my_slc|Mem2IO:memory_subsystem"
- 18. Port Connectivity Checks: "slc3:my_slc|datapath:d0|register_unit:regUnitInstance|mux_3bit_2input:SR1MUX"
- 19. Port Connectivity Checks: "slc3:my_slc|datapath:d0|register_unit:regUnitInstance|mux_3bit_2input:DRMUX"
- 20. Port Connectivity Checks: "slc3:my_slc|datapath:d0|register_unit:regUnitInstance"
- 21. Port Connectivity Checks: "slc3:my_slc|datapath:d0|mux_16bit_4input:ADDR2MUXinstance"
- 22. Port Connectivity Checks: "slc3:my_slc|datapath:d0|mux_16bit_4input:PCMUXinstance"
- 23. Port Connectivity Checks: "slc3:my_slc|datapath:d0"
- 24. Post-Synthesis Netlist Statistics for Top Partition
- 25. Elapsed Time Per Partition
- 26. Analysis & Synthesis Messages
+ 10. General Register Statistics
+ 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 12. Parameter Settings for User Entity Instance: slc3:my_slc|tristate:tr0
+ 13. Parameter Settings for User Entity Instance: test_memory:my_test_memory
+ 14. Parameter Settings for User Entity Instance: test_memory:my_test_memory|memory_parser:parser
+ 15. Port Connectivity Checks: "slc3:my_slc|Mem2IO:memory_subsystem"
+ 16. Port Connectivity Checks: "slc3:my_slc|datapath:d0|register_unit:regUnitInstance|mux_3bit_2input:DRMUX"
+ 17. Port Connectivity Checks: "slc3:my_slc|datapath:d0|mux_16bit_4input:ADDR2MUXinstance"
+ 18. Port Connectivity Checks: "slc3:my_slc|datapath:d0|mux_16bit_4input:PCMUXinstance"
+ 19. Port Connectivity Checks: "slc3:my_slc|datapath:d0"
+ 20. Post-Synthesis Netlist Statistics for Top Partition
+ 21. Elapsed Time Per Partition
+ 22. Analysis & Synthesis Messages
 
 
 
@@ -57,15 +53,15 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Feb 19 17:27:00 2019       ;
+; Analysis & Synthesis Status        ; Successful - Sun Feb 24 18:27:16 2019       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab6_toplevel                               ;
 ; Top-level Entity Name              ; lab6_toplevel                               ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 126                                         ;
-;     Total combinational functions  ; 110                                         ;
-;     Dedicated logic registers      ; 87                                          ;
-; Total registers                    ; 87                                          ;
+; Total logic elements               ; 684                                         ;
+;     Total combinational functions  ; 508                                         ;
+;     Dedicated logic registers      ; 282                                         ;
+; Total registers                    ; 282                                         ;
 ; Total pins                         ; 129                                         ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
@@ -173,7 +169,14 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-16        ;   0.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processor 3            ;   0.0%      ;
+;     Processor 4            ;   0.0%      ;
+;     Processor 5            ;   0.0%      ;
+;     Processor 6            ;   0.0%      ;
+;     Processor 7            ;   0.0%      ;
+;     Processor 8            ;   0.0%      ;
+;     Processors 9-16        ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -198,6 +201,7 @@ refer to the applicable agreement for further details.
 ; BEN.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/BEN.sv             ;         ;
 ; ALU.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/ALU.sv             ;         ;
 ; tristate.sv                      ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/tristate.sv        ;         ;
+; LED.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/LED.sv             ;         ;
 +----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------+---------+
 
 
@@ -206,20 +210,20 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 126       ;
+; Estimated Total logic elements              ; 684       ;
 ;                                             ;           ;
-; Total combinational functions               ; 110       ;
+; Total combinational functions               ; 508       ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 53        ;
-;     -- 3 input functions                    ; 2         ;
-;     -- <=2 input functions                  ; 55        ;
+;     -- 4 input functions                    ; 341       ;
+;     -- 3 input functions                    ; 114       ;
+;     -- <=2 input functions                  ; 53        ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 95        ;
-;     -- arithmetic mode                      ; 15        ;
+;     -- normal mode                          ; 478       ;
+;     -- arithmetic mode                      ; 30        ;
 ;                                             ;           ;
-; Total registers                             ; 87        ;
-;     -- Dedicated logic registers            ; 87        ;
+; Total registers                             ; 282       ;
+;     -- Dedicated logic registers            ; 282       ;
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
 ; I/O pins                                    ; 129       ;
@@ -227,142 +231,89 @@ refer to the applicable agreement for further details.
 ; Embedded Multiplier 9-bit elements          ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; Clk~input ;
-; Maximum fan-out                             ; 87        ;
-; Total fan-out                               ; 821       ;
-; Average fan-out                             ; 1.74      ;
+; Maximum fan-out                             ; 282       ;
+; Total fan-out                               ; 2932      ;
+; Average fan-out                             ; 2.76      ;
 +---------------------------------------------+-----------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                         ;
-+-----------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------+---------------+--------------+
-; Compilation Hierarchy Node        ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                           ; Entity Name   ; Library Name ;
-+-----------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------+---------------+--------------+
-; |lab6_toplevel                    ; 110 (0)             ; 87 (0)                    ; 0           ; 0            ; 0       ; 0         ; 129  ; 0            ; |lab6_toplevel                                                ; lab6_toplevel ; work         ;
-;    |slc3:my_slc|                  ; 110 (0)             ; 87 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc                                    ; slc3          ; work         ;
-;       |HexDriver:hex_driver0|     ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|HexDriver:hex_driver0              ; HexDriver     ; work         ;
-;       |HexDriver:hex_driver1|     ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|HexDriver:hex_driver1              ; HexDriver     ; work         ;
-;       |HexDriver:hex_driver2|     ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|HexDriver:hex_driver2              ; HexDriver     ; work         ;
-;       |HexDriver:hex_driver3|     ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|HexDriver:hex_driver3              ; HexDriver     ; work         ;
-;       |ISDU:state_controller|     ; 8 (8)               ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|ISDU:state_controller              ; ISDU          ; work         ;
-;       |Mem2IO:memory_subsystem|   ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|Mem2IO:memory_subsystem            ; Mem2IO        ; work         ;
-;       |datapath:d0|               ; 69 (0)              ; 64 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|datapath:d0                        ; datapath      ; work         ;
-;          |bus_mux:BusMuxInstance| ; 16 (16)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|datapath:d0|bus_mux:BusMuxInstance ; bus_mux       ; work         ;
-;          |reg16:IR|               ; 1 (1)               ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|datapath:d0|reg16:IR               ; reg16         ; work         ;
-;          |reg16:MAR|              ; 17 (17)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|datapath:d0|reg16:MAR              ; reg16         ; work         ;
-;          |reg16:MDR|              ; 19 (19)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|datapath:d0|reg16:MDR              ; reg16         ; work         ;
-;          |reg16:PC|               ; 16 (16)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|datapath:d0|reg16:PC               ; reg16         ; work         ;
-;       |tristate:tr0|              ; 0 (0)               ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|tristate:tr0                       ; tristate      ; work         ;
-+-----------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------+---------------+--------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                   ;
++--------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------+------------------+--------------+
+; Compilation Hierarchy Node                 ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                         ; Entity Name      ; Library Name ;
++--------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------+------------------+--------------+
+; |lab6_toplevel                             ; 508 (0)             ; 282 (0)                   ; 0           ; 0            ; 0       ; 0         ; 129  ; 0            ; |lab6_toplevel                                                                              ; lab6_toplevel    ; work         ;
+;    |slc3:my_slc|                           ; 508 (0)             ; 282 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc                                                                  ; slc3             ; work         ;
+;       |HexDriver:hex_driver0|              ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|HexDriver:hex_driver0                                            ; HexDriver        ; work         ;
+;       |HexDriver:hex_driver1|              ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|HexDriver:hex_driver1                                            ; HexDriver        ; work         ;
+;       |HexDriver:hex_driver2|              ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|HexDriver:hex_driver2                                            ; HexDriver        ; work         ;
+;       |HexDriver:hex_driver3|              ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|HexDriver:hex_driver3                                            ; HexDriver        ; work         ;
+;       |ISDU:state_controller|              ; 49 (49)             ; 26 (26)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|ISDU:state_controller                                            ; ISDU             ; work         ;
+;       |Mem2IO:memory_subsystem|            ; 22 (22)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|Mem2IO:memory_subsystem                                          ; Mem2IO           ; work         ;
+;       |datapath:d0|                        ; 409 (99)            ; 208 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|datapath:d0                                                      ; datapath         ; work         ;
+;          |BEN_block:BENLogic|              ; 9 (9)               ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|datapath:d0|BEN_block:BENLogic                                   ; BEN_block        ; work         ;
+;          |LED_Handler:LEDBLOCK|            ; 13 (13)             ; 12 (12)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|datapath:d0|LED_Handler:LEDBLOCK                                 ; LED_Handler      ; work         ;
+;          |alu:aluInstance|                 ; 16 (16)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|datapath:d0|alu:aluInstance                                      ; alu              ; work         ;
+;          |bus_mux:BusMuxInstance|          ; 36 (36)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|datapath:d0|bus_mux:BusMuxInstance                               ; bus_mux          ; work         ;
+;          |mux_16bit_2input:SR2MUXinstance| ; 84 (84)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|datapath:d0|mux_16bit_2input:SR2MUXinstance                      ; mux_16bit_2input ; work         ;
+;          |reg16:IR|                        ; 1 (1)               ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|datapath:d0|reg16:IR                                             ; reg16            ; work         ;
+;          |reg16:MAR|                       ; 18 (18)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|datapath:d0|reg16:MAR                                            ; reg16            ; work         ;
+;          |reg16:MDR|                       ; 19 (19)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|datapath:d0|reg16:MDR                                            ; reg16            ; work         ;
+;          |reg16:PC|                        ; 18 (18)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|datapath:d0|reg16:PC                                             ; reg16            ; work         ;
+;          |register_unit:regUnitInstance|   ; 96 (93)             ; 128 (128)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|datapath:d0|register_unit:regUnitInstance                        ; register_unit    ; work         ;
+;             |mux_3bit_2input:SR1MUX|       ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|datapath:d0|register_unit:regUnitInstance|mux_3bit_2input:SR1MUX ; mux_3bit_2input  ; work         ;
+;       |tristate:tr0|                       ; 0 (0)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab6_toplevel|slc3:my_slc|tristate:tr0                                                     ; tristate         ; work         ;
++--------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------+------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
 Encoding Type:  One-Hot
-+---------------------------------------------------------------------------------------------------------------------------------------------------+
-; State Machine - |lab6_toplevel|slc3:my_slc|ISDU:state_controller|State                                                                            ;
-+----------------+------------+------------+--------------+--------------+------------+----------------+----------------+--------------+------------+
-; Name           ; State.S_32 ; State.S_35 ; State.S_33_2 ; State.S_33_1 ; State.S_18 ; State.PauseIR2 ; State.PauseIR1 ; State.Halted ; State.S_01 ;
-+----------------+------------+------------+--------------+--------------+------------+----------------+----------------+--------------+------------+
-; State.Halted   ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 0            ; 0          ;
-; State.PauseIR1 ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 1              ; 1            ; 0          ;
-; State.PauseIR2 ; 0          ; 0          ; 0            ; 0            ; 0          ; 1              ; 0              ; 1            ; 0          ;
-; State.S_18     ; 0          ; 0          ; 0            ; 0            ; 1          ; 0              ; 0              ; 1            ; 0          ;
-; State.S_33_1   ; 0          ; 0          ; 0            ; 1            ; 0          ; 0              ; 0              ; 1            ; 0          ;
-; State.S_33_2   ; 0          ; 0          ; 1            ; 0            ; 0          ; 0              ; 0              ; 1            ; 0          ;
-; State.S_35     ; 0          ; 1          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ; 0          ;
-; State.S_32     ; 1          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ; 0          ;
-; State.S_01     ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ; 1          ;
-+----------------+------------+------------+--------------+--------------+------------+----------------+----------------+--------------+------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |lab6_toplevel|slc3:my_slc|ISDU:state_controller|State                                                                                                                                                                                                                                                                                                                     ;
++----------------+------------+------------+------------+------------+------------+--------------+--------------+--------------+------------+------------+------------+--------------+--------------+--------------+------------+------------+------------+------------+------------+------------+--------------+--------------+------------+----------------+----------------+--------------+
+; Name           ; State.S_22 ; State.S_00 ; State.S_12 ; State.S_21 ; State.S_04 ; State.S_16_3 ; State.S_16_2 ; State.S_16_1 ; State.S_23 ; State.S_07 ; State.S_27 ; State.S_25_3 ; State.S_25_2 ; State.S_25_1 ; State.S_06 ; State.S_09 ; State.S_05 ; State.S_01 ; State.S_32 ; State.S_35 ; State.S_33_2 ; State.S_33_1 ; State.S_18 ; State.PauseIR2 ; State.PauseIR1 ; State.Halted ;
++----------------+------------+------------+------------+------------+------------+--------------+--------------+--------------+------------+------------+------------+--------------+--------------+--------------+------------+------------+------------+------------+------------+------------+--------------+--------------+------------+----------------+----------------+--------------+
+; State.Halted   ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 0            ;
+; State.PauseIR1 ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 1              ; 1            ;
+; State.PauseIR2 ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0          ; 1              ; 0              ; 1            ;
+; State.S_18     ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 1          ; 0              ; 0              ; 1            ;
+; State.S_33_1   ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 1            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_33_2   ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 1            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_35     ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 1          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_32     ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 1          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_01     ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 1          ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_05     ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 1          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_09     ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 1          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_06     ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 1          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_25_1   ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0            ; 0            ; 1            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_25_2   ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0            ; 1            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_25_3   ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 1            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_27     ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 1          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_07     ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 1          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_23     ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 1          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_16_1   ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 1            ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_16_2   ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 1            ; 0            ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_16_3   ; 0          ; 0          ; 0          ; 0          ; 0          ; 1            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_04     ; 0          ; 0          ; 0          ; 0          ; 1          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_21     ; 0          ; 0          ; 0          ; 1          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_12     ; 0          ; 0          ; 1          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_00     ; 0          ; 1          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
+; State.S_22     ; 1          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0            ; 0            ; 0            ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0            ; 0            ; 0          ; 0              ; 0              ; 1            ;
++----------------+------------+------------+------------+------------+------------+--------------+--------------+--------------+------------+------------+------------+--------------+--------------+--------------+------------+------------+------------+------------+------------+------------+--------------+--------------+------------+----------------+----------------+--------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                                                                   ;
-+----------------------------------------------------------------------+-------------------------------------------------------------------------------+
-; Register name                                                        ; Reason for Removal                                                            ;
-+----------------------------------------------------------------------+-------------------------------------------------------------------------------+
-; slc3:my_slc|tristate:tr0|Data_write_buffer[0..15]                    ; Stuck at GND due to stuck port data_in                                        ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[1][0]      ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[1][1]      ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[1][2]      ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[1][3]      ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[1][4]      ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[1][5]      ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[1][6]      ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[1][7]      ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[1][8]      ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[1][9]      ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[1][10]     ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[1][11]     ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[1][12]     ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[1][13]     ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[1][14]     ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[1][15]     ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[2][0]      ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[2][1]      ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[2][2]      ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[2][3]      ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[2][4]      ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[2][5]      ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[2][6]      ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[2][7]      ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[2][8]      ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[2][9]      ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[2][10]     ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[2][11]     ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[2][12]     ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[2][13]     ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[2][14]     ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[2][15]     ; Lost fanout                                                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR2_out[0]     ; Merged with slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR1_out[0]  ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR2_out[1]     ; Merged with slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR1_out[1]  ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR2_out[2]     ; Merged with slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR1_out[2]  ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR2_out[3]     ; Merged with slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR1_out[3]  ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR2_out[4]     ; Merged with slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR1_out[4]  ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR2_out[5]     ; Merged with slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR1_out[5]  ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR2_out[6]     ; Merged with slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR1_out[6]  ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR2_out[7]     ; Merged with slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR1_out[7]  ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR2_out[8]     ; Merged with slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR1_out[8]  ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR2_out[9]     ; Merged with slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR1_out[9]  ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR2_out[10]    ; Merged with slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR1_out[10] ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR2_out[11]    ; Merged with slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR1_out[11] ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR2_out[12]    ; Merged with slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR1_out[12] ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR2_out[13]    ; Merged with slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR1_out[13] ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR2_out[14]    ; Merged with slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR1_out[14] ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR2_out[15]    ; Merged with slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR1_out[15] ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[0][15]     ; Stuck at GND due to stuck port clock_enable                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[0][14]     ; Stuck at GND due to stuck port clock_enable                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[0][13]     ; Stuck at GND due to stuck port clock_enable                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[0][12]     ; Stuck at GND due to stuck port clock_enable                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[0][11]     ; Stuck at GND due to stuck port clock_enable                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[0][10]     ; Stuck at GND due to stuck port clock_enable                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[0][9]      ; Stuck at GND due to stuck port clock_enable                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[0][8]      ; Stuck at GND due to stuck port clock_enable                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[0][7]      ; Stuck at GND due to stuck port clock_enable                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[0][6]      ; Stuck at GND due to stuck port clock_enable                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[0][5]      ; Stuck at GND due to stuck port clock_enable                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[0][4]      ; Stuck at GND due to stuck port clock_enable                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[0][3]      ; Stuck at GND due to stuck port clock_enable                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[0][2]      ; Stuck at GND due to stuck port clock_enable                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[0][1]      ; Stuck at GND due to stuck port clock_enable                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[0][0]      ; Stuck at GND due to stuck port clock_enable                                   ;
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR1_out[0..15] ; Lost fanout                                                                   ;
-; slc3:my_slc|ISDU:state_controller|State.S_32                         ; Lost fanout                                                                   ;
-; slc3:my_slc|ISDU:state_controller|State.S_01                         ; Lost fanout                                                                   ;
-; slc3:my_slc|ISDU:state_controller|State~2                            ; Lost fanout                                                                   ;
-; slc3:my_slc|ISDU:state_controller|State~3                            ; Lost fanout                                                                   ;
-; slc3:my_slc|ISDU:state_controller|State~4                            ; Lost fanout                                                                   ;
-; Total Number of Removed Registers = 101                              ;                                                                               ;
-+----------------------------------------------------------------------+-------------------------------------------------------------------------------+
-
-
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                                                            ;
-+------------------------------------------------------------------+--------------------------------+--------------------------------------------------------------------+
-; Register name                                                    ; Reason for Removal             ; Registers Removed due to This Register                             ;
-+------------------------------------------------------------------+--------------------------------+--------------------------------------------------------------------+
-; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[0][15] ; Stuck at GND                   ; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR1_out[15], ;
-;                                                                  ; due to stuck port clock_enable ; slc3:my_slc|datapath:d0|register_unit:regUnitInstance|SR1_out[14]  ;
-+------------------------------------------------------------------+--------------------------------+--------------------------------------------------------------------+
++----------------------------------------------------------------+
+; Registers Removed During Synthesis                             ;
++-------------------------------------------+--------------------+
+; Register name                             ; Reason for Removal ;
++-------------------------------------------+--------------------+
+; slc3:my_slc|ISDU:state_controller|State~2 ; Lost fanout        ;
+; slc3:my_slc|ISDU:state_controller|State~3 ; Lost fanout        ;
+; slc3:my_slc|ISDU:state_controller|State~4 ; Lost fanout        ;
+; slc3:my_slc|ISDU:state_controller|State~5 ; Lost fanout        ;
+; slc3:my_slc|ISDU:state_controller|State~6 ; Lost fanout        ;
+; Total Number of Removed Registers = 5     ;                    ;
++-------------------------------------------+--------------------+
 
 
 +------------------------------------------------------+
@@ -370,27 +321,42 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 87    ;
+; Total registers                              ; 282   ;
 ; Number of registers using Synchronous Clear  ; 34    ;
-; Number of registers using Synchronous Load   ; 16    ;
+; Number of registers using Synchronous Load   ; 32    ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 64    ;
+; Number of registers using Clock Enable       ; 223   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                  ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                        ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------+
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |lab6_toplevel|slc3:my_slc|datapath:d0|reg16:MAR|dout[6]          ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |lab6_toplevel|slc3:my_slc|datapath:d0|reg16:IR|dout[0]           ;
-; 5:1                ; 16 bits   ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; Yes        ; |lab6_toplevel|slc3:my_slc|datapath:d0|reg16:MDR|dout[11]         ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |lab6_toplevel|slc3:my_slc|datapath:d0|bus_mux:BusMuxInstance|out ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |lab6_toplevel|slc3:my_slc|ISDU:state_controller|State            ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                      ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------------------+
+; 3:1                ; 12 bits   ; 24 LEs        ; 12 LEs               ; 12 LEs                 ; Yes        ; |lab6_toplevel|slc3:my_slc|datapath:d0|LED_Handler:LEDBLOCK|LED[2]              ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |lab6_toplevel|slc3:my_slc|datapath:d0|reg16:IR|dout[13]                        ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |lab6_toplevel|slc3:my_slc|Mem2IO:memory_subsystem|hex_data[1]                  ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |lab6_toplevel|slc3:my_slc|datapath:d0|reg16:MAR|dout[12]                       ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |lab6_toplevel|slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[0][12] ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |lab6_toplevel|slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[1][3]  ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |lab6_toplevel|slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[2][10] ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |lab6_toplevel|slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[3][3]  ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |lab6_toplevel|slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[4][5]  ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |lab6_toplevel|slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[5][0]  ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |lab6_toplevel|slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[6][9]  ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |lab6_toplevel|slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Reg[7][4]  ;
+; 6:1                ; 16 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |lab6_toplevel|slc3:my_slc|datapath:d0|reg16:PC|dout[8]                         ;
+; 6:1                ; 16 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |lab6_toplevel|slc3:my_slc|datapath:d0|reg16:MDR|dout[9]                        ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |lab6_toplevel|slc3:my_slc|datapath:d0|mux_16bit_4input:ADDR2MUXinstance|Mux6   ;
+; 1:1                ; 6 bits    ; 0 LEs         ; 0 LEs                ; 0 LEs                  ; No         ; |lab6_toplevel|slc3:my_slc|datapath:d0|Add0                                     ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |lab6_toplevel|slc3:my_slc|datapath:d0|register_unit:regUnitInstance|Mux12      ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; No         ; |lab6_toplevel|slc3:my_slc|datapath:d0|Add0                                     ;
+; 9:1                ; 16 bits   ; 96 LEs        ; 96 LEs               ; 0 LEs                  ; No         ; |lab6_toplevel|slc3:my_slc|datapath:d0|mux_16bit_2input:SR2MUXinstance|out[15]  ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 64 LEs               ; 16 LEs                 ; No         ; |lab6_toplevel|slc3:my_slc|datapath:d0|bus_mux:BusMuxInstance|out[0]            ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------------------------+
@@ -424,35 +390,13 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:my_slc|ISDU:state_controller"                                                   ;
-+-------+--------+----------+-------------------------------------------------------------------------------------+
-; Port  ; Type   ; Severity ; Details                                                                             ;
-+-------+--------+----------+-------------------------------------------------------------------------------------+
-; DRMUX ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+-------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:my_slc|Mem2IO:memory_subsystem"                                                        ;
-+--------------+--------+----------+-------------------------------------------------------------------------------------+
-; Port         ; Type   ; Severity ; Details                                                                             ;
-+--------------+--------+----------+-------------------------------------------------------------------------------------+
-; ADDR[19..16] ; Input  ; Info     ; Stuck at GND                                                                        ;
-; HEX0         ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; HEX1         ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; HEX2         ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; HEX3         ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+--------------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:my_slc|datapath:d0|register_unit:regUnitInstance|mux_3bit_2input:SR1MUX"         ;
-+--------+--------+----------+-------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                             ;
-+--------+--------+----------+-------------------------------------------------------------------------------------+
-; out[2] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+--------+--------+----------+-------------------------------------------------------------------------------------+
++-----------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:my_slc|Mem2IO:memory_subsystem" ;
++--------------+-------+----------+-------------------------------+
+; Port         ; Type  ; Severity ; Details                       ;
++--------------+-------+----------+-------------------------------+
+; ADDR[19..16] ; Input ; Info     ; Stuck at GND                  ;
++--------------+-------+----------+-------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------+
@@ -462,15 +406,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+-------+----------+-------------------------------------------------------------------------------+
 ; In1  ; Input ; Info     ; Stuck at VCC                                                                  ;
 +------+-------+----------+-------------------------------------------------------------------------------+
-
-
-+-----------------------------------------------------------------------------------+
-; Port Connectivity Checks: "slc3:my_slc|datapath:d0|register_unit:regUnitInstance" ;
-+------+-------+----------+---------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                 ;
-+------+-------+----------+---------------------------------------------------------+
-; SR2  ; Input ; Info     ; Explicitly unconnected                                  ;
-+------+-------+----------+---------------------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------+
@@ -491,14 +426,14 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+-------+----------+----------------------------------------------------------+
 
 
-+-----------------------------------------------------+
-; Port Connectivity Checks: "slc3:my_slc|datapath:d0" ;
-+-------+-------+----------+--------------------------+
-; Port  ; Type  ; Severity ; Details                  ;
-+-------+-------+----------+--------------------------+
-; DRMUX ; Input ; Info     ; Stuck at GND             ;
-; MEMIO ; Input ; Info     ; Stuck at VCC             ;
-+-------+-------+----------+--------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "slc3:my_slc|datapath:d0"                                                                     ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; IR_OUT[10..6] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; IR_OUT[4..0]  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -507,25 +442,24 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 129                         ;
-; cycloneiii_ff         ; 87                          ;
-;     ENA               ; 32                          ;
-;     ENA SCLR          ; 16                          ;
-;     ENA SCLR SLD      ; 16                          ;
+; cycloneiii_ff         ; 282                         ;
+;     ENA               ; 191                         ;
+;     ENA SCLR SLD      ; 32                          ;
 ;     SCLR              ; 2                           ;
-;     plain             ; 21                          ;
+;     plain             ; 57                          ;
 ; cycloneiii_io_obuf    ; 16                          ;
-; cycloneiii_lcell_comb ; 117                         ;
-;     arith             ; 15                          ;
-;         2 data inputs ; 15                          ;
-;     normal            ; 102                         ;
+; cycloneiii_lcell_comb ; 516                         ;
+;     arith             ; 30                          ;
+;         3 data inputs ; 30                          ;
+;     normal            ; 486                         ;
 ;         0 data inputs ; 2                           ;
 ;         1 data inputs ; 6                           ;
-;         2 data inputs ; 39                          ;
-;         3 data inputs ; 2                           ;
-;         4 data inputs ; 53                          ;
+;         2 data inputs ; 53                          ;
+;         3 data inputs ; 84                          ;
+;         4 data inputs ; 341                         ;
 ;                       ;                             ;
-; Max LUT depth         ; 4.00                        ;
-; Average LUT depth     ; 1.58                        ;
+; Max LUT depth         ; 16.00                       ;
+; Average LUT depth     ; 8.21                        ;
 +-----------------------+-----------------------------+
 
 
@@ -534,7 +468,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -544,12 +478,12 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Tue Feb 19 17:26:50 2019
+    Info: Processing started: Sun Feb 24 18:26:47 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off LC3 -c lab6_toplevel
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file testbench.sv
-    Info (12023): Found entity 1: testbench File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/testbench.sv Line: 1
+    Info (12023): Found entity 1: testbench File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/testbench.sv Line: 29
 Info (12021): Found 1 design units, including 1 entities, in source file test_memory.sv
     Info (12023): Found entity 1: test_memory File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/test_memory.sv Line: 22
 Info (12021): Found 1 design units, including 0 entities, in source file slc3_2.sv
@@ -593,58 +527,34 @@ Info (12021): Found 3 design units, including 3 entities, in source file adders.
     Info (12023): Found entity 3: RippleCarrySubtractor8bit File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/adders.sv Line: 43
 Info (12021): Found 1 design units, including 1 entities, in source file tristate.sv
     Info (12023): Found entity 1: tristate File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/tristate.sv Line: 16
+Info (12021): Found 1 design units, including 1 entities, in source file led.sv
+    Info (12023): Found entity 1: LED_Handler File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/LED.sv Line: 1
 Info (12127): Elaborating entity "lab6_toplevel" for the top level hierarchy
 Info (12128): Elaborating entity "slc3" for hierarchy "slc3:my_slc" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 18
 Warning (10036): Verilog HDL or VHDL warning at slc3.sv(42): object "MIO_EN" assigned a value but never read File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/slc3.sv Line: 42
-Warning (10034): Output port "LED" at slc3.sv(22) has no driver File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/slc3.sv Line: 22
-Info (12128): Elaborating entity "HexDriver" for hierarchy "slc3:my_slc|HexDriver:hex_driver3" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/slc3.sv Line: 52
-Info (12128): Elaborating entity "datapath" for hierarchy "slc3:my_slc|datapath:d0" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/slc3.sv Line: 114
+Info (12128): Elaborating entity "HexDriver" for hierarchy "slc3:my_slc|HexDriver:hex_driver3" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/slc3.sv Line: 59
+Info (12128): Elaborating entity "datapath" for hierarchy "slc3:my_slc|datapath:d0" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/slc3.sv Line: 116
 Warning (10034): Output port "PC_OUT" at datapath.sv(35) has no driver File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 35
-Warning (10034): Output port "Data_from_CPU" at datapath.sv(39) has no driver File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 39
-Info (12128): Elaborating entity "reg16" for hierarchy "slc3:my_slc|datapath:d0|reg16:PC" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 75
-Info (12128): Elaborating entity "mux_16bit_4input" for hierarchy "slc3:my_slc|datapath:d0|mux_16bit_4input:PCMUXinstance" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 96
-Info (12128): Elaborating entity "SEXT10" for hierarchy "slc3:my_slc|datapath:d0|SEXT10:IRsexter10" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 98
-Info (12128): Elaborating entity "SEXT8" for hierarchy "slc3:my_slc|datapath:d0|SEXT8:IRsexter8" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 99
-Info (12128): Elaborating entity "SEXT5" for hierarchy "slc3:my_slc|datapath:d0|SEXT5:IRsexter5" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 100
-Info (12128): Elaborating entity "SEXT4" for hierarchy "slc3:my_slc|datapath:d0|SEXT4:IRsexter4" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 101
-Info (12128): Elaborating entity "mux_16bit_2input" for hierarchy "slc3:my_slc|datapath:d0|mux_16bit_2input:ADDR1MUXinstance" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 121
+Info (12128): Elaborating entity "reg16" for hierarchy "slc3:my_slc|datapath:d0|reg16:PC" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 74
+Info (12128): Elaborating entity "mux_16bit_4input" for hierarchy "slc3:my_slc|datapath:d0|mux_16bit_4input:PCMUXinstance" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 95
+Info (12128): Elaborating entity "SEXT10" for hierarchy "slc3:my_slc|datapath:d0|SEXT10:IRsexter10" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 97
+Info (12128): Elaborating entity "SEXT8" for hierarchy "slc3:my_slc|datapath:d0|SEXT8:IRsexter8" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 98
+Info (12128): Elaborating entity "SEXT5" for hierarchy "slc3:my_slc|datapath:d0|SEXT5:IRsexter5" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 99
+Info (12128): Elaborating entity "SEXT4" for hierarchy "slc3:my_slc|datapath:d0|SEXT4:IRsexter4" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 100
+Info (12128): Elaborating entity "mux_16bit_2input" for hierarchy "slc3:my_slc|datapath:d0|mux_16bit_2input:ADDR1MUXinstance" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 120
 Info (12128): Elaborating entity "register_unit" for hierarchy "slc3:my_slc|datapath:d0|register_unit:regUnitInstance" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 137
-Info (12128): Elaborating entity "mux_3bit_2input" for hierarchy "slc3:my_slc|datapath:d0|register_unit:regUnitInstance|mux_3bit_2input:DRMUX" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/register_unit.sv Line: 26
+Info (12128): Elaborating entity "mux_3bit_2input" for hierarchy "slc3:my_slc|datapath:d0|register_unit:regUnitInstance|mux_3bit_2input:DRMUX" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/register_unit.sv Line: 27
 Info (12128): Elaborating entity "alu" for hierarchy "slc3:my_slc|datapath:d0|alu:aluInstance" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 157
 Info (12128): Elaborating entity "BEN_block" for hierarchy "slc3:my_slc|datapath:d0|BEN_block:BENLogic" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 168
 Info (12128): Elaborating entity "bus_mux" for hierarchy "slc3:my_slc|datapath:d0|bus_mux:BusMuxInstance" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 183
-Info (12128): Elaborating entity "Mem2IO" for hierarchy "slc3:my_slc|Mem2IO:memory_subsystem" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/slc3.sv Line: 122
-Info (12128): Elaborating entity "tristate" for hierarchy "slc3:my_slc|tristate:tr0" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/slc3.sv Line: 127
-Info (12128): Elaborating entity "ISDU" for hierarchy "slc3:my_slc|ISDU:state_controller" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/slc3.sv Line: 134
+Info (12128): Elaborating entity "LED_Handler" for hierarchy "slc3:my_slc|datapath:d0|LED_Handler:LEDBLOCK" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 224
+Info (12128): Elaborating entity "Mem2IO" for hierarchy "slc3:my_slc|Mem2IO:memory_subsystem" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/slc3.sv Line: 124
+Info (12128): Elaborating entity "tristate" for hierarchy "slc3:my_slc|tristate:tr0" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/slc3.sv Line: 129
+Info (12128): Elaborating entity "ISDU" for hierarchy "slc3:my_slc|ISDU:state_controller" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/slc3.sv Line: 136
 Info (12128): Elaborating entity "test_memory" for hierarchy "test_memory:my_test_memory" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 22
 Warning (10036): Verilog HDL or VHDL warning at test_memory.sv(42): object "actual_address" assigned a value but never read File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/test_memory.sv Line: 42
 Info (12128): Elaborating entity "memory_parser" for hierarchy "test_memory:my_test_memory|memory_parser:parser" File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/test_memory.sv Line: 48
-Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "slc3:my_slc|datapath:d0|IROUT[11]" is missing source, defaulting to GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 45
-    Warning (12110): Net "slc3:my_slc|datapath:d0|IROUT[10]" is missing source, defaulting to GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 45
-    Warning (12110): Net "slc3:my_slc|datapath:d0|IROUT[9]" is missing source, defaulting to GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 45
-    Warning (12110): Net "slc3:my_slc|datapath:d0|IROUT[8]" is missing source, defaulting to GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 45
-    Warning (12110): Net "slc3:my_slc|datapath:d0|IROUT[7]" is missing source, defaulting to GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 45
-    Warning (12110): Net "slc3:my_slc|datapath:d0|IROUT[6]" is missing source, defaulting to GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 45
-    Warning (12110): Net "slc3:my_slc|datapath:d0|IROUT[5]" is missing source, defaulting to GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 45
-    Warning (12110): Net "slc3:my_slc|datapath:d0|IROUT[4]" is missing source, defaulting to GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 45
-    Warning (12110): Net "slc3:my_slc|datapath:d0|IROUT[3]" is missing source, defaulting to GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 45
-    Warning (12110): Net "slc3:my_slc|datapath:d0|IROUT[2]" is missing source, defaulting to GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 45
-    Warning (12110): Net "slc3:my_slc|datapath:d0|IROUT[1]" is missing source, defaulting to GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 45
-    Warning (12110): Net "slc3:my_slc|datapath:d0|IROUT[0]" is missing source, defaulting to GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/datapath.sv Line: 45
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "LED[0]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 12
-    Warning (13410): Pin "LED[1]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 12
-    Warning (13410): Pin "LED[2]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 12
-    Warning (13410): Pin "LED[3]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 12
-    Warning (13410): Pin "LED[4]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 12
-    Warning (13410): Pin "LED[5]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 12
-    Warning (13410): Pin "LED[6]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 12
-    Warning (13410): Pin "LED[7]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 12
-    Warning (13410): Pin "LED[8]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 12
-    Warning (13410): Pin "LED[9]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 12
-    Warning (13410): Pin "LED[10]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 12
-    Warning (13410): Pin "LED[11]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 12
     Warning (13410): Pin "HEX4[0]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 13
     Warning (13410): Pin "HEX4[1]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 13
     Warning (13410): Pin "HEX4[2]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 13
@@ -676,24 +586,23 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "CE" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 14
     Warning (13410): Pin "UB" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 14
     Warning (13410): Pin "LB" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 14
-    Warning (13410): Pin "WE" is stuck at VCC File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 14
     Warning (13410): Pin "ADDR[16]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 15
     Warning (13410): Pin "ADDR[17]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 15
     Warning (13410): Pin "ADDR[18]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 15
     Warning (13410): Pin "ADDR[19]" is stuck at GND File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv Line: 15
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 53 registers lost all their fanouts during netlist optimizations.
+Info (17049): 5 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 255 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 831 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 20 input pins
     Info (21059): Implemented 93 output pins
     Info (21060): Implemented 16 bidirectional pins
-    Info (21061): Implemented 126 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 68 warnings
-    Info: Peak virtual memory: 4864 megabytes
-    Info: Processing ended: Tue Feb 19 17:27:00 2019
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:23
+    Info (21061): Implemented 702 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 40 warnings
+    Info: Peak virtual memory: 4867 megabytes
+    Info: Processing ended: Sun Feb 24 18:27:16 2019
+    Info: Elapsed time: 00:00:29
+    Info: Total CPU time (on all processors): 00:00:22
 
 

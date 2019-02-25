@@ -2,8 +2,8 @@
 // Company:        UIUC ECE Dept.
 // Engineer:       Stephen Kempf
 //
-// Create Date:    
-// Design Name:    ECE 385 Lab 6 Given Code - SLC-3 
+// Create Date:
+// Design Name:    ECE 385 Lab 6 Given Code - SLC-3
 // Module Name:    SLC3
 //
 // Comments:
@@ -11,8 +11,8 @@
 //    Spring 2007 Distribution
 //    Revised 07-26-2013
 //    Spring 2015 Distribution
-//    Revised 09-22-2015 
-//    Revised 10-19-2017 
+//    Revised 09-22-2015
+//    Revised 10-19-2017
 //    spring 2018 Distribution
 //
 //------------------------------------------------------------------------------
@@ -40,6 +40,7 @@ logic GatePC, GateMDR, GateALU, GateMARMUX;
 logic [1:0] PCMUX, ADDR2MUX, ALUK;
 logic DRMUX, SR1MUX, SR2MUX, ADDR1MUX;
 logic MIO_EN;
+logic MEMIO;
 
 logic [15:0] MDR_In;
 logic [15:0] MAR, MDR, IR, PC;
@@ -49,16 +50,16 @@ logic [15:0] Data_from_SRAM, Data_to_SRAM;
 logic [3:0][3:0] hex_4;
 
 // For week 1, hexdrivers will display IR. Comment out these in week 2.
-HexDriver hex_driver3 (IR[15:12], HEX3);
-HexDriver hex_driver2 (IR[11:8], HEX2);
-HexDriver hex_driver1 (IR[7:4], HEX1);
-HexDriver hex_driver0 (IR[3:0], HEX0);
+//HexDriver hex_driver3 (IR[15:12], HEX3);
+//HexDriver hex_driver2 (IR[11:8], HEX2);
+//HexDriver hex_driver1 (IR[7:4], HEX1);
+//HexDriver hex_driver0 (IR[3:0], HEX0);
 
 // For week 2, hexdrivers will be mounted to Mem2IO
-// HexDriver hex_driver3 (hex_4[3][3:0], HEX3);
-// HexDriver hex_driver2 (hex_4[2][3:0], HEX2);
-// HexDriver hex_driver1 (hex_4[1][3:0], HEX1);
-// HexDriver hex_driver0 (hex_4[0][3:0], HEX0);
+HexDriver hex_driver3 (hex_4[3][3:0], HEX3);
+HexDriver hex_driver2 (hex_4[2][3:0], HEX2);
+HexDriver hex_driver1 (hex_4[1][3:0], HEX1);
+HexDriver hex_driver0 (hex_4[0][3:0], HEX0);
 
 // The other hex display will show PC for both weeks.
 HexDriver hex_driver7 (PC[15:12], HEX7);
@@ -74,11 +75,11 @@ assign MIO_EN = ~OE;
 
 // You need to make your own datapath module and connect everything to the datapath
 // Be careful about whether Reset is active high or low
-datapath d0 
+datapath d0
 (
 	.reset(~Reset),
 	.clk(Clk),
-	
+
 	.LD_MAR,
 	.LD_MDR,
 	.LD_IR,
@@ -87,30 +88,31 @@ datapath d0
 	.LD_REG,
 	.LD_PC,
 	.LD_LED,
-	
+
 	.GatePC,
 	.GateMDR,
 	.GateALU,
 	.GateMARMUX,
-	
+
 	.PCMUX,
 	.ADDR2MUX,
-	.DRMUX(1'b0),					//change me too for part 2!!!!!!!!!
+	.DRMUX(DRMUX),					//change me too for part 2!!!!!!!!!
 	.SR1MUX,
 	.SR2MUX,
 	.ADDR1MUX,
 	.ALUK,
-	
-	.MEMIO(1'b1),					//change me for part 2!!!!!!!!!!!!!!!!!!
+
+	.MEMIO(MEMIO),					//change me for part 2!!!!!!!!!!!!!!!!!!
 	.Data_to_CPU(MDR_In),
-	
+
 	.BEN,
-	
+
 	.IR_OUT(IR),
 	.PC_OUT(PC),
 	.MAR_OUT(MAR),
+	.MDR_OUT(MDR),
 	
-	.Data_from_CPU(MDR)
+	.LED(LED)
 );
 
 // Our SRAM and I/O controller

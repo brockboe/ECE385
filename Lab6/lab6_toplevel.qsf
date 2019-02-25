@@ -210,7 +210,7 @@ set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -sectio
 set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH testbench -section_id eda_simulation
 set_global_assignment -name EDA_TEST_BENCH_NAME testbench -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id testbench
-set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "10 us" -section_id testbench
+set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "100 us" -section_id testbench
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME testbench -section_id testbench
 set_location_assignment PIN_AB7 -to ADDR[0]
 set_location_assignment PIN_AD7 -to ADDR[1]
@@ -285,6 +285,7 @@ set_location_assignment PIN_AA23 -to S[14]
 set_location_assignment PIN_AA22 -to S[15]
 set_location_assignment PIN_AC4 -to UB
 set_location_assignment PIN_AE8 -to WE
+set_global_assignment -name SYSTEMVERILOG_FILE LED.sv
 set_global_assignment -name EDA_TEST_BENCH_FILE testbench.sv -section_id testbench
 set_global_assignment -name EDA_TEST_BENCH_FILE test_memory.sv -section_id testbench
 set_global_assignment -name EDA_TEST_BENCH_FILE ALU.sv -section_id testbench

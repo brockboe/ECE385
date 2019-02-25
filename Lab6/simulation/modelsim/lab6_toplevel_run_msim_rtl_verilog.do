@@ -18,6 +18,7 @@ vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/
 vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/BEN.sv}
 vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/ALU.sv}
 vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/tristate.sv}
+vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/LED.sv}
 vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/slc3.sv}
 vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/memory_contents.sv}
 vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/lab6_toplevel.sv}
@@ -46,4 +47,4 @@ vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lns
 add wave *
 view structure
 view signals
-run 10 us
+run 100 us

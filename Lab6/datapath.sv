@@ -34,8 +34,9 @@ module datapath
 	output logic [15:0] IR_OUT,
 	output logic [15:0] PC_OUT,
 	output logic [15:0] MAR_OUT,
+	output logic [15:0] MDR_OUT,
 	
-	output logic [15:0] Data_from_CPU
+	output logic [11:0] LED
 );
 
 	logic [15:0] bus;
@@ -58,9 +59,7 @@ module datapath
 	logic [15:0] SR2MUXOUT;
 
 	logic [15:0] ALUOUT;
-	
-	logic [15:0] MDROUT;
-	
+		
 	logic [15:0] MDRMUXOUT;
 	
 	
@@ -95,10 +94,10 @@ module datapath
 		.out(PCMUXOUT)
 	);
 		
-	SEXT10 IRsexter10 (.in(IROUT[10:0]), .out(IRSEXT10));
-	SEXT8 IRsexter8 (.in(IROUT[8:0]), .out(IRSEXT8));
-	SEXT5 IRsexter5 (.in(IROUT[5:0]), .out(IRSEXT5));
-	SEXT4 IRsexter4 (.in(IROUT[4:0]), .out(IRSEXT4));
+	SEXT10 IRsexter10 (.in(IR_OUT[10:0]), .out(IRSEXT10));
+	SEXT8 IRsexter8 (.in(IR_OUT[8:0]), .out(IRSEXT8));
+	SEXT5 IRsexter5 (.in(IR_OUT[5:0]), .out(IRSEXT5));
+	SEXT4 IRsexter4 (.in(IR_OUT[4:0]), .out(IRSEXT4));
 	
 	mux_16bit_4input ADDR2MUXinstance
 	(
@@ -126,11 +125,12 @@ module datapath
 		.DR(DRMUX),
 		.LDREG(LD_REG),
 		.SR1(SR1MUX),
-		.IR_slice_119(IROUT[11:9]),
-		.IR_slice_86(IROUT[8:6]),
-		.SR2(),									//fill me in - part 2
+		.IR_slice_119(IR_OUT[11:9]),
+		.IR_slice_86(IR_OUT[8:6]),
+		.SR2(IR_OUT[2:0]),
 		.bus(bus),
 		.clk(clk),
+		.reset(reset),
 		
 		.SR1_out(SR1_OUT),
 		.SR2_out(SR2_OUT)
@@ -160,7 +160,7 @@ module datapath
 	(
 		.bus(bus),
 		.LDCC(LD_CC),
-		.IR_in(IROUT[11:9]),
+		.IR_in(IR_OUT[11:9]),
 		.LDBEN(LD_BEN),
 		.clk(clk),
 		
@@ -177,7 +177,7 @@ module datapath
 		.ADDRSum(ADDR1MUXOUT + ADDR2MUXOUT),
 		.ALUOUT(ALUOUT),
 		.PCOUT(PCOUT),
-		.MDROUT(MDROUT),
+		.MDROUT(MDR_OUT),
 		
 		.out(bus)
 	);
@@ -190,7 +190,7 @@ module datapath
 		.load(LD_MDR),
 		.reset(reset),
 		
-		.dout(MDROUT)
+		.dout(MDR_OUT)
 	);
 		
 	reg16 MAR
@@ -211,6 +211,16 @@ module datapath
 		.In1(Data_to_CPU),
 		
 		.out(MDRMUXOUT)
+	);
+	
+	LED_Handler LEDBLOCK
+	(
+		.in(IR_OUT[11:0]),
+		.clk(clk),
+		.reset(reset),
+		.LD_LED(LD_LED),
+		
+		.LED(LED)
 	);
 	
 	
