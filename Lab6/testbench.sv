@@ -99,7 +99,7 @@ always begin
 	Reset = 0;
 	Run = 1;
 	Continue = 1;
-	S = 16'h005A;
+	S = 16'h0003;
 
 	#4
 	Reset = 1;
@@ -108,39 +108,18 @@ always begin
 	Run = 0;
 	#2
 	Run = 1;
-
-
-	#100
-	S = 16'h0003;
-	#2
-	Continue = 0;
-	#2
-	Continue = 1;
+	
+	#40
+	S = 16'hABCD;
 	
 	#100
-	Continue = 0;
-	#2
-	Continue = 1;
+	S = 16'hBEEF;
 	
 	#100
-	Continue = 0;
-	#2
-	Continue = 1;
-
+	S = 16'hDEAD;
+	
 	#100
-	Continue = 0;
-	#2
-	Continue = 1;
-
-	#100
-	Continue = 0;
-	#2
-	Continue = 1;
-
-	#100
-	Continue = 0;
-	#2
-	Continue = 1;
+	S = 16'hC0FF;
 	
 end
 

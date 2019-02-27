@@ -10,7 +10,7 @@ cModel Technology
 Z0 dC:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/simulation/modelsim
 valu
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1550991360
+Z2 !s110 1551301201
 !i10b 1
 !s100 LdPI;^g97aW:en7nFRj;E3
 I:L9IAU`FLSPA?VG`hHjAW0
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1550991360.000000
+Z5 !s108 1551301201.000000
 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/ALU.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/ALU.sv|
 !i113 1
@@ -35,7 +35,7 @@ Z7 !s92 -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6
 Z8 tCvgOpt 0
 vBEN_block
 R1
-Z9 !s110 1550991361
+Z9 !s110 1551301202
 !i10b 1
 !s100 BKMmRzg?dU[Po5dm1W`h[0
 I0IIF<Zn^;P[1^XgS:884l0
@@ -51,7 +51,7 @@ R4
 r1
 !s85 0
 31
-Z10 !s108 1550991361.000000
+Z10 !s108 1551301202.000000
 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/BEN.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/BEN.sv|
 !i113 1
@@ -165,13 +165,13 @@ vISDU
 R1
 R2
 !i10b 1
-!s100 h@BES_MEeGQTmml1>dkz_2
-IH76G6JQ:Sn`6[`PfR?m>m2
+!s100 lZM5OO87I7Q_hQSY?1N4L1
+ICO1R>UTkl=b^9BYlE69g01
 R3
 !s105 ISDU_sv_unit
 S1
 R0
-w1550981410
+w1551054392
 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/ISDU.sv
 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/ISDU.sv
 Z23 L0 19
@@ -417,7 +417,7 @@ R7
 R8
 vregister_unit
 R1
-R2
+R9
 !i10b 1
 !s100 ]emiZV7QBca0eJ2Wf_c8T0
 INRgNO_c1ZVbB0JNXQmOk^2
@@ -433,7 +433,7 @@ R4
 r1
 !s85 0
 31
-R5
+R10
 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/register_unit.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/register_unit.sv|
 !i113 1
@@ -598,7 +598,7 @@ R8
 n@s@e@x@t8
 vslc3
 R1
-R2
+R9
 !i10b 1
 !s100 9`kNAI]8Vl@1ZB^`2DJ][2
 IecWJdX[jE2ZCB^CXlG1[A2
@@ -614,7 +614,7 @@ R4
 r1
 !s85 0
 31
-R5
+R10
 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/slc3.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/slc3.sv|
 !i113 1
@@ -638,7 +638,7 @@ R4
 r1
 !s85 0
 31
-R5
+R10
 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/SLC3_2.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/SLC3_2.sv|
 !i113 1
@@ -675,13 +675,13 @@ vtestbench
 R1
 R2
 !i10b 1
-!s100 ia3TZOcU7=ak8F^ZHGfiQ2
-IDdQcDfGaM_W48Ul^4zXPn3
+!s100 9=Gjg4aHPV;X:Cm`:4RLZ3
+I70WI^P9?^ca<HUhI4SSM]1
 R3
 !s105 testbench_sv_unit
 S1
 R0
-w1550991352
+w1551300975
 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/testbench.sv
 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab6/testbench.sv
 L0 29
