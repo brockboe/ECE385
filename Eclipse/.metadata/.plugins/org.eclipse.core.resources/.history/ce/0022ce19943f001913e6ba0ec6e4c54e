@@ -1,0 +1,14 @@
+/*
+ * main.c
+ *
+ *  Created on: Mar 5, 2019
+ *      Author: Brock
+ */
+
+
+int main(){
+	volatile unsigned char * LEDR 	= 0x00000050;
+	volatile unsigned char * SW 	= 0x00000060;
+
+	return 0;
+}

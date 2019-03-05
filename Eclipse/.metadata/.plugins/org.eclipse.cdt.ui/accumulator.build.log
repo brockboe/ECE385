@@ -1,0 +1,9 @@
+16:55:52 **** Incremental Build of configuration Nios II for project accumulator ****
+make all 
+Info: Building ../accumulator_bsp/
+G:/Quartus/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../accumulator_bsp/
+[BSP build complete]
+[accumulator build complete]
+
+16:55:53 Build Finished (took 679ms)
+

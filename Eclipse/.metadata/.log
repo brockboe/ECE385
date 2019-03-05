@@ -1,0 +1,163 @@
+!SESSION 2019-03-04 19:53:39.388 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-03-04 19:56:57.886
+!MESSAGE Indexed 'lab7_app_bsp' (75 sources, 65 headers) in 1.04 sec: 1,075 declarations; 2,016 references; 91 unresolved inclusions; 6 syntax errors; 169 unresolved names (5.2%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-03-04 19:57:00.783
+!MESSAGE Indexed 'lab7_app' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2019-03-04 21:03:59.738 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-03-04 21:04:01.178
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2019-03-04 21:11:16.942 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-03-04 21:11:18.360
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2019-03-04 21:28:06.352 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY com.altera.sbtgui.launch 4 0 2019-03-04 21:29:59.320
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-04 21:29:59.389
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x48 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-04 21:30:01.490
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x48 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-04 21:34:12.387
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2019-03-04 21:34:13.076
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-04 21:34:13.083
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x48 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-04 21:34:14.955
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x48 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-04 21:39:23.424
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2019-03-04 21:39:24.102
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-04 21:39:24.109
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x48 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-04 21:39:25.985
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x48 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-03-05 00:12:52.862
+!MESSAGE Indexed 'accumulator_bsp' (75 sources, 144 headers) in 1.33 sec: 4,528 declarations; 7,270 references; 62 unresolved inclusions; 3 syntax errors; 125 unresolved names (1%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-03-05 00:12:53.556
+!MESSAGE Indexed 'accumulator' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-05 16:43:20.504
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2019-03-05 16:43:21.377
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-05 16:43:21.387
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x88 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-05 16:43:23.465
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x88 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-05 16:43:56.917
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2019-03-05 16:43:57.758
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-05 16:43:57.766
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x88 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-05 16:43:59.795
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x88 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-05 16:46:37.825
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2019-03-05 16:46:38.502
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-05 16:46:38.510
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x88 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-05 16:46:40.399
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x88 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab7/software/accumulator/accumulator.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-05 16:47:06.561
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2019-03-05 16:47:07.247
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-05 16:47:07.255
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x88 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-05 16:47:09.223
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x88 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab7/software/accumulator/accumulator.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-05 16:51:39.604
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2019-03-05 16:51:40.268
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-05 16:51:40.276
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x88 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-05 16:51:42.204
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x88 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab7/software/accumulator/accumulator.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-05 16:53:50.489
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2019-03-05 16:53:51.173
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-05 16:53:51.181
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x88 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-05 16:53:53.108
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x88 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab7/software/accumulator/accumulator.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-05 16:55:53.588
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2019-03-05 16:55:54.255
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-05 16:55:54.262
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x88 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-05 16:55:56.180
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x88 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab7/software/accumulator/accumulator.elf]

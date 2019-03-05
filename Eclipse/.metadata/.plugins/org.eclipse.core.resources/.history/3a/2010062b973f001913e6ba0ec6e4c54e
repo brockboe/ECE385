@@ -1,0 +1,29 @@
+/*
+ * main.c
+ *
+ *  Created on: Mar 5, 2019
+ *      Author: Brock
+ */
+
+
+int main(){
+	volatile unsigned int * LEDR 	= 0x00000050;
+	volatile unsigned char * SW 	= 0x00000060;
+	volatile unsigned char * LEDG 	= 0x00000070;
+
+	int i = 0;
+	*LEDR = 0x0;
+
+	while(1){
+		if(i > 100000){
+			i = 0;
+			*LEDG ^= 0x01;
+		}
+
+
+
+		i++;
+	}
+
+	return 0;
+}
