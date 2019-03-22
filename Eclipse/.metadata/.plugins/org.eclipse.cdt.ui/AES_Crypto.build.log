@@ -1,0 +1,9 @@
+14:06:09 **** Incremental Build of configuration Nios II for project AES_Crypto ****
+make all 
+Info: Building ../AES_Crypto_bsp/
+C:/Users/Brock/Quartus/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../AES_Crypto_bsp/
+[BSP build complete]
+[AES_Crypto build complete]
+
+14:06:10 Build Finished (took 1s.220ms)
+

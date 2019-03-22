@@ -1,5 +1,5 @@
 Flow report for lab7
-Tue Mar 05 16:36:01 2019
+Thu Mar 07 08:11:08 2019
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Mar 05 16:36:01 2019       ;
+; Flow Status                        ; Successful - Thu Mar 07 08:11:08 2019       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab7                                        ;
 ; Top-level Entity Name              ; lab7                                        ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/05/2019 16:34:34 ;
+; Start date & time ; 03/07/2019 08:09:10 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; lab7                ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+------------------------------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                                      ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+------------------------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 13870907933117.155182527424040                             ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 93383152321513.155196774906672                             ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Systemverilog Hdl                                          ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (SystemVerilog)                            ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                                       ; --            ; --          ; eda_simulation ;
@@ -103,12 +103,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:32     ; 1.0                     ; 5007 MB             ; 00:00:59                           ;
-; Fitter               ; 00:00:34     ; 1.2                     ; 6827 MB             ; 00:01:31                           ;
-; Assembler            ; 00:00:04     ; 1.0                     ; 4719 MB             ; 00:00:03                           ;
-; Timing Analyzer      ; 00:00:05     ; 1.5                     ; 5056 MB             ; 00:00:05                           ;
-; EDA Netlist Writer   ; 00:00:06     ; 1.0                     ; 4728 MB             ; 00:00:05                           ;
-; Total                ; 00:01:21     ; --                      ; --                  ; 00:02:43                           ;
+; Analysis & Synthesis ; 00:00:50     ; 1.0                     ; 4946 MB             ; 00:01:30                           ;
+; Fitter               ; 00:00:39     ; 1.0                     ; 5583 MB             ; 00:00:52                           ;
+; Assembler            ; 00:00:04     ; 1.0                     ; 4720 MB             ; 00:00:05                           ;
+; Timing Analyzer      ; 00:00:05     ; 1.1                     ; 4885 MB             ; 00:00:06                           ;
+; EDA Netlist Writer   ; 00:00:08     ; 1.0                     ; 4725 MB             ; 00:00:06                           ;
+; Total                ; 00:01:46     ; --                      ; --                  ; 00:02:39                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -117,11 +117,11 @@ refer to the applicable agreement for further details.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; hacktower        ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; hacktower        ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; hacktower        ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; hacktower        ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; hacktower        ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; HackPad          ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; HackPad          ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; HackPad          ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; HackPad          ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; HackPad          ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 

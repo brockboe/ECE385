@@ -1,0 +1,29 @@
+Quartus Prime Archive log --	C:/Users/Brock/school/ECE385/ece385/Lab5/Multiplier_tmp_archive.qarlog
+
+Archive:	C:/Users/Brock/school/ECE385/ece385/Lab5/Multiplier_tmp_archive.qar
+Date:		Thu Feb 14 08:13:41 2019
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Brock/school/ECE385/ece385/Lab5/8BitMultiplier-toplevel.sv
+C:/Users/Brock/school/ECE385/ece385/Lab5/ArithmaticUnit.sv
+C:/Users/Brock/school/ECE385/ece385/Lab5/HexDriver.sv
+C:/Users/Brock/school/ECE385/ece385/Lab5/Multiplier.qpf
+C:/Users/Brock/school/ECE385/ece385/Lab5/Multiplier.qsf
+C:/Users/Brock/school/ECE385/ece385/Lab5/RippleCarryAdder.sv
+C:/Users/Brock/school/ECE385/ece385/Lab5/ShiftRegister.sv
+C:/Users/Brock/school/ECE385/ece385/Lab5/controlUnit.sv
+C:/Users/Brock/school/ECE385/ece385/Lab5/counter.sv
+C:/Users/Brock/school/ECE385/ece385/Lab5/mux8.sv
+C:/Users/Brock/school/ECE385/ece385/Lab5/testbench.sv
+c:/users/brock/quartus/quartus/bin64/assignment_defaults.qdf
+	======= Total: 12 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Thu Feb 14 08:13:43 2019
+Source archive file:	C:/Users/Brock/school/ECE385/ece385/Lab5/Multiplier_tmp_archive.qar
+Archive was extracted into	E:/ECE385_ABL_Lab5_Vikram/bvb2_yaningl2/
+		 - successfully.

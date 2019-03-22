@@ -37,49 +37,49 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
   9 .debug_aranges 000002b0  00000000  00000000  00001f28  2**3
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_info   00003a42  00000000  00000000  000021d8  2**0
+ 10 .debug_info   00003a3b  00000000  00000000  000021d8  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_abbrev 0000118d  00000000  00000000  00005c1a  2**0
+ 11 .debug_abbrev 0000118d  00000000  00000000  00005c13  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_line   00001207  00000000  00000000  00006da7  2**0
+ 12 .debug_line   0000121f  00000000  00000000  00006da0  2**0
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_frame  0000040c  00000000  00000000  00007fb0  2**2
+ 13 .debug_frame  0000040c  00000000  00000000  00007fc0  2**2
                   CONTENTS, READONLY, DEBUGGING
- 14 .debug_str    00000ec6  00000000  00000000  000083bc  2**0
+ 14 .debug_str    00000ebf  00000000  00000000  000083cc  2**0
                   CONTENTS, READONLY, DEBUGGING
- 15 .debug_loc    00000430  00000000  00000000  00009282  2**0
+ 15 .debug_loc    00000430  00000000  00000000  0000928b  2**0
                   CONTENTS, READONLY, DEBUGGING
- 16 .debug_alt_sim_info 00000010  00000000  00000000  000096b4  2**2
+ 16 .debug_alt_sim_info 00000010  00000000  00000000  000096bc  2**2
                   CONTENTS, READONLY, DEBUGGING
- 17 .debug_ranges 00000080  00000000  00000000  000096c8  2**3
+ 17 .debug_ranges 00000080  00000000  00000000  000096d0  2**3
                   CONTENTS, READONLY, DEBUGGING
- 18 .thread_model 00000003  00000000  00000000  0000a90a  2**0
+ 18 .thread_model 00000003  00000000  00000000  0000a912  2**0
                   CONTENTS, READONLY
- 19 .cpu          0000000c  00000000  00000000  0000a90d  2**0
+ 19 .cpu          0000000c  00000000  00000000  0000a915  2**0
                   CONTENTS, READONLY
- 20 .qsys         00000001  00000000  00000000  0000a919  2**0
+ 20 .qsys         00000001  00000000  00000000  0000a921  2**0
                   CONTENTS, READONLY
- 21 .simulation_enabled 00000001  00000000  00000000  0000a91a  2**0
+ 21 .simulation_enabled 00000001  00000000  00000000  0000a922  2**0
                   CONTENTS, READONLY
- 22 .sysid_hash   00000004  00000000  00000000  0000a91b  2**0
+ 22 .sysid_hash   00000004  00000000  00000000  0000a923  2**0
                   CONTENTS, READONLY
- 23 .sysid_base   00000004  00000000  00000000  0000a91f  2**0
+ 23 .sysid_base   00000004  00000000  00000000  0000a927  2**0
                   CONTENTS, READONLY
- 24 .sysid_time   00000004  00000000  00000000  0000a923  2**0
+ 24 .sysid_time   00000004  00000000  00000000  0000a92b  2**0
                   CONTENTS, READONLY
- 25 .stderr_dev   00000004  00000000  00000000  0000a927  2**0
+ 25 .stderr_dev   00000004  00000000  00000000  0000a92f  2**0
                   CONTENTS, READONLY
- 26 .stdin_dev    00000004  00000000  00000000  0000a92b  2**0
+ 26 .stdin_dev    00000004  00000000  00000000  0000a933  2**0
                   CONTENTS, READONLY
- 27 .stdout_dev   00000004  00000000  00000000  0000a92f  2**0
+ 27 .stdout_dev   00000004  00000000  00000000  0000a937  2**0
                   CONTENTS, READONLY
- 28 .sopc_system_name 00000008  00000000  00000000  0000a933  2**0
+ 28 .sopc_system_name 00000008  00000000  00000000  0000a93b  2**0
                   CONTENTS, READONLY
- 29 .quartus_project_dir 0000002f  00000000  00000000  0000a93b  2**0
+ 29 .quartus_project_dir 00000028  00000000  00000000  0000a943  2**0
                   CONTENTS, READONLY
- 30 .jdi          00003db5  00000000  00000000  0000a96a  2**0
+ 30 .jdi          00003db5  00000000  00000000  0000a96b  2**0
                   CONTENTS, READONLY
- 31 .sopcinfo     0005c4c9  00000000  00000000  0000e71f  2**0
+ 31 .sopcinfo     0005c4c9  00000000  00000000  0000e720  2**0
                   CONTENTS, READONLY
 SYMBOL TABLE:
 10000000 l    d  .entry	00000000 .entry
@@ -266,59 +266,33 @@ alt_after_alt_main:
 10000058:	003fff06 	br	10000058 <__alt_data_end+0xf8000058>
 
 1000005c <main>:
- *  Created on: Mar 5, 2019
- *      Author: Brock
- */
-
-
-int main(){
 1000005c:	defff804 	addi	sp,sp,-32
 10000060:	df000715 	stw	fp,28(sp)
 10000064:	df000704 	addi	fp,sp,28
-	volatile unsigned int * LEDR 	= (unsigned int *)0x00000050;
 10000068:	00801404 	movi	r2,80
 1000006c:	e0bffc15 	stw	r2,-16(fp)
-	volatile unsigned char * SW 	= (unsigned char *)0x00000060;
 10000070:	00801804 	movi	r2,96
 10000074:	e0bffd15 	stw	r2,-12(fp)
-	volatile unsigned int * LEDG 	= (unsigned int *)0x00000070;
 10000078:	00801c04 	movi	r2,112
 1000007c:	e0bffe15 	stw	r2,-8(fp)
-	volatile unsigned char * KEY	= (unsigned char *)0x00000030;
 10000080:	00800c04 	movi	r2,48
 10000084:	e0bfff15 	stw	r2,-4(fp)
-
-	int i = 0;
 10000088:	e03ff915 	stw	zero,-28(fp)
-	int sum = 0;
 1000008c:	e03ffa15 	stw	zero,-24(fp)
-	*LEDR = 0x0;
 10000090:	e0bffc17 	ldw	r2,-16(fp)
 10000094:	10000015 	stw	zero,0(r2)
-	int acc_button_flag = 1;
 10000098:	00800044 	movi	r2,1
 1000009c:	e0bffb15 	stw	r2,-20(fp)
-
-	while(1){
-		if(i > 100000){
 100000a0:	e0fff917 	ldw	r3,-28(fp)
 100000a4:	008000b4 	movhi	r2,2
 100000a8:	10a1a804 	addi	r2,r2,-31072
 100000ac:	10c0060e 	bge	r2,r3,100000c8 <main+0x6c>
-			i = 0;
 100000b0:	e03ff915 	stw	zero,-28(fp)
-			*LEDG ^= 0x01;
 100000b4:	e0bffe17 	ldw	r2,-8(fp)
 100000b8:	10800017 	ldw	r2,0(r2)
 100000bc:	10c0005c 	xori	r3,r2,1
 100000c0:	e0bffe17 	ldw	r2,-8(fp)
 100000c4:	10c00015 	stw	r3,0(r2)
-
-		//1 = button released
-		//0 = button pressed
-
-		//only on rising edge
-		if(!acc_button_flag && (*KEY & 0x01)){
 100000c8:	e0bffb17 	ldw	r2,-20(fp)
 100000cc:	1000111e 	bne	r2,zero,10000114 <main+0xb8>
 100000d0:	e0bfff17 	ldw	r2,-4(fp)
@@ -326,34 +300,26 @@ int main(){
 100000d8:	10803fcc 	andi	r2,r2,255
 100000dc:	1080004c 	andi	r2,r2,1
 100000e0:	10000c26 	beq	r2,zero,10000114 <main+0xb8>
-			sum += (int)(*SW & 0x00FF);
 100000e4:	e0bffd17 	ldw	r2,-12(fp)
 100000e8:	10800003 	ldbu	r2,0(r2)
 100000ec:	10803fcc 	andi	r2,r2,255
 100000f0:	e0fffa17 	ldw	r3,-24(fp)
 100000f4:	1885883a 	add	r2,r3,r2
 100000f8:	e0bffa15 	stw	r2,-24(fp)
-			sum &= (int)0x00FF;
 100000fc:	e0bffa17 	ldw	r2,-24(fp)
 10000100:	10803fcc 	andi	r2,r2,255
 10000104:	e0bffa15 	stw	r2,-24(fp)
-			*LEDR = sum;
 10000108:	e0fffa17 	ldw	r3,-24(fp)
 1000010c:	e0bffc17 	ldw	r2,-16(fp)
 10000110:	10c00015 	stw	r3,0(r2)
-		}
-
-		i++;
 10000114:	e0bff917 	ldw	r2,-28(fp)
 10000118:	10800044 	addi	r2,r2,1
 1000011c:	e0bff915 	stw	r2,-28(fp)
-		acc_button_flag = *KEY & 0x01;
 10000120:	e0bfff17 	ldw	r2,-4(fp)
 10000124:	10800003 	ldbu	r2,0(r2)
 10000128:	10803fcc 	andi	r2,r2,255
 1000012c:	1080004c 	andi	r2,r2,1
 10000130:	e0bffb15 	stw	r2,-20(fp)
-	}
 10000134:	003fda06 	br	100000a0 <__alt_data_end+0xf80000a0>
 
 10000138 <alt_load_section>:
@@ -983,7 +949,7 @@ void altera_nios2_gen2_irq_init(void)
 10000690:	d9400015 	stw	r5,0(sp)
 10000694:	d9800115 	stw	r6,4(sp)
 10000698:	d9c00215 	stw	r7,8(sp)
-1000069c:	00000000 	call	10000000 <__reset>
+1000069c:	00000000 	call	10000000 <__alt_mem_sdram>
 100006a0:	d9400017 	ldw	r5,0(sp)
 100006a4:	d9800117 	ldw	r6,4(sp)
 100006a8:	d9c00217 	ldw	r7,8(sp)
@@ -1067,7 +1033,7 @@ void altera_nios2_gen2_irq_init(void)
 100007d8:	10003226 	beq	r2,zero,100008a4 <__call_exitprocs+0x178>
 100007dc:	a009883a 	mov	r4,r20
 100007e0:	98800015 	stw	r2,0(r19)
-100007e4:	00000000 	call	10000000 <__reset>
+100007e4:	00000000 	call	10000000 <__alt_mem_sdram>
 100007e8:	9d000017 	ldw	r20,0(r19)
 100007ec:	a03fe41e 	bne	r20,zero,10000780 <__alt_data_end+0xf8000780>
 100007f0:	dfc00a17 	ldw	ra,40(sp)

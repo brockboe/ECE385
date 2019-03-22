@@ -1,4 +1,4 @@
 eclipse.preferences.version=1
-newSoftwareExampleWizardPage.defaultLocation=C\:\\Users\\Brock\\School\\ECE385\\GitLab\\ece385\\Lab7\\software\\accumulator
-newSoftwareExampleWizardPage.sopcinfoFile=C\:\\Users\\Brock\\School\\ECE385\\GitLab\\ece385\\Lab7\\lab7_soc.sopcinfo
-newSoftwareExampleWizardPage2.newBspLocation=C\:\\Users\\Brock\\School\\ECE385\\GitLab\\ece385\\Lab7\\software\\accumulator_bsp
+newSoftwareExampleWizardPage.defaultLocation=C\:\\Users\\Brock\\school\\ECE385\\ece385\\Lab9\\software\\AES_Crypto
+newSoftwareExampleWizardPage.sopcinfoFile=C\:\\Users\\Brock\\school\\ECE385\\ece385\\Lab9\\nios_system.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=C\:\\Users\\Brock\\school\\ECE385\\ece385\\Lab9\\software\\AES_Crypto_bsp

@@ -1,5 +1,5 @@
 Fitter report for lab7
-Tue Mar 05 16:35:43 2019
+Thu Mar 07 08:10:44 2019
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -74,7 +74,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Tue Mar 05 16:35:43 2019       ;
+; Fitter Status                      ; Successful - Thu Mar 07 08:10:44 2019       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab7                                        ;
 ; Top-level Entity Name              ; lab7                                        ;
@@ -158,22 +158,15 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 16          ;
-; Maximum allowed            ; 16          ;
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
 ;                            ;             ;
-; Average used               ; 1.24        ;
-; Maximum used               ; 16          ;
+; Average used               ; 1.03        ;
+; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   2.2%      ;
-;     Processor 3            ;   1.9%      ;
-;     Processor 4            ;   1.8%      ;
-;     Processor 5            ;   1.7%      ;
-;     Processor 6            ;   1.7%      ;
-;     Processor 7            ;   1.6%      ;
-;     Processor 8            ;   1.6%      ;
-;     Processors 9-16        ;   1.4%      ;
+;     Processor 2            ;   2.9%      ;
 +----------------------------+-------------+
 
 
@@ -1413,7 +1406,7 @@ refer to the applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/output_files/lab7.pin.
+The pin-out file can be found in C:/Users/Brock/school/ECE385/ece385/Lab7/output_files/lab7.pin.
 
 
 +----------------------------------------------------------------------------+
@@ -3641,13 +3634,13 @@ Note: This table only shows the top 39 path(s) that have the largest delay added
 ; Fitter Messages ;
 +-----------------+
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (119006): Selected device EP4CE115F29C7 for design "lab7"
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
-Info (15535): Implemented PLL "lab7_soc:m_lab7_soc|lab7_soc_sdram_pll:sdram_pll|lab7_soc_sdram_pll_altpll_lqa2:sd1|pll7" as Cyclone IV E PLL type File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram_pll.v Line: 150
-    Info (15099): Implementing clock multiplication of 1, clock division of 1, and phase shift of 0 degrees (0 ps) for lab7_soc:m_lab7_soc|lab7_soc_sdram_pll:sdram_pll|lab7_soc_sdram_pll_altpll_lqa2:sd1|wire_pll7_clk[0] port File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram_pll.v Line: 150
-    Info (15099): Implementing clock multiplication of 1, clock division of 1, and phase shift of -54 degrees (-3000 ps) for lab7_soc:m_lab7_soc|lab7_soc_sdram_pll:sdram_pll|lab7_soc_sdram_pll_altpll_lqa2:sd1|wire_pll7_clk[1] port File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram_pll.v Line: 150
+Info (15535): Implemented PLL "lab7_soc:m_lab7_soc|lab7_soc_sdram_pll:sdram_pll|lab7_soc_sdram_pll_altpll_lqa2:sd1|pll7" as Cyclone IV E PLL type File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram_pll.v Line: 150
+    Info (15099): Implementing clock multiplication of 1, clock division of 1, and phase shift of 0 degrees (0 ps) for lab7_soc:m_lab7_soc|lab7_soc_sdram_pll:sdram_pll|lab7_soc_sdram_pll_altpll_lqa2:sd1|wire_pll7_clk[0] port File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram_pll.v Line: 150
+    Info (15099): Implementing clock multiplication of 1, clock division of 1, and phase shift of -54 degrees (-3000 ps) for lab7_soc:m_lab7_soc|lab7_soc_sdram_pll:sdram_pll|lab7_soc_sdram_pll_altpll_lqa2:sd1|wire_pll7_clk[1] port File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram_pll.v Line: 150
 Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
 Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
 Info (176444): Device migration not selected. If you intend to use device migration later, you may need to change the pin assignments as they may be incompatible with other devices
@@ -3681,40 +3674,40 @@ Warning (332043): Overwriting existing clock: altera_reserved_tck
 Warning (332043): Overwriting existing clock: main_clk_50
 Warning (332043): Overwriting existing clock: m_lab7_soc|sdram_pll|sd1|pll7|clk[0]
 Warning (332043): Overwriting existing clock: m_lab7_soc|sdram_pll|sd1|pll7|clk[1]
-Warning (332174): Ignored filter at lab7.sdc(237): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_oci_break:the_lab7_soc_nios2_qsys_0_nios2_oci_break|break_readreg* could not be matched with a keeper File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 237
-Warning (332174): Ignored filter at lab7.sdc(237): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_tck:the_lab7_soc_nios2_qsys_0_jtag_debug_module_tck|*sr* could not be matched with a keeper File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 237
-Warning (332049): Ignored set_false_path at lab7.sdc(237): Argument <from> is an empty collection File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 237
-    Info (332050): set_false_path -from [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_oci_break:the_lab7_soc_nios2_qsys_0_nios2_oci_break|break_readreg*}] -to [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_tck:the_lab7_soc_nios2_qsys_0_jtag_debug_module_tck|*sr*}] File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 237
-Warning (332049): Ignored set_false_path at lab7.sdc(237): Argument <to> is an empty collection File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 237
-Warning (332174): Ignored filter at lab7.sdc(238): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_oci_debug:the_lab7_soc_nios2_qsys_0_nios2_oci_debug|*resetlatch could not be matched with a keeper File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 238
-Warning (332174): Ignored filter at lab7.sdc(238): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_tck:the_lab7_soc_nios2_qsys_0_jtag_debug_module_tck|*sr[33] could not be matched with a keeper File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 238
-Warning (332049): Ignored set_false_path at lab7.sdc(238): Argument <from> is an empty collection File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 238
-    Info (332050): set_false_path -from [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_oci_debug:the_lab7_soc_nios2_qsys_0_nios2_oci_debug|*resetlatch}] -to [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_tck:the_lab7_soc_nios2_qsys_0_jtag_debug_module_tck|*sr[33]}] File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 238
-Warning (332049): Ignored set_false_path at lab7.sdc(238): Argument <to> is an empty collection File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 238
-Warning (332174): Ignored filter at lab7.sdc(239): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_oci_debug:the_lab7_soc_nios2_qsys_0_nios2_oci_debug|monitor_ready could not be matched with a keeper File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 239
-Warning (332174): Ignored filter at lab7.sdc(239): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_tck:the_lab7_soc_nios2_qsys_0_jtag_debug_module_tck|*sr[0] could not be matched with a keeper File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 239
-Warning (332049): Ignored set_false_path at lab7.sdc(239): Argument <from> is an empty collection File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 239
-    Info (332050): set_false_path -from [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_oci_debug:the_lab7_soc_nios2_qsys_0_nios2_oci_debug|monitor_ready}] -to [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_tck:the_lab7_soc_nios2_qsys_0_jtag_debug_module_tck|*sr[0]}] File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 239
-Warning (332049): Ignored set_false_path at lab7.sdc(239): Argument <to> is an empty collection File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 239
-Warning (332174): Ignored filter at lab7.sdc(240): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_oci_debug:the_lab7_soc_nios2_qsys_0_nios2_oci_debug|monitor_error could not be matched with a keeper File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 240
-Warning (332174): Ignored filter at lab7.sdc(240): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_tck:the_lab7_soc_nios2_qsys_0_jtag_debug_module_tck|*sr[34] could not be matched with a keeper File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 240
-Warning (332049): Ignored set_false_path at lab7.sdc(240): Argument <from> is an empty collection File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 240
-    Info (332050): set_false_path -from [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_oci_debug:the_lab7_soc_nios2_qsys_0_nios2_oci_debug|monitor_error}] -to [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_tck:the_lab7_soc_nios2_qsys_0_jtag_debug_module_tck|*sr[34]}] File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 240
-Warning (332049): Ignored set_false_path at lab7.sdc(240): Argument <to> is an empty collection File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 240
-Warning (332174): Ignored filter at lab7.sdc(241): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_ocimem:the_lab7_soc_nios2_qsys_0_nios2_ocimem|*MonDReg* could not be matched with a keeper File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 241
-Warning (332049): Ignored set_false_path at lab7.sdc(241): Argument <from> is an empty collection File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 241
-    Info (332050): set_false_path -from [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_ocimem:the_lab7_soc_nios2_qsys_0_nios2_ocimem|*MonDReg*}] -to [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_tck:the_lab7_soc_nios2_qsys_0_jtag_debug_module_tck|*sr*}] File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 241
-Warning (332049): Ignored set_false_path at lab7.sdc(241): Argument <to> is an empty collection File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 241
-Warning (332174): Ignored filter at lab7.sdc(242): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_sysclk:the_lab7_soc_nios2_qsys_0_jtag_debug_module_sysclk|*jdo* could not be matched with a keeper File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 242
-Warning (332049): Ignored set_false_path at lab7.sdc(242): Argument <from> is an empty collection File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 242
-    Info (332050): set_false_path -from [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_tck:the_lab7_soc_nios2_qsys_0_jtag_debug_module_tck|*sr*}] -to [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_sysclk:the_lab7_soc_nios2_qsys_0_jtag_debug_module_sysclk|*jdo*}] File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 242
-Warning (332049): Ignored set_false_path at lab7.sdc(242): Argument <to> is an empty collection File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 242
-Warning (332174): Ignored filter at lab7.sdc(243): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_sysclk:the_lab7_soc_nios2_qsys_0_jtag_debug_module_sysclk|ir* could not be matched with a keeper File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 243
-Warning (332049): Ignored set_false_path at lab7.sdc(243): Argument <to> is an empty collection File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 243
-    Info (332050): set_false_path -from [get_keepers {sld_hub:*|irf_reg*}] -to [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_sysclk:the_lab7_soc_nios2_qsys_0_jtag_debug_module_sysclk|ir*}] File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 243
-Warning (332174): Ignored filter at lab7.sdc(244): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_oci_debug:the_lab7_soc_nios2_qsys_0_nios2_oci_debug|monitor_go could not be matched with a keeper File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 244
-Warning (332049): Ignored set_false_path at lab7.sdc(244): Argument <to> is an empty collection File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 244
-    Info (332050): set_false_path -from [get_keepers {sld_hub:*|sld_shadow_jsm:shadow_jsm|state[1]}] -to [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_oci_debug:the_lab7_soc_nios2_qsys_0_nios2_oci_debug|monitor_go}] File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sdc Line: 244
+Warning (332174): Ignored filter at lab7.sdc(237): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_oci_break:the_lab7_soc_nios2_qsys_0_nios2_oci_break|break_readreg* could not be matched with a keeper File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 237
+Warning (332174): Ignored filter at lab7.sdc(237): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_tck:the_lab7_soc_nios2_qsys_0_jtag_debug_module_tck|*sr* could not be matched with a keeper File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 237
+Warning (332049): Ignored set_false_path at lab7.sdc(237): Argument <from> is an empty collection File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 237
+    Info (332050): set_false_path -from [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_oci_break:the_lab7_soc_nios2_qsys_0_nios2_oci_break|break_readreg*}] -to [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_tck:the_lab7_soc_nios2_qsys_0_jtag_debug_module_tck|*sr*}] File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 237
+Warning (332049): Ignored set_false_path at lab7.sdc(237): Argument <to> is an empty collection File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 237
+Warning (332174): Ignored filter at lab7.sdc(238): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_oci_debug:the_lab7_soc_nios2_qsys_0_nios2_oci_debug|*resetlatch could not be matched with a keeper File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 238
+Warning (332174): Ignored filter at lab7.sdc(238): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_tck:the_lab7_soc_nios2_qsys_0_jtag_debug_module_tck|*sr[33] could not be matched with a keeper File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 238
+Warning (332049): Ignored set_false_path at lab7.sdc(238): Argument <from> is an empty collection File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 238
+    Info (332050): set_false_path -from [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_oci_debug:the_lab7_soc_nios2_qsys_0_nios2_oci_debug|*resetlatch}] -to [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_tck:the_lab7_soc_nios2_qsys_0_jtag_debug_module_tck|*sr[33]}] File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 238
+Warning (332049): Ignored set_false_path at lab7.sdc(238): Argument <to> is an empty collection File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 238
+Warning (332174): Ignored filter at lab7.sdc(239): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_oci_debug:the_lab7_soc_nios2_qsys_0_nios2_oci_debug|monitor_ready could not be matched with a keeper File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 239
+Warning (332174): Ignored filter at lab7.sdc(239): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_tck:the_lab7_soc_nios2_qsys_0_jtag_debug_module_tck|*sr[0] could not be matched with a keeper File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 239
+Warning (332049): Ignored set_false_path at lab7.sdc(239): Argument <from> is an empty collection File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 239
+    Info (332050): set_false_path -from [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_oci_debug:the_lab7_soc_nios2_qsys_0_nios2_oci_debug|monitor_ready}] -to [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_tck:the_lab7_soc_nios2_qsys_0_jtag_debug_module_tck|*sr[0]}] File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 239
+Warning (332049): Ignored set_false_path at lab7.sdc(239): Argument <to> is an empty collection File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 239
+Warning (332174): Ignored filter at lab7.sdc(240): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_oci_debug:the_lab7_soc_nios2_qsys_0_nios2_oci_debug|monitor_error could not be matched with a keeper File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 240
+Warning (332174): Ignored filter at lab7.sdc(240): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_tck:the_lab7_soc_nios2_qsys_0_jtag_debug_module_tck|*sr[34] could not be matched with a keeper File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 240
+Warning (332049): Ignored set_false_path at lab7.sdc(240): Argument <from> is an empty collection File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 240
+    Info (332050): set_false_path -from [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_oci_debug:the_lab7_soc_nios2_qsys_0_nios2_oci_debug|monitor_error}] -to [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_tck:the_lab7_soc_nios2_qsys_0_jtag_debug_module_tck|*sr[34]}] File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 240
+Warning (332049): Ignored set_false_path at lab7.sdc(240): Argument <to> is an empty collection File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 240
+Warning (332174): Ignored filter at lab7.sdc(241): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_ocimem:the_lab7_soc_nios2_qsys_0_nios2_ocimem|*MonDReg* could not be matched with a keeper File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 241
+Warning (332049): Ignored set_false_path at lab7.sdc(241): Argument <from> is an empty collection File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 241
+    Info (332050): set_false_path -from [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_ocimem:the_lab7_soc_nios2_qsys_0_nios2_ocimem|*MonDReg*}] -to [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_tck:the_lab7_soc_nios2_qsys_0_jtag_debug_module_tck|*sr*}] File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 241
+Warning (332049): Ignored set_false_path at lab7.sdc(241): Argument <to> is an empty collection File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 241
+Warning (332174): Ignored filter at lab7.sdc(242): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_sysclk:the_lab7_soc_nios2_qsys_0_jtag_debug_module_sysclk|*jdo* could not be matched with a keeper File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 242
+Warning (332049): Ignored set_false_path at lab7.sdc(242): Argument <from> is an empty collection File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 242
+    Info (332050): set_false_path -from [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_tck:the_lab7_soc_nios2_qsys_0_jtag_debug_module_tck|*sr*}] -to [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_sysclk:the_lab7_soc_nios2_qsys_0_jtag_debug_module_sysclk|*jdo*}] File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 242
+Warning (332049): Ignored set_false_path at lab7.sdc(242): Argument <to> is an empty collection File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 242
+Warning (332174): Ignored filter at lab7.sdc(243): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_sysclk:the_lab7_soc_nios2_qsys_0_jtag_debug_module_sysclk|ir* could not be matched with a keeper File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 243
+Warning (332049): Ignored set_false_path at lab7.sdc(243): Argument <to> is an empty collection File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 243
+    Info (332050): set_false_path -from [get_keepers {sld_hub:*|irf_reg*}] -to [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper:the_lab7_soc_nios2_qsys_0_jtag_debug_module_wrapper|lab7_soc_nios2_qsys_0_jtag_debug_module_sysclk:the_lab7_soc_nios2_qsys_0_jtag_debug_module_sysclk|ir*}] File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 243
+Warning (332174): Ignored filter at lab7.sdc(244): *lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_oci_debug:the_lab7_soc_nios2_qsys_0_nios2_oci_debug|monitor_go could not be matched with a keeper File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 244
+Warning (332049): Ignored set_false_path at lab7.sdc(244): Argument <to> is an empty collection File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 244
+    Info (332050): set_false_path -from [get_keepers {sld_hub:*|sld_shadow_jsm:shadow_jsm|state[1]}] -to [get_keepers {*lab7_soc_nios2_qsys_0:*|lab7_soc_nios2_qsys_0_nios2_oci:the_lab7_soc_nios2_qsys_0_nios2_oci|lab7_soc_nios2_qsys_0_nios2_oci_debug:the_lab7_soc_nios2_qsys_0_nios2_oci_debug|monitor_go}] File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sdc Line: 244
 Info (332104): Reading SDC File: 'lab7_soc/synthesis/submodules/altera_reset_controller.sdc'
 Info (332104): Reading SDC File: 'lab7_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.sdc'
 Info (332104): Reading SDC File: 'lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu.sdc'
@@ -3738,100 +3731,100 @@ Info (332111): Found 4 clocks
     Info (332111):   20.000 m_lab7_soc|sdram_pll|sd1|pll7|clk[0]
     Info (332111):   20.000 m_lab7_soc|sdram_pll|sd1|pll7|clk[1]
     Info (332111):   20.000  main_clk_50
-Info (176353): Automatically promoted node CLOCK_50~input (placed in PIN Y2 (CLK2, DIFFCLK_1p)) File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 11
+Info (176353): Automatically promoted node CLOCK_50~input (placed in PIN Y2 (CLK2, DIFFCLK_1p)) File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 11
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G3
-Info (176353): Automatically promoted node lab7_soc:m_lab7_soc|lab7_soc_sdram_pll:sdram_pll|lab7_soc_sdram_pll_altpll_lqa2:sd1|wire_pll7_clk[0] (placed in counter C1 of PLL_1) File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram_pll.v Line: 192
+Info (176353): Automatically promoted node lab7_soc:m_lab7_soc|lab7_soc_sdram_pll:sdram_pll|lab7_soc_sdram_pll_altpll_lqa2:sd1|wire_pll7_clk[0] (placed in counter C1 of PLL_1) File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram_pll.v Line: 192
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G4
-Info (176353): Automatically promoted node lab7_soc:m_lab7_soc|lab7_soc_sdram_pll:sdram_pll|lab7_soc_sdram_pll_altpll_lqa2:sd1|wire_pll7_clk[1] (placed in counter C0 of PLL_1) File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram_pll.v Line: 192
+Info (176353): Automatically promoted node lab7_soc:m_lab7_soc|lab7_soc_sdram_pll:sdram_pll|lab7_soc_sdram_pll_altpll_lqa2:sd1|wire_pll7_clk[1] (placed in counter C0 of PLL_1) File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram_pll.v Line: 192
     Info (176355): Automatically promoted destinations to use location or clock signal External Clock Output CLKCTRL_PLL1E0
 Info (176353): Automatically promoted node altera_internal_jtag~TCKUTAP 
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
-Info (176353): Automatically promoted node lab7_soc:m_lab7_soc|altera_reset_controller:rst_controller|r_sync_rst  File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/altera_reset_controller.v Line: 288
+Info (176353): Automatically promoted node lab7_soc:m_lab7_soc|altera_reset_controller:rst_controller|r_sync_rst  File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/altera_reset_controller.v Line: 288
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node lab7_soc:m_lab7_soc|altera_reset_controller:rst_controller|WideOr0~0 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/altera_reset_controller.v Line: 290
-        Info (176357): Destination node lab7_soc:m_lab7_soc|lab7_soc_nios2_gen2_0:nios2_gen2_0|lab7_soc_nios2_gen2_0_cpu:cpu|W_rf_wren File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu.v Line: 3452
-        Info (176357): Destination node lab7_soc:m_lab7_soc|lab7_soc_nios2_gen2_0:nios2_gen2_0|lab7_soc_nios2_gen2_0_cpu:cpu|lab7_soc_nios2_gen2_0_cpu_nios2_oci:the_lab7_soc_nios2_gen2_0_cpu_nios2_oci|lab7_soc_nios2_gen2_0_cpu_nios2_oci_debug:the_lab7_soc_nios2_gen2_0_cpu_nios2_oci_debug|altera_std_synchronizer:the_altera_std_synchronizer|din_s1 File: g:/quartus/quartus/libraries/megafunctions/altera_std_synchronizer.v Line: 45
-Info (176353): Automatically promoted node lab7_soc:m_lab7_soc|altera_reset_controller:rst_controller_001|altera_reset_synchronizer:alt_rst_sync_uq1|altera_reset_synchronizer_int_chain_out  File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/altera_reset_synchronizer.v Line: 62
+        Info (176357): Destination node lab7_soc:m_lab7_soc|altera_reset_controller:rst_controller|WideOr0~0 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/altera_reset_controller.v Line: 290
+        Info (176357): Destination node lab7_soc:m_lab7_soc|lab7_soc_nios2_gen2_0:nios2_gen2_0|lab7_soc_nios2_gen2_0_cpu:cpu|W_rf_wren File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu.v Line: 3452
+        Info (176357): Destination node lab7_soc:m_lab7_soc|lab7_soc_nios2_gen2_0:nios2_gen2_0|lab7_soc_nios2_gen2_0_cpu:cpu|lab7_soc_nios2_gen2_0_cpu_nios2_oci:the_lab7_soc_nios2_gen2_0_cpu_nios2_oci|lab7_soc_nios2_gen2_0_cpu_nios2_oci_debug:the_lab7_soc_nios2_gen2_0_cpu_nios2_oci_debug|altera_std_synchronizer:the_altera_std_synchronizer|din_s1 File: c:/users/brock/quartus/quartus/libraries/megafunctions/altera_std_synchronizer.v Line: 45
+Info (176353): Automatically promoted node lab7_soc:m_lab7_soc|altera_reset_controller:rst_controller_001|altera_reset_synchronizer:alt_rst_sync_uq1|altera_reset_synchronizer_int_chain_out  File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/altera_reset_synchronizer.v Line: 62
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|active_rnw~4 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 215
-        Info (176357): Destination node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|active_cs_n~0 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 212
-        Info (176357): Destination node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|active_cs_n~1 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 212
-        Info (176357): Destination node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|i_refs[0] File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 356
-        Info (176357): Destination node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|i_refs[2] File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 356
-        Info (176357): Destination node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|i_refs[1] File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 356
-Info (176353): Automatically promoted node lab7_soc:m_lab7_soc|altera_reset_controller:rst_controller_001|merged_reset~0  File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/altera_reset_controller.v Line: 134
+        Info (176357): Destination node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|active_rnw~4 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 215
+        Info (176357): Destination node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|active_cs_n~0 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 212
+        Info (176357): Destination node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|active_cs_n~1 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 212
+        Info (176357): Destination node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|i_refs[0] File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 356
+        Info (176357): Destination node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|i_refs[2] File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 356
+        Info (176357): Destination node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|i_refs[1] File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 356
+Info (176353): Automatically promoted node lab7_soc:m_lab7_soc|altera_reset_controller:rst_controller_001|merged_reset~0  File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/altera_reset_controller.v Line: 134
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
-Info (176353): Automatically promoted node lab7_soc:m_lab7_soc|lab7_soc_sdram_pll:sdram_pll|prev_reset  File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram_pll.v Line: 268
+Info (176353): Automatically promoted node lab7_soc:m_lab7_soc|lab7_soc_sdram_pll:sdram_pll|prev_reset  File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram_pll.v Line: 268
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node lab7_soc:m_lab7_soc|lab7_soc_sdram_pll:sdram_pll|readdata[0]~1 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram_pll.v Line: 252
+        Info (176357): Destination node lab7_soc:m_lab7_soc|lab7_soc_sdram_pll:sdram_pll|readdata[0]~1 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram_pll.v Line: 252
 Info (176233): Starting register packing
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[0]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[0]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[1]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[1]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[2]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[2]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[3]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[3]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[4]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[4]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[5]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[5]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[6]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[6]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[7]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[7]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[8]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[8]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[9]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[9]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[10]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[10]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[11]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[11]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[12]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[12]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[13]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[13]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[14]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[14]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[15]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[15]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[16]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[16]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[17]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[17]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[18]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[18]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[19]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[19]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[20]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[20]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[21]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[21]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[22]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[22]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[23]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[23]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[24]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[24]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[25]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[25]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[26]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[26]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[27]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[27]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[28]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[28]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[29]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[29]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[30]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[30]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[31]~_Duplicate_1 to I/O pin File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
-    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[31]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[0]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[0]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[1]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[1]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[2]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[2]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[3]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[3]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[4]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[4]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[5]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[5]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[6]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[6]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[7]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[7]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[8]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[8]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[9]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[9]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[10]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[10]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[11]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[11]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[12]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[12]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[13]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[13]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[14]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[14]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[15]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[15]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[16]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[16]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[17]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[17]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[18]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[18]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[19]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[19]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[20]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[20]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[21]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[21]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[22]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[22]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[23]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[23]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[24]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[24]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[25]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[25]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[26]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[26]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[27]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[27]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[28]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[28]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[29]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[29]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[30]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[30]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+Warning (176225): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[31]~_Duplicate_1 to I/O pin File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
+    Warning (176267): Can't pack node lab7_soc:m_lab7_soc|lab7_soc_sdram:sdram|m_data[31]~_Duplicate_1 -- no packable connection between output pin and register File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v Line: 442
 Warning (176250): Ignoring invalid fast I/O register assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Warning (176251): Ignoring some wildcard destinations of fast I/O register assignments
     Info (176252): Wildcard assignment "Fast Output Register=ON" to "*" matches multiple destination nodes -- some destinations are not valid targets for this assignment
@@ -4296,71 +4289,71 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "VGA_R[7]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "VGA_SYNC_N" is assigned to location or region, but does not exist in design
     Warning (15706): Node "VGA_VS" is assigned to location or region, but does not exist in design
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:05
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:06
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:01
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:12
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:10
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 1% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 26% of the available device resources in the region that extends from location X11_Y37 to location X22_Y48
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:06
-Info (11888): Total time spent on timing analysis during the Fitter is 3.21 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:07
+Info (11888): Total time spent on timing analysis during the Fitter is 3.98 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:03
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Warning (169177): 33 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing Cyclone IV E Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
-    Info (169178): Pin DRAM_DQ[0] uses I/O standard 3.3-V LVTTL at W3 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[1] uses I/O standard 3.3-V LVTTL at W2 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[2] uses I/O standard 3.3-V LVTTL at V4 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[3] uses I/O standard 3.3-V LVTTL at W1 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[4] uses I/O standard 3.3-V LVTTL at V3 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[5] uses I/O standard 3.3-V LVTTL at V2 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[6] uses I/O standard 3.3-V LVTTL at V1 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[7] uses I/O standard 3.3-V LVTTL at U3 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[8] uses I/O standard 3.3-V LVTTL at Y3 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[9] uses I/O standard 3.3-V LVTTL at Y4 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[10] uses I/O standard 3.3-V LVTTL at AB1 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[11] uses I/O standard 3.3-V LVTTL at AA3 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[12] uses I/O standard 3.3-V LVTTL at AB2 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[13] uses I/O standard 3.3-V LVTTL at AC1 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[14] uses I/O standard 3.3-V LVTTL at AB3 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[15] uses I/O standard 3.3-V LVTTL at AC2 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[16] uses I/O standard 3.3-V LVTTL at M8 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[17] uses I/O standard 3.3-V LVTTL at L8 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[18] uses I/O standard 3.3-V LVTTL at P2 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[19] uses I/O standard 3.3-V LVTTL at N3 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[20] uses I/O standard 3.3-V LVTTL at N4 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[21] uses I/O standard 3.3-V LVTTL at M4 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[22] uses I/O standard 3.3-V LVTTL at M7 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[23] uses I/O standard 3.3-V LVTTL at L7 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[24] uses I/O standard 3.3-V LVTTL at U5 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[25] uses I/O standard 3.3-V LVTTL at R7 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[26] uses I/O standard 3.3-V LVTTL at R1 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[27] uses I/O standard 3.3-V LVTTL at R2 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[28] uses I/O standard 3.3-V LVTTL at R3 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[29] uses I/O standard 3.3-V LVTTL at T3 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[30] uses I/O standard 3.3-V LVTTL at U4 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin DRAM_DQ[31] uses I/O standard 3.3-V LVTTL at U1 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 21
-    Info (169178): Pin CLOCK_50 uses I/O standard 3.3-V LVTTL at Y2 File: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/lab7.sv Line: 11
-Info (144001): Generated suppressed messages file C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/output_files/lab7.fit.smsg
+    Info (169178): Pin DRAM_DQ[0] uses I/O standard 3.3-V LVTTL at W3 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[1] uses I/O standard 3.3-V LVTTL at W2 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[2] uses I/O standard 3.3-V LVTTL at V4 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[3] uses I/O standard 3.3-V LVTTL at W1 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[4] uses I/O standard 3.3-V LVTTL at V3 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[5] uses I/O standard 3.3-V LVTTL at V2 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[6] uses I/O standard 3.3-V LVTTL at V1 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[7] uses I/O standard 3.3-V LVTTL at U3 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[8] uses I/O standard 3.3-V LVTTL at Y3 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[9] uses I/O standard 3.3-V LVTTL at Y4 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[10] uses I/O standard 3.3-V LVTTL at AB1 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[11] uses I/O standard 3.3-V LVTTL at AA3 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[12] uses I/O standard 3.3-V LVTTL at AB2 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[13] uses I/O standard 3.3-V LVTTL at AC1 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[14] uses I/O standard 3.3-V LVTTL at AB3 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[15] uses I/O standard 3.3-V LVTTL at AC2 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[16] uses I/O standard 3.3-V LVTTL at M8 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[17] uses I/O standard 3.3-V LVTTL at L8 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[18] uses I/O standard 3.3-V LVTTL at P2 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[19] uses I/O standard 3.3-V LVTTL at N3 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[20] uses I/O standard 3.3-V LVTTL at N4 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[21] uses I/O standard 3.3-V LVTTL at M4 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[22] uses I/O standard 3.3-V LVTTL at M7 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[23] uses I/O standard 3.3-V LVTTL at L7 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[24] uses I/O standard 3.3-V LVTTL at U5 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[25] uses I/O standard 3.3-V LVTTL at R7 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[26] uses I/O standard 3.3-V LVTTL at R1 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[27] uses I/O standard 3.3-V LVTTL at R2 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[28] uses I/O standard 3.3-V LVTTL at R3 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[29] uses I/O standard 3.3-V LVTTL at T3 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[30] uses I/O standard 3.3-V LVTTL at U4 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin DRAM_DQ[31] uses I/O standard 3.3-V LVTTL at U1 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 21
+    Info (169178): Pin CLOCK_50 uses I/O standard 3.3-V LVTTL at Y2 File: C:/Users/Brock/school/ECE385/ece385/Lab7/lab7.sv Line: 11
+Info (144001): Generated suppressed messages file C:/Users/Brock/school/ECE385/ece385/Lab7/output_files/lab7.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 534 warnings
-    Info: Peak virtual memory: 6827 megabytes
-    Info: Processing ended: Tue Mar 05 16:35:44 2019
-    Info: Elapsed time: 00:00:35
-    Info: Total CPU time (on all processors): 00:01:32
+    Info: Peak virtual memory: 5583 megabytes
+    Info: Processing ended: Thu Mar 07 08:10:45 2019
+    Info: Elapsed time: 00:00:40
+    Info: Total CPU time (on all processors): 00:00:53
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/Brock/School/ECE385/GitLab/ece385/Lab7/output_files/lab7.fit.smsg.
+The suppressed messages can be found in C:/Users/Brock/school/ECE385/ece385/Lab7/output_files/lab7.fit.smsg.
 
 
