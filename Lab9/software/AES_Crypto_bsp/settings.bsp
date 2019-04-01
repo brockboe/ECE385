@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Mar 26, 2019 2:38:34 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1553629114491</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Apr 1, 2019 1:43:10 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1554144190938</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>C:\Users\Brock\School\ECE385\GitLab\ece385\Lab9\software\AES_Crypto_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\nios_system.sopcinfo</SopcDesignFile>

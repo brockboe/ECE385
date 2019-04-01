@@ -1,0 +1,1761 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/simulation/modelsim
+valtera_avalon_sc_fifo
+Z1 !s110 1554142232
+!i10b 1
+!s100 4mK@em][G=j]om3zJIhOc0
+IOKz4=9::MnWamZ:0<@M;^1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1554141975
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_avalon_sc_fifo.v
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_avalon_sc_fifo.v
+Z4 L0 21
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1554142232.000000
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_avalon_sc_fifo.v|
+!i113 1
+Z7 o-vlog01compat -work nios_system
+Z8 !s92 -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules
+Z9 tCvgOpt 0
+valtera_avalon_st_clock_crosser
+Z10 !s110 1554142234
+!i10b 1
+!s100 YbU`iK^TYJ_9Hz`CZekjQ3
+IJP_[J8M0NkHG^LJ`el;BR1
+R2
+R0
+Z11 w1554141976
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_avalon_st_clock_crosser.v
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_avalon_st_clock_crosser.v
+L0 22
+R5
+r1
+!s85 0
+31
+Z12 !s108 1554142234.000000
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_st_handshake_clock_crosser
+R10
+!i10b 1
+!s100 3f<J9K;e[9FU@JKn0^PK?0
+Il2:DFiCZ5N_FzK@IZlN<L3
+R2
+R0
+R11
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+Z13 L0 24
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!i113 1
+R7
+R8
+R9
+valtera_merlin_arb_adder
+Z14 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R10
+!i10b 1
+!s100 1Jn[a;@5nZmTN?DFKQNzj2
+IX<]DLKT8em`DbohDz_dCN1
+R2
+Z15 !s105 altera_merlin_arbitrator_sv_unit
+S1
+R0
+R3
+Z16 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Z17 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+L0 228
+R5
+r1
+!s85 0
+31
+R12
+Z18 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv|
+Z19 !s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv|
+!i113 1
+Z20 o-sv -work nios_system
+Z21 !s92 -sv -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules
+R9
+valtera_merlin_arbitrator
+R14
+R10
+!i10b 1
+!s100 NQTehjm2fNQROUMUzShGa1
+IF1<UbBbGe9HWKPnV]N4T11
+R2
+R15
+S1
+R0
+R3
+R16
+R17
+L0 103
+R5
+r1
+!s85 0
+31
+R12
+R18
+R19
+!i113 1
+R20
+R21
+R9
+valtera_merlin_burst_uncompressor
+R14
+Z22 !s110 1554142236
+!i10b 1
+!s100 f1?Rb<=9U?R9LJoHl;7>T3
+IZ[eoWUjOZ[Bfl^Q6573;U0
+R2
+!s105 altera_merlin_burst_uncompressor_sv_unit
+S1
+R0
+R3
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+L0 40
+R5
+r1
+!s85 0
+31
+Z23 !s108 1554142236.000000
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!i113 1
+R20
+R21
+R9
+valtera_merlin_master_agent
+R14
+R22
+!i10b 1
+!s100 _CJm:YX=>U2LQKH;8=@cb0
+I]LSO2FN8TH^6fgG5Q9b[g3
+R2
+!s105 altera_merlin_master_agent_sv_unit
+S1
+R0
+R3
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_master_agent.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_master_agent.sv
+L0 28
+R5
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_master_agent.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_master_agent.sv|
+!i113 1
+R20
+R21
+R9
+valtera_merlin_master_translator
+R14
+R22
+!i10b 1
+!s100 NdRk@]3fC2C@V7Rm;dQM31
+I^ZK3jliB6kV^^K9RXaf?_1
+R2
+!s105 altera_merlin_master_translator_sv_unit
+S1
+R0
+R3
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_master_translator.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_master_translator.sv
+L0 32
+R5
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_master_translator.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_master_translator.sv|
+!i113 1
+R20
+R21
+R9
+valtera_merlin_slave_agent
+R14
+R22
+!i10b 1
+!s100 ePZN1d?B062J`OBb?blff3
+IQz]zXc<=k?lNbh[N1OkHW1
+R2
+!s105 altera_merlin_slave_agent_sv_unit
+S1
+R0
+R3
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_slave_agent.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_slave_agent.sv
+Z24 L0 34
+R5
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_slave_agent.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_slave_agent.sv|
+!i113 1
+R20
+R21
+R9
+valtera_merlin_slave_translator
+R14
+R22
+!i10b 1
+!s100 k`9[YAn_dLTkg;GE`mOb61
+IZAOY>SDTd^SinDLBiEeV^1
+R2
+!s105 altera_merlin_slave_translator_sv_unit
+S1
+R0
+R3
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_slave_translator.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_slave_translator.sv
+L0 35
+R5
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_slave_translator.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_slave_translator.sv|
+!i113 1
+R20
+R21
+R9
+valtera_reset_controller
+R1
+!i10b 1
+!s100 z[H_hRO9gO=:^2E3_jWH03
+IgbQMY7@`I4V1dRXY;zC3H0
+R2
+R0
+Z25 w1554141972
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_reset_controller.v
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_reset_controller.v
+L0 42
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_reset_controller.v|
+!i113 1
+R7
+R8
+R9
+valtera_reset_synchronizer
+R1
+!i10b 1
+!s100 oWLYmSO[EOX[G0PgQhZ2=0
+I7nDcKoG3:83ziL?b7B84?1
+R2
+R0
+R25
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_reset_synchronizer.v
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_reset_synchronizer.v
+R13
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_reset_synchronizer.v|
+!i113 1
+R7
+R8
+R9
+valtera_std_synchronizer_nocut
+R10
+!i10b 1
+!s100 b8zV2<79GgkNg0GC<P[GJ2
+IIM_BcGSUCJ^ogS_cTKlO`1
+R2
+R0
+R11
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_std_synchronizer_nocut.v
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_std_synchronizer_nocut.v
+L0 44
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_std_synchronizer_nocut.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_std_synchronizer_nocut.v|
+!i113 1
+R7
+R8
+R9
+vavalon_aes_interface
+R14
+R22
+!i10b 1
+!s100 TIQQ2OH]Xi5jiH;^CjVoa0
+IM06Z>CTzf2eak_=K`i_[K3
+R2
+!s105 avalon_aes_interface_sv_unit
+S1
+R0
+Z26 w1554141965
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/avalon_aes_interface.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/avalon_aes_interface.sv
+R4
+R5
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/avalon_aes_interface.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/avalon_aes_interface.sv|
+!i113 1
+R20
+R21
+R9
+vnios_system
+!s110 1554142231
+!i10b 1
+!s100 e^Lj3iHjzZj<?Sca_<G`Q0
+ISRZC5P[i7Zhj3NSW]l;:Z3
+R2
+R0
+R26
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/nios_system.v
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/nios_system.v
+L0 6
+R5
+r1
+!s85 0
+31
+!s108 1554142231.000000
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/nios_system.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/nios_system.v|
+!i113 1
+R7
+!s92 -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis
+R9
+vnios_system_irq_mapper
+R14
+R10
+!i10b 1
+!s100 5>RIaiI:=QGik=JkDJ0[=3
+I0@0j??dN;>^JaiWz]j>1M2
+R2
+!s105 nios_system_irq_mapper_sv_unit
+S1
+R0
+R25
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_irq_mapper.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_irq_mapper.sv
+L0 31
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_irq_mapper.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_irq_mapper.sv|
+!i113 1
+R20
+R21
+R9
+vnios_system_jtag_uart_0
+R10
+!i10b 1
+!s100 Fm>ZJdEGihkV`?f6BLz:H0
+I6NaDBA:@J2Eh63a[@ZJhT1
+R2
+R0
+R26
+Z27 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_jtag_uart_0.v
+Z28 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_jtag_uart_0.v
+L0 331
+R5
+r1
+!s85 0
+31
+R12
+Z29 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_jtag_uart_0.v|
+Z30 !s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_jtag_uart_0.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_jtag_uart_0_scfifo_r
+R10
+!i10b 1
+!s100 47KZM;KA2nU8Ze;ai4g7l3
+IoDjh`UG::aY;_zRHE;zN_1
+R2
+R0
+R26
+R27
+R28
+L0 243
+R5
+r1
+!s85 0
+31
+R12
+R29
+R30
+!i113 1
+R7
+R8
+R9
+vnios_system_jtag_uart_0_scfifo_w
+R10
+!i10b 1
+!s100 5`B6]mFoZZhff:NBY<]Fk2
+ITM4z=;cN3f70PA^i;4T:l2
+R2
+R0
+R26
+R27
+R28
+L0 78
+R5
+r1
+!s85 0
+31
+R12
+R29
+R30
+!i113 1
+R7
+R8
+R9
+vnios_system_jtag_uart_0_sim_scfifo_r
+R10
+!i10b 1
+!s100 YkRUSd:;8GKW7U=PAIGm80
+INTh1h3bYbbii>cZgoGcjz2
+R2
+R0
+R26
+R27
+R28
+L0 164
+R5
+r1
+!s85 0
+31
+R12
+R29
+R30
+!i113 1
+R7
+R8
+R9
+vnios_system_jtag_uart_0_sim_scfifo_w
+R10
+!i10b 1
+!s100 XFzYcMA6@JMe5hE`VK9ci3
+Ii<LCX`6>MAk0TAFKlRMnl2
+R2
+R0
+R26
+R27
+R28
+R4
+R5
+r1
+!s85 0
+31
+R12
+R29
+R30
+!i113 1
+R7
+R8
+R9
+vnios_system_keys
+R10
+!i10b 1
+!s100 ogFm8IC`OBNY<XM0E:lUY3
+IUNRdQeB_MY2?@84GHWg]`2
+R2
+R0
+Z31 w1554141966
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_keys.v
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_keys.v
+R4
+R5
+r1
+!s85 0
+31
+Z32 !s108 1554142233.000000
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_keys.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_keys.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_mm_interconnect_0
+R1
+!i10b 1
+!s100 ClE2C6CZ<bz0j<0;ni75A2
+IV2A^_[Vg?3T1^7K]Vh__:1
+R2
+R0
+R25
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0.v
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_mm_interconnect_0_avalon_st_adapter
+R1
+!i10b 1
+!s100 FUH8SkjOaZNIW4`TjL<CB2
+I3?Ag3<n6ECe06zoX^mg@S0
+R2
+R0
+R11
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter.v
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter.v
+L0 9
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+R14
+R10
+!i10b 1
+!s100 J9=Bfc65dnoL9<fggkKR[2
+I]9>aNd`;n0bTH=0:@>5?i1
+R2
+!s105 nios_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0_sv_unit
+S1
+R0
+R11
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+L0 66
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!i113 1
+R20
+R21
+R9
+vnios_system_mm_interconnect_0_cmd_demux
+R14
+Z33 !s110 1554142235
+!i10b 1
+!s100 i4Kb]:@3oX1m59:h]]A<00
+I<C6R3zC`[zk3CkC;SBM^Y3
+R2
+!s105 nios_system_mm_interconnect_0_cmd_demux_sv_unit
+S1
+R0
+R3
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux.sv
+Z34 L0 43
+R5
+r1
+!s85 0
+31
+Z35 !s108 1554142235.000000
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux.sv|
+!i113 1
+R20
+R21
+R9
+vnios_system_mm_interconnect_0_cmd_demux_001
+R14
+R33
+!i10b 1
+!s100 T5DjoH<l4bL_P9GzZYG9@2
+IZkM_DIJ<JDdgI3oOG4LbS0
+R2
+!s105 nios_system_mm_interconnect_0_cmd_demux_001_sv_unit
+S1
+R0
+R3
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux_001.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux_001.sv
+R34
+R5
+r1
+!s85 0
+31
+R35
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux_001.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux_001.sv|
+!i113 1
+R20
+R21
+R9
+vnios_system_mm_interconnect_0_cmd_mux
+R14
+R33
+!i10b 1
+!s100 jF1i_gLN254ZV8@RGEh@V0
+Ie@cbFY<eDX>YLWZZ2V_3C2
+R2
+!s105 nios_system_mm_interconnect_0_cmd_mux_sv_unit
+S1
+R0
+R3
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux.sv
+Z36 L0 51
+R5
+r1
+!s85 0
+31
+R35
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux.sv|
+!i113 1
+R20
+R21
+R9
+vnios_system_mm_interconnect_0_cmd_mux_001
+R14
+R33
+!i10b 1
+!s100 LC_6Q?B0Jz:Ihk[SThmEc3
+I:z2:J0=Q>M0l06^X6;;Q73
+R2
+!s105 nios_system_mm_interconnect_0_cmd_mux_001_sv_unit
+S1
+R0
+R3
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux_001.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux_001.sv
+R36
+R5
+r1
+!s85 0
+31
+R35
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux_001.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux_001.sv|
+!i113 1
+R20
+R21
+R9
+vnios_system_mm_interconnect_0_router
+R14
+R22
+!i10b 1
+!s100 H2_kdKI<JJKQ`LQ5C31VX3
+I8[hdd9:1k:i;:MPTg=8X^0
+R2
+Z37 !s105 nios_system_mm_interconnect_0_router_sv_unit
+S1
+R0
+R3
+Z38 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router.sv
+Z39 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router.sv
+Z40 L0 84
+R5
+r1
+!s85 0
+31
+R23
+Z41 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router.sv|
+Z42 !s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router.sv|
+!i113 1
+R20
+R21
+R9
+vnios_system_mm_interconnect_0_router_001
+R14
+R22
+!i10b 1
+!s100 Yb5i6:[@PhL`:9d^XPgJi2
+I9mi4jdL=Je<]8D=Rc1<IH0
+R2
+Z43 !s105 nios_system_mm_interconnect_0_router_001_sv_unit
+S1
+R0
+R3
+Z44 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_001.sv
+Z45 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_001.sv
+R40
+R5
+r1
+!s85 0
+31
+R23
+Z46 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_001.sv|
+Z47 !s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_001.sv|
+!i113 1
+R20
+R21
+R9
+vnios_system_mm_interconnect_0_router_001_default_decode
+R14
+R22
+!i10b 1
+!s100 `UN3FZJ>]FhXZEc58in=^3
+IinP;eO>:2GAF6PGYR0jHm1
+R2
+R43
+S1
+R0
+R3
+R44
+R45
+Z48 L0 45
+R5
+r1
+!s85 0
+31
+R23
+R46
+R47
+!i113 1
+R20
+R21
+R9
+vnios_system_mm_interconnect_0_router_002
+R14
+R33
+!i10b 1
+!s100 2jg<IW1a3J[Lf^Od:3aJ_3
+I?S_ji`b=D=OKXC[Nc53o;0
+R2
+Z49 !s105 nios_system_mm_interconnect_0_router_002_sv_unit
+S1
+R0
+R3
+Z50 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_002.sv
+Z51 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_002.sv
+R40
+R5
+r1
+!s85 0
+31
+R35
+Z52 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_002.sv|
+Z53 !s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_002.sv|
+!i113 1
+R20
+R21
+R9
+vnios_system_mm_interconnect_0_router_002_default_decode
+R14
+R33
+!i10b 1
+!s100 mZ[GadES:dOHH6FL6>>mS3
+IkbklCH3jLCENXEl?W0`?22
+R2
+R49
+S1
+R0
+R3
+R50
+R51
+R48
+R5
+r1
+!s85 0
+31
+R35
+R52
+R53
+!i113 1
+R20
+R21
+R9
+vnios_system_mm_interconnect_0_router_003
+R14
+R33
+!i10b 1
+!s100 Ga^G8YlmBbYdL0I<kX;842
+Ilh:l@Wd4]e@She1Hd`Ue=2
+R2
+Z54 !s105 nios_system_mm_interconnect_0_router_003_sv_unit
+S1
+R0
+R3
+Z55 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_003.sv
+Z56 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_003.sv
+R40
+R5
+r1
+!s85 0
+31
+R35
+Z57 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_003.sv|
+Z58 !s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_003.sv|
+!i113 1
+R20
+R21
+R9
+vnios_system_mm_interconnect_0_router_003_default_decode
+R14
+R33
+!i10b 1
+!s100 eWV[7XRPYG_ko8YObQEg>1
+I?h8ZK8[WWnQoZP?;8MJEF0
+R2
+R54
+S1
+R0
+R3
+R55
+R56
+R48
+R5
+r1
+!s85 0
+31
+R35
+R57
+R58
+!i113 1
+R20
+R21
+R9
+vnios_system_mm_interconnect_0_router_default_decode
+R14
+R22
+!i10b 1
+!s100 WNS1m2I=o9K5aVZokJKlY0
+Ilj5mohEibAF9JJS0<I^[<3
+R2
+R37
+S1
+R0
+R3
+R38
+R39
+R48
+R5
+r1
+!s85 0
+31
+R23
+R41
+R42
+!i113 1
+R20
+R21
+R9
+vnios_system_mm_interconnect_0_rsp_demux
+R14
+R10
+!i10b 1
+!s100 c>0DF3afMn7n=blGIl8VL0
+I:affC4jPo4XRMaGfc>@IX2
+R2
+!s105 nios_system_mm_interconnect_0_rsp_demux_sv_unit
+S1
+R0
+R3
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux.sv
+R34
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux.sv|
+!i113 1
+R20
+R21
+R9
+vnios_system_mm_interconnect_0_rsp_demux_001
+R14
+R10
+!i10b 1
+!s100 SR^fARAn<XE9[0S2=H7]?0
+IY4>lfPPVMKk_dfdEJRPzM0
+R2
+!s105 nios_system_mm_interconnect_0_rsp_demux_001_sv_unit
+S1
+R0
+R3
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux_001.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux_001.sv
+R34
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux_001.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux_001.sv|
+!i113 1
+R20
+R21
+R9
+vnios_system_mm_interconnect_0_rsp_mux
+R14
+R10
+!i10b 1
+!s100 eC7UjAEM^GP?HC@XW8LQA0
+IKBbNhCj9T]J8G][N0K9??2
+R2
+!s105 nios_system_mm_interconnect_0_rsp_mux_sv_unit
+S1
+R0
+R3
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux.sv
+R36
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux.sv|
+!i113 1
+R20
+R21
+R9
+vnios_system_mm_interconnect_0_rsp_mux_001
+R14
+R10
+!i10b 1
+!s100 jfiLEHNF^GGIYDX?a?U[O3
+I`J484<TniYNbJKWXU:_hO1
+R2
+!s105 nios_system_mm_interconnect_0_rsp_mux_001_sv_unit
+S1
+R0
+R11
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux_001.sv
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux_001.sv
+R36
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux_001.sv|
+!s90 -reportprogress|300|-sv|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux_001.sv|
+!i113 1
+R20
+R21
+R9
+vnios_system_nios2_gen2_0
+Z59 !s110 1554142233
+!i10b 1
+!s100 UdX8`PhA@Q@bDCgPEKjoT0
+Ib^[ZB[R>FVZNBEkaD^][K3
+R2
+R0
+R31
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0.v
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu
+R59
+!i10b 1
+!s100 7@o8i]Y>0?F6Fg]V^e?SH3
+Id8>Z@ck6A>7@o3T=BmG0b2
+R2
+R0
+R3
+Z60 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu.v
+Z61 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu.v
+L0 2834
+R5
+r1
+!s85 0
+31
+R32
+Z62 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu.v|
+Z63 !s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_debug_slave_sysclk
+R59
+!i10b 1
+!s100 lddF<iT4]ob]jOhjW7a770
+I3k6aD>N7@KbEPBS<]B2HP1
+R2
+R0
+R3
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_sysclk.v
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_sysclk.v
+R4
+R5
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_debug_slave_tck
+R59
+!i10b 1
+!s100 G05UPZ[hUWXgI]]0_E:;V0
+Id4fh6Jh=IdbBLT=Xf3h[j3
+R2
+R0
+R3
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_tck.v
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_tck.v
+R4
+R5
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_tck.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_debug_slave_wrapper
+R59
+!i10b 1
+!s100 PQ<aWHFc5`^3>WjSV=oM70
+IBh[hJVBO8O3476m>o>5ad2
+R2
+R0
+R3
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_wrapper.v
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_wrapper.v
+R4
+R5
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_avalon_reg
+R59
+!i10b 1
+!s100 lXf:2[3`aA7L]Q_OPcnho2
+I2B7O8D?3fg_ha6hZ]b<133
+R2
+R0
+R3
+R60
+R61
+L0 2023
+R5
+r1
+!s85 0
+31
+R32
+R62
+R63
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci
+R59
+!i10b 1
+!s100 G06;U7ehf=Q^=<XdjR2M>0
+I<d7X2`Y98M<ZYSzZgnCiz2
+R2
+R0
+R3
+R60
+R61
+L0 2362
+R5
+r1
+!s85 0
+31
+R32
+R62
+R63
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_break
+R59
+!i10b 1
+!s100 80B>0i:EiBd:UUF8YJ4S]2
+IY2XDokT_KmEc82;YgKX1`3
+R2
+R0
+R3
+R60
+R61
+L0 295
+R5
+r1
+!s85 0
+31
+R32
+R62
+R63
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+R59
+!i10b 1
+!s100 ca@:;CFJ>13f7=8mhdb^]2
+IiIH2nUZ6[e=V?ME`=Hc<X1
+R2
+R0
+R3
+R60
+R61
+L0 1265
+R5
+r1
+!s85 0
+31
+R32
+R62
+R63
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_dbrk
+R59
+!i10b 1
+!s100 1DmgzmJOaC;GcAjB<5i_K2
+I_CkQTEE9JdSzHZMZYSNkV2
+R2
+R0
+R3
+R60
+R61
+L0 795
+R5
+r1
+!s85 0
+31
+R32
+R62
+R63
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_debug
+R59
+!i10b 1
+!s100 LmBmnklWB6[g0KNCDfiea1
+IUTFeNGc@B]kM^``emK;NA3
+R2
+R0
+R3
+R60
+R61
+L0 153
+R5
+r1
+!s85 0
+31
+R32
+R62
+R63
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_dtrace
+R59
+!i10b 1
+!s100 _3Oi_9Z1QM7E]^gU@:BgO2
+Ib=PTJ9RBabDe:^iA99gi50
+R2
+R0
+R3
+R60
+R61
+L0 1183
+R5
+r1
+!s85 0
+31
+R32
+R62
+R63
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_fifo
+R59
+!i10b 1
+!s100 RC2Cgj?EDn7TO?gSX?>E:0
+INRIc:cjm;fU4F8GY<T38T2
+R2
+R0
+R3
+R60
+R61
+L0 1427
+R5
+r1
+!s85 0
+31
+R32
+R62
+R63
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+R59
+!i10b 1
+!s100 X3G]dDNjgo18H:OO;c3nm3
+I4f^8JUIVfg6zmbIW4]jD[0
+R2
+R0
+R3
+R60
+R61
+L0 1380
+R5
+r1
+!s85 0
+31
+R32
+R62
+R63
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+R59
+!i10b 1
+!s100 :a=RQOk:@]98Tn`nA@HZT3
+IM<E]lLB02=1VBa3bOk_VR0
+R2
+R0
+R3
+R60
+R61
+L0 1337
+R5
+r1
+!s85 0
+31
+R32
+R62
+R63
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_im
+R59
+!i10b 1
+!s100 Sl<jo]R]TYfHa`AFFoj370
+IX?>TkJ9LA_b=;^T@P1WLD3
+R2
+R0
+R3
+R60
+R61
+L0 1936
+R5
+r1
+!s85 0
+31
+R32
+R62
+R63
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_itrace
+R59
+!i10b 1
+!s100 KemlV>eZSiE7?JPo6CiTg0
+ISD^1X0a6SPb7El<_G<;l]1
+R2
+R0
+R3
+R60
+R61
+L0 982
+R5
+r1
+!s85 0
+31
+R32
+R62
+R63
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_pib
+R59
+!i10b 1
+!s100 VHLkZSTVbLJl4jNhi>kk>3
+I50mkenBzj_8O9fOFJMKi>2
+R2
+R0
+R3
+R60
+R61
+L0 1913
+R5
+r1
+!s85 0
+31
+R32
+R62
+R63
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_td_mode
+R59
+!i10b 1
+!s100 Fc7=;IjO2UQc9On]U6F9z1
+In6CTGG78R]0^Qk=aFEQ9<3
+R2
+R0
+R3
+R60
+R61
+L0 1115
+R5
+r1
+!s85 0
+31
+R32
+R62
+R63
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_xbrk
+R59
+!i10b 1
+!s100 :22;[JlKFZcCT>=PNA1?U0
+IoL4[zFA]Q2R4b=aBX2Dkb3
+R2
+R0
+R3
+R60
+R61
+L0 588
+R5
+r1
+!s85 0
+31
+R32
+R62
+R63
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_ocimem
+R59
+!i10b 1
+!s100 ^YWH8>7gEZoVAHUc623V:1
+IS^bz^k9Wa[[WAP8ZfC=kV2
+R2
+R0
+R3
+R60
+R61
+L0 2181
+R5
+r1
+!s85 0
+31
+R32
+R62
+R63
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_performance_monitors
+R59
+!i10b 1
+!s100 _5Q0GnXJ<AUEFPEd<3G6D3
+IbMnBiE<X`aI^;h[XKRWMF2
+R2
+R0
+R3
+R60
+R61
+L0 2006
+R5
+r1
+!s85 0
+31
+R32
+R62
+R63
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_ociram_sp_ram_module
+R59
+!i10b 1
+!s100 =<O3ITm^4VBF?gQjFNh771
+IFa<Bi;4?zNOM0?E_cPPJ41
+R2
+R0
+R3
+R60
+R61
+L0 2116
+R5
+r1
+!s85 0
+31
+R32
+R62
+R63
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_register_bank_a_module
+R59
+!i10b 1
+!s100 J^SfTJNm?64YM4F7>?l>[3
+IDS2ZoR]:gRnHJA@]A66e71
+R2
+R0
+R3
+R60
+R61
+R4
+R5
+r1
+!s85 0
+31
+R32
+R62
+R63
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_register_bank_b_module
+R59
+!i10b 1
+!s100 VUS3PCAEGI:FX7QChh0l93
+IJPALMQjBU;_FHnADkTFGS1
+R2
+R0
+R3
+R60
+R61
+L0 87
+R5
+r1
+!s85 0
+31
+R32
+R62
+R63
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_test_bench
+R59
+!i10b 1
+!s100 H18<]X1W`DJa:g75kGC7G3
+IJNgQDhSeNSHfnaFDiN5aV1
+R2
+R0
+R3
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_test_bench.v
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_test_bench.v
+R4
+R5
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_test_bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_test_bench.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_onchip_memory2_0
+R59
+!i10b 1
+!s100 0]=KV6=J6Hf@^GUDNMKFN1
+Ijfi8>AWZeS`?`0lVa?aOi2
+R2
+R0
+R31
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_onchip_memory2_0.v
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_onchip_memory2_0.v
+R4
+R5
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_onchip_memory2_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_onchip_memory2_0.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_sdram
+R59
+!i10b 1
+!s100 O8C5Y`^NhFE8=PLLYI]9:2
+I6GQ47olP^B_8QUO00Jo=J0
+R2
+R0
+R31
+Z64 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_sdram.v
+Z65 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_sdram.v
+L0 159
+R5
+r1
+!s85 0
+31
+R6
+Z66 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_sdram.v|
+Z67 !s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_sdram.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_sdram_input_efifo_module
+R59
+!i10b 1
+!s100 ZzkTf^MmN1caH>`O<UBod3
+Ii;AG5H41zLH5]S9<4o>Rk2
+R2
+R0
+R31
+R64
+R65
+R4
+R5
+r1
+!s85 0
+31
+R6
+R66
+R67
+!i113 1
+R7
+R8
+R9
+vnios_system_sdram_pll
+R1
+!i10b 1
+!s100 6;^DX4^;[WKnWC?4n<NlF3
+IX:P_?T3?JWiOZJeEI>fHU1
+R2
+R0
+Z68 w1554141967
+Z69 8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_sdram_pll.v
+Z70 FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_sdram_pll.v
+L0 217
+R5
+r1
+!s85 0
+31
+R6
+Z71 !s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_sdram_pll.v|
+Z72 !s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_sdram_pll.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_sdram_pll_altpll_lqa2
+R1
+!i10b 1
+!s100 cL]6K0SmBVdS15ia2T;V61
+I<HnF8cogii`=i@4?]ok6j0
+R2
+R0
+R68
+R69
+R70
+L0 130
+R5
+r1
+!s85 0
+31
+R6
+R71
+R72
+!i113 1
+R7
+R8
+R9
+vnios_system_sdram_pll_dffpipe_l2c
+R1
+!i10b 1
+!s100 _n_B8]=EeDCO5ZYUFB5MQ1
+IWJ^fJ9Bi=U_IJdjPhUfYk1
+R2
+R0
+R68
+R69
+R70
+L0 37
+R5
+r1
+!s85 0
+31
+R6
+R71
+R72
+!i113 1
+R7
+R8
+R9
+vnios_system_sdram_pll_stdsync_sv6
+R1
+!i10b 1
+!s100 9<AK0>a0]bcz:GIa>e[af2
+IkUC@zGSImgF0j;kAGjK`n3
+R2
+R0
+R68
+R69
+R70
+L0 98
+R5
+r1
+!s85 0
+31
+R6
+R71
+R72
+!i113 1
+R7
+R8
+R9
+vnios_system_sysid_qsys_0
+R1
+!i10b 1
+!s100 ogD^W26GLji2o`M<:ijFR1
+IV8dOKEG`NeKPJ;:ne<n521
+R2
+R0
+R68
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_sysid_qsys_0.v
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_sysid_qsys_0.v
+R24
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_sysid_qsys_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_sysid_qsys_0.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_TIMER
+R10
+!i10b 1
+!s100 nOj]6T]Sa=mgzHL>d=4M[3
+I;_cS;iTHbOOkXK<Xm5Gdd3
+R2
+R0
+R26
+8C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_TIMER.v
+FC:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_TIMER.v
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_TIMER.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules|C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_TIMER.v|
+!i113 1
+R7
+R8
+R9
+nnios_system_@t@i@m@e@r

@@ -42,3 +42,21 @@ DRsize.010 0 0 0 1 0 1
 DRsize.011 0 0 1 0 0 1 
 DRsize.100 0 1 0 0 0 1 
 DRsize.101 1 0 0 0 0 1 
+
+State Machine - |lab9_top|nios_system:lab9_qsystem|avalon_aes_interface:aes_decryption_core_0|AES:AES_INSTANCE|sm_state
+Name sm_state.ADDROUNDKEYINIT sm_state.ADDROUNDKEYLR sm_state.INVSUBBYTESLR sm_state.INVSHIFTROWSLR sm_state.INVMIXCOLUMNS5 sm_state.INVMIXCOLUMNS4 sm_state.INVMIXCOLUMNS3 sm_state.INVMIXCOLUMNS2 sm_state.INVMIXCOLUMNS1 sm_state.ADDROUNDKEY sm_state.INVSUBBYTES sm_state.INVSHIFTROWS sm_state.CREATEKEYS sm_state.DONE sm_state.WAIT 
+sm_state.WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+sm_state.DONE 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+sm_state.CREATEKEYS 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+sm_state.INVSHIFTROWS 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+sm_state.INVSUBBYTES 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+sm_state.ADDROUNDKEY 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+sm_state.INVMIXCOLUMNS1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+sm_state.INVMIXCOLUMNS2 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+sm_state.INVMIXCOLUMNS3 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+sm_state.INVMIXCOLUMNS4 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+sm_state.INVMIXCOLUMNS5 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+sm_state.INVSHIFTROWSLR 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+sm_state.INVSUBBYTESLR 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+sm_state.ADDROUNDKEYLR 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+sm_state.ADDROUNDKEYINIT 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

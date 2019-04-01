@@ -111,6 +111,36 @@ void encrypt(unsigned char * msg_ascii, unsigned char * key_ascii, unsigned int 
  */
 void decrypt(unsigned int * msg_enc, unsigned int * msg_dec, unsigned int * key)
 {
+
+	AES_PTR[0] = key[0];
+	AES_PTR[1] = key[1];
+	AES_PTR[2] = key[2];
+	AES_PTR[3] = key[3];
+	AES_PTR[4] = msg_enc[0];
+	AES_PTR[5] = msg_enc[1];
+	AES_PTR[6] = msg_enc[2];
+	AES_PTR[7] = msg_enc[3];
+
+	AES_PTR[14] = 1;
+
+	//wait for the hardware to finish decoding
+	while(AES_PTR[15] == 0);
+
+	msg_dec[0] = AES_PTR[8];
+	msg_dec[3] = AES_PTR[9];
+	msg_dec[2] = AES_PTR[10];
+	msg_dec[1] = AES_PTR[11];
+
+	msg_dec[0] = AES_PTR[8];
+	msg_dec[3] = AES_PTR[9];
+	msg_dec[2] = AES_PTR[10];
+	msg_dec[1] = AES_PTR[11];
+
+	AES_PTR[14] = 0;
+
+	return;
+
+	/*
 	uchar state[16];
 	uchar key_initial[16];
 	uint w[44];
@@ -141,6 +171,7 @@ void decrypt(unsigned int * msg_enc, unsigned int * msg_dec, unsigned int * key)
 	}
 
 	return;
+	*/
 }
 
 /** main
@@ -184,17 +215,6 @@ int main()
 				printf("%08x", msg_dec[i]);
 			}
 			printf("\n");
-
-			AES_PTR[0] = 0;
-			AES_PTR[1] = 0;
-			AES_PTR[2] = 0;
-			AES_PTR[3] = 0;
-
-			AES_PTR[0] = key[0];
-			AES_PTR[1] = key[1];
-			AES_PTR[2] = key[2];
-			AES_PTR[3] = key[3];
-
 		}
 	}
 	else {

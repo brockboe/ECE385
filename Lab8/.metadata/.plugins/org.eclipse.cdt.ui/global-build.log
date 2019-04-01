@@ -1,0 +1,33 @@
+13:53:08 **** Incremental Build of configuration Nios II for project AES_Crypto ****
+make all 
+Info: Building ../AES_Crypto_bsp/
+G:/Quartus/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../AES_Crypto_bsp/
+[BSP build complete]
+Info: Compiling main.c to obj/default/main.o
+nios2-elf-gcc -xc -MP -MMD -c -I../AES_Crypto_bsp//HAL/inc -I../AES_Crypto_bsp/ -I../AES_Crypto_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/main.o main.c
+Info: Linking AES_Crypto.elf
+nios2-elf-g++  -T'../AES_Crypto_bsp//linker.x' -msys-crt0='../AES_Crypto_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../AES_Crypto_bsp/   -Wl,-Map=AES_Crypto.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o AES_Crypto.elf obj/default/crypto.o obj/default/main.o -lm -msys-lib=m
+nios2-elf-insert AES_Crypto.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --id 0 --sidp 0x78 --timestamp 1554143921 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name nios_system --quartus_project_dir "C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9" --jdi ../..//output_files/lab9_top.jdi --sopcinfo C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto_bsp/../../nios_system.sopcinfo
+Info: (AES_Crypto.elf) 117 KBytes program size (code + initialized data).
+Info:                  130946 KBytes free for stack + heap.
+Info: Creating AES_Crypto.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source AES_Crypto.elf >AES_Crypto.objdump
+[AES_Crypto build complete]
+13:53:12 **** Incremental Build of configuration Nios II for project AES_Crypto ****
+make all 
+Info: Building ../AES_Crypto_bsp/
+G:/Quartus/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../AES_Crypto_bsp/
+[BSP build complete]
+[AES_Crypto build complete]
+13:53:49 **** Incremental Build of configuration Nios II for project AES_Crypto ****
+make all 
+Info: Building ../AES_Crypto_bsp/
+G:/Quartus/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../AES_Crypto_bsp/
+[BSP build complete]
+[AES_Crypto build complete]
+13:57:56 **** Incremental Build of configuration Nios II for project AES_Crypto ****
+make all 
+Info: Building ../AES_Crypto_bsp/
+G:/Quartus/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../AES_Crypto_bsp/
+[BSP build complete]
+[AES_Crypto build complete]

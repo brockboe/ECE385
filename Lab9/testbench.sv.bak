@@ -1,0 +1,14 @@
+module testbench();
+
+timeunit 10ns;
+
+timeprecision 1ns;
+
+logic clk = 0;
+logic RESET;
+logic AES_START;
+logic AES_DONE;
+logic [127:0] AES_KEY;
+logic [127:0] AES_MSG_ENC;
+logic [127:0] AES_MSG_DEC;
+logic [4:0] state;

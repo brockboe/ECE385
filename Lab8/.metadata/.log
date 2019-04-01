@@ -1,0 +1,943 @@
+!SESSION 2019-03-10 20:18:31.041 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -data C:\Users\Brock\School\ECE385\GitLab\ece385\Lab8 -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-03-10 20:20:16.232
+!MESSAGE Indexed 'usb_kb_bsp' (80 sources, 62 headers) in 1.11 sec: 1,190 declarations; 2,486 references; 110 unresolved inclusions; 6 syntax errors; 191 unresolved names (4.9%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-03-10 20:20:19.156
+!MESSAGE Indexed 'usb_kb' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-10 23:31:10.039
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb0 --id=0x0 --timestamp=1552266911]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-10 23:31:12.081
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb0 --id=0x0 --timestamp=1552266911 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-10 23:39:06.826
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-10 23:39:07.742
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb0 --id=0x0 --timestamp=1552266911]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-10 23:39:09.718
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb0 --id=0x0 --timestamp=1552266911 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-10 23:39:15.026
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-10 23:39:15.732
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb0 --id=0x0 --timestamp=1552266911]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-10 23:39:17.742
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb0 --id=0x0 --timestamp=1552266911 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-10 23:49:32.179
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-10 23:49:32.904
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb0 --id=0x0 --timestamp=1552266911]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-10 23:49:34.892
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb0 --id=0x0 --timestamp=1552266911 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 00:00:25.876
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 00:00:26.779
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb0 --id=0x0 --timestamp=1552266911]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 00:00:28.777
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb0 --id=0x0 --timestamp=1552266911 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 00:07:38.908
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 00:07:40.094
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb0 --id=0x0 --timestamp=1552266911]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 00:07:42.252
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb0 --id=0x0 --timestamp=1552266911 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+!SESSION 2019-03-11 00:21:49.078 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-03-11 00:21:50.003
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 00:22:54.324
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb0 --id=0x0 --timestamp=1552266911]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 00:22:56.344
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb0 --id=0x0 --timestamp=1552266911 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+!SESSION 2019-03-11 00:33:33.775 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-03-11 00:33:34.696
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 00:47:16.824
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 00:47:18.810
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+!SESSION 2019-03-11 00:51:50.242 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 00:52:18.587
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 00:52:20.623
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+!SESSION 2019-03-11 01:07:34.076 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 01:08:20.218
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 01:08:22.273
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 01:20:36.455
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 01:20:37.203
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 01:20:39.208
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 01:31:13.069
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 01:31:14.004
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 01:31:16.007
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+!SESSION 2019-03-11 01:49:27.396 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-03-11 01:49:28.296
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 01:51:45.266
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 01:51:47.247
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 02:13:18.043
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 02:13:18.760
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 02:13:20.792
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+!SESSION 2019-03-11 02:37:50.684 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-03-11 02:37:51.655
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 02:39:03.505
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 02:39:05.513
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 02:42:11.924
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 02:42:12.798
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 02:42:14.791
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 02:52:06.617
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 02:52:10.356
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 02:52:17.367
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 02:57:36.000
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 02:57:36.710
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 02:57:38.739
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+!SESSION 2019-03-11 03:42:19.082 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-03-11 03:42:20.057
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 03:43:10.640
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 03:43:12.620
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 03:44:22.333
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 03:44:23.064
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 03:44:25.035
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:26:00.764
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:26:01.697
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:26:03.777
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:26:24.288
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:26:25.011
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:26:27.014
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:27:20.475
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:27:21.329
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:27:23.469
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:28:42.716
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:28:43.395
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:28:45.414
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:29:05.094
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:29:05.801
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:29:07.802
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:30:19.776
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:30:20.483
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:30:22.483
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:31:42.783
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:31:43.469
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:31:45.479
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:32:15.556
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:32:16.281
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:32:18.298
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:32:45.768
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:32:46.474
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:32:48.493
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:33:41.828
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:33:42.522
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:33:44.480
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:33:54.890
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:33:55.588
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:33:57.571
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:34:42.160
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:34:42.835
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:34:44.855
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:35:35.183
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:35:35.866
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:35:37.895
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:44:12.275
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:44:13.161
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:44:15.162
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:48:20.387
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:48:21.283
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 17:48:23.290
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 18:02:16.604
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 18:02:17.788
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 18:02:19.938
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 18:03:00.255
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 18:03:01.122
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 18:03:03.269
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 18:07:47.490
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 18:07:48.397
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-11 18:07:50.388
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+!SESSION 2019-03-14 02:15:21.740 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-14 02:19:31.983
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-14 02:19:34.039
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-14 02:20:15.514
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-14 02:20:16.197
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-14 02:20:18.144
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-14 02:20:35.642
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-14 02:20:36.325
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-14 02:20:38.274
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-14 02:20:47.261
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-14 02:20:47.963
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-14 02:20:49.909
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-14 02:20:54.193
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-14 02:20:54.890
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-14 02:20:56.882
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-14 03:25:51.300
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-14 03:25:52.191
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xc8 --id=0x0 --timestamp=1552283038]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-14 03:25:54.193
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xc8 --id=0x0 --timestamp=1552283038 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab8/software/usb_kb/usb_kb.elf]
+!SESSION 2019-03-26 14:12:14.848 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-03-26 14:14:21.330
+!MESSAGE Indexed 'AES_Crypto_bsp' (80 sources, 150 headers) in 1.4 sec: 5,237 declarations; 8,374 references; 1 unresolved inclusions; 2 syntax errors; 9 unresolved names (0.066%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-03-26 14:14:21.481
+!MESSAGE Indexed 'AES_Crypto' (2 sources, 31 headers) in 0.137 sec: 1,629 declarations; 2,738 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-26 14:21:42.295
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xd8 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-26 14:21:44.185
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xd8 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+!SESSION 2019-03-26 14:38:00.797 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-03-26 14:38:01.702
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-26 14:39:18.134
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-26 14:39:19.961
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+!SESSION 2019-03-26 15:16:47.868 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-26 15:17:35.687
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-03-26 15:17:37.533
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+!SESSION 2019-04-01 05:08:51.454 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 05:16:44.981
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 05:16:46.923
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 05:26:00.153
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 05:26:01.005
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 05:26:02.914
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 05:35:16.795
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 05:35:17.593
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 05:35:19.435
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+!SESSION 2019-04-01 05:55:44.324 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-04-01 05:55:51.399
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 06:00:39.062
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 06:00:40.915
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 07:00:01.567
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 07:00:02.346
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 07:00:04.173
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 07:01:05.738
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 07:01:06.357
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 07:01:08.239
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 07:03:52.541
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 07:03:53.162
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 07:03:55.036
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+!SESSION 2019-04-01 07:24:07.225 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-04-01 07:24:08.173
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 08:54:42.963
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 08:54:44.805
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 08:59:28.079
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 08:59:28.814
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 08:59:30.698
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 09:08:15.921
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 09:08:16.650
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 09:08:18.494
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 09:12:23.327
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 09:12:23.954
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 09:12:25.785
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 10:24:36.715
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 10:24:37.487
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 10:24:39.316
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 10:45:13.047
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 10:45:13.841
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 10:45:15.681
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+!SESSION 2019-04-01 10:54:14.758 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-04-01 10:54:15.696
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 10:54:57.714
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 10:54:59.572
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 11:43:55.810
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 11:43:56.569
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 11:43:58.443
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 11:50:20.039
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 11:50:20.860
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 11:50:22.728
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+!SESSION 2019-04-01 11:56:19.175 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-04-01 11:56:20.131
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 11:57:41.920
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 11:57:43.820
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 11:58:30.239
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 11:58:30.851
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 11:58:32.691
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 11:59:25.840
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 11:59:26.431
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 11:59:28.268
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+!SESSION 2019-04-01 12:10:35.365 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-04-01 12:10:36.328
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:11:04.793
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:11:06.652
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:11:51.656
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:11:52.250
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:11:54.074
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:18:02.663
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:18:03.329
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:18:05.171
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:18:48.636
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:18:49.237
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:18:51.101
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:21:12.739
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:21:13.353
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:21:15.196
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:23:56.376
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:23:56.977
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:23:58.845
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:34:23.555
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:34:24.296
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:34:26.144
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:41:16.920
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:41:17.542
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:41:19.446
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+!SESSION 2019-04-01 12:46:48.258 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization G:/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-04-01 12:46:49.334
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:50:17.157
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:50:19.001
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:54:37.490
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:54:38.256
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:54:40.105
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:55:29.760
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:55:30.362
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 12:55:32.150
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:09:35.063
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:09:35.833
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:09:37.695
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:27:17.142
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:27:17.945
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:27:19.791
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:34:13.819
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:34:14.580
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:34:16.457
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:35:54.500
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:35:55.108
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:35:56.964
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:36:59.190
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:36:59.826
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:37:01.665
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:43:23.638
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:43:24.413
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:43:26.296
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:44:16.071
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:44:16.678
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:44:18.532
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:46:55.802
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:46:56.409
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:46:58.281
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:47:42.543
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:47:43.149
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:47:45.014
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:48:40.463
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:48:41.085
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:48:42.944
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:52:19.433
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:52:20.034
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:52:21.894
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:53:12.770
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:53:13.385
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:53:15.235
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:53:50.164
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:53:50.769
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:53:52.617
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:57:57.628
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:57:58.230
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-04-01 13:58:00.071
+!MESSAGE Executing: [G:/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 /cygdrive/c/Users/Brock/School/ECE385/GitLab/ece385/Lab9/software/AES_Crypto/AES_Crypto.elf]
