@@ -1,5 +1,5 @@
 Flow report for lab9_top
-Mon Apr 01 13:41:17 2019
+Sun Apr 07 19:07:57 2019
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,17 +40,17 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Mon Apr 01 13:41:17 2019       ;
+; Flow Status                        ; Successful - Sun Apr 07 19:07:57 2019       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab9_top                                    ;
 ; Top-level Entity Name              ; lab9_top                                    ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F29C7                               ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 6,703 / 114,480 ( 6 % )                     ;
-;     Total combinational functions  ; 5,832 / 114,480 ( 5 % )                     ;
-;     Dedicated logic registers      ; 2,810 / 114,480 ( 2 % )                     ;
-; Total registers                    ; 2929                                        ;
+; Total logic elements               ; 5,857 / 114,480 ( 5 % )                     ;
+;     Total combinational functions  ; 4,964 / 114,480 ( 4 % )                     ;
+;     Dedicated logic registers      ; 2,804 / 114,480 ( 2 % )                     ;
+; Total registers                    ; 2923                                        ;
 ; Total pins                         ; 142 / 529 ( 27 % )                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 126,080 / 3,981,312 ( 3 % )                 ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/01/2019 13:39:07 ;
+; Start date & time ; 04/07/2019 19:05:24 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; lab9_top            ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+---------------------------------------------------------------+---------------+-----------------+----------------+
 ; Assignment Name                      ; Value                                                         ; Default Value ; Entity Name     ; Section Id     ;
 +--------------------------------------+---------------------------------------------------------------+---------------+-----------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 13870907933117.155414394714488                                ; --            ; --              ; --             ;
+; COMPILER_SIGNATURE_ID                ; 13870907933117.155468192417416                                ; --            ; --              ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                                            ; --            ; --              ; testbench      ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testbench                                                     ; --            ; --              ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                                             ; --            ; --              ; eda_simulation ;
@@ -92,6 +92,7 @@ refer to the applicable agreement for further details.
 ; EDA_TEST_BENCH_NAME                  ; testbench                                                     ; --            ; --              ; eda_simulation ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 5 us                                                          ; --            ; --              ; testbench      ;
 ; EDA_TIME_SCALE                       ; 1 ps                                                          ; --            ; --              ; eda_simulation ;
+; FLOW_ENABLE_POWER_ANALYZER           ; On                                                            ; Off           ; --              ; --             ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                                            ; --            ; --              ; --             ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                                             ; --            ; --              ; --             ;
 ; MISC_FILE                            ; nios_system/synthesis/../nios_system.cmp                      ; --            ; --              ; --             ;
@@ -107,11 +108,12 @@ refer to the applicable agreement for further details.
 ; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)                        ; --            ; lab8            ; Top            ;
 ; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)                        ; --            ; --              ; Top            ;
 ; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                                           ; --            ; --              ; --             ;
+; POWER_DEFAULT_INPUT_IO_TOGGLE_RATE   ; 12.5 %                                                        ; 12.5%         ; --              ; --             ;
 ; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                         ; --            ; --              ; --             ;
 ; PROJECT_OUTPUT_DIRECTORY             ; output_files                                                  ; --            ; --              ; --             ;
 ; SLD_FILE                             ; nios_system/synthesis/nios_system.regmap                      ; --            ; --              ; --             ;
 ; SLD_FILE                             ; nios_system/synthesis/nios_system.debuginfo                   ; --            ; --              ; --             ;
-; SLD_INFO                             ; QSYS_NAME nios_system HAS_SOPCINFO 1 GENERATION_ID 1554143921 ; --            ; nios_system     ; --             ;
+; SLD_INFO                             ; QSYS_NAME nios_system HAS_SOPCINFO 1 GENERATION_ID 1554681861 ; --            ; nios_system     ; --             ;
 ; SOPCINFO_FILE                        ; nios_system/synthesis/../../nios_system.sopcinfo              ; --            ; --              ; --             ;
 ; SYNTHESIS_ONLY_QIP                   ; On                                                            ; --            ; --              ; --             ;
 +--------------------------------------+---------------------------------------------------------------+---------------+-----------------+----------------+
@@ -122,12 +124,13 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:46     ; 1.0                     ; 5035 MB             ; 00:01:11                           ;
-; Fitter               ; 00:00:55     ; 1.4                     ; 6938 MB             ; 00:02:36                           ;
-; Assembler            ; 00:00:04     ; 1.0                     ; 4732 MB             ; 00:00:04                           ;
-; Timing Analyzer      ; 00:00:05     ; 1.9                     ; 5098 MB             ; 00:00:08                           ;
-; EDA Netlist Writer   ; 00:00:11     ; 1.0                     ; 4767 MB             ; 00:00:08                           ;
-; Total                ; 00:02:01     ; --                      ; --                  ; 00:04:07                           ;
+; Analysis & Synthesis ; 00:00:49     ; 1.0                     ; 5036 MB             ; 00:01:09                           ;
+; Fitter               ; 00:00:57     ; 1.4                     ; 6928 MB             ; 00:02:10                           ;
+; Assembler            ; 00:00:04     ; 1.0                     ; 4733 MB             ; 00:00:04                           ;
+; Power Analyzer       ; 00:00:11     ; 1.2                     ; 5127 MB             ; 00:00:12                           ;
+; Timing Analyzer      ; 00:00:06     ; 1.7                     ; 5089 MB             ; 00:00:07                           ;
+; EDA Netlist Writer   ; 00:00:09     ; 1.0                     ; 4764 MB             ; 00:00:08                           ;
+; Total                ; 00:02:16     ; --                      ; --                  ; 00:03:50                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -139,6 +142,7 @@ refer to the applicable agreement for further details.
 ; Analysis & Synthesis ; hacktower        ; Windows 10 ; 10.0       ; x86_64         ;
 ; Fitter               ; hacktower        ; Windows 10 ; 10.0       ; x86_64         ;
 ; Assembler            ; hacktower        ; Windows 10 ; 10.0       ; x86_64         ;
+; Power Analyzer       ; hacktower        ; Windows 10 ; 10.0       ; x86_64         ;
 ; Timing Analyzer      ; hacktower        ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; hacktower        ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
@@ -150,6 +154,7 @@ refer to the applicable agreement for further details.
 quartus_map --read_settings_files=on --write_settings_files=off lab9_top -c lab9_top
 quartus_fit --read_settings_files=off --write_settings_files=off lab9_top -c lab9_top
 quartus_asm --read_settings_files=off --write_settings_files=off lab9_top -c lab9_top
+quartus_pow --read_settings_files=off --write_settings_files=off lab9_top -c lab9_top
 quartus_sta lab9_top -c lab9_top
 quartus_eda --read_settings_files=off --write_settings_files=off lab9_top -c lab9_top
 

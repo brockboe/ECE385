@@ -88,26 +88,5 @@ module avalon_aes_interface (
 		end
 		
 	end
-	
-	
-	always_comb begin
-	
-		//assign export data to show the first and last bytes of the key
-		EXPORT_DATA <= {regFile[0][31:16], regFile[3][15:0]};
-		
-		AES_KEY <= {regFile[0][31:24], regFile[1][31:24], regFile[2][31:24], regFile[3][31:24],
-						regFile[0][23:16], regFile[1][23:16], regFile[2][23:16], regFile[3][23:16],
-						regFile[0][15:8],  regFile[1][15:8],  regFile[2][15:8],  regFile[3][15:8],
-						regFile[0][7:0],   regFile[1][7:0],   regFile[2][7:0],   regFile[3][7:0]};
-		
-		AES_MSG_ENC <= {regFile[4][31:24], regFile[5][31:24], regFile[6][31:24], regFile[7][31:24],
-							 regFile[4][23:16], regFile[5][23:16], regFile[6][23:16], regFile[7][23:16],
-							 regFile[4][15:8],  regFile[5][15:8],  regFile[6][15:8],  regFile[7][15:8],
-							 regFile[4][7:0],   regFile[5][7:0],   regFile[6][7:0],   regFile[7][7:0]};
-		
-		AES_START <= regFile[14][0];
-		
-		
-	end
 
 endmodule

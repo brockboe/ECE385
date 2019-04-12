@@ -36,6 +36,8 @@ module  color_mapper (
 							  input 	logic [9:0] pMissileX,
 							  input 	logic [9:0] pMissileY,
 							  
+							  input	logic [9:0][5:0] enemy_status,
+
                        output logic [7:0] VGA_R, VGA_G, VGA_B // VGA RGB output
                      );
     
@@ -82,7 +84,8 @@ module  color_mapper (
       if (enemy_x_normalized[5] == 1'b0 && 
 		DrawY < 10'd224 && 
 		DrawY >= 10'd32 && 
-		DrawX >= enemy_offset) begin				
+		DrawX >= enemy_offset &&
+		enemy_status[enemy_x_normalized[9:6]][DrawY[7:5] - 3'd1]) begin				
 				current_sprite_pixel = sprite_slice[enemy_x_normalized[4:2]];
 				
 				if(current_sprite_pixel == 1'b1) begin

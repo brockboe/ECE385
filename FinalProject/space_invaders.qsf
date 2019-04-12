@@ -607,4 +607,6 @@ set_global_assignment -name SYSTEMVERILOG_FILE testbench.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ship_rom.sv
 set_global_assignment -name SYSTEMVERILOG_FILE player.sv
 set_global_assignment -name SYSTEMVERILOG_FILE enemy_missile.sv
+set_global_assignment -name SYSTEMVERILOG_FILE enemy_status.sv
+set_global_assignment -name SYSTEMVERILOG_FILE output_files/collision_detection.sv
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

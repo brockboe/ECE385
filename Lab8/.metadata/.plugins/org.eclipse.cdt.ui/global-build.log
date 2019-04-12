@@ -1,4 +1,4 @@
-13:53:08 **** Incremental Build of configuration Nios II for project AES_Crypto ****
+17:55:34 **** Incremental Build of configuration Nios II for project AES_Crypto ****
 make all 
 Info: Building ../AES_Crypto_bsp/
 G:/Quartus/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../AES_Crypto_bsp/
@@ -13,19 +13,7 @@ Info:                  130946 KBytes free for stack + heap.
 Info: Creating AES_Crypto.objdump
 nios2-elf-objdump --disassemble --syms --all-header --source AES_Crypto.elf >AES_Crypto.objdump
 [AES_Crypto build complete]
-13:53:12 **** Incremental Build of configuration Nios II for project AES_Crypto ****
-make all 
-Info: Building ../AES_Crypto_bsp/
-G:/Quartus/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../AES_Crypto_bsp/
-[BSP build complete]
-[AES_Crypto build complete]
-13:53:49 **** Incremental Build of configuration Nios II for project AES_Crypto ****
-make all 
-Info: Building ../AES_Crypto_bsp/
-G:/Quartus/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../AES_Crypto_bsp/
-[BSP build complete]
-[AES_Crypto build complete]
-13:57:56 **** Incremental Build of configuration Nios II for project AES_Crypto ****
+17:55:40 **** Incremental Build of configuration Nios II for project AES_Crypto ****
 make all 
 Info: Building ../AES_Crypto_bsp/
 G:/Quartus/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../AES_Crypto_bsp/

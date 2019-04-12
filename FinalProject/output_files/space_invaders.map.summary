@@ -1,12 +1,12 @@
-Analysis & Synthesis Status : Successful - Wed Apr 10 00:55:01 2019
+Analysis & Synthesis Status : Successful - Thu Apr 11 00:13:00 2019
 Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 Revision Name : space_invaders
 Top-level Entity Name : space_invaders
 Family : Cyclone IV E
-Total logic elements : 3,831
-    Total combinational functions : 2,871
-    Dedicated logic registers : 2,239
-Total registers : 2239
+Total logic elements : 4,072
+    Total combinational functions : 3,111
+    Dedicated logic registers : 2,309
+Total registers : 2309
 Total pins : 128
 Total virtual pins : 0
 Total memory bits : 11,392

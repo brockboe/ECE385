@@ -80,10 +80,15 @@ module space_invaders( input               CLOCK_50,
 	 logic [9:0] missileX;
 	 logic [9:0] missileY;
 	 
+	 logic [9:0][5:0]	enemy_status;
+	 
 	 logic pmissile_create;
 	 logic pmissile_exists;
 	 logic [9:0] playerMissileX;
 	 logic [9:0] playerMissileY;
+	 
+	 logic [6:0] enemy_hit;
+	 logic enemy_collision;
     
     // Interface between NIOS II and EZ-OTG chip
     hpi_io_intf hpi_io_inst(
@@ -169,11 +174,18 @@ module space_invaders( input               CLOCK_50,
 										.vsync(VGA_VS),
 										.playerX(player_offset),
 										.enemy_offset(enemy_offset),
-										.enemy_status(-60'd1),
+										.enemy_status(enemy_status),
 										
 										.exists(missile_exists),
 										.missileX(missileX),
 										.missileY(missileY)
+	);
+	
+	enemy_status enemy_array (
+										.reset(Reset_h),
+										.enemy_hit(enemy_hit),
+										.collision(enemy_collision),
+										.enemy_status(enemy_status)
 	);
 	
 	player_missile pmissile (
@@ -181,10 +193,29 @@ module space_invaders( input               CLOCK_50,
 										.playerx(player_offset),
 										.vsync(VGA_VS),
 										.create(pmissile_create),
+										.has_collided(enemy_collision),
 										
 										.exists(pmissile_exists),
 										.playerMissileX(playerMissileX),
 										.playerMissileY(playerMissileY)
+	);
+	
+	collision_detection cd (
+										.reset(Reset_h),
+										.vsync(VGA_VS),
+										
+										.pmissileX(playerMissileX),
+										.pmissileY(playerMissileY),
+										.emissileX(missileX),
+										.emissileY(missileY),
+										
+										.enemy_hit(enemy_hit),
+										
+										.enemy_offset(enemy_offset),
+										.enemy_status(enemy_status),
+										
+										.pcollision(),
+										.ecollision(enemy_collision)
 	);
     
     color_mapper color_instance(
@@ -199,6 +230,8 @@ module space_invaders( input               CLOCK_50,
 										.pmissile_exists(pmissile_exists),
 										.pMissileX(playerMissileX),
 										.pMissileY(playerMissileY),
+										
+										.enemy_status(enemy_status),
 										
 										.DrawX,
 										.DrawY,

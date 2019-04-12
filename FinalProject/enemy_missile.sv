@@ -6,6 +6,7 @@ module enemy_missile
 	input		logic				vsync,
 	input		logic [9:0]		enemy_offset,
 	
+	
 	output	logic				exists,
 	output 	logic	[9:0]		missileX,
 	output	logic	[9:0]		missileY

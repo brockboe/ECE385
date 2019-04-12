@@ -18,77 +18,77 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/nios_system.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:31 on Apr 01,2019
+# Start time: 22:36:18 on Apr 07,2019
 # vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/nios_system.v 
 # -- Compiling module nios_system
 # 
 # Top level modules:
 # 	nios_system
-# End time: 13:10:31 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:18 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_reset_controller.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:32 on Apr 01,2019
+# Start time: 22:36:18 on Apr 07,2019
 # vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_reset_controller.v 
 # -- Compiling module altera_reset_controller
 # 
 # Top level modules:
 # 	altera_reset_controller
-# End time: 13:10:32 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:19 on Apr 07,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_reset_synchronizer.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:32 on Apr 01,2019
+# Start time: 22:36:19 on Apr 07,2019
 # vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_reset_synchronizer.v 
 # -- Compiling module altera_reset_synchronizer
 # 
 # Top level modules:
 # 	altera_reset_synchronizer
-# End time: 13:10:32 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:19 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:32 on Apr 01,2019
+# Start time: 22:36:19 on Apr 07,2019
 # vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0.v 
 # -- Compiling module nios_system_mm_interconnect_0
 # 
 # Top level modules:
 # 	nios_system_mm_interconnect_0
-# End time: 13:10:32 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:19 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:32 on Apr 01,2019
+# Start time: 22:36:19 on Apr 07,2019
 # vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter.v 
 # -- Compiling module nios_system_mm_interconnect_0_avalon_st_adapter
 # 
 # Top level modules:
 # 	nios_system_mm_interconnect_0_avalon_st_adapter
-# End time: 13:10:32 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:19 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_avalon_sc_fifo.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:32 on Apr 01,2019
+# Start time: 22:36:19 on Apr 07,2019
 # vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_avalon_sc_fifo.v 
 # -- Compiling module altera_avalon_sc_fifo
 # 
 # Top level modules:
 # 	altera_avalon_sc_fifo
-# End time: 13:10:32 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:19 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_sysid_qsys_0.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:32 on Apr 01,2019
+# Start time: 22:36:19 on Apr 07,2019
 # vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_sysid_qsys_0.v 
 # -- Compiling module nios_system_sysid_qsys_0
 # 
 # Top level modules:
 # 	nios_system_sysid_qsys_0
-# End time: 13:10:32 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:19 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_sdram_pll.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:32 on Apr 01,2019
+# Start time: 22:36:19 on Apr 07,2019
 # vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_sdram_pll.v 
 # -- Compiling module nios_system_sdram_pll_dffpipe_l2c
 # -- Compiling module nios_system_sdram_pll_stdsync_sv6
@@ -97,42 +97,42 @@
 # 
 # Top level modules:
 # 	nios_system_sdram_pll
-# End time: 13:10:32 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:19 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_sdram.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:32 on Apr 01,2019
+# Start time: 22:36:19 on Apr 07,2019
 # vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_sdram.v 
 # -- Compiling module nios_system_sdram_input_efifo_module
 # -- Compiling module nios_system_sdram
 # 
 # Top level modules:
 # 	nios_system_sdram
-# End time: 13:10:33 on Apr 01,2019, Elapsed time: 0:00:01
+# End time: 22:36:19 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_onchip_memory2_0.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:33 on Apr 01,2019
+# Start time: 22:36:19 on Apr 07,2019
 # vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_onchip_memory2_0.v 
 # -- Compiling module nios_system_onchip_memory2_0
 # 
 # Top level modules:
 # 	nios_system_onchip_memory2_0
-# End time: 13:10:33 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:20 on Apr 07,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:33 on Apr 01,2019
+# Start time: 22:36:20 on Apr 07,2019
 # vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0.v 
 # -- Compiling module nios_system_nios2_gen2_0
 # 
 # Top level modules:
 # 	nios_system_nios2_gen2_0
-# End time: 13:10:33 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:20 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:33 on Apr 01,2019
+# Start time: 22:36:20 on Apr 07,2019
 # vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu.v 
 # -- Compiling module nios_system_nios2_gen2_0_cpu_register_bank_a_module
 # -- Compiling module nios_system_nios2_gen2_0_cpu_register_bank_b_module
@@ -159,61 +159,61 @@
 # Top level modules:
 # 	nios_system_nios2_gen2_0_cpu_nios2_performance_monitors
 # 	nios_system_nios2_gen2_0_cpu
-# End time: 13:10:33 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:20 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_sysclk.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:33 on Apr 01,2019
+# Start time: 22:36:20 on Apr 07,2019
 # vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_sysclk.v 
 # -- Compiling module nios_system_nios2_gen2_0_cpu_debug_slave_sysclk
 # 
 # Top level modules:
 # 	nios_system_nios2_gen2_0_cpu_debug_slave_sysclk
-# End time: 13:10:33 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:20 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_tck.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:33 on Apr 01,2019
+# Start time: 22:36:20 on Apr 07,2019
 # vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_tck.v 
 # -- Compiling module nios_system_nios2_gen2_0_cpu_debug_slave_tck
 # 
 # Top level modules:
 # 	nios_system_nios2_gen2_0_cpu_debug_slave_tck
-# End time: 13:10:33 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:20 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_wrapper.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:33 on Apr 01,2019
+# Start time: 22:36:20 on Apr 07,2019
 # vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_wrapper.v 
 # -- Compiling module nios_system_nios2_gen2_0_cpu_debug_slave_wrapper
 # 
 # Top level modules:
 # 	nios_system_nios2_gen2_0_cpu_debug_slave_wrapper
-# End time: 13:10:33 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:20 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_test_bench.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:33 on Apr 01,2019
+# Start time: 22:36:20 on Apr 07,2019
 # vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_test_bench.v 
 # -- Compiling module nios_system_nios2_gen2_0_cpu_test_bench
 # 
 # Top level modules:
 # 	nios_system_nios2_gen2_0_cpu_test_bench
-# End time: 13:10:33 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:20 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_keys.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:33 on Apr 01,2019
+# Start time: 22:36:20 on Apr 07,2019
 # vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_keys.v 
 # -- Compiling module nios_system_keys
 # 
 # Top level modules:
 # 	nios_system_keys
-# End time: 13:10:34 on Apr 01,2019, Elapsed time: 0:00:01
+# End time: 22:36:20 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_jtag_uart_0.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:34 on Apr 01,2019
+# Start time: 22:36:20 on Apr 07,2019
 # vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_jtag_uart_0.v 
 # -- Compiling module nios_system_jtag_uart_0_sim_scfifo_w
 # -- Compiling module nios_system_jtag_uart_0_scfifo_w
@@ -223,206 +223,206 @@
 # 
 # Top level modules:
 # 	nios_system_jtag_uart_0
-# End time: 13:10:34 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:20 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_TIMER.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:34 on Apr 01,2019
+# Start time: 22:36:20 on Apr 07,2019
 # vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_TIMER.v 
 # -- Compiling module nios_system_TIMER
 # 
 # Top level modules:
 # 	nios_system_TIMER
-# End time: 13:10:34 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:21 on Apr 07,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_irq_mapper.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:34 on Apr 01,2019
+# Start time: 22:36:21 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_irq_mapper.sv 
 # -- Compiling module nios_system_irq_mapper
 # 
 # Top level modules:
 # 	nios_system_irq_mapper
-# End time: 13:10:34 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:21 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:34 on Apr 01,2019
+# Start time: 22:36:21 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv 
 # -- Compiling module nios_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0
 # 
 # Top level modules:
 # 	nios_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0
-# End time: 13:10:34 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:21 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:34 on Apr 01,2019
+# Start time: 22:36:21 on Apr 07,2019
 # vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v 
 # -- Compiling module altera_avalon_st_handshake_clock_crosser
 # 
 # Top level modules:
 # 	altera_avalon_st_handshake_clock_crosser
-# End time: 13:10:34 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:21 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_avalon_st_clock_crosser.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:34 on Apr 01,2019
+# Start time: 22:36:21 on Apr 07,2019
 # vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_avalon_st_clock_crosser.v 
 # -- Compiling module altera_avalon_st_clock_crosser
 # 
 # Top level modules:
 # 	altera_avalon_st_clock_crosser
-# End time: 13:10:34 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:21 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_std_synchronizer_nocut.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:34 on Apr 01,2019
+# Start time: 22:36:21 on Apr 07,2019
 # vlog -reportprogress 300 -vlog01compat -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_std_synchronizer_nocut.v 
 # -- Compiling module altera_std_synchronizer_nocut
 # 
 # Top level modules:
 # 	altera_std_synchronizer_nocut
-# End time: 13:10:34 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:21 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux_001.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:34 on Apr 01,2019
+# Start time: 22:36:21 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux_001.sv 
 # -- Compiling module nios_system_mm_interconnect_0_rsp_mux_001
 # 
 # Top level modules:
 # 	nios_system_mm_interconnect_0_rsp_mux_001
-# End time: 13:10:34 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:21 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:34 on Apr 01,2019
+# Start time: 22:36:21 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv 
 # -- Compiling module altera_merlin_arbitrator
 # -- Compiling module altera_merlin_arb_adder
 # 
 # Top level modules:
 # 	altera_merlin_arbitrator
-# End time: 13:10:34 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:21 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:34 on Apr 01,2019
+# Start time: 22:36:21 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux.sv 
 # -- Compiling module nios_system_mm_interconnect_0_rsp_mux
 # 
 # Top level modules:
 # 	nios_system_mm_interconnect_0_rsp_mux
-# End time: 13:10:34 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:21 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux_001.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:34 on Apr 01,2019
+# Start time: 22:36:21 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux_001.sv 
 # -- Compiling module nios_system_mm_interconnect_0_rsp_demux_001
 # 
 # Top level modules:
 # 	nios_system_mm_interconnect_0_rsp_demux_001
-# End time: 13:10:34 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:21 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:34 on Apr 01,2019
+# Start time: 22:36:21 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux.sv 
 # -- Compiling module nios_system_mm_interconnect_0_rsp_demux
 # 
 # Top level modules:
 # 	nios_system_mm_interconnect_0_rsp_demux
-# End time: 13:10:35 on Apr 01,2019, Elapsed time: 0:00:01
+# End time: 22:36:21 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux_001.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:35 on Apr 01,2019
+# Start time: 22:36:21 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux_001.sv 
 # -- Compiling module nios_system_mm_interconnect_0_cmd_mux_001
 # 
 # Top level modules:
 # 	nios_system_mm_interconnect_0_cmd_mux_001
-# End time: 13:10:35 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:21 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:35 on Apr 01,2019
+# Start time: 22:36:22 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux.sv 
 # -- Compiling module nios_system_mm_interconnect_0_cmd_mux
 # 
 # Top level modules:
 # 	nios_system_mm_interconnect_0_cmd_mux
-# End time: 13:10:35 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:22 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux_001.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:35 on Apr 01,2019
+# Start time: 22:36:22 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux_001.sv 
 # -- Compiling module nios_system_mm_interconnect_0_cmd_demux_001
 # 
 # Top level modules:
 # 	nios_system_mm_interconnect_0_cmd_demux_001
-# End time: 13:10:35 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:22 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:35 on Apr 01,2019
+# Start time: 22:36:22 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux.sv 
 # -- Compiling module nios_system_mm_interconnect_0_cmd_demux
 # 
 # Top level modules:
 # 	nios_system_mm_interconnect_0_cmd_demux
-# End time: 13:10:35 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:22 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_003.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:35 on Apr 01,2019
+# Start time: 22:36:22 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_003.sv 
 # -- Compiling module nios_system_mm_interconnect_0_router_003_default_decode
 # -- Compiling module nios_system_mm_interconnect_0_router_003
 # 
 # Top level modules:
 # 	nios_system_mm_interconnect_0_router_003
-# End time: 13:10:35 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:22 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_002.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:35 on Apr 01,2019
+# Start time: 22:36:22 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_002.sv 
 # -- Compiling module nios_system_mm_interconnect_0_router_002_default_decode
 # -- Compiling module nios_system_mm_interconnect_0_router_002
 # 
 # Top level modules:
 # 	nios_system_mm_interconnect_0_router_002
-# End time: 13:10:35 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:22 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_001.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:36 on Apr 01,2019
+# Start time: 22:36:22 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_001.sv 
 # -- Compiling module nios_system_mm_interconnect_0_router_001_default_decode
 # -- Compiling module nios_system_mm_interconnect_0_router_001
 # 
 # Top level modules:
 # 	nios_system_mm_interconnect_0_router_001
-# End time: 13:10:36 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:22 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:36 on Apr 01,2019
+# Start time: 22:36:22 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router.sv 
 # -- Compiling module nios_system_mm_interconnect_0_router_default_decode
 # -- Compiling module nios_system_mm_interconnect_0_router
 # 
 # Top level modules:
 # 	nios_system_mm_interconnect_0_router
-# End time: 13:10:36 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:22 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_slave_agent.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:36 on Apr 01,2019
+# Start time: 22:36:23 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_slave_agent.sv 
 # -- Compiling module altera_merlin_slave_agent
 # ** Warning: C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
@@ -438,61 +438,61 @@
 # 
 # Top level modules:
 # 	altera_merlin_slave_agent
-# End time: 13:10:36 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:23 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 6
 # vlog -sv -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:36 on Apr 01,2019
+# Start time: 22:36:23 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv 
 # -- Compiling module altera_merlin_burst_uncompressor
 # 
 # Top level modules:
 # 	altera_merlin_burst_uncompressor
-# End time: 13:10:36 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:23 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_master_agent.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:36 on Apr 01,2019
+# Start time: 22:36:23 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_master_agent.sv 
 # -- Compiling module altera_merlin_master_agent
 # 
 # Top level modules:
 # 	altera_merlin_master_agent
-# End time: 13:10:36 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:23 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_slave_translator.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:36 on Apr 01,2019
+# Start time: 22:36:23 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_slave_translator.sv 
 # -- Compiling module altera_merlin_slave_translator
 # 
 # Top level modules:
 # 	altera_merlin_slave_translator
-# End time: 13:10:36 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:23 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_master_translator.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:36 on Apr 01,2019
+# Start time: 22:36:23 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/altera_merlin_master_translator.sv 
 # -- Compiling module altera_merlin_master_translator
 # 
 # Top level modules:
 # 	altera_merlin_master_translator
-# End time: 13:10:36 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:23 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work nios_system +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/avalon_aes_interface.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:36 on Apr 01,2019
+# Start time: 22:36:23 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work nios_system "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/nios_system/synthesis/submodules/avalon_aes_interface.sv 
 # -- Compiling module avalon_aes_interface
 # 
 # Top level modules:
 # 	avalon_aes_interface
-# End time: 13:10:36 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:23 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/SubBytes.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:36 on Apr 01,2019
+# Start time: 22:36:23 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/SubBytes.sv 
 # -- Compiling module SubBytes
 # -- Compiling module InvSubBytes
@@ -500,31 +500,31 @@
 # Top level modules:
 # 	SubBytes
 # 	InvSubBytes
-# End time: 13:10:37 on Apr 01,2019, Elapsed time: 0:00:01
+# End time: 22:36:23 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/lab9_top.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:37 on Apr 01,2019
+# Start time: 22:36:23 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/lab9_top.sv 
 # -- Compiling module lab9_top
 # 
 # Top level modules:
 # 	lab9_top
-# End time: 13:10:37 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:24 on Apr 07,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/InvShiftRows.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:37 on Apr 01,2019
+# Start time: 22:36:24 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/InvShiftRows.sv 
 # -- Compiling module InvShiftRows
 # 
 # Top level modules:
 # 	InvShiftRows
-# End time: 13:10:37 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:24 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/InvMixColumns.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:37 on Apr 01,2019
+# Start time: 22:36:24 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/InvMixColumns.sv 
 # -- Compiling module InvMixColumns
 # -- Compiling package InvMixColumns_sv_unit
@@ -535,73 +535,73 @@
 # 
 # Top level modules:
 # 	InvMixColumns
-# End time: 13:10:37 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:24 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/hexdriver.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:37 on Apr 01,2019
+# Start time: 22:36:24 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/hexdriver.sv 
 # -- Compiling module hexdriver
 # 
 # Top level modules:
 # 	hexdriver
-# End time: 13:10:37 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:24 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/AES.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:37 on Apr 01,2019
+# Start time: 22:36:24 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/AES.sv 
 # -- Compiling module AES
 # 
 # Top level modules:
 # 	AES
-# End time: 13:10:37 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:24 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/AddRoundKey.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:37 on Apr 01,2019
+# Start time: 22:36:24 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/AddRoundKey.sv 
 # -- Compiling module AddRoundKey
 # 
 # Top level modules:
 # 	AddRoundKey
-# End time: 13:10:37 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:24 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/KeyExpansion.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:37 on Apr 01,2019
+# Start time: 22:36:24 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/KeyExpansion.sv 
 # -- Compiling module KeyExpansion
 # -- Compiling module KeyExpansionOne
 # 
 # Top level modules:
 # 	KeyExpansion
-# End time: 13:10:37 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:24 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/testbench.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:37 on Apr 01,2019
+# Start time: 22:36:24 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/testbench.sv 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 13:10:37 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:24 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/AES.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:37 on Apr 01,2019
+# Start time: 22:36:24 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/AES.sv 
 # -- Compiling module AES
 # 
 # Top level modules:
 # 	AES
-# End time: 13:10:37 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:24 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/SubBytes.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:37 on Apr 01,2019
+# Start time: 22:36:24 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/SubBytes.sv 
 # -- Compiling module SubBytes
 # -- Compiling module InvSubBytes
@@ -609,11 +609,11 @@
 # Top level modules:
 # 	SubBytes
 # 	InvSubBytes
-# End time: 13:10:37 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:24 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/InvMixColumns.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:37 on Apr 01,2019
+# Start time: 22:36:24 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/InvMixColumns.sv 
 # -- Compiling module InvMixColumns
 # -- Compiling package InvMixColumns_sv_unit
@@ -624,43 +624,43 @@
 # 
 # Top level modules:
 # 	InvMixColumns
-# End time: 13:10:37 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:24 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/InvShiftRows.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:38 on Apr 01,2019
+# Start time: 22:36:24 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/InvShiftRows.sv 
 # -- Compiling module InvShiftRows
 # 
 # Top level modules:
 # 	InvShiftRows
-# End time: 13:10:38 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:24 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/KeyExpansion.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:38 on Apr 01,2019
+# Start time: 22:36:24 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/KeyExpansion.sv 
 # -- Compiling module KeyExpansion
 # -- Compiling module KeyExpansionOne
 # 
 # Top level modules:
 # 	KeyExpansion
-# End time: 13:10:38 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:25 on Apr 07,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9 {C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/AddRoundKey.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:10:38 on Apr 01,2019
+# Start time: 22:36:25 on Apr 07,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9" C:/Users/Brock/School/ECE385/GitLab/ece385/Lab9/AddRoundKey.sv 
 # -- Compiling module AddRoundKey
 # 
 # Top level modules:
 # 	AddRoundKey
-# End time: 13:10:38 on Apr 01,2019, Elapsed time: 0:00:00
+# End time: 22:36:25 on Apr 07,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L nios_system -voptargs="+acc"  testbench
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L nios_system -voptargs=""+acc"" testbench 
-# Start time: 13:10:38 on Apr 01,2019
+# Start time: 22:36:25 on Apr 07,2019
 # Loading sv_std.std
 # Loading work.testbench
 # Loading work.AES
@@ -682,6 +682,6 @@
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
-# run 5 us
-# End time: 13:26:46 on Apr 01,2019, Elapsed time: 0:16:08
+# run 2200 ns
+# End time: 17:56:12 on Apr 08,2019, Elapsed time: 19:19:47
 # Errors: 0, Warnings: 0

@@ -111,7 +111,6 @@ void encrypt(unsigned char * msg_ascii, unsigned char * key_ascii, unsigned int 
  */
 void decrypt(unsigned int * msg_enc, unsigned int * msg_dec, unsigned int * key)
 {
-
 	AES_PTR[0] = key[0];
 	AES_PTR[1] = key[1];
 	AES_PTR[2] = key[2];

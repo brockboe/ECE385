@@ -4,6 +4,7 @@ module player_missile
 	input		logic	[9:0]	playerx,
 	input		logic			vsync,
 	input		logic			create,
+	input		logic			has_collided,
 	
 	output	logic exists,
 	output	logic [9:0]	playerMissileX,
@@ -33,7 +34,11 @@ module player_missile
 				creation_flag = 1'b0;
 			end
 			
-			if(creation_flag && !exists) begin
+			if(has_collided) begin
+				exists = 1'b0;
+			end
+			
+			else if(creation_flag && !exists) begin
 				exists = 1'b1;
 				playerMissileX = playerx + 10'd30;
 				playerMissileY = 10'd448;
