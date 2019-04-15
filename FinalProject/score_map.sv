@@ -2,8 +2,8 @@ module score_map
 (
 	input logic 		vsync,
 	input logic 		reset,
-	input logic [4:0] X,
-	input logic	[2:0] Y,
+	input logic [5:0] X,
+	input logic	[3:0] Y,
 
 	input logic enemy_collision,
 	
@@ -19,13 +19,13 @@ module score_map
 	
 	number_rom rom_instance(.address(number_address), .data(number_slice));
 	
-	assign pixel = number_slice[3'd8 - X[2:0]];
+	assign pixel = number_slice[3'b111 - X[2:0]];
 	
 	always_ff @ (posedge reset or posedge vsync) begin
 		if(reset) begin
-			score_hundreds = 4'd0;
-			score_tens = 4'd0;
-			score_ones = 4'd0;
+			score_hundreds = 4'd1;
+			score_tens = 4'd2;
+			score_ones = 4'd3;
 		end
 		
 		else if(enemy_collision) begin
@@ -57,16 +57,16 @@ module score_map
 
 	always_comb begin
 	
-		if(X >= 5'd0 && X < 5'd8) begin
-			number_address = {score_hundreds, 3'b0} + Y;
+		if(X >= 6'd0 && X < 6'd8) begin
+			number_address = {score_hundreds, 4'b0} + Y;
 		end
 		
-		else if(X >= 5'd8 && X < 5'd16) begin
-			number_address = {score_tens, 3'b0} + Y;
+		else if(X >= 6'd8 && X < 6'd16) begin
+			number_address = {score_tens, 4'b0} + Y;
 		end
 		
 		else begin
-			number_address = {score_ones, 3'b0} + Y;
+			number_address = {score_ones, 4'b0} + Y;
 		end
 	
 	end

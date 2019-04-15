@@ -231,8 +231,8 @@ module space_invaders( input               CLOCK_50,
 	score_map scorekeeper (
 										.vsync(VGA_VS),
 										.reset(Reset_h),
-										.X(DrawX[6:2] - 5'h008),
-										.Y(DrawY[4:2]),
+										.X(DrawX[6:1] - 6'h028),
+										.Y(DrawY[4:1]),
 										
 										.enemy_collision(enemy_collision),
 										
