@@ -26,7 +26,7 @@ module player
 	logic invincible;
 	logic [7:0] invincible_counter;
 	
-	assign player_flash = invincible_counter[3];
+	assign player_flash = invincible_counter[2];
 	
 	always_ff @ (posedge vsync or posedge reset) begin
 	
@@ -51,7 +51,7 @@ module player
 				invincible_counter = 1'b0;
 			end
 			//if we're invincible, decrement the invincibility counter
-			else if(invincible && invincible_counter <= 8'd180) begin
+			else if(invincible && invincible_counter <= 8'd240) begin
 				invincible_counter = invincible_counter + 8'd1;
 			end
 			//if the invincibility counter runs out, reset everything

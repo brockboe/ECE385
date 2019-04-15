@@ -93,6 +93,8 @@ module space_invaders( input               CLOCK_50,
 	 logic enemy_collision;
 	 logic player_collision;
 	 
+	 logic lives_text_pixel;
+	 
 	 logic current_score_pixel;
     
     // Interface between NIOS II and EZ-OTG chip
@@ -246,6 +248,13 @@ module space_invaders( input               CLOCK_50,
 										
 										.pixel(current_score_pixel)
 	);
+	
+	lives_text_map lives_text (
+										.X(DrawX[6:1]),
+										.Y(DrawY[4:1]),
+										
+										.pixel(lives_text_pixel)
+	);
     
 	 // draw all elements on screen
     color_mapper color_instance(
@@ -266,6 +275,8 @@ module space_invaders( input               CLOCK_50,
 										.player_lives(player_lives),
 										
 										.current_score_pixel(current_score_pixel),
+										
+										.lives_block_pixel(lives_text_pixel),
 										
 										.DrawX,
 										.DrawY,

@@ -42,6 +42,8 @@ module  color_mapper (
 							  
 							  input	logic 		current_score_pixel,	//used for drawing score array
 
+							  input	logic			lives_block_pixel, 	//used to print the lives text
+							  
                        output logic [7:0] VGA_R, VGA_G, VGA_B // VGA RGB output
                      );
     
@@ -156,6 +158,26 @@ module  color_mapper (
 			end
 			
 			
+		end
+	 
+		//draw the "lives" text
+		else if(DrawX >= 10'd0 &&
+		DrawX < 10'd64 &&
+		DrawY >= 10'd0 &&
+		DrawY < 10'd32) begin
+		
+			if(lives_block_pixel) begin
+				Red = 8'hff;
+				Green = 8'hff;
+				Blue = 8'hff;			
+			end
+			
+			else begin
+				Red = 8'h00;
+				Green = 8'h00;
+				Blue = 8'h00;
+			end
+		
 		end
 	 
 		//draw the score
