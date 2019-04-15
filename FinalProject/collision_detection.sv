@@ -8,6 +8,8 @@ module collision_detection
 	input logic [9:0] emissileX,
 	input logic [9:0] emissileY,
 	
+	input logic [9:0] playerX,
+	
 	output	logic [6:0] enemy_hit,
 	
 	input logic [9:0] enemy_offset,
@@ -18,6 +20,7 @@ module collision_detection
 );
 
 	logic [9:0] pmissile_normalized;
+	logic [9:0] player_xmax;
 	logic [9:0] ySlice1;
 	logic [9:0] ySlice2;
 	logic [9:0] ySlice3;
@@ -98,6 +101,12 @@ module collision_detection
 				enemy_hit = { pmissile_normalized[9:6], ySlice6[7:5] - 3'd1 };
 				ecollision = 1'b1;
 			end
+			
+			if(emissileY == 10'd452 &&
+			emissileX >= playerX &&
+			emissileX <= player_xmax) begin
+				pcollision = 1'b1;
+			end
 		
 		end
 	
@@ -106,6 +115,7 @@ module collision_detection
 	always_comb begin
 	
 		pmissile_normalized = pmissileX - enemy_offset;
+		player_xmax = playerX + 10'd64;
 		ySlice1 = 10'd63;
 		ySlice2 = 10'd95;
 		ySlice3 = 10'd127;

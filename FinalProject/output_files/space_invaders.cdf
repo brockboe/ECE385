@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE115F29) Path("C:/Users/Brock/School/ECE385/GitLab/ece385/FinalProject/output_files/") File("space_invaders.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE115F29) Path("C:/Users/Brock/School/ECE385/ece385/FinalProject/output_files/") File("space_invaders.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

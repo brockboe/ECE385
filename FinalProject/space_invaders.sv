@@ -75,6 +75,8 @@ module space_invaders( input               CLOCK_50,
 	 logic [7:0] animation_offset;
 	 logic [9:0] enemy_offset;
 	 logic [9:0] player_offset;
+	 logic [2:0] player_lives;
+	 logic player_flash;
 	 
 	 logic missile_exists;
 	 logic [9:0] missileX;
@@ -89,6 +91,9 @@ module space_invaders( input               CLOCK_50,
 	 
 	 logic [6:0] enemy_hit;
 	 logic enemy_collision;
+	 logic player_collision;
+	 
+	 logic current_score_pixel;
     
     // Interface between NIOS II and EZ-OTG chip
     hpi_io_intf hpi_io_inst(
@@ -164,9 +169,12 @@ module space_invaders( input               CLOCK_50,
 										.reset(Reset_h),
 										.vsync(VGA_VS),
 										.keycode(keycode),
+										.pcollision(player_collision),
 										
+										.player_flash(player_flash),
 										.pmissile_create(pmissile_create),
-										.x_pos(player_offset)
+										.x_pos(player_offset),
+										.lives(player_lives)
 	);
 	
 	enemy_missile emissile (
@@ -209,19 +217,33 @@ module space_invaders( input               CLOCK_50,
 										.emissileX(missileX),
 										.emissileY(missileY),
 										
+										.playerX(player_offset),
+										
 										.enemy_hit(enemy_hit),
 										
 										.enemy_offset(enemy_offset),
 										.enemy_status(enemy_status),
 										
-										.pcollision(),
+										.pcollision(player_collision),
 										.ecollision(enemy_collision)
+	);
+	
+	score_map scorekeeper (
+										.vsync(VGA_VS),
+										.reset(Reset_h),
+										.X(DrawX[6:2] - 5'h008),
+										.Y(DrawY[4:2]),
+										
+										.enemy_collision(enemy_collision),
+										
+										.pixel(current_score_pixel)
 	);
     
     color_mapper color_instance(
 										.animation_offset(animation_offset),
 										.enemy_offset(enemy_offset),
 										.player_offset(player_offset),
+										.player_flash(player_flash),
 										
 										.missile_exists(missile_exists),
 										.missileX(missileX),
@@ -232,6 +254,9 @@ module space_invaders( input               CLOCK_50,
 										.pMissileY(playerMissileY),
 										
 										.enemy_status(enemy_status),
+										.player_lives(player_lives),
+										
+										.current_score_pixel(current_score_pixel),
 										
 										.DrawX,
 										.DrawY,
