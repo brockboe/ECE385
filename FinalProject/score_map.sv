@@ -23,9 +23,9 @@ module score_map
 	
 	always_ff @ (posedge reset or posedge vsync) begin
 		if(reset) begin
-			score_hundreds = 4'd1;
-			score_tens = 4'd2;
-			score_ones = 4'd3;
+			score_hundreds = 4'd0;
+			score_tens = 4'd0;
+			score_ones = 4'd0;
 		end
 		
 		else if(enemy_collision) begin

@@ -89,7 +89,7 @@ module  color_mapper (
 		DrawY >= 10'd0 &&
 		DrawY < 10'd32 &&
 		DrawX >= 10'd64 &&
-		DrawX < 10'd226) begin
+		DrawX < 10'd256) begin
 		
 			Red = 8'h00;
 			Green = 8'h00;
@@ -99,7 +99,7 @@ module  color_mapper (
 			DrawY >= 10'd0 &&
 			DrawX < 10'd128 &&
 			DrawX >= 10'd64 &&
-			player_lives >= 3'd3) begin
+			player_lives >= 3'd1) begin
 				
 				if(player_slice[DrawX[5:2]] == 1'b1) begin
 					Red = 8'h00;
@@ -136,10 +136,10 @@ module  color_mapper (
 			end
 			
 			if(DrawY < 10'd32 && 
-			DrawY >= 10'd192 &&
-			DrawX < 10'd226 &&
-			DrawX >= 10'd0 &&
-			player_lives >= 3'd1) begin
+			DrawY >= 10'd0 &&
+			DrawX < 10'd256 &&
+			DrawX >= 10'd192 &&
+			player_lives >= 3'd3) begin
 				
 				if(player_slice[DrawX[5:2]] == 1'b1) begin
 					Red = 8'h00;
