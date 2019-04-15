@@ -1,3 +1,7 @@
+// sprite_rom.sv
+//
+// stores data about enemy sprites
+
 module sprite_rom
 (
 	input 	[7:0] addr,

@@ -1,18 +1,26 @@
+//enemy_missile.sv
+//
+//responsible for controlling when an enemy
+//creates a new missile and controls it's
+//movement. The enemy that is closest to the
+//left side of the player's ship is the one
+//that shoots a missile every 2 seconds
+
 module enemy_missile
 (
 	input		logic				reset,
-	input		logic	[9:0]		playerX,
-	input		logic [9:0][5:0] 	enemy_status,
-	input		logic				vsync,
-	input		logic [9:0]		enemy_offset,
+	input		logic	[9:0]		playerX,				//player left X coordinate
+	input		logic [9:0][5:0] 	enemy_status,	//enemies that are still alive
+	input		logic				vsync,				//vsync signal
+	input		logic [9:0]		enemy_offset,		//offset of the enemy array
 	
 	
-	output	logic				exists,
-	output 	logic	[9:0]		missileX,
-	output	logic	[9:0]		missileY
+	output	logic				exists,				//whether or not the enemy missile exists
+	output 	logic	[9:0]		missileX,			//enemy missile X position
+	output	logic	[9:0]		missileY				//enemy missile Y position
 );
 
-	logic [7:0] missile_timer;
+	logic [7:0] missile_timer;		//counts two seconds between every missile shot
 	logic [5:0] enemy_column;
 	logic [3:0] column_index;
 	
@@ -35,9 +43,14 @@ module enemy_missile
 			//if it's time, create the missile (if we can)
 			else if(!exists && missile_timer >= 8'd120) begin
 			
+				//have a missile shoot out from the middle
+				//of the enemy
 				missileX = {column_index, 6'b0} + enemy_offset + 10'd16;
 				missile_timer = 8'd0;
 			
+				//choose the Y position to create it from, depending
+				//on what the lowest enemy that is still alive
+				//in the nearest column of enemies.
 				if(enemy_column[5]) begin
 					exists = 1'b1;
 					missileY = 10'd224;

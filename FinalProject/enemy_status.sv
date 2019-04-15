@@ -1,3 +1,8 @@
+//enemy_status.sv
+//
+// keeps track of what enemies are still alive.
+// records the data in a column-major array.
+
 module enemy_status
 (
 	input		logic	reset,
@@ -24,6 +29,7 @@ module enemy_status
 			};
 		end
 		
+		//whenever there's a collision, kill the enemy
 		else if(collision) begin
 			enemy_status[enemy_hit[6:3]][enemy_hit[2:0]] <= 1'b0;
 		end

@@ -23,24 +23,24 @@
 
 // color_mapper: Decide which color to be output to VGA for each pixel.
 module  color_mapper (
-                       input        [9:0] DrawX, DrawY,       // Current pixel coordinates
-							  input	logic	[7:0] animation_offset,	
-							  input 	logic [9:0] enemy_offset,
-							  input	logic	[9:0] player_offset,
-							  input	logic			player_flash,
+                       input        [9:0] DrawX, DrawY,       	// Current pixel coordinates
+							  input	logic	[7:0] animation_offset,		// Selects which one of the two enemy frames to display
+							  input 	logic [9:0] enemy_offset,			// offset of the left side of the enemy array
+							  input	logic	[9:0] player_offset,			// left X coord of player's ship
+							  input	logic			player_flash,			// whether or not the player should flash when invincible
 							  
-							  input 	logic 		missile_exists,
-							  input	logic [9:0] missileX,
-							  input 	logic [9:0] missileY,
+							  input 	logic 		missile_exists,		// whether or not enemy missile exists
+							  input	logic [9:0] missileX,				// enemy missile X position
+							  input 	logic [9:0] missileY,				// enemy missile Y position
 							  
-							  input	logic			pmissile_exists,
-							  input 	logic [9:0] pMissileX,
-							  input 	logic [9:0] pMissileY,
+							  input	logic			pmissile_exists,		// whether or not player missile exists
+							  input 	logic [9:0] pMissileX,				// player missile x position
+							  input 	logic [9:0] pMissileY,				// player missile y position
 							  
-							  input  logic [2:0] player_lives,
-							  input	logic [9:0][5:0] enemy_status,
+							  input  logic [2:0] player_lives,			// number of player lives left
+							  input	logic [9:0][5:0] enemy_status,	// array of enemies still alive
 							  
-							  input	logic 		current_score_pixel,
+							  input	logic 		current_score_pixel,	//used for drawing score array
 
                        output logic [7:0] VGA_R, VGA_G, VGA_B // VGA RGB output
                      );

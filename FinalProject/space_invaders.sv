@@ -158,6 +158,8 @@ module space_invaders( input               CLOCK_50,
 										.DrawY
 	 );
     
+	// enemy_controller is responsible for controlling the location
+	// of the enemy array
 	enemy_controller enemy_instance(
 										.reset(Reset_h),
 										.v_sync(VGA_VS),
@@ -165,6 +167,7 @@ module space_invaders( input               CLOCK_50,
 										.enemy_offset(enemy_offset)
 	);
 	
+	// allow the user to have control over the player space ship
 	player player_instance(
 										.reset(Reset_h),
 										.vsync(VGA_VS),
@@ -177,6 +180,7 @@ module space_invaders( input               CLOCK_50,
 										.lives(player_lives)
 	);
 	
+	// missiles that are shot from the enemies
 	enemy_missile emissile (
 										.reset(Reset_h),
 										.vsync(VGA_VS),
@@ -189,6 +193,7 @@ module space_invaders( input               CLOCK_50,
 										.missileY(missileY)
 	);
 	
+	// records which enemies are still alive
 	enemy_status enemy_array (
 										.reset(Reset_h),
 										.enemy_hit(enemy_hit),
@@ -196,6 +201,7 @@ module space_invaders( input               CLOCK_50,
 										.enemy_status(enemy_status)
 	);
 	
+	// keep track of missiles the player has shot
 	player_missile pmissile (
 										.reset(Reset_h),
 										.playerx(player_offset),
@@ -208,6 +214,7 @@ module space_invaders( input               CLOCK_50,
 										.playerMissileY(playerMissileY)
 	);
 	
+	// detect whenever player and enemy missiles collide
 	collision_detection cd (
 										.reset(Reset_h),
 										.vsync(VGA_VS),
@@ -228,6 +235,7 @@ module space_invaders( input               CLOCK_50,
 										.ecollision(enemy_collision)
 	);
 	
+	// keep track of the score
 	score_map scorekeeper (
 										.vsync(VGA_VS),
 										.reset(Reset_h),
@@ -239,6 +247,7 @@ module space_invaders( input               CLOCK_50,
 										.pixel(current_score_pixel)
 	);
     
+	 // draw all elements on screen
     color_mapper color_instance(
 										.animation_offset(animation_offset),
 										.enemy_offset(enemy_offset),

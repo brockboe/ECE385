@@ -1,3 +1,9 @@
+//score_map.sv
+//
+//allows for an easy way to display the score on screen.
+//cpounts the number of enemies killed and displays it
+//using numbers stored in number_rom.sv
+
 module score_map
 (
 	input logic 		vsync,
@@ -29,8 +35,10 @@ module score_map
 		end
 		
 		else if(enemy_collision) begin
+			//whenever we hit an enemy, increment the score count
 			score_ones = score_ones + 4'd1;
 
+			//check for carry
 			if(score_ones > 4'd9) begin
 				score_ones = 4'd0;
 				score_tens = score_tens + 4'd1;
@@ -45,6 +53,7 @@ module score_map
 				score_hundreds = 4'd0;
 			end
 			
+		//keep things the same by default
 		else begin
 			score_hundreds = score_hundreds;
 			score_tens = score_tens;
@@ -57,6 +66,7 @@ module score_map
 
 	always_comb begin
 	
+		//choose which score to print
 		if(X >= 6'd0 && X < 6'd8) begin
 			number_address = {score_hundreds, 4'b0} + Y;
 		end

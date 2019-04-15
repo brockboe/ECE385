@@ -1,22 +1,29 @@
+// collision_detection
+//
+// Responsible for detecting collisions between missiles
+// hitting either the player or an enemy. Whenever one is
+// hit, pcollision (player collision) or ecollision (enemy
+// collision) is set high for one clock cycle of vsync. 
+
 module collision_detection
 (
 	input logic reset,
 	input logic vsync,
 	
-	input logic [9:0] pmissileX,
-	input logic [9:0] pmissileY,
-	input logic [9:0] emissileX,
-	input logic [9:0] emissileY,
+	input logic [9:0] pmissileX,	//player missile X
+	input logic [9:0] pmissileY,	//player missile Y
+	input logic [9:0] emissileX,	//enemy missile X
+	input logic [9:0] emissileY,	//enemy missile Y
 	
-	input logic [9:0] playerX,
+	input logic [9:0] playerX,		//left X coord of player
 	
-	output	logic [6:0] enemy_hit,
+	output	logic [6:0] enemy_hit,	//index of enemy that has been hit
 	
-	input logic [9:0] enemy_offset,
-	input	logic [9:0][5:0] 	enemy_status,
+	input logic [9:0] enemy_offset,	//top left x coordinate of enemy array
+	input	logic [9:0][5:0] 	enemy_status,	//array of living enemies
 	
-	output logic pcollision,
-	output logic ecollision
+	output logic pcollision,		//flag signifying player has been hit
+	output logic ecollision			//flag signifying enemy has been hit
 );
 
 	logic [9:0] pmissile_normalized;
@@ -49,11 +56,16 @@ module collision_detection
 			// 192	=> 	208
 			// 224
 			
+			//ensure the pcollision and ecollision flags
+			//are only high for a single vsync cycle
 			if(pcollision)
 				pcollision = 1'b0;
 			if(ecollision)
 				ecollision = 1'b0;
 				
+			//check if there's a collission between the player
+			//missile and one of the enemies. Check at eeach
+			//of the 6 levels
 			if(pmissileY[9:5] == ySlice1[9:5] &&
 			pmissile_normalized[5] == 1'b0 &&
 			enemy_status[pmissile_normalized[9:6]][ySlice1[7:5] - 3'd1]) begin
@@ -102,6 +114,8 @@ module collision_detection
 				ecollision = 1'b1;
 			end
 			
+			//check for collision between enemy misile and
+			//player
 			if(emissileY == 10'd452 &&
 			emissileX >= playerX &&
 			emissileX <= player_xmax) begin
