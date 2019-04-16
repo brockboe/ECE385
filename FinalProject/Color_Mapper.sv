@@ -42,6 +42,8 @@ module  color_mapper (
 							  
 							  input	logic 		current_score_pixel,	//used for drawing score array
 
+							  input 	logic			score_text_pixel,
+							  
 							  input	logic			lives_block_pixel, 	//used to print the lives text
 							  
                        output logic [7:0] VGA_R, VGA_G, VGA_B // VGA RGB output
@@ -90,8 +92,8 @@ module  color_mapper (
 		if(player_lives != 3'd0 &&
 		DrawY >= 10'd0 &&
 		DrawY < 10'd32 &&
-		DrawX >= 10'd64 &&
-		DrawX < 10'd256) begin
+		DrawX >= 10'd96 &&
+		DrawX < 10'd288) begin
 		
 			Red = 8'h00;
 			Green = 8'h00;
@@ -99,11 +101,11 @@ module  color_mapper (
 					
 			if(DrawY < 10'd32 && 
 			DrawY >= 10'd0 &&
-			DrawX < 10'd128 &&
-			DrawX >= 10'd64 &&
+			DrawX < 10'd160 &&
+			DrawX >= 10'd96 &&
 			player_lives >= 3'd1) begin
 				
-				if(player_slice[DrawX[5:2]] == 1'b1) begin
+				if(player_slice[DrawX[5:2] - 4'd8] == 1'b1) begin
 					Red = 8'h00;
 					Green = 8'hff;
 					Blue = 8'hff;
@@ -119,11 +121,11 @@ module  color_mapper (
 		
 			if(DrawY < 10'd32 && 
 			DrawY >= 10'd0 &&
-			DrawX < 10'd192 &&
-			DrawX >= 10'd128 &&
+			DrawX < 10'd224 &&
+			DrawX >= 10'd160 &&
 			player_lives >= 3'd2) begin
 				
-				if(player_slice[DrawX[5:2]] == 1'b1) begin
+				if(player_slice[DrawX[5:2] - 4'd8] == 1'b1) begin
 					Red = 8'h00;
 					Green = 8'hff;
 					Blue = 8'hff;
@@ -139,11 +141,11 @@ module  color_mapper (
 			
 			if(DrawY < 10'd32 && 
 			DrawY >= 10'd0 &&
-			DrawX < 10'd256 &&
-			DrawX >= 10'd192 &&
+			DrawX < 10'd288 &&
+			DrawX >= 10'd224 &&
 			player_lives >= 3'd3) begin
 				
-				if(player_slice[DrawX[5:2]] == 1'b1) begin
+				if(player_slice[DrawX[5:2] - 4'd8] == 1'b1) begin
 					Red = 8'h00;
 					Green = 8'hff;
 					Blue = 8'hff;
@@ -162,7 +164,7 @@ module  color_mapper (
 	 
 		//draw the "lives" text
 		else if(DrawX >= 10'd0 &&
-		DrawX < 10'd64 &&
+		DrawX < 10'd96 &&
 		DrawY >= 10'd0 &&
 		DrawY < 10'd32) begin
 		
@@ -170,6 +172,27 @@ module  color_mapper (
 				Red = 8'hff;
 				Green = 8'hff;
 				Blue = 8'hff;			
+			end
+			
+			else begin
+				Red = 8'h00;
+				Green = 8'h00;
+				Blue = 8'h00;
+			end
+		
+		end
+	 
+		//draw the word "score"
+		
+		else if(DrawX >= 10'd496 &&
+		DrawX < 10'd592 &&
+		DrawY >= 10'd0 &&
+		DrawY < 10'd32) begin
+		
+			if(score_text_pixel) begin
+				Red = 8'hff;
+				Green = 8'hff;
+				Blue = 8'hff;
 			end
 			
 			else begin

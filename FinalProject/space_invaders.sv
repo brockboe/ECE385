@@ -96,7 +96,13 @@ module space_invaders( input               CLOCK_50,
 	 logic lives_text_pixel;
 	 
 	 logic current_score_pixel;
-    
+	 
+	 logic score_text_pixel;
+	 
+	 logic [9:0] score_text_x_offset;
+	 
+    assign score_text_x_offset = DrawX - 10'd496;
+	 
     // Interface between NIOS II and EZ-OTG chip
     hpi_io_intf hpi_io_inst(
                             .Clk(Clk),
@@ -255,6 +261,13 @@ module space_invaders( input               CLOCK_50,
 										
 										.pixel(lives_text_pixel)
 	);
+	
+	score_text_map score_text (
+										.X(score_text_x_offset[6:1]),
+										.Y(DrawY[4:1]),
+										
+										.pixel(score_text_pixel)
+	);
     
 	 // draw all elements on screen
     color_mapper color_instance(
@@ -277,6 +290,8 @@ module space_invaders( input               CLOCK_50,
 										.current_score_pixel(current_score_pixel),
 										
 										.lives_block_pixel(lives_text_pixel),
+										
+										.score_text_pixel(score_text_pixel),
 										
 										.DrawX,
 										.DrawY,

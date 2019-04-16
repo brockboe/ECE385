@@ -1,4 +1,4 @@
-module lives_text_map
+module score_text_map
 (
 	input logic [5:0] X,
 	input logic [3:0] Y,
@@ -10,10 +10,11 @@ module lives_text_map
 	
 	assign pixel = text_slice[3'b111 - X[2:0]];
 
-	lives_text_rom text_rom(.address(rom_address), .data(text_slice));
-	
+	score_text_rom text_rom(.address(rom_address), .data(text_slice));
+
+
 	always_comb begin
-		
+	
 		//S
 		if(X >= 6'd0 && X < 6'd8) begin
 			rom_address = 8'd0 + Y;
@@ -43,7 +44,7 @@ module lives_text_map
 		else begin
 			rom_address = 8'd80 + Y;
 		end
-		
+	
 	end
-
+	
 endmodule 
