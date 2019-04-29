@@ -116,7 +116,8 @@ module collision_detection
 			
 			//check for collision between enemy misile and
 			//player
-			if(emissileY == 10'd452 &&
+			if(emissileY >= 10'd452 &&
+			emissileY < 10'd480 &&
 			emissileX >= playerX &&
 			emissileX <= player_xmax) begin
 				pcollision = 1'b1;

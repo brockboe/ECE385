@@ -3,7 +3,7 @@
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;AES_Crypto/main.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/AES_Crypto/main.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;usb_kb/main.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/usb_kb/main.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;C:\Users\Brock\school\ECE385\ece385\Lab7\software\accumulator\main.c&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/C:/Users/Brock/school/ECE385/ece385/Lab7/software/accumulator/main.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;lab7_app/main.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/lab7_app/main.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;accumulator/main.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/accumulator/main.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_hjnmcUzUEemeYMWHojAQSw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_hjnmckzUEemeYMWHojAQSw" label="%trimmedwindow.label.eclipseSDK" x="-7" y="0" width="974" height="1047">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_hjnmcUzUEemeYMWHojAQSw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_hjnmckzUEemeYMWHojAQSw" label="%trimmedwindow.label.eclipseSDK" x="953" y="0" width="974" height="1047">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -51,7 +51,7 @@
               <children xsi:type="advanced:Placeholder" xmi:id="_hjnmeUzUEemeYMWHojAQSw" elementId="org.eclipse.ui.views.ResourceNavigator" toBeRendered="false" ref="_hjoOokzUEemeYMWHojAQSw"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_hjnmekzUEemeYMWHojAQSw" elementId="org.eclipse.ui.views.BookmarkView" toBeRendered="false" ref="_hjoOo0zUEemeYMWHojAQSw"/>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_hjnme0zUEemeYMWHojAQSw" containerData="7547" selectedElement="_hjnmgEzUEemeYMWHojAQSw">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_hjnme0zUEemeYMWHojAQSw" containerData="7547" selectedElement="_hjnmfEzUEemeYMWHojAQSw">
               <children xsi:type="basic:PartSashContainer" xmi:id="_hjnmfEzUEemeYMWHojAQSw" containerData="7673" selectedElement="_hjnmfUzUEemeYMWHojAQSw" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_hjnmfUzUEemeYMWHojAQSw" elementId="org.eclipse.ui.editorss" containerData="7860" ref="_hjoOQ0zUEemeYMWHojAQSw"/>
                 <children xsi:type="basic:PartStack" xmi:id="_hjnmfkzUEemeYMWHojAQSw" elementId="topRight" containerData="2140" selectedElement="_hjnmf0zUEemeYMWHojAQSw">
@@ -59,7 +59,6 @@
                 </children>
               </children>
               <children xsi:type="basic:PartStack" xmi:id="_hjnmgEzUEemeYMWHojAQSw" elementId="bottom" containerData="2327" selectedElement="_hjnmg0zUEemeYMWHojAQSw">
-                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_hjnmgUzUEemeYMWHojAQSw" elementId="org.eclipse.ui.views.ProblemView" ref="_hjoOpEzUEemeYMWHojAQSw"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_hjnmgkzUEemeYMWHojAQSw" elementId="org.eclipse.ui.views.TaskList" ref="_hjoOrEzUEemeYMWHojAQSw"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_hjnmg0zUEemeYMWHojAQSw" elementId="org.eclipse.ui.console.ConsoleView" ref="_hjoOr0zUEemeYMWHojAQSw"/>
@@ -156,11 +155,14 @@
       <children xsi:type="basic:PartStack" xmi:id="_hjoOREzUEemeYMWHojAQSw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_hjoORUzUEemeYMWHojAQSw">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_hjoORUzUEemeYMWHojAQSw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="main.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; partName=&quot;main.c&quot; title=&quot;main.c&quot; tooltip=&quot;AES_Crypto/main.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/AES_Crypto/main.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;5010&quot; selectionTopPixel=&quot;2584&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; partName=&quot;main.c&quot; title=&quot;main.c&quot; tooltip=&quot;AES_Crypto/main.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/AES_Crypto/main.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;4943&quot; selectionTopPixel=&quot;3281&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
           <tags>removeOnHide</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
           <menus xsi:type="menu:PopupMenu" xmi:id="_hjoORkzUEemeYMWHojAQSw" elementId="#CEditorContext">
             <tags>menuContribution:popup</tags>
             <tags>popup:#CEditorContext</tags>
@@ -271,7 +273,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
       <menus xmi:id="_hjoOsEzUEemeYMWHojAQSw" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -447,7 +448,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_hjoPMkzUEemeYMWHojAQSw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_uEVVAEzUEemODaZHakD-Rw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_hjqsfEzUEemeYMWHojAQSw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_PovrR2HbEemQb5NKn8l0iA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_hjqsfEzUEemeYMWHojAQSw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_hjoPQEzUEemeYMWHojAQSw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -471,7 +472,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_hjo0zEzUEemeYMWHojAQSw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_uEY_YEzUEemODaZHakD-Rw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_hjqr7kzUEemeYMWHojAQSw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Po5cQ2HbEemQb5NKn8l0iA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_hjqr7kzUEemeYMWHojAQSw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_hjo010zUEemeYMWHojAQSw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>

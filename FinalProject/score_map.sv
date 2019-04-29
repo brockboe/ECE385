@@ -27,7 +27,7 @@ module score_map
 	
 	assign pixel = number_slice[3'b111 - X[2:0]];
 	
-	always_ff @ (posedge reset or posedge vsync) begin
+	always_ff @ (posedge reset or posedge enemy_collision) begin
 		if(reset) begin
 			score_hundreds = 4'd0;
 			score_tens = 4'd0;

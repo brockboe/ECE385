@@ -13,6 +13,7 @@ module enemy_missile
 	input		logic [9:0][5:0] 	enemy_status,	//enemies that are still alive
 	input		logic				vsync,				//vsync signal
 	input		logic [9:0]		enemy_offset,		//offset of the enemy array
+	input		logic [3:0]		state,
 	
 	
 	output	logic				exists,				//whether or not the enemy missile exists
@@ -27,6 +28,11 @@ module enemy_missile
 	always_ff @ (posedge vsync or posedge reset) begin
 
 		if(reset) begin
+			missile_timer = 8'd0;
+			exists = 1'b0;
+		end
+		
+		else if(state != 4'd1) begin
 			missile_timer = 8'd0;
 			exists = 1'b0;
 		end

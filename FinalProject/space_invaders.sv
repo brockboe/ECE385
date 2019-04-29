@@ -103,6 +103,14 @@ module space_invaders( input               CLOCK_50,
 	 
     assign score_text_x_offset = DrawX - 10'd496;
 	 
+	 logic press_space_pixel;
+	 logic you_win_pixel;
+	 logic game_over_pixel;
+	 
+	 logic [3:0] state;
+	 
+	 logic player_unkillable;
+	 
     // Interface between NIOS II and EZ-OTG chip
     hpi_io_intf hpi_io_inst(
                             .Clk(Clk),
@@ -185,7 +193,8 @@ module space_invaders( input               CLOCK_50,
 										.player_flash(player_flash),
 										.pmissile_create(pmissile_create),
 										.x_pos(player_offset),
-										.lives(player_lives)
+										.lives(player_lives),
+										.player_unkillable(player_unkillable)
 	);
 	
 	// missiles that are shot from the enemies
@@ -195,6 +204,7 @@ module space_invaders( input               CLOCK_50,
 										.playerX(player_offset),
 										.enemy_offset(enemy_offset),
 										.enemy_status(enemy_status),
+										.state(state),
 										
 										.exists(missile_exists),
 										.missileX(missileX),
@@ -262,15 +272,56 @@ module space_invaders( input               CLOCK_50,
 										.pixel(lives_text_pixel)
 	);
 	
+	game_over_text_map gotm (
+										.X(DrawX[6:1] - 6'h10),
+										.Y(DrawY[5:1] - 5'h08),
+										
+										.pixel(game_over_pixel)
+	);
+	
+	press_fire_text_map (
+										.X(DrawX[6:1] - 6'h0C),
+										.Y(DrawY[5:1] - 5'h08),
+										
+										.pixel(press_space_pixel)
+	);
+	
+	you_win_text_map (
+										.X(DrawX[6:1] - 6'h14),
+										.Y(DrawY[5:1] - 5'h08),
+										
+										.pixel(you_win_pixel)
+	);
+	
 	score_text_map score_text (
 										.X(score_text_x_offset[6:1]),
 										.Y(DrawY[4:1]),
 										
 										.pixel(score_text_pixel)
 	);
+	
+	state_machine sm (
+										.vsync(VGA_VS),
+										.enemy_array({enemy_status[0], enemy_status[1], enemy_status[2], 
+														enemy_status[3], enemy_status[4], enemy_status[5], 
+														enemy_status[6], enemy_status[7], enemy_status[8], 
+														enemy_status[9]}),
+										.player_lives(player_lives),
+										.key_pressed(keycode),
+										.reset(Reset_h),
+										
+										.state(state)
+	);
     
 	 // draw all elements on screen
     color_mapper color_instance(
+										.state(state),
+										.you_win_pixel(you_win_pixel),
+										.press_space_pixel(press_space_pixel),
+										.game_over_pixel(game_over_pixel),
+										
+										.player_unkillable(player_collision),
+	 	 
 										.animation_offset(animation_offset),
 										.enemy_offset(enemy_offset),
 										.player_offset(player_offset),

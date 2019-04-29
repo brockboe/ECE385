@@ -13,7 +13,8 @@ module player
 	output logic pmissile_create,		//command to create new player missile
 	output logic player_flash,			//choose to flash whenever ship has post-hit invincibility
 	output logic [9:0] x_pos,			//left X position of player's ship
-	output logic [2:0] lives			//number of lives left
+	output logic [2:0] lives,			//number of lives left
+	output logic player_unkillable
 );
 
 	// w = 8'd26
@@ -24,7 +25,7 @@ module player
 	
 	logic [11:0] subpixel_position;
 	logic invincible;
-	logic [7:0] invincible_counter;
+	logic [9:0] invincible_counter;
 	
 	assign player_flash = invincible_counter[2];
 	
@@ -37,7 +38,8 @@ module player
 			pmissile_create = 1'b0;
 			lives = 3'd3;
 			invincible = 1'b0;
-			invincible_counter = 8'd0;
+			invincible_counter = 9'd0;
+			player_unkillable = 1'b0;
 		end
 		
 		else begin
@@ -48,16 +50,19 @@ module player
 			if(pcollision && lives > 3'd0 && !invincible) begin
 				lives = lives - 3'd1;
 				invincible = 1'b1;
-				invincible_counter = 1'b0;
+				invincible_counter = 9'd0;
+				player_unkillable = 1'b1;
 			end
 			//if we're invincible, decrement the invincibility counter
-			else if(invincible && invincible_counter <= 8'd240) begin
-				invincible_counter = invincible_counter + 8'd1;
+			else if(invincible && invincible_counter <= 9'd240) begin
+				invincible_counter = invincible_counter + 9'd1;
+				player_unkillable = 1'b1;
 			end
 			//if the invincibility counter runs out, reset everything
 			else begin
-				invincible_counter = 8'd0;
+				invincible_counter = 9'd0;
 				invincible = 1'b0;
+				player_unkillable = 1'b0;
 			end
 							
 			//move left whenever a is pressed				
